@@ -1,0 +1,26 @@
+
+## Source
+
+What is the source of the Pali chants? There is indication for the 1994
+version of the ABM book.
+
+## Errata
+
+- Evening chanting, Homage to the Sangha: ? di / bhi : supaṭipatti-guṇādiyutto
+- Metta sutta
+  - Pali is missing the last verse
+  - fix verse breaks
+  - add sutta ref
+- Mangala sutta
+  - Pali is missing
+  - add sutta ref
+- Nibbāna sutta
+  - add sutta ref
+- 28 Buddhas
+  - Vispassisa... verses are missing
+
+## Typography checklist
+
+- en-dashes instead of hyphens when not mid-word
+  - end of line
+

@@ -1,19 +1,33 @@
-\documentclass[ebook,12pt,oneside,openany]{memoir}
-\usepackage[utf8x]{inputenc}
-\usepackage[english]{babel}
-\usepackage{url}
+\documentclass[final]{chantingbook}
 
-% for placeholder text
-\usepackage{lipsum}
+\usepackage{local}
 
-\title{\LaTeX{} ePub Template}
-\author{A Author}
+\title{Chanting Book}
 
 \begin{document}
-\maketitle
 
-Once upon a time\ldots This document shows how you can get ePub-like formatting in \LaTeX{} with the \verb|memoir| document class. You can't yet export directly to ePub from writeLaTeX, but you can download the source and run it through a format conversion tool, such as \verb|htlatex| to get HTML, and then go from HTML to ePub with a tool like Sigil or Calibre. See \url{http://tex.stackexchange.com/questions/16569} for more advice. And they lived happily ever after.
+\frontmatter
 
-\lipsum
+\input{./chapters/titlepage.tex}
+
+\mainmatter
+
+% === Chapters ===
+
+\part{Morning Chanting}
+
+\input{./chapters/en/morning-chanting.tex}
+
+\part{Evening Chanting}
+
+\input{./chapters/en/evening-chanting.tex}
+
+%\part{Reflections \& Recollections}
+%
+%\input{./chapters/en/reflections-and-recollections.tex}
+
+%\part{Suttas}
+%
+%\input{./chapters/en/suttas.tex}
 
 \end{document}
