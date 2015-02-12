@@ -1,2 +1,2 @@
-# Amaravati Chanting Book
+Community Chanting Book
 
