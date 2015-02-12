@@ -110,7 +110,7 @@
 % font sizes
 
 \newcommand{\chapterTitleSize}
-{\@setfontsize\chapterTitleSize{17}{24}}
+{\@setfontsize\chapterTitleSize{17}{20}}
 
 \newcommand{\headerSize}
   {\@setfontsize\headerSize{12}{12}}
@@ -238,11 +238,6 @@ philo-sophical munindo amaravati thai-land}
   \let\sectionmark\@gobble
 }
 
-%\makepsmarks{toprightnum}{%
-%  \createmark{chapter}{left}{nonumber}{}{}
-%  \createmark{part}{right}{nonumber}{}{}
-%}
-
 \makeoddhead{toprightnum}%
 {\headerFont\headerSize\color{header}\hspace*{\foremargin}\MakeLowercase{\rightmark}}%
 {}%
@@ -348,10 +343,8 @@ philo-sophical munindo amaravati thai-land}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
-    \hspace*{\leaderIndent}%
-    \begin{minipage}{\linewidth - \leaderIndent}%
+    \begin{minipage}{\linewidth}%
       \raggedright
-      \chapterTitleSize
       \chaptitlefont\color{chaptertitle}%
       %\textls*{\MakeUppercase{##1}}%
       ##1%
