@@ -78,7 +78,7 @@
 \defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
 
 \setmainfont[
-  ItalicFont=GentiumPlus-I.ttf,
+  ItalicFont=GentiumIncantation-Italic.ttf,
   BoldFont=GenBkBasB.ttf,
   BoldItalicFont=GenBkBasBI.ttf,
   StylisticSet=2,
