@@ -476,48 +476,6 @@ philo-sophical munindo amaravati thai-land}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
-%% http://tex.stackexchange.com/a/67008
-
-%\makeatletter
-%
-%\ExplSyntaxOn
-%\cs_new:Npn \white_text:n #1
-%  {
-%    \fp_set:Nn \l_tmpa_fp {.01}
-%    \fp_mul:Nn \l_tmpa_fp {#1}
-%    \llap{\textcolor{white}{\the\SOUL@syllable}\hspace{\fp_to_decimal:N \l_tmpa_fp em}}
-%    \llap{\textcolor{white}{\the\SOUL@syllable}\hspace{-\fp_to_decimal:N \l_tmpa_fp em}}
-%  }
-%\NewDocumentCommand{\whiten}{ m }
-%    {
-%      \int_step_function:nnnN {1}{1}{#1} \white_text:n
-%    }
-%\ExplSyntaxOff
-%
-%\NewDocumentCommand{ \varul }{ D<>{5} O{0.2ex} O{0.1ex} +m } {%
-%\begingroup
-%\setul{#2}{#3}%
-%\def\SOUL@uleverysyllable{%
-%   \setbox0=\hbox{\the\SOUL@syllable}%
-%   \ifdim\dp0>\z@
-%      \SOUL@ulunderline{\phantom{\the\SOUL@syllable}}%
-%      \whiten{#1}%
-%      \llap{%
-%        \the\SOUL@syllable
-%        \SOUL@setkern\SOUL@charkern
-%      }%
-%   \else
-%       \SOUL@ulunderline{%
-%         \the\SOUL@syllable
-%         \SOUL@setkern\SOUL@charkern
-%       }%
-%   \fi}%
-%    \ul{#4}%
-%\endgroup
-%}
-%
-%\makeatother
-
 %% http://tex.stackexchange.com/a/75406
 
 \RequirePackage[outline]{contour}
@@ -533,24 +491,6 @@ philo-sophical munindo amaravati thai-land}
   \uline{\phantom{#1}}\llap{\contour{white}{#1}}%
   \endgroup%
 }
-
-%\newcommand \myul[4]{%
-%  \begingroup%
-%  \renewcommand \ULdepth {#1}%
-%  \renewcommand \ULthickness {#2}%
-%  \contourlength{#3}%
-%  \uline{\phantom{#4}}\llap{\contour{white}{#4}}%
-%  \endgroup%
-%}
-
-%\newcommand \myulline[4]{%
-%  \begingroup%
-%  \renewcommand \ULdepth {#1}%
-%  \renewcommand \ULthickness {#2}%
-%  \contourlength{#3}%
-%  \noindent\rlap{\uline{\hspace{\textwidth}}}\contour{white}{#4}%
-%  \endgroup%
-%}
 
 % === Renewing package macros ===
 
