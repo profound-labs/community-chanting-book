@@ -42,7 +42,7 @@
 % All Other Declarations
 % ======================
 
-\LoadClass[11pt,twoside]{memoir}
+\LoadClass[11pt,twoside,article]{memoir}
 
 % === Book Core ===
 
@@ -56,6 +56,7 @@
 % Add your \graphicspath declaration to your local style.
 %\RequirePackage{ccicons}
 \RequirePackage{multicol}
+\RequirePackage{booktabs}
 \RequirePackage{ifthen}
 \RequirePackage{titletoc}
 \RequirePackage{enumitem}
@@ -192,6 +193,11 @@ philo-sophical munindo amaravati thai-land}
 \setlength{\parskip}{5pt}
 \setlength{\parindent}{0pt}
 
+% === tabular ===
+
+\setlength{\tabcolsep}{1em}
+\renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+
 % === setup page layout ===
 
 \newlength\BOOK@paperHeight
@@ -284,7 +290,7 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\setHeaderPageNum{%
   \SetHorizontalCoffin\HeaderPageNum{%
     \setlength{\fboxsep}{0pt}%
-    \colorbox{headrule}{\parbox[t][30pt][c]{\foremargin - \BOOK@headExtra + \BOOK@bleed}{%
+    \colorbox{headrule}{\parbox[t][28pt][c]{\foremargin - \BOOK@headExtra + \BOOK@bleed}{%
       \pageNumFmt
       \ifassumeoddpage
         \raggedright
@@ -359,11 +365,9 @@ philo-sophical munindo amaravati thai-land}
 
 \makechapterstyle{innerpenstroke}{
   \chapterstyle{default}
-  \setlength{\beforechapskip}{0pt}
-  %\setbeforesecskip{-3.5ex \@plus -1ex \@minus -.2ex}
-  %\setbeforesecskip{-1\onelineskip
-  %                  \@plus -0.5\onelineskip \@minus -.5\onelineskip}%
-  \setlength{\afterchapskip}{1.5\onelineskip}
+  \setlength{\beforechapskip}{3.5ex \@plus 1ex \@minus .2ex}
+  \renewcommand*{\chapterheadstart}{\vspace{\beforechapskip}}
+  \setlength{\afterchapskip}{2.3ex \@plus .2ex}
   \renewcommand\printchaptername{}
   \renewcommand\chapternamenum{}
   \renewcommand\printchapternum{}
@@ -395,7 +399,6 @@ philo-sophical munindo amaravati thai-land}
   \mainmatterChapterStyle
   \raggedright
   \openany
-  \gdef\clearforchapter{\relax}
 }
 
 \addtodef{\appendix}{}{
@@ -421,25 +424,17 @@ philo-sophical munindo amaravati thai-land}
 \newcommand*\cD[1]{#1\symbol{"F011}}
 \newcommand*\cDL[1]{#1\symbol{"F012}}
 
-%\newenvironment{quotation}%
-%               {\list{}{\listparindent 1.5em%
-%                        \itemindent    \listparindent
-%                        \rightmargin   \leftmargin
-%                        \parsep        \z@ \@plus\p@}%
-%                \item[]}%
-%               {\endlist}
-
 \newlength\leaderIndent
 \setlength{\leaderIndent}{\widthof{\normalsize\hspace*{1.8em}}}
 
 \newenvironment{leader}%
-  {\list{}{\listparindent 0em%
-  \itemindent    0pt
+  {\list{}{%
+  \topsep 0pt%
+  \listparindent 0em%
+  \itemindent    0pt%
   \leftmargin    \leaderIndent
   \rightmargin   \leaderIndent
-  \parsep        10pt
-  %\parsep        \z@ \@plus\p@%
-  }
+  \parsep        \z@ \@plus\p@}
   \item[] \raggedright}%
   {\endlist}
 
@@ -477,6 +472,18 @@ philo-sophical munindo amaravati thai-land}
     [\space
   }%
   {\space]\endgroup\endlist}
+
+\newenvironment{twochant}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \begin{tabular}{@{}l l@{}}}%
+  {\end{tabular}\endlist}
 
 \newsavebox{\quotepagebox}
 \newenvironment{quotepage}[1]
