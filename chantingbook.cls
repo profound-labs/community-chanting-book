@@ -50,11 +50,10 @@
 \RequirePackage{nag}
 \RequirePackage{xparse}
 \RequirePackage{soul}
-%\RequirePackage{textcomp}
 \RequirePackage[cmyk]{xcolor}
+\RequirePackage{xcoffins}
 \RequirePackage{graphicx}
 % Add your \graphicspath declaration to your local style.
-%\RequirePackage{eso-pic}
 %\RequirePackage{ccicons}
 \RequirePackage{multicol}
 \RequirePackage{ifthen}
@@ -65,11 +64,11 @@
 
 % === Define colors ===
 
-\definecolor{textbody}{gray}{0.15}
-\definecolor{header}{gray}{0.4}
-\definecolor{pagenum}{gray}{0.2}
-\definecolor{chaptertitle}{gray}{0.2}
-\definecolor{chapterrule}{gray}{0.2}
+\definecolor{textbody}{gray}{0.1}
+\definecolor{header}{gray}{0.1}
+\definecolor{headrule}{gray}{0.4}
+\colorlet{pagenum}{white}
+\definecolor{chaptertitle}{gray}{0.1}
 
 % === Load fonts ===
 
@@ -90,15 +89,13 @@
 \newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
 
 \newfontfamily\headerFont[
-  BoldFont=AlegreyaSansSC-Bold.otf,
-  LetterSpace=5.0,
-]{AlegreyaSansSC-Regular.otf}
+  LetterSpace=2.0,
+]{AlegreyaSansSC-Bold.otf}
 
 \newfontfamily\pageNumFont[
-  BoldFont=AlegreyaSansSC-Bold.otf,
   LetterSpace=5.0,
   Numbers=Lining,
-]{AlegreyaSansSC-Regular.otf}
+]{AlegreyaSansSC-Bold.otf}
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
 
@@ -110,12 +107,11 @@
 % font sizes
 
 \newcommand{\chapterTitleSize}
-{\@setfontsize\chapterTitleSize{17}{20}}
-
+  {\@setfontsize\chapterTitleSize{17}{20}}
 \newcommand{\headerSize}
   {\@setfontsize\headerSize{12}{12}}
 \newcommand{\pageNumSize}
-  {\@setfontsize\pageNumSize{17}{17}}
+  {\@setfontsize\pageNumSize{19}{19}}
 
 % === microtype ===
 
@@ -202,20 +198,36 @@ philo-sophical munindo amaravati thai-land}
 
 % === setup page layout ===
 
+\newlength\BOOK@paperHeight
+\newlength\BOOK@paperWidth
 %\setstocksize{250mm}{185mm}% 1.35, Nicholas
-\setstocksize{250mm}{181mm}% 1.376, Short Pentagon
-\settrimmedsize{\stockheight}{\stockwidth}{*}
-\settrims{0pt}{0pt}
+\setlength{\BOOK@paperHeight}{250mm}
+\setlength{\BOOK@paperWidth}{181mm}% 1.376, Short Pentagon
+
+\ifshowtrims
+  \stockaiv% use A4 paper size to show trims
+  \setlength{\paperheight}{\BOOK@paperHeight}
+  \setlength{\paperwidth}{\BOOK@paperWidth}
+  \trimXmarks
+  \trimLmarks
+  \quarkmarks
+  \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+  \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
+\else\relax
+  \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
+  \settrimmedsize{\stockheight}{\stockwidth}{*}
+  \settrims{0pt}{0pt}
+\fi
+
 \settypeblocksize{200mm}{*}{0.618}% 1/1.618, Golden section, ~126.7mm
 \setlrmargins{*}{*}{1.618}
 \setulmargins{*}{*}{1.618}
-\setheaderspaces{*}{*}{1.618}
+%\setheaderspaces{*}{*}{1.618}% 4.77979mm and 8.8524mm
+\setheaderspaces{*}{12mm}{*}
 %\setlength{\footskip}{3\baselineskip}
 
-% This will also typeout values in pt (default)
-\checkandfixthelayout
-% It is useful to see layout values in mm too.
-\settypeoutlayoutunit{mm}
+\checkandfixthelayout% This will typeout values in pt.
+\settypeoutlayoutunit{mm}% It is useful to see layout values in mm too.
 \typeoutlayout
 
 % === Page styles ===
@@ -224,11 +236,99 @@ philo-sophical munindo amaravati thai-land}
 
 % define page styles with names about "what it does"
 
+\newlength\BOOK@bleed
+\setlength{\BOOK@bleed}{3mm}
+
+\NewCoffin\HeaderWrap
+\NewCoffin\HeaderText
+\NewCoffin\HeaderRule
+\NewCoffin\HeaderPageNum
+
 \newlength\BOOK@headWidth
-\setlength{\BOOK@headWidth}{\textwidth + 2\foremargin}
+\newlength\BOOK@headExtra
+\newlength\BOOK@headRuleSep
+
+\setlength{\BOOK@headExtra}{35pt}
+\setlength{\BOOK@headWidth}{\textwidth + \BOOK@headExtra}
+\setlength{\BOOK@headRuleSep}{6pt}
 
 \makepagestyle{toprightnum}
-\makerunningwidth{toprightnum}[\textwidth]{\BOOK@headWidth}
+
+\makerunningwidth{toprightnum}{\BOOK@headWidth}
+\makeheadposition{toprightnum}{flushright}{flushleft}{center}{center}
+
+\newcommand\headerFmt{\headerFont\headerSize\color{header}}
+\newcommand\pageNumFmt{\pageNumFont\pageNumSize\color{pagenum}}
+
+\newif\ifassumeoddpage
+
+\newcommand\setHeaderText{%
+  \SetHorizontalCoffin\HeaderText{%
+    \parbox{\BOOK@headWidth}{%
+      \headerFmt%
+      \ifassumeoddpage
+        \MakeLowercase{\rightmark}%
+        \hfill%
+        \MakeLowercase{\leftmark}%
+      \else
+        \MakeLowercase{\leftmark}%
+        \hfill%
+        \MakeLowercase{\rightmark}%
+      \fi
+    }%
+  }%
+}
+
+\newcommand\setHeaderRule{%
+  \SetHorizontalCoffin\HeaderRule{%
+    \color{headrule}\rule{\paperwidth + 2\BOOK@bleed}{0.5pt}%
+  }%
+}
+
+\newcommand\setHeaderPageNum{%
+  \SetHorizontalCoffin\HeaderPageNum{%
+    \setlength{\fboxsep}{0pt}%
+    \colorbox{headrule}{\parbox[t][30pt][c]{\foremargin - \BOOK@headExtra + \BOOK@bleed}{%
+      \pageNumFmt
+      \ifassumeoddpage
+        \raggedright
+        \hspace*{15pt}%
+        \thepage%
+      \else
+        \raggedleft
+        \thepage%
+        \hspace*{15pt}%
+      \fi
+    }}%
+  }%
+}
+
+\makeoddhead{toprightnum}%
+{%
+  \assumeoddpagetrue
+  \setHeaderText
+  \setHeaderRule
+  \setHeaderPageNum
+  \JoinCoffins\HeaderWrap\HeaderText
+  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\spinemargin-\BOOK@bleed},-\BOOK@headRuleSep)%
+  \JoinCoffins*\HeaderWrap[r,b]\HeaderPageNum[l,t](0pt,-\BOOK@headRuleSep)%
+  \TypesetCoffin\HeaderWrap
+}{}{}%
+
+\makeevenhead{toprightnum}%
+{%
+  \assumeoddpagefalse
+  \setHeaderText
+  \setHeaderRule
+  \setHeaderPageNum
+  \JoinCoffins\HeaderWrap\HeaderText
+  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
+  \JoinCoffins*\HeaderWrap[l,b]\HeaderPageNum[r,t](0pt,-\BOOK@headRuleSep)%
+  \TypesetCoffin\HeaderWrap
+}{}{}%
+
+\makeoddfoot{toprightnum}{}{}{}
+\makeevenfoot{toprightnum}{}{}{}
 
 \makepsmarks{toprightnum}{%
   \def\chaptermark##1{%
@@ -237,31 +337,6 @@ philo-sophical munindo amaravati thai-land}
     \markright{##1}{}}%
   \let\sectionmark\@gobble
 }
-
-\makeoddhead{toprightnum}%
-{\headerFont\headerSize\color{header}\hspace*{\foremargin}\MakeLowercase{\rightmark}}%
-{}%
-{\headerFont\headerSize\color{header}%
-  \MakeLowercase{\leftmark}%
-  \parbox[c][][t]{\foremargin}{%
-    \pageNumFont\pageNumSize\color{pagenum}%
-    \mbox{}\hfill\textbf{\thepage}\hfill\mbox{}%
-  }%
-}
-
-\makeevenhead{toprightnum}%
-{\headerFont\headerSize\color{header}%
-  \parbox[c][][t]{\foremargin}{%
-    \pageNumFont\pageNumSize\color{pagenum}%
-    \mbox{}\hfill\textbf{\thepage}\hfill\mbox{}%
-  }%
-  \MakeLowercase{\leftmark}%
-}%
-{}%
-{\headerFont\headerSize\color{header}\MakeLowercase{\rightmark}\hspace*{\foremargin}}
-
-\makeoddfoot{toprightnum}{}{}{}
-\makeevenfoot{toprightnum}{}{}{}
 
 % alias the pagestyles into semantic names, "where it is used"
 
@@ -286,49 +361,6 @@ philo-sophical munindo amaravati thai-land}
 
 % define chapter styles with "fantasy" names
 
-\newlength\tmp@a
-
-\makechapterstyle{diamondleft}{
-  \chapterstyle{default}
-  \setlength{\beforechapskip}{0pt}
-  \setlength{\afterchapskip}{1.5\onelineskip}
-  \renewcommand\printchaptername{}
-  \renewcommand\chapternamenum{}
-  \renewcommand\printchapternum{}
-  \renewcommand\afterchapternum{}
-  \renewcommand\printchapternonum{}
-  \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
-  \renewcommand*\printchaptertitle[1]{%
-    \begin{minipage}{\linewidth}%
-      \raggedright\chapterTitleSize\color{chapterrule}%
-
-      %% One diamond, on the line.
-      %\rule[0pt]{\linewidth}{0.6pt}%
-      %\vskip -\baselineskip\vskip -0.3pt\vskip 1.8pt\hskip 20pt%
-      %\rotatebox[origin=c]{45}{\rule{3.6pt}{3.6pt}}%
-      %\newline%
-
-      %% Three diamonds, with slight gap b/w the line.
-      \setlength{\tmp@a}{\leaderIndent}%
-      \rule{\tmp@a}{0.6pt}%
-      \addtolength{\tmp@a}{2pt}%
-      \vskip -\baselineskip\vskip -0.3pt\vskip 1.8pt\hskip \tmp@a%
-      \resizebox{15pt}{!}{% have to resize, b/c rotated diamonds will line up by diagonal, not by side-width
-        \rotatebox[origin=c]{45}{\rule{4pt}{4pt}}%
-        \rotatebox[origin=c]{45}{\rule{4pt}{4pt}}%
-        \rotatebox[origin=c]{45}{\rule{4pt}{4pt}}%
-      }%
-      \addtolength{\tmp@a}{17pt}%
-      \vskip -\baselineskip\vskip -1.5pt\hskip \tmp@a%
-      \rule{\linewidth - \tmp@a}{0.6pt}%
-
-      \chaptitlefont\color{chaptertitle}%
-      %\textls*{\MakeUppercase{##1}}%
-      ##1%
-    \end{minipage}%
-  }
-}
-
 \makechapterstyle{innerpenstroke}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{0pt}
@@ -346,7 +378,6 @@ philo-sophical munindo amaravati thai-land}
     \begin{minipage}{\linewidth}%
       \raggedright
       \chaptitlefont\color{chaptertitle}%
-      %\textls*{\MakeUppercase{##1}}%
       ##1%
     \end{minipage}%
   }
@@ -358,7 +389,7 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\mainmatterChapterStyle{\chapterstyle{innerpenstroke}}
 %\newcommand\appendixChapterStyle{\chapterstyle{hightitle}}
 %\newcommand\backmatterChapterStyle{\chapterstyle{hightitle}}
-%
+
 %% append them to the macros
 
 %\addtodef{\frontmatter}{}{\frontmatterChapterStyle}
