@@ -108,7 +108,7 @@
 \newcommand{\headerSize}
   {\@setfontsize\headerSize{12}{12}}
 \newcommand{\pageNumSize}
-  {\@setfontsize\pageNumSize{19}{19}}
+  {\@setfontsize\pageNumSize{18.5}{18.5}}
 
 % === microtype ===
 
