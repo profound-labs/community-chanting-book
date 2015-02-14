@@ -64,11 +64,12 @@
 
 % === Define colors ===
 
-\definecolor{textbody}{gray}{0.1}
+\definecolor{textbody}{gray}{0.15}
 \definecolor{header}{gray}{0.1}
 \definecolor{headrule}{gray}{0.4}
 \colorlet{pagenum}{white}
 \definecolor{chaptertitle}{gray}{0.1}
+\definecolor{instruction}{gray}{0.5}
 
 % === Load fonts ===
 
@@ -88,9 +89,7 @@
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
 \newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
 
-\newfontfamily\headerFont[
-  LetterSpace=2.0,
-]{AlegreyaSansSC-Bold.otf}
+\newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
 
 \newfontfamily\pageNumFont[
   LetterSpace=5.0,
@@ -99,10 +98,7 @@
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
 
-\newfontfamily\instructionFont[
-  BoldFont=AlegreyaSansSC-Bold.otf,
-  LetterSpace=3.0,
-]{AlegreyaSansSC-Regular.otf}
+\newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
 
 % font sizes
 
@@ -435,34 +431,52 @@ philo-sophical munindo amaravati thai-land}
 
 \newlength\leaderIndent
 \setlength{\leaderIndent}{\widthof{\normalsize\hspace*{1.8em}}}
-\newlength\bracketWidth
-\setlength{\bracketWidth}{\widthof{\normalsize [}}
 
 \newenvironment{leader}%
   {\list{}{\listparindent 0em%
   \itemindent    0pt
-  %\itemindent    -\bracketWidth
   \leftmargin    \leaderIndent
   \rightmargin   \leaderIndent
-  \parsep        12pt
+  \parsep        10pt
   %\parsep        \z@ \@plus\p@%
   }
   \item[] \raggedright}%
   {\endlist}
 
+\newcommand\tr[1]{\textit{#1}}
+
 \newenvironment{english}%
-  {\list{}{\listparindent 0em%
-  \itemindent    0em
-  \leftmargin    \leaderIndent
-  \rightmargin   0em
-  \parsep        \z@ \@plus\p@}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    \leaderIndent%
+    \rightmargin   0em%
+    \parsep        \z@ \@plus\p@%
+  }%
   \item[] \raggedright\itshape}%
   {\endlist}
 
 \newcommand{\instr}[1]{%
-  {\instructionFont\color[gray]{0.5}\bfseries%
+  \hfill
+  {\instructionFont\color{instruction}\upshape%
   [\space\MakeLowercase{#1}\space]}%
 }
+
+\newenvironment{instruction}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    2\leaderIndent
+    \rightmargin   0em%
+    \parsep        \z@ \@plus\p@%
+  }%
+  \item[] \begingroup
+    \raggedright\instructionFont\color{instruction}\upshape
+    [\space
+  }%
+  {\space]\endgroup\endlist}
 
 \newsavebox{\quotepagebox}
 \newenvironment{quotepage}[1]
