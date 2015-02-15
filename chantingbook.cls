@@ -84,8 +84,6 @@
   StylisticSet=2,
 ]{GentiumIncantation-Regular.ttf}
 
-%\newcommand\partTitleFont{}
-
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
 \newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
@@ -99,16 +97,25 @@
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
 
+\newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\partTitleFont{Ubuntu-M.ttf}
+
 \newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
 
 % font sizes
 
-\newcommand{\chapterTitleSize}
-  {\@setfontsize\chapterTitleSize{17}{20}}
 \newcommand{\headerSize}
   {\@setfontsize\headerSize{12}{12}}
 \newcommand{\pageNumSize}
   {\@setfontsize\pageNumSize{18.5}{18.5}}
+
+\newcommand{\chapterTitleSize}
+  {\@setfontsize\chapterTitleSize{17}{20}}
+
+\newcommand{\partNameSize}
+  {\@setfontsize\partNameSize{17}{17}}
+\newcommand{\partTitleSize}
+  {\@setfontsize\partTitleSize{25}{25}}
 
 % === microtype ===
 
@@ -356,6 +363,53 @@ philo-sophical munindo amaravati thai-land}
 % === Book styles ===
 
 % === Part styles ===
+
+\renewcommand{\partnamefont}{\partNameFont\partNameSize}
+\renewcommand{\partnumfont}{\partNameFont\partNameSize}
+\renewcommand{\parttitlefont}{\partTitleFont\partTitleSize}
+
+\renewcommand{\printpartname}{}
+\renewcommand{\partnamenum}{}
+\renewcommand{\printpartnum}{}
+
+\renewcommand{\printparttitle}[1]{%
+  \hspace*{0.4\linewidth}%
+  \begin{minipage}{0.6\linewidth}%
+    \raggedright
+    \MakeLowercase{\partnamefont \partname \hspace*{0.3em} \partnumfont \arabic{part}}%
+    \midpartskip
+    {\parttitlefont #1}%
+  \end{minipage}%
+}
+
+% Don't center the part page, thanks.
+\long\def\@part[#1]#2{%
+  \M@gettitle{#1}%
+  \def\f@rtoc{#1}%
+  \@nameuse{part@f@rtoc@before@write@hook}%
+  \phantomsection
+  \mempreaddparttotochook
+  \ifnum \c@secnumdepth >-2\relax
+    \refstepcounter{part}%
+    \addcontentsline{toc}{part}%
+      {\protect\partnumberline{\thepart}\f@rtoc}%
+    \mempartinfo{\thepart}{\f@rtoc}{#2}%
+  \else
+    \addcontentsline{toc}{part}{\f@rtoc}%
+    \mempartinfo{}{\f@rtoc}{#2}%
+  \fi
+  \mempostaddparttotochook
+  \partmark{#1}%
+  {%\centering
+   \interlinepenalty \@M
+   \parskip\z@
+   \normalfont
+   \ifnum \c@secnumdepth >-2\relax
+     \printpartname \partnamenum \printpartnum
+     \midpartskip
+   \fi
+   \printparttitle{#2}\par}%
+  \@endpart}
 
 % === Chapter styles ===
 
