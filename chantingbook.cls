@@ -67,7 +67,7 @@
 
 \definecolor{textbody}{gray}{0.15}
 \definecolor{header}{gray}{0.1}
-\definecolor{headrule}{gray}{0.4}
+\definecolor{headrule}{gray}{0.5}
 \colorlet{pagenum}{white}
 \definecolor{chaptertitle}{gray}{0.1}
 \definecolor{instruction}{gray}{0.5}
