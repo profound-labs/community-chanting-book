@@ -512,6 +512,13 @@ philo-sophical munindo amaravati thai-land}
   [\space\MakeLowercase{#1}\space]}%
 }
 
+\newcommand{\soloinstr}[1]{%
+  {\centering
+  {\instructionFont\color{instruction}\upshape%
+  [\space\MakeLowercase{#1}\space]}%
+  \par}%
+}
+
 \newenvironment{instruction}%
   {\list{}{%
     \topsep 0pt
@@ -527,7 +534,7 @@ philo-sophical munindo amaravati thai-land}
   }%
   {\space]\endgroup\endlist}
 
-\newenvironment{twochant}%
+\newenvironment{twochants}%
   {\list{}{%
     \topsep 0pt
     \listparindent 0em%
@@ -536,7 +543,21 @@ philo-sophical munindo amaravati thai-land}
     \rightmargin   0em%
     \parsep        0pt%
   }%
-  \item[] \begin{tabular}{@{}l l@{}}}%
+  \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \begin{tabular}{@{}l l@{}}}%
+  {\end{tabular}\endlist}
+
+\newenvironment{solotwochants}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \renewcommand{\arraystretch}{1}%
+  \begin{tabular}{@{}l l@{}}}%
   {\end{tabular}\endlist}
 
 \newsavebox{\quotepagebox}
