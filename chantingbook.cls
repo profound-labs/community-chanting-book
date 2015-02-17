@@ -210,8 +210,8 @@ philo-sophical munindo amaravati thai-land}
 \newlength\BOOK@paperHeight
 \newlength\BOOK@paperWidth
 %\setstocksize{250mm}{185mm}% 1.35, Nicholas
-\setlength{\BOOK@paperHeight}{250mm}
-\setlength{\BOOK@paperWidth}{181mm}% 1.376, Short Pentagon
+\setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
+\setlength{\BOOK@paperWidth}{181mm}
 
 \ifshowtrims
   \stockaiv% use A4 paper size to show trims
@@ -228,10 +228,17 @@ philo-sophical munindo amaravati thai-land}
   \settrims{0pt}{0pt}
 \fi
 
-\settypeblocksize{200mm}{*}{0.618}% 1/1.618, Golden section, ~126.7mm
+\newlength\BOOK@longestLine
+\setlength{\BOOK@longestLine}{\widthof{%
+    \normalsize
+    I am indeed the Dhamma's servant, the Dhamma is my Lord and Guide.%
+}}
+\typeout{Longest line: \the\BOOK@longestLine}
+% Longest line: 361.54785pt
+
+\settypeblocksize{*}{\BOOK@longestLine}{1.618}% 1.618, Golden section
 \setlrmargins{*}{*}{1.618}
-\setulmargins{*}{*}{1.618}
-%\setheaderspaces{*}{*}{1.618}% 4.77979mm and 8.8524mm
+\setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
 %\setlength{\footskip}{3\baselineskip}
 
@@ -508,6 +515,11 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand{\instr}[1]{%
   \hfill
+  {\instructionFont\color{instruction}\upshape%
+  [\space\MakeLowercase{#1}\space]}%
+}
+
+\newcommand{\instrLeft}[1]{%
   {\instructionFont\color{instruction}\upshape%
   [\space\MakeLowercase{#1}\space]}%
 }
