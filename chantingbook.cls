@@ -519,12 +519,6 @@ philo-sophical munindo amaravati thai-land}
   [\space\MakeLowercase{#1}\space]}%
 }
 
-\newcommand{\instrLeft}[1]{%
-  \vin
-  {\instructionFont\color{instruction}\upshape%
-  [\space\MakeLowercase{#1}\space]}%
-}
-
 \newcommand{\soloinstr}[1]{%
   {\centering
   {\instructionFont\color{instruction}\upshape%
