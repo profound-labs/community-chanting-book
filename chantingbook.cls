@@ -193,8 +193,11 @@ philo-sophical munindo amaravati thai-land}
 
 % === indentations ===
 
+\newlength\leaderIndent
+\setlength{\leaderIndent}{1.8em}
+
 \setlength{\vgap}{1.5em}
-\setlength{\vindent}{\vgap}
+\setlength{\vindent}{\leaderIndent}
 \setlength{\vleftmargin}{2em}
 
 \setlength{\parskip}{5pt}
@@ -210,8 +213,8 @@ philo-sophical munindo amaravati thai-land}
 \newlength\BOOK@paperHeight
 \newlength\BOOK@paperWidth
 %\setstocksize{250mm}{185mm}% 1.35, Nicholas
-\setlength{\BOOK@paperHeight}{250mm}
-\setlength{\BOOK@paperWidth}{181mm}% 1.376, Short Pentagon
+\setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
+\setlength{\BOOK@paperWidth}{181mm}
 
 \ifshowtrims
   \stockaiv% use A4 paper size to show trims
@@ -228,10 +231,17 @@ philo-sophical munindo amaravati thai-land}
   \settrims{0pt}{0pt}
 \fi
 
-\settypeblocksize{200mm}{*}{0.618}% 1/1.618, Golden section, ~126.7mm
+%\newlength\BOOK@longestLine
+%\setlength{\BOOK@longestLine}{\widthof{%
+%    \normalsize
+%    I am indeed the Dhamma's servant, the Dhamma is my Lord and Guide.%
+%}}
+%\typeout{Longest line: \the\BOOK@longestLine}
+%% Longest line: 361.54785pt
+
+\settypeblocksize{586pt}{362pt}{1.618}% 1.618, Golden section
 \setlrmargins{*}{*}{1.618}
-\setulmargins{*}{*}{1.618}
-%\setheaderspaces{*}{*}{1.618}% 4.77979mm and 8.8524mm
+\setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
 %\setlength{\footskip}{3\baselineskip}
 
@@ -478,9 +488,6 @@ philo-sophical munindo amaravati thai-land}
 \newcommand*\cD[1]{#1\symbol{"F011}}
 \newcommand*\cDL[1]{#1\symbol{"F012}}
 
-\newlength\leaderIndent
-\setlength{\leaderIndent}{\widthof{\normalsize\hspace*{1.8em}}}
-
 \newenvironment{leader}%
   {\list{}{%
   \topsep 0pt%
@@ -512,12 +519,19 @@ philo-sophical munindo amaravati thai-land}
   [\space\MakeLowercase{#1}\space]}%
 }
 
+\newcommand{\soloinstr}[1]{%
+  {\centering
+  {\instructionFont\color{instruction}\upshape%
+  [\space\MakeLowercase{#1}\space]}%
+  \par}%
+}
+
 \newenvironment{instruction}%
   {\list{}{%
     \topsep 0pt
     \listparindent 0em%
     \itemindent    0em%
-    \leftmargin    2\leaderIndent
+    \leftmargin    \leaderIndent
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%
@@ -527,7 +541,7 @@ philo-sophical munindo amaravati thai-land}
   }%
   {\space]\endgroup\endlist}
 
-\newenvironment{twochant}%
+\newenvironment{twochants}%
   {\list{}{%
     \topsep 0pt
     \listparindent 0em%
@@ -536,7 +550,21 @@ philo-sophical munindo amaravati thai-land}
     \rightmargin   0em%
     \parsep        0pt%
   }%
-  \item[] \begin{tabular}{@{}l l@{}}}%
+  \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \begin{tabular}{@{}l l@{}}}%
+  {\end{tabular}\endlist}
+
+\newenvironment{solotwochants}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \renewcommand{\arraystretch}{1}%
+  \begin{tabular}{@{}l l@{}}}%
   {\end{tabular}\endlist}
 
 \newsavebox{\quotepagebox}
