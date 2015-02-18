@@ -228,15 +228,15 @@ philo-sophical munindo amaravati thai-land}
   \settrims{0pt}{0pt}
 \fi
 
-\newlength\BOOK@longestLine
-\setlength{\BOOK@longestLine}{\widthof{%
-    \normalsize
-    I am indeed the Dhamma's servant, the Dhamma is my Lord and Guide.%
-}}
-\typeout{Longest line: \the\BOOK@longestLine}
-% Longest line: 361.54785pt
+%\newlength\BOOK@longestLine
+%\setlength{\BOOK@longestLine}{\widthof{%
+%    \normalsize
+%    I am indeed the Dhamma's servant, the Dhamma is my Lord and Guide.%
+%}}
+%\typeout{Longest line: \the\BOOK@longestLine}
+%% Longest line: 361.54785pt
 
-\settypeblocksize{*}{\BOOK@longestLine}{1.618}% 1.618, Golden section
+\settypeblocksize{586pt}{362pt}{1.618}% 1.618, Golden section
 \setlrmargins{*}{*}{1.618}
 \setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
