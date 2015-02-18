@@ -193,8 +193,11 @@ philo-sophical munindo amaravati thai-land}
 
 % === indentations ===
 
+\newlength\leaderIndent
+\setlength{\leaderIndent}{1.8em}
+
 \setlength{\vgap}{1.5em}
-\setlength{\vindent}{\vgap}
+\setlength{\vindent}{\leaderIndent}
 \setlength{\vleftmargin}{2em}
 
 \setlength{\parskip}{5pt}
@@ -485,9 +488,6 @@ philo-sophical munindo amaravati thai-land}
 \newcommand*\cD[1]{#1\symbol{"F011}}
 \newcommand*\cDL[1]{#1\symbol{"F012}}
 
-\newlength\leaderIndent
-\setlength{\leaderIndent}{\widthof{\normalsize\hspace*{1.8em}}}
-
 \newenvironment{leader}%
   {\list{}{%
   \topsep 0pt%
@@ -520,6 +520,7 @@ philo-sophical munindo amaravati thai-land}
 }
 
 \newcommand{\instrLeft}[1]{%
+  \vin
   {\instructionFont\color{instruction}\upshape%
   [\space\MakeLowercase{#1}\space]}%
 }
@@ -536,7 +537,7 @@ philo-sophical munindo amaravati thai-land}
     \topsep 0pt
     \listparindent 0em%
     \itemindent    0em%
-    \leftmargin    2\leaderIndent
+    \leftmargin    \leaderIndent
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%
