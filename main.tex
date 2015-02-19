@@ -1,4 +1,7 @@
-\documentclass[final]{chantingbook}
+\documentclass[
+  babelLanguage=portuguese,
+  final,
+]{chantingbook}
 
 \usepackage{local}
 
@@ -12,28 +15,10 @@
 
 \mainmatter
 
-% === Chapters ===
+\input{./chapters/\theLanguage/chapters-vol1.tex}
 
-\part{Morning Chanting}
-
-\input{./chapters/en/morning-chanting.tex}
-
-\part{Evening Chanting}
-
-\input{./chapters/en/evening-chanting.tex}
-
-%\cleartorecto
-%\part{Reflections \& Recollections}
-%
-%\setlength{\parskip}{10pt}
-%
-%\input{./chapters/en/reflections-and-recollections.tex}
-
-%\cleartorecto
-%\part{Suttas}
-%
-%\setlength{\parskip}{5pt}
-%
-%\input{./chapters/en/suttas.tex}
+%\input{./chapters/\theLanguage/chapters-vol2.tex}
 
 \end{document}
+
+% End of main.tex
