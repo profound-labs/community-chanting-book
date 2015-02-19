@@ -600,3 +600,5 @@ philo-sophical munindo amaravati thai-land}
 % === Packages to be loaded LAST ===
 
 \RequirePackage[perpage,multiple,stable]{footmisc}
+
+% End of chantingbook.cls
