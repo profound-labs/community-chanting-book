@@ -28,7 +28,11 @@
 
 \pgfkeys{
   /BOOK/.cd,
+  babelLanguage/.default=british,
+  babelLanguage/.store in=\BOOK@babelLanguage,
 }
+
+\newcommand\theLanguage\BOOK@babelLanguage
 
 % Pass all unknown options to memoir
 \DeclareOption*{%
@@ -46,7 +50,7 @@
 
 % === Book Core ===
 
-\RequirePackage[british]{babel}
+\RequirePackage[\BOOK@babelLanguage]{babel}
 \RequirePackage{nag}
 \RequirePackage{xparse}
 \RequirePackage{soul}
@@ -144,8 +148,6 @@
 
 % memoir's more allowing penalties
 \midsloppy
-
-\renewcommand\britishhyphenmins{{3}{3}}
 
 \hyphenpenalty=700
 \exhyphenpenalty=50
@@ -552,6 +554,19 @@ philo-sophical munindo amaravati thai-land}
   }%
   \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
   \begin{tabular}{@{}l l@{}}}%
+  {\end{tabular}\endlist}
+
+\newenvironment{threechants}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \begin{tabular}{@{}l l l@{}}}%
   {\end{tabular}\endlist}
 
 \newenvironment{solotwochants}%
