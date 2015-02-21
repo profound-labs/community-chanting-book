@@ -438,6 +438,8 @@ philo-sophical munindo amaravati thai-land}
 
 \setsecnumdepth{chapter}
 
+\raggedbottom
+
 % define chapter styles with "fantasy" names
 
 \makechapterstyle{innerpenstroke}{
