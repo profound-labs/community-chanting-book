@@ -46,7 +46,7 @@
 % All Other Declarations
 % ======================
 
-\LoadClass[11pt,twoside,article]{memoir}
+\LoadClass[11pt,twoside]{memoir}
 
 % === Book Core ===
 
@@ -404,6 +404,18 @@ philo-sophical munindo amaravati thai-land}
     {\parttitlefont #1}%
   \end{minipage}%
 }
+
+% Chapters are \openany, but part pages should open on recto pages
+\renewcommand{\@setuppart}{%
+  \cleartorecto
+  \thispagestyle{part}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \beforepartskip}
 
 % Don't center the part page, thanks.
 \long\def\@part[#1]#2{%
