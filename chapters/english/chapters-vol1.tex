@@ -6,11 +6,25 @@
 
 \input{./chapters/\theLanguage/evening-chanting.tex}
 
-%\cleartorecto
-%\part{Reflections \& Recollections}
+\part{Reflections \& Recollections}
+
+% === Settings for Reflections ===
+\newlength\tmpL
+\setlength{\tmpL}{\parskip}
+\setlength{\parskip}{10pt}
+\artoptfalse
+% ===
+
+\input{./chapters/\theLanguage/reflections-and-recollections-p1.tex}
+\input{./chapters/\theLanguage/reflections-and-recollections-p2.tex}
+% TODO: two reflections left TODO
+\input{./chapters/\theLanguage/reflections-and-recollections-p3.tex}
+
+\setlength{\parskip}{\tmpL}
+
+%\part{Formal Requests}
 %
-%\setlength{\parskip}{10pt}
 %
-%\input{./chapters/\theLanguage/reflections-and-recollections.tex}
+%% TODO
 
 % End of chapters-vol1.tex

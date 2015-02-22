@@ -208,7 +208,18 @@ philo-sophical munindo amaravati thai-land}
 % === tabular ===
 
 \setlength{\tabcolsep}{1em}
+
 \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+
+\newcommand\oldArr{}% holding old \arraystrech for restore
+\let\oldArr\arraystrech
+
+\newcommand\setArrayStrech[1]{%
+  \let\oldArr\arraystretch
+  \renewcommand{\arraystretch}{#1}%
+}
+
+\newcommand\restoreArrayStretch{\let\arraystretch\oldArr}
 
 % === setup page layout ===
 
@@ -426,6 +437,8 @@ philo-sophical munindo amaravati thai-land}
 % === Chapter styles ===
 
 \setsecnumdepth{chapter}
+
+\raggedbottom
 
 % define chapter styles with "fantasy" names
 
