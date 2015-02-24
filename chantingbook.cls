@@ -46,7 +46,7 @@
 % All Other Declarations
 % ======================
 
-\LoadClass[11pt,twoside,article]{memoir}
+\LoadClass[11pt,twoside]{memoir}
 
 % === Book Core ===
 
@@ -104,6 +104,9 @@
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-M.ttf}
 
+\newfontfamily\TOCpartTitleFont{Ubuntu-M.ttf}
+\newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
+
 \newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
 
 % font sizes
@@ -120,6 +123,11 @@
   {\@setfontsize\partNameSize{17}{17}}
 \newcommand{\partTitleSize}
   {\@setfontsize\partTitleSize{25}{25}}
+
+\newcommand{\TOCpartTitleSize}
+  {\@setfontsize\TOCpartTitleSize{17}{20}}
+\newcommand{\TOCchapterTitleSize}
+  {\@setfontsize\TOCchapterTitleSize{15}{20}}
 
 % === microtype ===
 
@@ -381,7 +389,52 @@ philo-sophical munindo amaravati thai-land}
 
 % === TOC settings ===
 
-\maxtocdepth{section}
+\maxtocdepth{chapter}
+
+% Fixes Undefined control sequence error for \@chapapp@head
+\renewcommand\chapternumberline[1]{\numberline{#1}}
+\renewcommand\partnumberline[1]{\numberline{#1}}
+
+% Format:
+% \titlecontents{ section }[ left ]
+% { above-code }
+% { numbered-entry-format }
+% { numberless-entry-format }
+% { filler-page-format }
+% [ below-code ]
+
+% the right TOC margin
+\contentsmargin{0pt}
+
+\titlecontents{part}[0pt]%
+{\addvspace{20pt}}%
+{%
+  \contentsmargin{0pt}%
+  \TOCpartTitleFont\TOCpartTitleSize
+  \partname~\thecontentslabel
+  \hspace*{1em}%
+}%
+{\contentsmargin{0pt}}%
+{%
+  \hfill
+  \TOCpartTitleFont\TOCpartTitleSize
+  \thecontentspage
+}%
+[\addvspace{5pt}]
+
+\titlecontents{chapter}[0pt]%
+{\addvspace{5pt}}%
+{%
+  \contentsmargin{0pt}%
+  \TOCchapterTitleFont\TOCchapterTitleSize
+}%
+{\contentsmargin{0pt}}%
+{%
+  \hfill
+  \TOCchapterTitleFont\TOCchapterTitleSize
+  \thecontentspage
+}%
+[\addvspace{5pt}]
 
 % === Book styles ===
 
@@ -404,6 +457,18 @@ philo-sophical munindo amaravati thai-land}
     {\parttitlefont #1}%
   \end{minipage}%
 }
+
+% Chapters are \openany, but part pages should open on recto pages
+\renewcommand{\@setuppart}{%
+  \cleartorecto
+  \thispagestyle{part}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \beforepartskip}
 
 % Don't center the part page, thanks.
 \long\def\@part[#1]#2{%
@@ -461,19 +526,45 @@ philo-sophical munindo amaravati thai-land}
     \end{minipage}%
   }
 }
+
+\makechapterstyle{tocchapter}{
+  \chapterstyle{default}
+  \setlength{\beforechapskip}{40pt}
+  \setlength{\afterchapskip}{30pt}
+  \renewcommand\printchaptername{}
+  \renewcommand\chapternamenum{}
+  \renewcommand\printchapternum{}
+  \renewcommand\afterchapternum{}
+  \renewcommand\printchapternonum{}
+  \renewcommand\chaptitlefont{\partTitleFont\partTitleSize}
+  \renewcommand*\printchaptertitle[1]{%
+    \begin{minipage}{\linewidth}%
+      \raggedright
+      \chaptitlefont\color{chaptertitle}%
+      ##1%
+    \end{minipage}%
+  }
+}
+
 % Commands to assign the chapter styles to book parts. Use \renewcommand
 % to adjust.
 
-%\newcommand\frontmatterChapterStyle{\chapterstyle{hightitle}}
+\newcommand\frontmatterChapterStyle{\chapterstyle{tocchapter}}
 \newcommand\mainmatterChapterStyle{\chapterstyle{innerpenstroke}}
 %\newcommand\appendixChapterStyle{\chapterstyle{hightitle}}
 %\newcommand\backmatterChapterStyle{\chapterstyle{hightitle}}
 
 %% append them to the macros
 
-%\addtodef{\frontmatter}{}{\frontmatterChapterStyle}
+\addtodef{\frontmatter}{}{%
+  \aliaspagestyle{chapter}{empty}
+  \pagestyle{empty}
+  \frontmatterChapterStyle
+}
 
 \addtodef{\mainmatter}{}{
+  \aliaspagestyle{chapter}{toprightnum}
+  \pagestyle{normalpage}
   \setcounter{chapter}{0}
   \mainmatterChapterStyle
   \raggedright
