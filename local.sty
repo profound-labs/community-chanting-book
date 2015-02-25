@@ -1,1 +1,48 @@
-%\graphicspath{{../images/}}\newcommand\psMarksPartOnly{%  \let\chaptermark\@gobble  \def\partmark##1{%    \markboth{##1}{}}%  \let\sectionmark\@gobble}\newcommand\usePsMarksPartOnly{%  \makeatletter  \makepsmarks{toprightnum}{\psMarksPartOnly}  \aliaspagestyle{normalpage}{toprightnum}  \pagestyle{normalpage}  \makeatother}\newcommand\usePsMarksDefault{%  \makeatletter  \makepsmarks{toprightnum}{\psMarksDefault}  \aliaspagestyle{normalpage}{toprightnum}  \pagestyle{normalpage}  \makeatother}\newcommand\morningPartSettings{\usePsMarksPartOnly}\newcommand\morningChapterSettings{\artopttrue}\newcommand\morningSettingsRestore{\usePsMarksDefault \artoptfalse}\newcommand\eveningPartSettings{\usePsMarksPartOnly}\newcommand\eveningChapterSettings{\artopttrue}\newcommand\eveningSettingsRestore{\usePsMarksDefault \artoptfalse}\newcommand\reflectionsPartSettings{}\newcommand\reflectionsChapterSettings{%  \newlength\tmpL  \setlength{\tmpL}{\parskip}  \setlength{\parskip}{10pt}}\newcommand\reflectionsSettingsRestore{%  \setlength{\parskip}{\tmpL}}\newcommand\requestsPartSettings{}\newcommand\requestsChapterSettings{}\newcommand\requestsSettingsRestore{}% End of local.sty
+%\graphicspath{{../images/}}
+
+\newcommand\psMarksPartOnly{%
+  \let\chaptermark\@gobble
+  \def\partmark##1{%
+    \markboth{##1}{}}%
+  \let\sectionmark\@gobble
+}
+
+\newcommand\usePsMarksPartOnly{%
+  \makeatletter
+  \makepsmarks{toprightnum}{\psMarksPartOnly}
+  \aliaspagestyle{normalpage}{toprightnum}
+  \pagestyle{normalpage}
+  \makeatother
+}
+
+\newcommand\usePsMarksDefault{%
+  \makeatletter
+  \makepsmarks{toprightnum}{\psMarksDefault}
+  \aliaspagestyle{normalpage}{toprightnum}
+  \pagestyle{normalpage}
+  \makeatother
+}
+
+\newcommand\morningPartSettings{\usePsMarksPartOnly}
+\newcommand\morningChapterSettings{\artopttrue}
+\newcommand\morningSettingsRestore{\usePsMarksDefault \artoptfalse}
+
+\newcommand\eveningPartSettings{\usePsMarksPartOnly}
+\newcommand\eveningChapterSettings{\artopttrue}
+\newcommand\eveningSettingsRestore{\usePsMarksDefault \artoptfalse}
+
+\newcommand\reflectionsPartSettings{}
+\newcommand\reflectionsChapterSettings{%
+  \newlength\tmpL
+  \setlength{\tmpL}{\parskip}
+  \setlength{\parskip}{10pt}
+}
+\newcommand\reflectionsSettingsRestore{%
+  \setlength{\parskip}{\tmpL}
+}
+
+\newcommand\requestsPartSettings{}
+\newcommand\requestsChapterSettings{}
+\newcommand\requestsSettingsRestore{}
+
+% End of local.sty
