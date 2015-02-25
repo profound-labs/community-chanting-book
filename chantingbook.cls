@@ -370,13 +370,15 @@ philo-sophical munindo amaravati thai-land}
 \makeoddfoot{toprightnum}{}{}{}
 \makeevenfoot{toprightnum}{}{}{}
 
-\makepsmarks{toprightnum}{%
+\newcommand\psMarksDefault{%
   \def\chaptermark##1{%
     \markboth{##1}{\rightmark}}%
   \def\partmark##1{%
     \markright{##1}{}}%
   \let\sectionmark\@gobble
 }
+
+\makepsmarks{toprightnum}{\psMarksDefault}
 
 % alias the pagestyles into semantic names, "where it is used"
 
