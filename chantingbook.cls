@@ -718,6 +718,69 @@ philo-sophical munindo amaravati thai-land}
 
 % === Renewing package macros ===
 
+% Don't use the optional argument for TOC, only for \chaptermark
+\def\@chapter[#1]#2{%
+  \m@mpn@new@chaptrue%
+  \m@mpn@new@schapfalse%
+  \def\f@rbdy{#2}%
+  \def\f@rtoc{#2}%
+  \ifx\ch@pt@c\@empty % no optional args
+    \def\f@rhdr{#2}%
+  \else                  % at least one opt arg
+    \ifx\@empty#1\@empty
+      \let\f@rhdr\ch@pt@c
+    \else
+      \def\f@rhdr{#1}%
+    \fi
+  \fi
+  \m@m@Andfalse
+  \ifnum \c@secnumdepth >\m@ne
+    \if@mainmatter
+      \m@m@Andtrue
+    \fi
+  \fi
+  \ifm@m@And
+    \refstepcounter{chapter}%
+  \fi
+  \ifartopt
+    \@makechapterhead{#2}%
+    \@afterheading
+    \chaptermark{\f@rhdr}%
+  \else
+    \chaptermark{\f@rhdr}
+    \insertchapterspace
+    \if@twocolumn
+      \@topnewpage[\@makechapterhead{#2}]%
+    \else
+      \@makechapterhead{#2}%
+    \fi
+    \@afterheading
+  \fi
+  \@nameuse{chapter@f@rtoc@before@write@hook}%
+  \mempreaddchaptertotochook%
+  \ifm@m@And
+    \ifanappendix
+      \addcontentsline{toc}{appendix}{%
+        \protect\chapternumberline{\thechapter}\f@rtoc}%
+      \memappchapinfo{\thechapter}{\f@rtoc}{\f@rhdr}{#2}%
+    \else
+      \addcontentsline{toc}{chapter}{%
+        \protect\chapternumberline{\thechapter}\f@rtoc}%
+      \memchapinfo{\thechapter}{\f@rtoc}{\f@rhdr}{#2}%
+    \fi
+  \else
+    \addcontentsline{toc}{chapter}{\f@rtoc}%
+    \ifanappendix
+      \memappchapinfo{}{\f@rtoc}{\f@rhdr}{#2}%
+    \else
+      \memchapinfo{}{\f@rtoc}{\f@rhdr}{#2}%
+    \fi
+  \fi
+  \mempostaddchaptertotochook%
+  \ifheadnameref\M@gettitle{\f@rhdr}\else\M@gettitle{\f@rtoc}\fi%
+  \memendofchapterhook%
+}
+
 % === Packages to be loaded LAST ===
 
 \RequirePackage[perpage,multiple,stable]{footmisc}
