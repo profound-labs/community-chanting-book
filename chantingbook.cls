@@ -592,9 +592,10 @@ philo-sophical munindo amaravati thai-land}
 
 % Cantillation marks
 
-\newcommand*\cU[1]{#1\symbol{"F010}}
-\newcommand*\cD[1]{#1\symbol{"F011}}
-\newcommand*\cDL[1]{#1\symbol{"F012}}
+\newcommand*\cUL[1]{#1\symbol{"A712}}
+\newcommand*\cU[1]{#1\symbol{"A713}}
+\newcommand*\cD[1]{#1\symbol{"A715}}
+\newcommand*\cDL[1]{#1\symbol{"A716}}
 
 \newenvironment{leader}%
   {\list{}{%
