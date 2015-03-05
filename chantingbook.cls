@@ -610,12 +610,15 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand\tr[1]{\textit{#1}}
 
+\newlength\englishIndent
+\setlength{\englishIndent}{\leaderIndent}
+
 \newenvironment{english}%
   {\list{}{%
     \topsep 0pt
     \listparindent 0em%
     \itemindent    0em%
-    \leftmargin    \leaderIndent%
+    \leftmargin    \englishIndent%
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%

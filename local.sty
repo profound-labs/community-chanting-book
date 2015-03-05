@@ -41,8 +41,15 @@
   \setlength{\parskip}{\tmpL}
 }
 
+%\newcommand\requestsPartSettings{\usePsMarksPartOnly}
 \newcommand\requestsPartSettings{}
-\newcommand\requestsChapterSettings{}
-\newcommand\requestsSettingsRestore{}
+\newcommand\requestsChapterSettings{\artopttrue}
+%\newcommand\requestsSettingsRestore{\usePsMarksDefault \artoptfalse}
+\newcommand\requestsSettingsRestore{%
+  \artoptfalse
+  % \englishIndent is tweaked at places in the Requests, make sure we
+  % restore to normal in the end.
+  \setlength{\englishIndent}{\leaderIndent}%
+}
 
 % End of local.sty
