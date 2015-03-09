@@ -74,6 +74,7 @@
 \definecolor{headrule}{gray}{0.5}
 \colorlet{pagenum}{white}
 \definecolor{chaptertitle}{gray}{0.1}
+\definecolor{section}{gray}{0.1}
 \definecolor{instruction}{gray}{0.5}
 
 % === Load fonts ===
@@ -100,6 +101,7 @@
 ]{AlegreyaSansSC-Bold.otf}
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
+\newfontfamily\sectionFont{Ubuntu-M.ttf}
 
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-M.ttf}
@@ -118,6 +120,8 @@
 
 \newcommand{\chapterTitleSize}
   {\@setfontsize\chapterTitleSize{17}{20}}
+\newcommand{\sectionSize}
+  {\@setfontsize\sectionSize{13}{15}}
 
 \newcommand{\partNameSize}
   {\@setfontsize\partNameSize{17}{17}}
@@ -588,6 +592,8 @@ philo-sophical munindo amaravati thai-land}
 
 \raggedbottomsection
 
+\setsecheadstyle{\sectionFont\sectionSize\color{section}}
+
 % === Custom commands and environments ===
 
 % Cantillation marks
@@ -610,12 +616,15 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand\tr[1]{\textit{#1}}
 
+\newlength\englishIndent
+\setlength{\englishIndent}{\leaderIndent}
+
 \newenvironment{english}%
   {\list{}{%
     \topsep 0pt
     \listparindent 0em%
     \itemindent    0em%
-    \leftmargin    \leaderIndent%
+    \leftmargin    \englishIndent%
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%
