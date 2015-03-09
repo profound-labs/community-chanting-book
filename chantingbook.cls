@@ -58,7 +58,7 @@
 \RequirePackage{xcoffins}
 \RequirePackage{graphicx}
 % Add your \graphicspath declaration to your local style.
-%\RequirePackage{ccicons}
+\RequirePackage{ccicons}
 \RequirePackage{multicol}
 \RequirePackage{booktabs}
 \RequirePackage{ifthen}
@@ -707,6 +707,19 @@ philo-sophical munindo amaravati thai-land}
    \begin{tikzpicture}[remember picture,overlay]
    \node at (current page.center) {\usebox{\quotepagebox}};
    \end{tikzpicture}}
+
+\newenvironment{packeditemize}%
+{\begin{itemize}[
+  itemindent=0pt,
+  leftmargin=15pt,
+  rightmargin=0pt,
+  itemsep=4pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt,
+]%
+}{\end{itemize}}
+
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 

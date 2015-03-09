@@ -9,9 +9,14 @@
 
 \begin{document}
 
+% TODO: this is just a draft title for now
 \input{./chapters/titlepage.tex}
 
 \frontmatter
+
+% TODO: tidy-up
+\cleartoverso
+\input{./chapters/copyright.tex}
 
 \cleartorecto
 \tableofcontents*
@@ -21,6 +26,23 @@
 \input{./chapters/\theLanguage/chapters-vol1.tex}
 
 %\input{./chapters/\theLanguage/chapters-vol2.tex}
+
+\appendix
+
+% TODO: tidy-up
+% TODO: ? Pāli with macron everywhere?
+\input{./chapters/pali-pronunciation.tex}
+
+\backmatter
+
+% TODO: tidy-up
+\chapter{Glossary of Pāli Terms}
+
+hey
+
+% TODO: tidy-up
+\cleartorecto
+\input{./chapters/copyright-details.tex}
 
 \end{document}
 
