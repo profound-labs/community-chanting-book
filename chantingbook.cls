@@ -102,6 +102,7 @@
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
 \newfontfamily\sectionFont{Ubuntu-M.ttf}
+\newfontfamily\subSectionFont{Ubuntu-M.ttf}
 
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-M.ttf}
@@ -122,6 +123,8 @@
   {\@setfontsize\chapterTitleSize{17}{20}}
 \newcommand{\sectionSize}
   {\@setfontsize\sectionSize{13}{15}}
+\newcommand{\subSectionSize}
+  {\@setfontsize\subSectionSize{12}{14}}
 
 \newcommand{\partNameSize}
   {\@setfontsize\partNameSize{17}{17}}
@@ -193,8 +196,8 @@ philo-sophical munindo amaravati thai-land}
   \let\@listi\@listI}
 \normalsize
 
-\def\BOOK@readingFontSizePt{11.5}
-\def\BOOK@readingLineHeightPt{20}
+\def\BOOK@readingFontSizePt{11}
+\def\BOOK@readingLineHeightPt{17}
 
 \newcommand{\readingsize}{%
   \@setfontsize\readingsize\BOOK@readingFontSizePt\BOOK@readingLineHeightPt
@@ -593,6 +596,8 @@ philo-sophical munindo amaravati thai-land}
 \raggedbottomsection
 
 \setsecheadstyle{\sectionFont\sectionSize\color{section}}
+
+\setsubsecheadstyle{\subSectionFont\subSectionSize\color{section}}
 
 % === Custom commands and environments ===
 
