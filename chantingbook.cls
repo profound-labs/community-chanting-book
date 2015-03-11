@@ -58,7 +58,7 @@
 \RequirePackage{xcoffins}
 \RequirePackage{graphicx}
 % Add your \graphicspath declaration to your local style.
-%\RequirePackage{ccicons}
+\RequirePackage{ccicons}
 \RequirePackage{multicol}
 \RequirePackage{booktabs}
 \RequirePackage{ifthen}
@@ -102,6 +102,7 @@
 
 \newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
 \newfontfamily\sectionFont{Ubuntu-M.ttf}
+\newfontfamily\subSectionFont{Ubuntu-M.ttf}
 
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-M.ttf}
@@ -122,6 +123,8 @@
   {\@setfontsize\chapterTitleSize{17}{20}}
 \newcommand{\sectionSize}
   {\@setfontsize\sectionSize{13}{15}}
+\newcommand{\subSectionSize}
+  {\@setfontsize\subSectionSize{12}{14}}
 
 \newcommand{\partNameSize}
   {\@setfontsize\partNameSize{17}{17}}
@@ -193,8 +196,8 @@ philo-sophical munindo amaravati thai-land}
   \let\@listi\@listI}
 \normalsize
 
-\def\BOOK@readingFontSizePt{11.5}
-\def\BOOK@readingLineHeightPt{20}
+\def\BOOK@readingFontSizePt{11}
+\def\BOOK@readingLineHeightPt{17}
 
 \newcommand{\readingsize}{%
   \@setfontsize\readingsize\BOOK@readingFontSizePt\BOOK@readingLineHeightPt
@@ -594,6 +597,8 @@ philo-sophical munindo amaravati thai-land}
 
 \setsecheadstyle{\sectionFont\sectionSize\color{section}}
 
+\setsubsecheadstyle{\subSectionFont\subSectionSize\color{section}}
+
 % === Custom commands and environments ===
 
 % Cantillation marks
@@ -707,6 +712,19 @@ philo-sophical munindo amaravati thai-land}
    \begin{tikzpicture}[remember picture,overlay]
    \node at (current page.center) {\usebox{\quotepagebox}};
    \end{tikzpicture}}
+
+\newenvironment{packeditemize}%
+{\begin{itemize}[
+  itemindent=0pt,
+  leftmargin=15pt,
+  rightmargin=0pt,
+  itemsep=4pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt,
+]%
+}{\end{itemize}}
+
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
