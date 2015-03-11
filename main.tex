@@ -5,13 +5,17 @@
 
 \usepackage{local}
 
-\title{Community Chanting Book}
+\title{Chanting Book}
 
 \begin{document}
 
+% TODO: this is just a draft title for now
 \input{./chapters/titlepage.tex}
 
 \frontmatter
+
+\cleartoverso
+\input{./chapters/copyright.tex}
 
 \cleartorecto
 \tableofcontents*
@@ -21,6 +25,20 @@
 \input{./chapters/\theLanguage/chapters-vol1.tex}
 
 %\input{./chapters/\theLanguage/chapters-vol2.tex}
+
+\part{Appendix}
+
+\readingsize
+
+% TODO: Rework this guide. Too much explanation main point to far down. Very difficult to follow.
+\input{./chapters/pali-pronunciation.tex}
+
+% TODO: better style
+% TODO: ? use definitions from Forest Path (is also Aj Chah Collected)
+\input{./chapters/glossary.tex}
+
+\cleartorecto
+\input{./chapters/copyright-details.tex}
 
 \end{document}
 
