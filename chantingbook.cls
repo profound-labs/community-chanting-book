@@ -19,6 +19,9 @@
 % Preliminary Declarations
 % ========================
 
+\newif\ifshowwirebinding
+\showwirebindingfalse
+
 % =======
 % Options
 % =======
@@ -30,6 +33,8 @@
   /BOOK/.cd,
   babelLanguage/.default=british,
   babelLanguage/.store in=\BOOK@babelLanguage,
+  showwirebinding/.default=\showwirebindingfalse,
+  showwirebinding/.code={\showwirebindingtrue},
 }
 
 \newcommand\theLanguage\BOOK@babelLanguage
@@ -290,6 +295,7 @@ philo-sophical munindo amaravati thai-land}
 \NewCoffin\HeaderText
 \NewCoffin\HeaderRule
 \NewCoffin\HeaderPageNum
+\NewCoffin\WireBinding
 
 \newlength\BOOK@headWidth
 \newlength\BOOK@headExtra
@@ -350,15 +356,27 @@ philo-sophical munindo amaravati thai-land}
   }%
 }
 
+\newcommand\setWireBinding{%
+  \SetHorizontalCoffin\WireBinding{%
+    \includegraphics[width=20mm]{wirebinding.pdf}%
+  }%
+}
+
 \makeoddhead{toprightnum}%
 {%
   \assumeoddpagetrue
   \setHeaderText
   \setHeaderRule
   \setHeaderPageNum
+  \ifshowwirebinding
+    \setWireBinding
+  \fi
   \JoinCoffins\HeaderWrap\HeaderText
   \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\spinemargin-\BOOK@bleed},-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[r,b]\HeaderPageNum[l,t](0pt,-\BOOK@headRuleSep)%
+  \ifshowwirebinding
+    \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](-\spinemargin-12mm,\headheight)%
+  \fi
   \TypesetCoffin\HeaderWrap
 }{}{}%
 
@@ -368,9 +386,15 @@ philo-sophical munindo amaravati thai-land}
   \setHeaderText
   \setHeaderRule
   \setHeaderPageNum
+  \ifshowwirebinding
+    \setWireBinding
+  \fi
   \JoinCoffins\HeaderWrap\HeaderText
   \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[l,b]\HeaderPageNum[r,t](0pt,-\BOOK@headRuleSep)%
+  \ifshowwirebinding
+    \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](\textwidth+\BOOK@headExtra+\spinemargin-8mm,\headheight)%
+  \fi
   \TypesetCoffin\HeaderWrap
 }{}{}%
 
