@@ -303,7 +303,8 @@ philo-sophical munindo amaravati thai-land}
 
 \setlength{\BOOK@headExtra}{35pt}
 \setlength{\BOOK@headWidth}{\textwidth + \BOOK@headExtra}
-\setlength{\BOOK@headRuleSep}{6pt}
+%\setlength{\BOOK@headRuleSep}{6pt}
+\setlength{\BOOK@headRuleSep}{25pt}
 
 \makepagestyle{toprightnum}
 
@@ -334,7 +335,7 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand\setHeaderRule{%
   \SetHorizontalCoffin\HeaderRule{%
-    \color{headrule}\rule{\paperwidth + 2\BOOK@bleed}{0.5pt}%
+    \color{headrule}\rule{\paperwidth - \spinemargin + \BOOK@bleed}{0.5pt}%
   }%
 }
 
@@ -366,13 +367,13 @@ philo-sophical munindo amaravati thai-land}
 {%
   \assumeoddpagetrue
   \setHeaderText
-  \setHeaderRule
+  %\setHeaderRule
   \setHeaderPageNum
   \ifshowwirebinding
     \setWireBinding
   \fi
   \JoinCoffins\HeaderWrap\HeaderText
-  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\spinemargin-\BOOK@bleed},-\BOOK@headRuleSep)%
+  %\JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t](0pt,-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[r,b]\HeaderPageNum[l,t](0pt,-\BOOK@headRuleSep)%
   \ifshowwirebinding
     \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](-\spinemargin-12mm,\headheight)%
@@ -384,13 +385,13 @@ philo-sophical munindo amaravati thai-land}
 {%
   \assumeoddpagefalse
   \setHeaderText
-  \setHeaderRule
+  %\setHeaderRule
   \setHeaderPageNum
   \ifshowwirebinding
     \setWireBinding
   \fi
   \JoinCoffins\HeaderWrap\HeaderText
-  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
+  %\JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[l,b]\HeaderPageNum[r,t](0pt,-\BOOK@headRuleSep)%
   \ifshowwirebinding
     \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](\textwidth+\BOOK@headExtra+\spinemargin-8mm,\headheight)%
@@ -540,6 +541,9 @@ philo-sophical munindo amaravati thai-land}
 
 % define chapter styles with "fantasy" names
 
+\NewCoffin\ChapterTitle
+\NewCoffin\TitleRule
+
 \makechapterstyle{innerpenstroke}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{3.5ex \@plus 1ex \@minus .2ex}
@@ -552,11 +556,16 @@ philo-sophical munindo amaravati thai-land}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
-    \begin{minipage}{\linewidth}%
-      \raggedright
-      \chaptitlefont\color{chaptertitle}%
-      ##1%
-    \end{minipage}%
+    \SetHorizontalCoffin\ChapterTitle{%
+      \parbox{\linewidth}{%
+        \raggedright\chaptitlefont\color{chaptertitle} ##1%
+      }%
+    }%
+    \SetHorizontalCoffin\TitleRule{%
+      \color{headrule}\rule{\linewidth}{0.5pt}%
+    }
+    \JoinCoffins*\ChapterTitle[l,b]\TitleRule[l,t](0pt,-3pt)%
+    \TypesetCoffin\ChapterTitle
   }
 }
 
