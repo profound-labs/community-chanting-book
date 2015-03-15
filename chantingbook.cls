@@ -758,6 +758,17 @@ philo-sophical munindo amaravati thai-land}
 ]%
 }{\end{itemize}}
 
+\newlength\preceptnumwidth
+\setlength{\preceptnumwidth}{\widthof{\normalsize 9.\space}}
+
+\newenvironment{precept}%
+{\begin{enumerate}[
+  itemindent=0pt,
+  leftmargin={\preceptnumwidth},
+  rightmargin=0pt,
+]%
+}{\end{enumerate}}
+
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
