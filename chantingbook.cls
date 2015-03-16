@@ -94,6 +94,8 @@
   StylisticSet=2,
 ]{GentiumIncantation-Regular.ttf}
 
+\newfontfamily\SanghaIcons{SanghaIcons.ttf}
+
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
 \newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
