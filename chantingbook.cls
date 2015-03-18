@@ -19,6 +19,9 @@
 % Preliminary Declarations
 % ========================
 
+\newif\ifshowwirebinding
+\showwirebindingfalse
+
 % =======
 % Options
 % =======
@@ -30,6 +33,8 @@
   /BOOK/.cd,
   babelLanguage/.default=british,
   babelLanguage/.store in=\BOOK@babelLanguage,
+  showwirebinding/.default=\showwirebindingfalse,
+  showwirebinding/.code={\showwirebindingtrue},
 }
 
 \newcommand\theLanguage\BOOK@babelLanguage
@@ -88,6 +93,8 @@
   BoldItalicFont=GenBkBasBI.ttf,
   StylisticSet=2,
 ]{GentiumIncantation-Regular.ttf}
+
+\newfontfamily\SanghaIcons{SanghaIcons.ttf}
 
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
@@ -290,6 +297,7 @@ philo-sophical munindo amaravati thai-land}
 \NewCoffin\HeaderText
 \NewCoffin\HeaderRule
 \NewCoffin\HeaderPageNum
+\NewCoffin\WireBinding
 
 \newlength\BOOK@headWidth
 \newlength\BOOK@headExtra
@@ -297,7 +305,8 @@ philo-sophical munindo amaravati thai-land}
 
 \setlength{\BOOK@headExtra}{35pt}
 \setlength{\BOOK@headWidth}{\textwidth + \BOOK@headExtra}
-\setlength{\BOOK@headRuleSep}{6pt}
+%\setlength{\BOOK@headRuleSep}{6pt}
+\setlength{\BOOK@headRuleSep}{25pt}
 
 \makepagestyle{toprightnum}
 
@@ -328,7 +337,7 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand\setHeaderRule{%
   \SetHorizontalCoffin\HeaderRule{%
-    \color{headrule}\rule{\paperwidth + 2\BOOK@bleed}{0.5pt}%
+    \color{headrule}\rule{\paperwidth - \spinemargin + \BOOK@bleed}{0.5pt}%
   }%
 }
 
@@ -350,15 +359,27 @@ philo-sophical munindo amaravati thai-land}
   }%
 }
 
+\newcommand\setWireBinding{%
+  \SetHorizontalCoffin\WireBinding{%
+    \includegraphics[width=20mm]{wirebinding.pdf}%
+  }%
+}
+
 \makeoddhead{toprightnum}%
 {%
   \assumeoddpagetrue
   \setHeaderText
-  \setHeaderRule
+  %\setHeaderRule
   \setHeaderPageNum
+  \ifshowwirebinding
+    \setWireBinding
+  \fi
   \JoinCoffins\HeaderWrap\HeaderText
-  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\spinemargin-\BOOK@bleed},-\BOOK@headRuleSep)%
+  %\JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t](0pt,-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[r,b]\HeaderPageNum[l,t](0pt,-\BOOK@headRuleSep)%
+  \ifshowwirebinding
+    \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](-\spinemargin-12mm,\headheight)%
+  \fi
   \TypesetCoffin\HeaderWrap
 }{}{}%
 
@@ -366,11 +387,17 @@ philo-sophical munindo amaravati thai-land}
 {%
   \assumeoddpagefalse
   \setHeaderText
-  \setHeaderRule
+  %\setHeaderRule
   \setHeaderPageNum
+  \ifshowwirebinding
+    \setWireBinding
+  \fi
   \JoinCoffins\HeaderWrap\HeaderText
-  \JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
+  %\JoinCoffins*\HeaderWrap[l,b]\HeaderRule[l,t]({-\foremargin+\BOOK@headExtra-\BOOK@bleed},-\BOOK@headRuleSep)%
   \JoinCoffins*\HeaderWrap[l,b]\HeaderPageNum[r,t](0pt,-\BOOK@headRuleSep)%
+  \ifshowwirebinding
+    \JoinCoffins*\HeaderWrap[l,t]\WireBinding[l,t](\textwidth+\BOOK@headExtra+\spinemargin-8mm,\headheight)%
+  \fi
   \TypesetCoffin\HeaderWrap
 }{}{}%
 
@@ -423,7 +450,7 @@ philo-sophical munindo amaravati thai-land}
   \partname~\thecontentslabel
   \hspace*{1em}%
 }%
-{\contentsmargin{0pt}}%
+{}%
 {%
   \hfill
   \TOCpartTitleFont\TOCpartTitleSize
@@ -431,17 +458,40 @@ philo-sophical munindo amaravati thai-land}
 }%
 [\addvspace{5pt}]
 
+\def\theTocChapterLanguage{}
+\newcommand\setTocChapterLanguage[1]{%
+  \addtocontents{toc}{\protect \def \protect \theTocChapterLanguage {#1}}%
+}
+
+\newcommand\chEnglish{\setTocChapterLanguage{English}}
+\newcommand\chPali{\setTocChapterLanguage{Pāli}}
+
+\newlength\tocPageWidth
+\setlength{\tocPageWidth}{\widthof{\UbuntuMedium\normalsize 999}}
+\addtolength{\tocPageWidth}{10pt}
+
 \titlecontents{chapter}[0pt]%
-{\addvspace{5pt}}%
 {%
-  \contentsmargin{0pt}%
+  \addvspace{5pt}%
+  \contentsmargin{\tocPageWidth}%
+}%
+{%
   \TOCchapterTitleFont\TOCchapterTitleSize
 }%
-{\contentsmargin{0pt}}%
+{}%
 {%
-  \hfill
-  \TOCchapterTitleFont\TOCchapterTitleSize
-  \thecontentspage
+  \hspace*{10pt}%
+  \small\color{black!60}%
+  \titlerule*[8pt]{.}%
+  \hspace*{10pt}%
+  \color{textbody}
+  \UbuntuMedium\small
+  \theTocChapterLanguage
+  \global\def\theTocChapterLanguage{}%
+  \parbox{\tocPageWidth}{%
+    \raggedleft\UbuntuMedium\normalsize
+    \thecontentspage}%
+  \hspace*{-\tocPageWidth}%
 }%
 [\addvspace{5pt}]
 
@@ -516,6 +566,9 @@ philo-sophical munindo amaravati thai-land}
 
 % define chapter styles with "fantasy" names
 
+\NewCoffin\ChapterTitle
+\NewCoffin\TitleRule
+
 \makechapterstyle{innerpenstroke}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{3.5ex \@plus 1ex \@minus .2ex}
@@ -528,11 +581,16 @@ philo-sophical munindo amaravati thai-land}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
-    \begin{minipage}{\linewidth}%
-      \raggedright
-      \chaptitlefont\color{chaptertitle}%
-      ##1%
-    \end{minipage}%
+    \SetHorizontalCoffin\ChapterTitle{%
+      \parbox{\linewidth}{%
+        \raggedright\chaptitlefont\color{chaptertitle} ##1%
+      }%
+    }%
+    \SetHorizontalCoffin\TitleRule{%
+      \color{headrule}\rule{\linewidth}{0.5pt}%
+    }
+    \JoinCoffins*\ChapterTitle[l,b]\TitleRule[l,t](0pt,-3pt)%
+    \TypesetCoffin\ChapterTitle
   }
 }
 
@@ -724,6 +782,17 @@ philo-sophical munindo amaravati thai-land}
   partopsep=0pt,
 ]%
 }{\end{itemize}}
+
+\newlength\preceptnumwidth
+\setlength{\preceptnumwidth}{\widthof{\normalsize 9.\space}}
+
+\newenvironment{precept}%
+{\begin{enumerate}[
+  itemindent=0pt,
+  leftmargin={\preceptnumwidth},
+  rightmargin=0pt,
+]%
+}{\end{enumerate}}
 
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders

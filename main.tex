@@ -1,6 +1,7 @@
 \documentclass[
   babelLanguage=english,
   final,
+  %showwirebinding,
 ]{chantingbook}
 
 \usepackage{local}
@@ -24,14 +25,13 @@
 
 \input{./chapters/\theLanguage/chapters-vol1.tex}
 
-%\input{./chapters/\theLanguage/chapters-vol2.tex}
-
 \part{Appendix}
 
 \readingsize
 
-% TODO: Rework this guide. Too much explanation main point to far down. Very difficult to follow.
+\input{./chapters/chanting-guide.tex}
 \input{./chapters/pali-pronunciation.tex}
+\input{./chapters/pali-language.tex}
 
 % TODO: better style
 % TODO: ? use definitions from Forest Path (is also Aj Chah Collected)
@@ -39,6 +39,9 @@
 
 \cleartorecto
 \input{./chapters/copyright-details.tex}
+
+%\cleartorecto
+%\input{./chapters/font-stress-test.tex}
 
 \end{document}
 
