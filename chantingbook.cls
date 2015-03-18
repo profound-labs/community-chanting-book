@@ -94,6 +94,8 @@
   StylisticSet=2,
 ]{GentiumIncantation-Regular.ttf}
 
+\newfontfamily\SanghaIcons{SanghaIcons.ttf}
+
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
 \newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
@@ -448,7 +450,7 @@ philo-sophical munindo amaravati thai-land}
   \partname~\thecontentslabel
   \hspace*{1em}%
 }%
-{\contentsmargin{0pt}}%
+{}%
 {%
   \hfill
   \TOCpartTitleFont\TOCpartTitleSize
@@ -456,17 +458,40 @@ philo-sophical munindo amaravati thai-land}
 }%
 [\addvspace{5pt}]
 
+\def\theTocChapterLanguage{}
+\newcommand\setTocChapterLanguage[1]{%
+  \addtocontents{toc}{\protect \def \protect \theTocChapterLanguage {#1}}%
+}
+
+\newcommand\chEnglish{\setTocChapterLanguage{English}}
+\newcommand\chPali{\setTocChapterLanguage{Pāli}}
+
+\newlength\tocPageWidth
+\setlength{\tocPageWidth}{\widthof{\UbuntuMedium\normalsize 999}}
+\addtolength{\tocPageWidth}{10pt}
+
 \titlecontents{chapter}[0pt]%
-{\addvspace{5pt}}%
 {%
-  \contentsmargin{0pt}%
+  \addvspace{5pt}%
+  \contentsmargin{\tocPageWidth}%
+}%
+{%
   \TOCchapterTitleFont\TOCchapterTitleSize
 }%
-{\contentsmargin{0pt}}%
+{}%
 {%
-  \hfill
-  \TOCchapterTitleFont\TOCchapterTitleSize
-  \thecontentspage
+  \hspace*{10pt}%
+  \small\color{black!60}%
+  \titlerule*[8pt]{.}%
+  \hspace*{10pt}%
+  \color{textbody}
+  \UbuntuMedium\small
+  \theTocChapterLanguage
+  \global\def\theTocChapterLanguage{}%
+  \parbox{\tocPageWidth}{%
+    \raggedleft\UbuntuMedium\normalsize
+    \thecontentspage}%
+  \hspace*{-\tocPageWidth}%
 }%
 [\addvspace{5pt}]
 
@@ -757,6 +782,17 @@ philo-sophical munindo amaravati thai-land}
   partopsep=0pt,
 ]%
 }{\end{itemize}}
+
+\newlength\preceptnumwidth
+\setlength{\preceptnumwidth}{\widthof{\normalsize 9.\space}}
+
+\newenvironment{precept}%
+{\begin{enumerate}[
+  itemindent=0pt,
+  leftmargin={\preceptnumwidth},
+  rightmargin=0pt,
+]%
+}{\end{enumerate}}
 
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
