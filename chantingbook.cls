@@ -537,6 +537,38 @@ philo-sophical munindo amaravati thai-land}
 }%
 [\addvspace{5pt}]
 
+% === List of First Lines ===
+
+\newcommand\listfirstlinesname{List of First Lines}
+\newlistof{listfirstlines}{fir}{\listfirstlinesname}
+
+% Fixed number for \chapternumberline, not acutally using it but
+% required for syntax
+\newcommand{\firstline}[1]{\addcontentsline{fir}{firstline}{\protect\chapternumberline{1} #1}}
+
+\contentsuse{firstline}{fir}
+
+\titlecontents{firstline}[0pt]%
+{%
+  \addvspace{5pt}%
+  \contentsmargin{\tocPageWidth}%
+}%
+{%
+  \TOCchapterTitleFont\TOCchapterTitleSize
+}%
+{}%
+{%
+  \hspace*{10pt}%
+  \small\color{black!60}%
+  \titlerule*[8pt]{.}%
+  \hspace*{10pt}%
+  \parbox{\tocPageWidth}{%
+    \raggedleft\UbuntuMedium\normalsize
+    \thecontentspage}%
+  \hspace*{-\tocPageWidth}%
+}%
+%[\addvspace{2pt}]
+
 % === Book styles ===
 
 % === Part styles ===
