@@ -98,7 +98,7 @@
 
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
-\newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
+\newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
 
@@ -107,14 +107,14 @@
   Numbers=Lining,
 ]{AlegreyaSansSC-Bold.otf}
 
-\newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
-\newfontfamily\sectionFont{Ubuntu-M.ttf}
-\newfontfamily\subSectionFont{Ubuntu-M.ttf}
+\newfontfamily\chapterTitleFont{Ubuntu-X-Medium.ttf}
+\newfontfamily\sectionFont{Ubuntu-X-Medium.ttf}
+\newfontfamily\subSectionFont{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
-\newfontfamily\partTitleFont{Ubuntu-M.ttf}
+\newfontfamily\partTitleFont{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\TOCpartTitleFont{Ubuntu-M.ttf}
+\newfontfamily\TOCpartTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
 
 \newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
