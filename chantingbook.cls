@@ -490,10 +490,6 @@ philo-sophical munindo amaravati thai-land}
   \addtocontents{toc}{\protect \def \protect \theTocChapterLanguage {#1}}%
 }
 
-\newcommand\suttaref[1]{%
-  {\raggedleft #1\par}%
-}
-
 \newcommand\chEnglish{\setTocChapterLanguage{English}}
 \newcommand\chPali{\setTocChapterLanguage{Pāli}}
 
@@ -915,6 +911,14 @@ philo-sophical munindo amaravati thai-land}
 \renewcommand*\sideparform{%
   \ifmemtortm\raggedright\else\raggedleft\fi
 }
+
+\newcommand\suttaref[1]{\sidepar{%
+  \ifoddpage
+    \hspace*{\BOOK@headExtra}#1
+  \else
+    #1\hspace*{\BOOK@headExtra}
+  \fi%
+}}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
