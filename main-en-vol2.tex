@@ -6,7 +6,12 @@
 
 \usepackage{local}
 
-\title{Chanting Book}
+\title{Chanting Book · Volume Two}
+\subtitle{Suttas, Parittas and Funeral Chanting}
+
+\ISBN{978-1-78432-032-4}
+% TODO: edition info
+\editionInfo{This edition\ldots}
 
 \begin{document}
 
@@ -14,6 +19,7 @@
 \input{./chapters/titlepage.tex}
 
 \frontmatter
+\openany
 
 \cleartoverso
 \input{./chapters/\theLanguage/copyright.tex}
@@ -21,13 +27,18 @@
 \cleartorecto
 \tableofcontents*
 
+\input{./chapters/abbreviations.tex}
+
+\cleartorecto
+\listfirstlines*
+
 \mainmatter
 
-\input{./chapters/\theLanguage/chapters-vol1.tex}
+\input{./chapters/\theLanguage/chapters-vol2.tex}
 
 \part{Appendix}
 
-\readingsize
+\appendixsize
 
 \input{./chapters/\theLanguage/chanting-guide.tex}
 \input{./chapters/\theLanguage/pali-pronunciation.tex}
@@ -39,9 +50,6 @@
 
 \cleartorecto
 \input{./chapters/\theLanguage/copyright-details.tex}
-
-%\cleartorecto
-%\input{./chapters/font-stress-test.tex}
 
 \end{document}
 

@@ -24,6 +24,13 @@
   \makeatother
 }
 
+% Default
+
+\usePsMarksDefault
+\artoptfalse
+
+% Part settings
+
 \newcommand\morningPartSettings{\usePsMarksPartOnly}
 \newcommand\morningChapterSettings{\artopttrue}
 \newcommand\morningSettingsRestore{\usePsMarksDefault \artoptfalse}
@@ -42,16 +49,26 @@
   \setlength{\parskip}{\tmpL}
 }
 
-%\newcommand\requestsPartSettings{\usePsMarksPartOnly}
 \newcommand\requestsPartSettings{}
 \newcommand\requestsChapterSettings{\artopttrue}
-%\newcommand\requestsSettingsRestore{\usePsMarksDefault \artoptfalse}
 \newcommand\requestsSettingsRestore{%
   \artoptfalse
   % \englishIndent is tweaked at places in the Requests, make sure we
   % restore to normal in the end.
   \setlength{\englishIndent}{\leaderIndent}%
 }
+
+\newcommand\suttasPartSettings{}
+\newcommand\suttasChapterSettings{}
+\newcommand\suttasSettingsRestore{}
+
+\newcommand\parittasPartSettings{\usePsMarksPartOnly}
+\newcommand\parittasChapterSettings{\artopttrue}
+\newcommand\parittasSettingsRestore{\usePsMarksDefault \artoptfalse}
+
+\newcommand\funeralPartSettings{}
+\newcommand\funeralChapterSettings{\artopttrue}
+\newcommand\funeralSettingsRestore{\artoptfalse}
 
 \newcommand\hsp{\hspace*{0.5em}}
 

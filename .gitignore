@@ -2,4 +2,4 @@
 *.aux
 *.log
 *.toc
-main.pdf
+main*.pdf

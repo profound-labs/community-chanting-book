@@ -1,0 +1,48 @@
+\documentclass[
+  babelLanguage=english,
+  final,
+  %showwirebinding,
+]{chantingbook}
+
+\usepackage{local}
+
+\title{Chanting Book · Volume One}
+\subtitle{Morning and Evening Chanting (Pūjā) and Reflections}
+
+\ISBN{978-1-78432-031-7}
+% TODO: edition info
+\editionInfo{This edition\ldots}
+
+\begin{document}
+
+% TODO: this is just a draft title for now
+\input{./chapters/titlepage.tex}
+
+\frontmatter
+
+\cleartoverso
+\input{./chapters/\theLanguage/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\mainmatter
+
+\input{./chapters/\theLanguage/chapters-vol1.tex}
+
+\part{Appendix}
+
+\appendixsize
+
+\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
+
+% TODO: better style
+% TODO: ? use definitions from Forest Path (is also Aj Chah Collected)
+\input{./chapters/\theLanguage/glossary.tex}
+
+\cleartorecto
+\input{./chapters/\theLanguage/copyright-details.tex}
+
+\end{document}
+
+% End of main.tex
