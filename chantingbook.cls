@@ -98,6 +98,7 @@
 
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
+\newfontfamily\UbuntuLight{Ubuntu-L.ttf}
 \newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
@@ -305,11 +306,28 @@ philo-sophical munindo amaravati thai-land}
 \setlrmargins{*}{*}{1.618}
 \setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
+\setmarginnotes{14pt}{70pt}{5pt}
 %\setlength{\footskip}{3\baselineskip}
+
+%\setlength{\marginparsep}{5mm}
+
+\marginparmargin{outer}
+\sideparmargin{outer}
 
 \checkandfixthelayout% This will typeout values in pt.
 \settypeoutlayoutunit{mm}% It is useful to see layout values in mm too.
 \typeoutlayout
+
+% === marginpar, sidepar ===
+
+\renewcommand\sideparfont{%
+  \UbuntuMedium\small
+}
+
+\renewcommand*\sideparform{%
+  \ifmemtortm\raggedright\else\raggedleft\fi
+}
+
 
 % === Page styles ===
 
@@ -902,23 +920,7 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\sideparmargin{outer}
-
-\renewcommand\sideparfont{%
-  \UbuntuMedium\small
-}
-
-\renewcommand*\sideparform{%
-  \ifmemtortm\raggedright\else\raggedleft\fi
-}
-
-\newcommand\suttaref[1]{\sidepar{%
-  \ifoddpage
-    \hspace*{\BOOK@headExtra}#1
-  \else
-    #1\hspace*{\BOOK@headExtra}
-  \fi%
-}}
+\newcommand\suttaref[1]{\sidepar{\UbuntuLight #1}}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
