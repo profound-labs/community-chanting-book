@@ -98,7 +98,8 @@
 
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
 \newfontfamily\AlegreyaSansSC{AlegreyaSansSC-Regular.otf}
-\newfontfamily\UbuntuMedium{Ubuntu-M.ttf}
+\newfontfamily\UbuntuLight{Ubuntu-L.ttf}
+\newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
 
@@ -107,14 +108,14 @@
   Numbers=Lining,
 ]{AlegreyaSansSC-Bold.otf}
 
-\newfontfamily\chapterTitleFont{Ubuntu-M.ttf}
-\newfontfamily\sectionFont{Ubuntu-M.ttf}
-\newfontfamily\subSectionFont{Ubuntu-M.ttf}
+\newfontfamily\chapterTitleFont{Ubuntu-X-Medium.ttf}
+\newfontfamily\sectionFont{Ubuntu-X-Medium.ttf}
+\newfontfamily\subSectionFont{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
-\newfontfamily\partTitleFont{Ubuntu-M.ttf}
+\newfontfamily\partTitleFont{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\TOCpartTitleFont{Ubuntu-M.ttf}
+\newfontfamily\TOCpartTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
 
 \newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
@@ -179,6 +180,14 @@
 
 \RequirePackage[defaultlines=2,all]{nowidow}
 
+\newcommand*{\subtitle}[1]{\def\@thesubtitle{#1}}
+\newcommand*{\editionInfo}[1]{\def\@theEditionInfo{#1}}
+\newcommand*{\ISBN}[1]{\def\@theISBN{#1}}
+
+\newcommand\thesubtitle{\@thesubtitle}
+\newcommand\theEditionInfo{\@theEditionInfo}
+\newcommand\theISBN{\@theISBN}
+
 % === common hyphenation exceptions and corrections ===
 
 \hyphenation{season wisdom develop-ment respon-sible pheno-mena
@@ -203,11 +212,30 @@ philo-sophical munindo amaravati thai-land}
   \let\@listi\@listI}
 \normalsize
 
-\def\BOOK@readingFontSizePt{11}
-\def\BOOK@readingLineHeightPt{17}
+\def\BOOK@appendixFontSizePt{11}
+\def\BOOK@appendixLineHeightPt{17}
 
-\newcommand{\readingsize}{%
-  \@setfontsize\readingsize\BOOK@readingFontSizePt\BOOK@readingLineHeightPt
+\newcommand{\appendixsize}{%
+  \@setfontsize\appendixsize\BOOK@appendixFontSizePt\BOOK@appendixLineHeightPt
+  \abovedisplayskip 12\p@ \@plus3\p@ \@minus7\p@
+  \abovedisplayshortskip \z@ \@plus3\p@
+  \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
+  \belowdisplayskip \abovedisplayskip
+  \color{textbody}
+  \let\@listi\@listI}
+
+\newlength\englishTextParskip
+
+\newcommand*\setEnglishTextSize[3]{%
+  \def\BOOK@englishTextFontSizePt{#1}%
+  \def\BOOK@englishTextLineHeightPt{#2}%
+  \setlength{\englishTextParskip}{#3}%
+}
+
+\setEnglishTextSize{12}{18}{9pt}
+
+\newcommand{\englishtextsize}{%
+  \@setfontsize\englishtextsize\BOOK@englishTextFontSizePt\BOOK@englishTextLineHeightPt
   \abovedisplayskip 12\p@ \@plus3\p@ \@minus7\p@
   \abovedisplayshortskip \z@ \@plus3\p@
   \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
@@ -278,11 +306,28 @@ philo-sophical munindo amaravati thai-land}
 \setlrmargins{*}{*}{1.618}
 \setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
+\setmarginnotes{14pt}{70pt}{5pt}
 %\setlength{\footskip}{3\baselineskip}
+
+%\setlength{\marginparsep}{5mm}
+
+\marginparmargin{outer}
+\sideparmargin{outer}
 
 \checkandfixthelayout% This will typeout values in pt.
 \settypeoutlayoutunit{mm}% It is useful to see layout values in mm too.
 \typeoutlayout
+
+% === marginpar, sidepar ===
+
+\renewcommand\sideparfont{%
+  \UbuntuMedium\small
+}
+
+\renewcommand*\sideparform{%
+  \ifmemtortm\raggedright\else\raggedleft\fi
+}
+
 
 % === Page styles ===
 
@@ -466,6 +511,17 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\chEnglish{\setTocChapterLanguage{English}}
 \newcommand\chPali{\setTocChapterLanguage{Pāli}}
 
+\newcommand\resumeNormalText{%
+  \normalsize%
+  \setlength{\parskip}{5pt}%
+}
+
+\newcommand\englishText{%
+  \englishtextsize%
+  \setlength{\parskip}{\englishTextParskip}%
+}
+\newcommand\paliText{\resumeNormalText}
+
 \newlength\tocPageWidth
 \setlength{\tocPageWidth}{\widthof{\UbuntuMedium\normalsize 999}}
 \addtolength{\tocPageWidth}{10pt}
@@ -494,6 +550,38 @@ philo-sophical munindo amaravati thai-land}
   \hspace*{-\tocPageWidth}%
 }%
 [\addvspace{5pt}]
+
+% === List of First Lines ===
+
+\newcommand\listfirstlinesname{List of First Lines}
+\newlistof{listfirstlines}{fir}{\listfirstlinesname}
+
+% Fixed number for \chapternumberline, not acutally using it but
+% required for syntax
+\newcommand{\firstline}[1]{\addcontentsline{fir}{firstline}{\protect\chapternumberline{1} #1}}
+
+\contentsuse{firstline}{fir}
+
+\titlecontents{firstline}[0pt]%
+{%
+  \addvspace{5pt}%
+  \contentsmargin{\tocPageWidth}%
+}%
+{%
+  \TOCchapterTitleFont\TOCchapterTitleSize
+}%
+{}%
+{%
+  \hspace*{10pt}%
+  \small\color{black!60}%
+  \titlerule*[8pt]{.}%
+  \hspace*{10pt}%
+  \parbox{\tocPageWidth}{%
+    \raggedleft\UbuntuMedium\normalsize
+    \thecontentspage}%
+  \hspace*{-\tocPageWidth}%
+}%
+%[\addvspace{2pt}]
 
 % === Book styles ===
 
@@ -702,7 +790,7 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand{\soloinstr}[1]{%
   {\centering
-  {\instructionFont\color{instruction}\upshape%
+  {\instructionFont\normalsize\color{instruction}\upshape%
   [\space\MakeLowercase{#1}\space]}%
   \par}%
 }
@@ -735,6 +823,19 @@ philo-sophical munindo amaravati thai-land}
   \begin{tabular}{@{}l l@{}}}%
   {\end{tabular}\endlist}
 
+\newenvironment{onechants}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \begin{tabular}{@{}l@{}}}%
+  {\end{tabular}\endlist}
+
 \newenvironment{threechants}%
   {\list{}{%
     \topsep 0pt
@@ -759,6 +860,19 @@ philo-sophical munindo amaravati thai-land}
   }%
   \item[] \renewcommand{\arraystretch}{1}%
   \begin{tabular}{@{}l l@{}}}%
+  {\end{tabular}\endlist}
+
+\newenvironment{soloonechants}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        0pt%
+  }%
+  \item[] \renewcommand{\arraystretch}{1}%
+  \begin{tabular}{@{}l@{}}}%
   {\end{tabular}\endlist}
 
 \newsavebox{\quotepagebox}
@@ -794,6 +908,19 @@ philo-sophical munindo amaravati thai-land}
 ]%
 }{\end{enumerate}}
 
+\newenvironment{paritta}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    1.8em% \leaderIndent, but keep it a separate value
+    \rightmargin   0em%
+    \parsep        7pt%
+  }%
+  \item[] \raggedright}%
+  {\endlist}
+
+\newcommand\suttaref[1]{\sidepar{\UbuntuLight #1}}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 

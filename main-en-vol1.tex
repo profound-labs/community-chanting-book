@@ -6,7 +6,12 @@
 
 \usepackage{local}
 
-\title{Chanting Book}
+\title{Chanting Book · Volume One}
+\subtitle{Morning and Evening Chanting (Pūjā) and Reflections}
+
+\ISBN{978-1-78432-031-7}
+% TODO: edition info
+\editionInfo{This edition\ldots}
 
 \begin{document}
 
@@ -14,6 +19,7 @@
 \input{./chapters/titlepage.tex}
 
 \frontmatter
+\openany
 
 \cleartoverso
 \input{./chapters/\theLanguage/copyright.tex}
@@ -21,17 +27,17 @@
 \cleartorecto
 \tableofcontents*
 
+\input{./chapters/abbreviations.tex}
+
 \mainmatter
 
 \input{./chapters/\theLanguage/chapters-vol1.tex}
 
 \part{Appendix}
 
-\readingsize
+\appendixsize
 
-\input{./chapters/\theLanguage/chanting-guide.tex}
-\input{./chapters/\theLanguage/pali-pronunciation.tex}
-\input{./chapters/\theLanguage/pali-language.tex}
+\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
 
 % TODO: better style
 % TODO: ? use definitions from Forest Path (is also Aj Chah Collected)
@@ -39,9 +45,6 @@
 
 \cleartorecto
 \input{./chapters/\theLanguage/copyright-details.tex}
-
-%\cleartorecto
-%\input{./chapters/font-stress-test.tex}
 
 \end{document}
 
