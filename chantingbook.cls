@@ -530,6 +530,7 @@ philo-sophical munindo amaravati thai-land}
 {%
   \addvspace{5pt}%
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
