@@ -530,6 +530,7 @@ philo-sophical munindo amaravati thai-land}
 {%
   \addvspace{5pt}%
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
@@ -765,8 +766,6 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\tr[1]{\textit{#1}}
-
 \newlength\englishIndent
 \setlength{\englishIndent}{\leaderIndent}
 
@@ -781,6 +780,14 @@ philo-sophical munindo amaravati thai-land}
   }%
   \item[] \raggedright\itshape}%
   {\endlist}
+
+\newcommand\tr[1]{\textit{#1}}
+
+\newcommand\trline[1]{%
+  \begin{english}%
+    #1%
+  \end{english}%
+}
 
 \newcommand{\instr}[1]{%
   \hfill
@@ -920,7 +927,9 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\suttaref[1]{\sidepar{\UbuntuLight #1}}
+\newcommand\suttaref[1]{%
+  {\raggedleft #1\par}%
+}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
