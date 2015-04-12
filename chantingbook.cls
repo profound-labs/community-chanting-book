@@ -920,7 +920,9 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\suttaref[1]{\sidepar{\UbuntuLight #1}}
+\newcommand\suttaref[1]{%
+  {\raggedleft #1\par}%
+}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
