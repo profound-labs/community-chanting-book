@@ -765,8 +765,6 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\tr[1]{\textit{#1}}
-
 \newlength\englishIndent
 \setlength{\englishIndent}{\leaderIndent}
 
@@ -781,6 +779,14 @@ philo-sophical munindo amaravati thai-land}
   }%
   \item[] \raggedright\itshape}%
   {\endlist}
+
+\newcommand\tr[1]{\textit{#1}}
+
+\newcommand\trline[1]{%
+  \begin{english}%
+    #1%
+  \end{english}%
+}
 
 \newcommand{\instr}[1]{%
   \hfill
