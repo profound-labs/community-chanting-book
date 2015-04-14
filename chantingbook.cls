@@ -307,9 +307,6 @@ philo-sophical munindo amaravati thai-land}
 \setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
 \setmarginnotes{14pt}{70pt}{5pt}
-%\setlength{\footskip}{3\baselineskip}
-
-%\setlength{\marginparsep}{5mm}
 
 \marginparmargin{outer}
 \sideparmargin{outer}
