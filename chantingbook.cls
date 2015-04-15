@@ -101,24 +101,24 @@
 \newfontfamily\UbuntuLight{Ubuntu-L.ttf}
 \newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\headerFont{AlegreyaXSansSC-Bold.otf}
 
 \newfontfamily\pageNumFont[
   LetterSpace=5.0,
   Numbers=Lining,
-]{AlegreyaSansSC-Bold.otf}
+]{AlegreyaXSansSC-Bold.otf}
 
 \newfontfamily\chapterTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\sectionFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\subSectionFont{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\partNameFont{AlegreyaXSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\TOCpartTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
 
-\newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\instructionFont{AlegreyaXSansSC-Bold.otf}
 
 % font sizes
 
