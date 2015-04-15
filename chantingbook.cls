@@ -66,6 +66,7 @@
 \RequirePackage{ccicons}
 \RequirePackage{multicol}
 \RequirePackage{booktabs}
+\RequirePackage{footnote}
 \RequirePackage{ifthen}
 \RequirePackage{titletoc}
 \RequirePackage{enumitem}
@@ -81,6 +82,7 @@
 \definecolor{chaptertitle}{gray}{0.1}
 \definecolor{section}{gray}{0.1}
 \definecolor{instruction}{gray}{0.5}
+\definecolor{footnoterule}{gray}{0.5}
 
 % === Load fonts ===
 
@@ -486,6 +488,7 @@ philo-sophical munindo amaravati thai-land}
 }}
 
 \newcommand\nextChapterUseDelegatedPageNumber{\addtocontents{toc}{%
+  \protect \global \protect \HasDelegatedPageNumbertrue
   \protect \global \protect \TocDelegatePageNumberfalse
 }}
 
@@ -525,6 +528,7 @@ philo-sophical munindo amaravati thai-land}
   \TOCpartTitleFont\TOCpartTitleSize
   \partname~\thecontentslabel
   \hspace*{1em}%
+  \filright%
 }%
 {}%
 {%
@@ -612,7 +616,10 @@ philo-sophical munindo amaravati thai-land}
 \titlecontents{firstline}[0pt]%
 {%
   \addvspace{5pt}%
+  \setlength{\tocPageWidth}{\tocThreeDigits}
+  \addtolength{\tocPageWidth}{10pt}
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
@@ -748,6 +755,12 @@ philo-sophical munindo amaravati thai-land}
   }
 }
 
+\makechapterstyle{tocchapternoskip}{
+  \chapterstyle{tocchapter}
+  \setlength{\beforechapskip}{0pt}
+  \renewcommand*{\chapterheadstart}{\vspace{\beforechapskip}}
+}
+
 % Commands to assign the chapter styles to book parts. Use \renewcommand
 % to adjust.
 
@@ -762,6 +775,7 @@ philo-sophical munindo amaravati thai-land}
   \aliaspagestyle{chapter}{empty}
   \pagestyle{empty}
   \frontmatterChapterStyle
+  \openany
 }
 
 \addtodef{\mainmatter}{}{
@@ -873,8 +887,12 @@ philo-sophical munindo amaravati thai-land}
     \parsep        0pt%
   }%
   \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \savenotes
   \begin{tabular}{@{}l l@{}}}%
-  {\end{tabular}\endlist}
+  {\end{tabular}%
+  \endlist
+  \spewnotes
+}
 
 \newenvironment{onechants}%
   {\list{}{%
@@ -996,6 +1014,12 @@ philo-sophical munindo amaravati thai-land}
 }
 
 % === Renewing package macros ===
+
+\renewcommand\footnoterule{%
+  \vspace*{\baselineskip}%
+  \kern-3\p@
+  {\color{footnoterule}\hrule height 0.25pt width \columnwidth}
+  \kern2.6\p@}
 
 % Don't use the optional argument for TOC, only for \chaptermark
 \def\@chapter[#1]#2{%
