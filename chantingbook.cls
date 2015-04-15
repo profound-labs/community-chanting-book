@@ -66,6 +66,7 @@
 \RequirePackage{ccicons}
 \RequirePackage{multicol}
 \RequirePackage{booktabs}
+\RequirePackage{footnote}
 \RequirePackage{ifthen}
 \RequirePackage{titletoc}
 \RequirePackage{enumitem}
@@ -81,6 +82,7 @@
 \definecolor{chaptertitle}{gray}{0.1}
 \definecolor{section}{gray}{0.1}
 \definecolor{instruction}{gray}{0.5}
+\definecolor{footnoterule}{gray}{0.5}
 
 % === Load fonts ===
 
@@ -101,24 +103,24 @@
 \newfontfamily\UbuntuLight{Ubuntu-L.ttf}
 \newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\headerFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\headerFont{AlegreyaXSansSC-Bold.otf}
 
 \newfontfamily\pageNumFont[
   LetterSpace=5.0,
   Numbers=Lining,
-]{AlegreyaSansSC-Bold.otf}
+]{AlegreyaXSansSC-Bold.otf}
 
 \newfontfamily\chapterTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\sectionFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\subSectionFont{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\partNameFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\partNameFont{AlegreyaXSansSC-Bold.otf}
 \newfontfamily\partTitleFont{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\TOCpartTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
 
-\newfontfamily\instructionFont{AlegreyaSansSC-Bold.otf}
+\newfontfamily\instructionFont{AlegreyaXSansSC-Bold.otf}
 
 % font sizes
 
@@ -307,9 +309,6 @@ philo-sophical munindo amaravati thai-land}
 \setulmargins{20mm}{*}{*}
 \setheaderspaces{*}{12mm}{*}
 \setmarginnotes{14pt}{70pt}{5pt}
-%\setlength{\footskip}{3\baselineskip}
-
-%\setlength{\marginparsep}{5mm}
 
 \marginparmargin{outer}
 \sideparmargin{outer}
@@ -476,6 +475,41 @@ philo-sophical munindo amaravati thai-land}
 \renewcommand\chapternumberline[1]{\numberline{#1}}
 \renewcommand\partnumberline[1]{\numberline{#1}}
 
+\newif\ifTocDelegatePageNumber
+\TocDelegatePageNumberfalse
+
+\newcommand\chapterTocDelegatePageNumber{\addtocontents{toc}{%
+  \protect \global \protect \TocDelegatePageNumbertrue
+  \protect \global \protect \HasDelegatedPageNumbertrue
+}}
+
+\newcommand\setTocDelegatedPageNumber{\addtocontents{toc}{%
+  \protect \setcounter{delegatedpage}{\thepage}
+}}
+
+\newcommand\nextChapterUseDelegatedPageNumber{\addtocontents{toc}{%
+  \protect \global \protect \HasDelegatedPageNumbertrue
+  \protect \global \protect \TocDelegatePageNumberfalse
+}}
+
+\newcommand\delegateSetUseNext{%
+  \chapterTocDelegatePageNumber
+  \setTocDelegatedPageNumber
+  \nextChapterUseDelegatedPageNumber
+}
+
+\newif\ifTocSubIndent
+\TocSubIndentfalse
+
+\newif\ifHasDelegatedPageNumber
+\HasDelegatedPageNumberfalse
+
+\newcommand\chapterTocSubIndentTrue{\addtocontents{toc}{\protect  \TocSubIndenttrue}}
+\newcommand\chapterTocSubIndentFalse{\addtocontents{toc}{\protect \TocSubIndentfalse}}
+
+\newcounter{delegatedpage}
+\setcounter{delegatedpage}{0}
+
 % Format:
 % \titlecontents{ section }[ left ]
 % { above-code }
@@ -494,6 +528,7 @@ philo-sophical munindo amaravati thai-land}
   \TOCpartTitleFont\TOCpartTitleSize
   \partname~\thecontentslabel
   \hspace*{1em}%
+  \filright%
 }%
 {}%
 {%
@@ -502,14 +537,6 @@ philo-sophical munindo amaravati thai-land}
   \thecontentspage
 }%
 [\addvspace{5pt}]
-
-\def\theTocChapterLanguage{}
-\newcommand\setTocChapterLanguage[1]{%
-  \addtocontents{toc}{\protect \def \protect \theTocChapterLanguage {#1}}%
-}
-
-\newcommand\chEnglish{\setTocChapterLanguage{English}}
-\newcommand\chPali{\setTocChapterLanguage{Pāli}}
 
 \newcommand\resumeNormalText{%
   \normalsize%
@@ -523,31 +550,55 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\paliText{\resumeNormalText}
 
 \newlength\tocPageWidth
-\setlength{\tocPageWidth}{\widthof{\UbuntuMedium\normalsize 999}}
-\addtolength{\tocPageWidth}{10pt}
+
+\newlength\tocThreeDigits
+\setlength{\tocThreeDigits}{\widthof{\UbuntuMedium\normalsize 999}}
 
 \titlecontents{chapter}[0pt]%
 {%
-  \addvspace{5pt}%
+  \ifTocSubIndent
+    \addvspace{-2pt}%
+  \else
+    \addvspace{5pt}%
+  \fi
+  \ifHasDelegatedPageNumber
+    \setlength{\tocPageWidth}{\widthof{\UbuntuMedium\normalsize \thedelegatedpage\ / \thecontentspage}}
+  \else
+    \setlength{\tocPageWidth}{\tocThreeDigits}
+  \fi
+  \addtolength{\tocPageWidth}{10pt}
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
+  \ifTocSubIndent
+    \hspace*{1em}%
+  \fi
+  \global\TocSubIndentfalse
 }%
 {}%
 {%
-  \hspace*{10pt}%
-  \small\color{black!60}%
-  \titlerule*[8pt]{.}%
-  \hspace*{10pt}%
-  \color{textbody}
-  \UbuntuMedium\small
-  \theTocChapterLanguage
-  \global\def\theTocChapterLanguage{}%
-  \parbox{\tocPageWidth}{%
-    \raggedleft\UbuntuMedium\normalsize
-    \thecontentspage}%
-  \hspace*{-\tocPageWidth}%
+  \ifTocDelegatePageNumber\relax
+  \else
+    \hspace*{10pt}%
+    \small\color{black!60}%
+    \titlerule*[8pt]{.}%
+    \hspace*{10pt}%
+    \color{textbody}
+    \UbuntuMedium\small
+    \parbox{\tocPageWidth}{%
+      \raggedleft\UbuntuMedium\normalsize
+      \ifHasDelegatedPageNumber
+        \thedelegatedpage\ / \thecontentspage%
+        \global\HasDelegatedPageNumberfalse
+      \else
+        \thecontentspage
+      \fi
+    }%
+    \hspace*{-\tocPageWidth}%
+  \fi
+  \global\TocDelegatePageNumberfalse
 }%
 [\addvspace{5pt}]
 
@@ -565,7 +616,10 @@ philo-sophical munindo amaravati thai-land}
 \titlecontents{firstline}[0pt]%
 {%
   \addvspace{5pt}%
+  \setlength{\tocPageWidth}{\tocThreeDigits}
+  \addtolength{\tocPageWidth}{10pt}
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
@@ -701,6 +755,12 @@ philo-sophical munindo amaravati thai-land}
   }
 }
 
+\makechapterstyle{tocchapternoskip}{
+  \chapterstyle{tocchapter}
+  \setlength{\beforechapskip}{0pt}
+  \renewcommand*{\chapterheadstart}{\vspace{\beforechapskip}}
+}
+
 % Commands to assign the chapter styles to book parts. Use \renewcommand
 % to adjust.
 
@@ -715,6 +775,7 @@ philo-sophical munindo amaravati thai-land}
   \aliaspagestyle{chapter}{empty}
   \pagestyle{empty}
   \frontmatterChapterStyle
+  \openany
 }
 
 \addtodef{\mainmatter}{}{
@@ -765,8 +826,6 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\tr[1]{\textit{#1}}
-
 \newlength\englishIndent
 \setlength{\englishIndent}{\leaderIndent}
 
@@ -781,6 +840,14 @@ philo-sophical munindo amaravati thai-land}
   }%
   \item[] \raggedright\itshape}%
   {\endlist}
+
+\newcommand\tr[1]{\textit{#1}}
+
+\newcommand\trline[1]{%
+  \begin{english}%
+    #1%
+  \end{english}%
+}
 
 \newcommand{\instr}[1]{%
   \hfill
@@ -820,8 +887,12 @@ philo-sophical munindo amaravati thai-land}
     \parsep        0pt%
   }%
   \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
+  \savenotes
   \begin{tabular}{@{}l l@{}}}%
-  {\end{tabular}\endlist}
+  {\end{tabular}%
+  \endlist
+  \spewnotes
+}
 
 \newenvironment{onechants}%
   {\list{}{%
@@ -920,7 +991,9 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright}%
   {\endlist}
 
-\newcommand\suttaref[1]{\sidepar{\UbuntuLight #1}}
+\newcommand\suttaref[1]{%
+  {\raggedleft #1\par}%
+}
 
 %% http://tex.stackexchange.com/questions/36894/underline-omitting-the-descenders
 
@@ -941,6 +1014,12 @@ philo-sophical munindo amaravati thai-land}
 }
 
 % === Renewing package macros ===
+
+\renewcommand\footnoterule{%
+  \vspace*{\baselineskip}%
+  \kern-3\p@
+  {\color{footnoterule}\hrule height 0.25pt width \columnwidth}
+  \kern2.6\p@}
 
 % Don't use the optional argument for TOC, only for \chaptermark
 \def\@chapter[#1]#2{%
