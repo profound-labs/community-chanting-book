@@ -762,6 +762,7 @@ philo-sophical munindo amaravati thai-land}
   \aliaspagestyle{chapter}{empty}
   \pagestyle{empty}
   \frontmatterChapterStyle
+  \openany
 }
 
 \addtodef{\mainmatter}{}{
