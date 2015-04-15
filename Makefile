@@ -9,6 +9,11 @@ all:
 	@echo "vol1 or vol2. Just say the word."
 
 vol1:
+	cat $(VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(VOL1).fir.tmp
+	echo '\\contentsfinish' >> $(VOL1).fir.tmp
+	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
 vol2:

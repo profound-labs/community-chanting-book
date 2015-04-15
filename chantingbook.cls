@@ -486,6 +486,7 @@ philo-sophical munindo amaravati thai-land}
 }}
 
 \newcommand\nextChapterUseDelegatedPageNumber{\addtocontents{toc}{%
+  \protect \global \protect \HasDelegatedPageNumbertrue
   \protect \global \protect \TocDelegatePageNumberfalse
 }}
 
@@ -525,6 +526,7 @@ philo-sophical munindo amaravati thai-land}
   \TOCpartTitleFont\TOCpartTitleSize
   \partname~\thecontentslabel
   \hspace*{1em}%
+  \filright%
 }%
 {}%
 {%
@@ -612,7 +614,10 @@ philo-sophical munindo amaravati thai-land}
 \titlecontents{firstline}[0pt]%
 {%
   \addvspace{5pt}%
+  \setlength{\tocPageWidth}{\tocThreeDigits}
+  \addtolength{\tocPageWidth}{10pt}
   \contentsmargin{\tocPageWidth}%
+  \filright%
 }%
 {%
   \TOCchapterTitleFont\TOCchapterTitleSize
@@ -746,6 +751,12 @@ philo-sophical munindo amaravati thai-land}
       ##1%
     \end{minipage}%
   }
+}
+
+\makechapterstyle{tocchapternoskip}{
+  \chapterstyle{tocchapter}
+  \setlength{\beforechapskip}{0pt}
+  \renewcommand*{\chapterheadstart}{\vspace{\beforechapskip}}
 }
 
 % Commands to assign the chapter styles to book parts. Use \renewcommand
