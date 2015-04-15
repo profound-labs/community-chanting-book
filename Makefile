@@ -27,3 +27,6 @@ vol2:
 font-stress-test:
 	$(LATEX) $(LATEX_OPTS) font-stress-test.tex;
 
+part-pages-test:
+	$(LATEX) $(LATEX_OPTS) part-pages-test.tex;
+
