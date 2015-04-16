@@ -887,12 +887,8 @@ philo-sophical munindo amaravati thai-land}
     \parsep        0pt%
   }%
   \item[] \renewcommand{\arraystretch}{1.238}% 21+5 / 21, (lineheight + parskip) / lineheight
-  \savenotes
   \begin{tabular}{@{}l l@{}}}%
-  {\end{tabular}%
-  \endlist
-  \spewnotes
-}
+  {\end{tabular}\endlist}
 
 \newenvironment{onechants}%
   {\list{}{%

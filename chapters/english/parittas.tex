@@ -706,7 +706,14 @@ Sadā sotthī bhavantu te/me
 
 \cleartoverso
 
+\addtocontents{toc}{%
+  \protect \enlargethispage{2\baselineskip}
+}
+
+\chapterTocDelegatePageNumber
 \chapter{The Twenty-Eight Buddhas' Protection}% {{{1
+
+\setTocDelegatedPageNumber
 
 \vspace*{5pt}
 
@@ -746,6 +753,7 @@ Kassapa, perfect in glory, Gotama, chief of the Sakyans.\\
 
 \clearpage
 
+\chapterTocSubIndentTrue
 \chapter{Āṭānāṭiya Paritta (long version)}% {{{1
 
 \firstline{Namo me sabbabuddhānaṃ}
@@ -874,8 +882,8 @@ By this declaration of truth may the blessings of victory be yours.\\
 \clearpage
 
 \paliText
-
 \enlargethispage{2\baselineskip}
+\savenotes
 
 \begin{twochants}
 Tesaṃ saccena sīlena & khantimettābalena ca\\
@@ -905,6 +913,8 @@ Etena saccavajjena & hotu te jayamaṅgalaṃ\\
 Natthi me saraṇaṃ aññaṃ & saṅgho me saraṇaṃ varaṃ\\
 Etena saccavajjena & hotu te jayamaṅgalaṃ\\
 \end{twochants}
+
+\spewnotes
 
 \clearpage
 
