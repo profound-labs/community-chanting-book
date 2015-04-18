@@ -67,6 +67,7 @@
 \RequirePackage{multicol}
 \RequirePackage{booktabs}
 \RequirePackage{footnote}
+\RequirePackage{hyphenat}
 \RequirePackage{ifthen}
 \RequirePackage{titletoc}
 \RequirePackage{enumitem}
@@ -470,6 +471,8 @@ philo-sophical munindo amaravati thai-land}
 % === TOC settings ===
 
 \maxtocdepth{chapter}
+
+\renewcommand*{\thepart}{\@arabic\c@part}
 
 % Fixes Undefined control sequence error for \@chapapp@head
 \renewcommand\chapternumberline[1]{\numberline{#1}}
