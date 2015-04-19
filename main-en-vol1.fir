@@ -17,7 +17,7 @@
 \contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā}{66}{chapter.30}
 \contentsline {firstline}{\chapternumberline {1} Bahuṃ ve saraṇaṃ yanti}{69}{chapter.31}
 \contentsline {firstline}{\chapternumberline {1} Yassa saddhā tathāgate}{71}{chapter.32}
-\contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā-ti}{72}{chapter.33}
+\contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā'ti}{72}{chapter.33}
 \contentsline {firstline}{\chapternumberline {1} Bhārā have pañcakkhandhā}{74}{chapter.34}
 \contentsline {firstline}{\chapternumberline {1} Atītaṃ nānvāgameyya}{75}{chapter.35}
 \contentsline {firstline}{\chapternumberline {1} Ye ca atītā sambuddhā}{77}{chapter.36}
