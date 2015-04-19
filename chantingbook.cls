@@ -353,6 +353,9 @@ philo-sophical munindo amaravati thai-land}
 %\setlength{\BOOK@headRuleSep}{6pt}
 \setlength{\BOOK@headRuleSep}{25pt}
 
+\newlength\pageNumBoxHeight
+\setlength{\pageNumBoxHeight}{28pt}
+
 \makepagestyle{toprightnum}
 
 \makerunningwidth{toprightnum}{\BOOK@headWidth}
@@ -389,7 +392,7 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\setHeaderPageNum{%
   \SetHorizontalCoffin\HeaderPageNum{%
     \setlength{\fboxsep}{0pt}%
-    \colorbox{headrule}{\parbox[t][28pt][c]{\foremargin - \BOOK@headExtra + \BOOK@bleed}{%
+    \colorbox{headrule}{\parbox[t][\pageNumBoxHeight][c]{\foremargin - \BOOK@headExtra + \BOOK@bleed}{%
       \pageNumFmt
       \ifassumeoddpage
         \raggedright
@@ -652,14 +655,47 @@ philo-sophical munindo amaravati thai-land}
 \renewcommand{\partnamenum}{}
 \renewcommand{\printpartnum}{}
 
+\NewCoffin\PartWrap
+\NewCoffin\PartBackground
+\NewCoffin\PartName
+\NewCoffin\PartTitle
+
+\newlength\partBgWidth
+\setlength{\partBgWidth}{70pt}
+
+\newlength\partTitleSep
+\setlength{\partTitleSep}{40pt}
+
+\newlength\headerTextHeight
+\setlength{\headerTextHeight}{\heightof{%
+    \parbox{\BOOK@headWidth}{\headerFmt hello}%
+}}
+
 \renewcommand{\printparttitle}[1]{%
-  \hspace*{0.4\linewidth}%
-  \begin{minipage}{0.6\linewidth}%
-    \raggedright
-    \MakeLowercase{\partnamefont \partname \hspace*{0.3em} \partnumfont \arabic{part}}%
-    \midpartskip
-    {\parttitlefont #1}%
-  \end{minipage}%
+  \SetHorizontalCoffin\PartWrap{}%
+  \SetHorizontalCoffin\PartBackground{%
+    \color{headrule}\rule{\partBgWidth + \BOOK@bleed}{\paperheight+2\BOOK@bleed}%
+  }%
+  \SetHorizontalCoffin\PartName{%
+    \setlength{\fboxsep}{0pt}%
+    \colorbox{white}{\parbox[t][\pageNumBoxHeight][c]{\partBgWidth + 2pt + \BOOK@bleed}{
+      \hspace*{2pt}%
+      \raggedright
+      \color{header}%
+      \MakeLowercase{\partnamefont \partname \hspace*{0.3em} \partnumfont \arabic{part}}%
+    }}%
+  }%
+  \SetHorizontalCoffin\PartTitle{%
+    \parbox[t]{\paperwidth - \partBgWidth - \partTitleSep - \BOOK@bleed}{
+      \raggedleft
+      \color{chaptertitle}%
+      \parttitlefont #1%
+    }%
+  }%
+  \JoinCoffins*\PartWrap[r,t]\PartBackground[r,t]( -\spinemargin+\paperwidth+\BOOK@bleed, -\topmargin+4pt+2\BOOK@bleed )%
+  \JoinCoffins*\PartWrap[\PartBackground-l,\PartBackground-t]\PartName[l,t]( -2pt, -\headerTextHeight -\BOOK@headRuleSep -\pageNumBoxHeight -\BOOK@bleed )%
+  \JoinCoffins*\PartWrap[\PartBackground-l,\PartBackground-t]\PartTitle[r,t]( -\partTitleSep, -0.5\textheight )%
+  \TypesetCoffin\PartWrap
 }
 
 % Chapters are \openany, but part pages should open on recto pages
@@ -672,9 +708,9 @@ philo-sophical munindo amaravati thai-land}
   \else
     \@tempswafalse
   \fi
-  \beforepartskip}
+}
 
-% Don't center the part page, thanks.
+% Leave the part page style to \printparttitle, thanks.
 \long\def\@part[#1]#2{%
   \M@gettitle{#1}%
   \def\f@rtoc{#1}%
@@ -692,15 +728,7 @@ philo-sophical munindo amaravati thai-land}
   \fi
   \mempostaddparttotochook
   \partmark{#1}%
-  {%\centering
-   \interlinepenalty \@M
-   \parskip\z@
-   \normalfont
-   \ifnum \c@secnumdepth >-2\relax
-     \printpartname \partnamenum \printpartnum
-     \midpartskip
-   \fi
-   \printparttitle{#2}\par}%
+  {\printparttitle{#2}}%
   \@endpart}
 
 % === Chapter styles ===
