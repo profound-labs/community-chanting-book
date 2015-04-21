@@ -678,7 +678,7 @@ philo-sophical munindo amaravati thai-land}
   }%
   \SetHorizontalCoffin\PartName{%
     \setlength{\fboxsep}{0pt}%
-    \colorbox{white}{\parbox[t][\pageNumBoxHeight][c]{\partBgWidth + 2pt + \BOOK@bleed}{
+    \colorbox{white}{\parbox[t][\pageNumBoxHeight][c]{\partBgWidth + 4pt + \BOOK@bleed}{
       \hspace*{2pt}%
       \raggedright
       \color{header}%
@@ -692,8 +692,8 @@ philo-sophical munindo amaravati thai-land}
       \parttitlefont #1%
     }%
   }%
-  \JoinCoffins*\PartWrap[r,t]\PartBackground[r,t]( -\spinemargin+\paperwidth+\BOOK@bleed, -\topmargin+4pt+2\BOOK@bleed )%
-  \JoinCoffins*\PartWrap[\PartBackground-l,\PartBackground-t]\PartName[l,t]( -2pt, -\headerTextHeight -\BOOK@headRuleSep -\pageNumBoxHeight -\BOOK@bleed )%
+  \JoinCoffins*\PartWrap[r,t]\PartBackground[r,t]( -\spinemargin+\paperwidth+\BOOK@bleed, \trimtop -\topmargin +4pt +\BOOK@bleed )%
+  \JoinCoffins*\PartWrap[\PartBackground-l,\PartBackground-t]\PartName[l,t]( -2pt, -\headerTextHeight -\BOOK@headRuleSep -\pageNumBoxHeight )%
   \JoinCoffins*\PartWrap[\PartBackground-l,\PartBackground-t]\PartTitle[r,t]( -\partTitleSep, -0.5\textheight )%
   \TypesetCoffin\PartWrap
 }

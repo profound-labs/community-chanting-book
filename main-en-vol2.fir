@@ -6,7 +6,7 @@
 \contentsline {firstline}{\chapternumberline {1} Namo arahato sammā}{35}{chapter.11}
 \contentsline {firstline}{\chapternumberline {1} Yaṅkiñci ratanaṃ loke}{35}{chapter.12}
 \contentsline {firstline}{\chapternumberline {1} Asevanā ca bālānaṃ}{36}{chapter.13}
-\contentsline {firstline}{\chapternumberline {1} Karaṇīya m-attha-kusalena}{38}{chapter.14}
+\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{38}{chapter.14}
 \contentsline {firstline}{\chapternumberline {1} Sambuddhe aṭṭhavīsañca}{40}{chapter.15}
 \contentsline {firstline}{\chapternumberline {1} Virūpakkhehi me mettaṃ}{41}{chapter.16}
 \contentsline {firstline}{\chapternumberline {1} Yaṅkiñci vittaṃ idha vā huraṃ vā}{42}{chapter.17}
