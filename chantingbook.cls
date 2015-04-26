@@ -1040,6 +1040,16 @@ philo-sophical munindo amaravati thai-land}
   \endgroup%
 }
 
+\long\def\framenorule#1{%
+  \leavevmode
+  \hbox{%
+    \hskip-\@wholewidth
+    \vbox{%
+      \vskip-\@wholewidth
+      \hbox{#1}%
+      \vskip-\@wholewidth}%
+    \hskip-\@wholewidth}}
+
 % === Renewing package macros ===
 
 \renewcommand\footnoterule{%
