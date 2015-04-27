@@ -6,7 +6,7 @@ LATEX=lualatex
 LATEX_OPTS=-interaction=nonstopmode -halt-on-error
 
 all:
-	@echo "vol1, vol2 or font-stress-test. Just say the word."
+	@echo "vol1, vol2, release or font-stress-test. Just say the word."
 
 vol1:
 	cat $(VOL1).fir | \
@@ -23,6 +23,12 @@ vol2:
 	echo '\\contentsfinish' >> $(VOL2).fir.tmp
 	mv $(VOL2).fir.tmp $(VOL2).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL2).tex;
+
+release:
+	@echo -n "Vol 1 x4...."
+	make vol1 && make vol1 && make vol1 && make vol1
+	@echo -n "Vol 2 x4...."
+	make vol2 && make vol2 && make vol2 && make vol2
 
 font-stress-test:
 	$(LATEX) $(LATEX_OPTS) font-stress-test.tex;
