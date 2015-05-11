@@ -1,0 +1,49 @@
+\documentclass[
+  babelLanguage=english,
+  final,
+  showtrims,
+  %showwirebinding,
+]{chantingbook}
+
+\usepackage{local}
+
+\title{Chanting Book · Volume One}
+\subtitle{Morning and Evening Chanting (Pūjā) and Reflections}
+
+\ISBN{978-1-78432-031-7}
+\editionInfo{\textit{Retreat Centre edition}, 500 copies, 2015, Printed in Malaysia}
+
+\begin{document}
+
+\frontmatter
+
+\cleartoverso
+\input{./chapters/\theLanguage/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+\mainmatter
+
+\input{./chapters/\theLanguage/chapters-vol1.tex}
+
+\part{Appendix}
+
+\appendixsize
+
+\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
+
+\input{./chapters/\theLanguage/glossary.tex}
+
+\cleartorecto
+\input{./chapters/\theLanguage/acknowledgments-retreat.tex}
+\clearpage
+\input{./chapters/\theLanguage/copyright-details.tex}
+
+\end{document}
+
+% End of main.tex

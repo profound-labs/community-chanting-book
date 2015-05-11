@@ -16,6 +16,14 @@ vol1:
 	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
+vol1-retreat:
+	cat $(VOL1)-retreat.fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(VOL1)-retreat.fir.tmp
+	echo '\\contentsfinish' >> $(VOL1)-retreat.fir.tmp
+	mv $(VOL1)-retreat.fir.tmp $(VOL1)-retreat.fir
+	$(LATEX) $(LATEX_OPTS) $(VOL1)-retreat.tex;
+
 vol2:
 	cat $(VOL2).fir | \
 		sed '/\\contentsfinish/d' | \
