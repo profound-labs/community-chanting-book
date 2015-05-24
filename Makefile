@@ -46,3 +46,6 @@ part-pages-test:
 
 imina-punnya-pt:
 	$(LATEX) $(LATEX_OPTS) imina-punnya-pt.tex;
+
+chanting-sample-it:
+	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
