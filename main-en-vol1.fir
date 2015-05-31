@@ -22,6 +22,7 @@
 \contentsline {firstline}{\chapternumberline {1} Atītaṃ nānvāgameyya}{75}{chapter.35}
 \contentsline {firstline}{\chapternumberline {1} Ye ca atītā sambuddhā}{77}{chapter.36}
 \contentsline {firstline}{\chapternumberline {1} Sabba-pāpassa akaraṇaṃ}{79}{chapter.37}
+\contentsline {firstline}{\chapternumberline {1} Sabba-pāpassa akaraṇaṃ}{81}{chapter.37}
 \contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{83}{chapter.38}
 \contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{84}{chapter.39}
 \contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{85}{chapter.40}
