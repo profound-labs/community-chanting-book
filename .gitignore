@@ -2,8 +2,10 @@
 *.aux
 *.log
 *.toc
+auto/
 main*.pdf
 imina-punnya-pt.pdf
+evening-chanting-pt.pdf
 chanting-sample-it.pdf
 font-stress-test.pdf
 part-pages-test.pdf
