@@ -1,8 +1,9 @@
 \documentclass[
   babelLanguage=english,
   final,
-  showtrims,
+  %showtrims,
   %showwirebinding,
+  webversion,
 ]{chantingbook}
 
 \usepackage{local}
@@ -16,6 +17,10 @@
 \begin{document}
 
 \frontmatter
+
+\webcover{%
+\includegraphics[height=\paperheight]{vol2-webcover.jpg}%
+}
 
 \cleartoverso
 \input{./chapters/\theLanguage/copyright.tex}

@@ -16,14 +16,6 @@ vol1:
 	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
-vol1-2nd:
-	cat $(VOL1)-2nd.fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(VOL1)-2nd.fir.tmp
-	echo '\\contentsfinish' >> $(VOL1)-2nd.fir.tmp
-	mv $(VOL1)-2nd.fir.tmp $(VOL1)-2nd.fir
-	$(LATEX) $(LATEX_OPTS) $(VOL1)-2nd.tex;
-
 vol1-retreat:
 	cat $(VOL1)-retreat.fir | \
 		sed '/\\contentsfinish/d' | \
@@ -39,14 +31,6 @@ vol2:
 	echo '\\contentsfinish' >> $(VOL2).fir.tmp
 	mv $(VOL2).fir.tmp $(VOL2).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL2).tex;
-
-vol2-2nd:
-	cat $(VOL2)-2nd.fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(VOL2)-2nd.fir.tmp
-	echo '\\contentsfinish' >> $(VOL2)-2nd.fir.tmp
-	mv $(VOL2)-2nd.fir.tmp $(VOL2)-2nd.fir
-	$(LATEX) $(LATEX_OPTS) $(VOL2)-2nd.tex;
 
 release:
 	@echo -n "Vol 1 x4...."
