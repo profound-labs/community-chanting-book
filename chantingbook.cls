@@ -82,7 +82,9 @@
 
 % === Define colors ===
 
-\definecolor{textbody}{gray}{0.15}
+%\definecolor{textbody}{gray}{0.15}
+% Full black for higher contrast, and produces better result with desktop printers.
+\definecolor{textbody}{gray}{0}
 \definecolor{header}{gray}{0.1}
 \definecolor{headrule}{gray}{0.5}
 \colorlet{pagenum}{white}
