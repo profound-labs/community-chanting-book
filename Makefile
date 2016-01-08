@@ -48,7 +48,7 @@ imina-punnya-pt:
 	$(LATEX) $(LATEX_OPTS) imina-punnya-pt.tex;
 
 pt:
-	$(LATEX) $(LATEX_OPTS) main-pt.tex;
+	$(LATEX) $(LATEX_OPTS) main-pt-vol1.tex;
 
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
