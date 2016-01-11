@@ -132,6 +132,9 @@
 
 \newfontfamily\instructionFont{AlegreyaXSansSC-Bold.otf}
 
+\newfontfamily\Calluna{Calluna-Regular.otf}
+\newfontfamily\CallunaSans{CallunaSansRegular.otf}
+
 % font sizes
 
 \newcommand{\headerSize}
