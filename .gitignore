@@ -3,6 +3,8 @@
 *.log
 *.toc
 auto/
+fonts/Calluna-Regular.otf
+fonts/CallunaSansRegular.otf
 main*.pdf
 chanting-sample-it.pdf
 font-stress-test.pdf
