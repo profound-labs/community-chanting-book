@@ -1,5 +1,6 @@
 VOL1=main-en-vol1
 VOL2=main-en-vol2
+PT_VOL1=main-pt-vol1
 
 LATEX=lualatex
 
@@ -48,7 +49,16 @@ imina-punnya-pt:
 	$(LATEX) $(LATEX_OPTS) imina-punnya-pt.tex;
 
 pt:
-	$(LATEX) $(LATEX_OPTS) main-pt-vol1.tex;
+	cat $(PT_VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(PT_VOL1).fir.tmp
+	echo '\\contentsfinish' >> $(PT_VOL1).fir.tmp
+	mv $(PT_VOL1).fir.tmp $(PT_VOL1).fir
+	$(LATEX) $(LATEX_OPTS) $(PT_VOL1).tex;
+
+pt-release:
+	@echo -n "PT Vol 1 x4...."
+	make pt && make pt && make pt && make pt
 
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
