@@ -1,0 +1,34 @@
+\documentclass[
+  babelLanguage=portuguese,
+  final,
+  %showtrims,
+  %showwirebinding,
+  webversion,
+]{chantingbook}
+
+\usepackage{local}
+
+\title{Livro de Cânticos}
+\subtitle{Cânticos Matinais e Vespertinos (Pūjā) e Reflexões}
+
+\renewcommand\listfirstlinesname{Lista das Primeiras Linhas}
+
+\begin{document}
+
+\frontmatter
+
+\thispagestyle{empty}\mbox{}
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/portuguese/webcover-vol1.tex}%
+\fi
+
+\cleartorecto
+\tableofcontents*
+
+\mainmatter
+
+\input{./chapters/portuguese/chapters-puja.tex}
+
+\end{document}

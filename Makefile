@@ -60,5 +60,8 @@ pt-release:
 	@echo -n "PT Vol 1 x4...."
 	make pt && make pt && make pt && make pt
 
+pt-puja:
+	$(LATEX) $(LATEX_OPTS) main-pt-puja.tex;
+
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
