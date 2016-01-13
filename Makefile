@@ -63,5 +63,11 @@ pt-release:
 pt-puja:
 	$(LATEX) $(LATEX_OPTS) main-pt-puja.tex;
 
+pt-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-pt-vol1.tex;
+
+pt-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-pt-vol1.tex;
+
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;

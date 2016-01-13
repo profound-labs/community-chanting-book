@@ -25,6 +25,9 @@
 \newif\ifshowwirebinding
 \showwirebindingfalse
 
+\newif\ifzeromargin
+\zeromarginfalse
+
 % =======
 % Options
 % =======
@@ -40,6 +43,8 @@
   webversion/.code={\webversiontrue},
   showwirebinding/.default=\showwirebindingfalse,
   showwirebinding/.code={\showwirebindingtrue},
+  zeromargin/.default=\zeromarginfalse,
+  zeromargin/.code={\zeromargintrue},
 }
 
 \newcommand\theLanguage\BOOK@babelLanguage
@@ -281,7 +286,12 @@ philo-sophical munindo amaravati thai-land}
 \setlength{\vindent}{\leaderIndent}
 \setlength{\vleftmargin}{2em}
 
-\setlength{\parskip}{5pt}
+\ifzeromargin
+  \setlength{\parskip}{0pt}
+\else
+  \setlength{\parskip}{5pt}
+\fi
+
 \setlength{\parindent}{0pt}
 
 % === tabular ===
@@ -331,11 +341,21 @@ philo-sophical munindo amaravati thai-land}
 %\typeout{Longest line: \the\BOOK@longestLine}
 %% Longest line: 361.54785pt
 
-\settypeblocksize{586pt}{362pt}{1.618}% 1.618, Golden section
-\setlrmargins{*}{*}{1.618}
-\setulmargins{20mm}{*}{*}
-\setheaderspaces{*}{12mm}{*}
-\setmarginnotes{14pt}{70pt}{5pt}
+\ifzeromargin
+  \setlrmarginsandblock{0pt}{*}{1}
+  \setulmarginsandblock{0pt}{*}{1}
+  \setheaderspaces{*}{0pt}{*}
+  \setlength{\headheight}{0pt}
+  \setlength{\headsep}{0pt}
+  \setlength{\footskip}{0pt}
+  \setmarginnotes{0pt}{0pt}{0pt}
+\else
+  \settypeblocksize{586pt}{362pt}{1.618}% 1.618, Golden section
+  \setlrmargins{*}{*}{1.618}
+  \setulmargins{20mm}{*}{*}
+  \setheaderspaces{*}{12mm}{*}
+  \setmarginnotes{14pt}{70pt}{5pt}
+\fi
 
 \marginparmargin{outer}
 \sideparmargin{outer}
