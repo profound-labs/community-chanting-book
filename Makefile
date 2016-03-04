@@ -71,3 +71,6 @@ pt-cover-back:
 
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
+
+anapanasati-sheet-pali:
+	$(LATEX) $(LATEX_OPTS) anapanasati-sheet-pali.tex;
