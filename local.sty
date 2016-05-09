@@ -7,6 +7,12 @@
     \markboth{##1}{}}%
   \let\sectionmark\@gobble
 }
+\newcommand\psMarksTitleOnly{%
+  \def\chaptermark##1{%
+    \markboth{##1}{}}%
+  \let\partmark\@gobble
+  \let\sectionmark\@gobble
+}
 
 \newcommand\usePsMarksPartOnly{%
   \makeatletter
