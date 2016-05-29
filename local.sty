@@ -22,6 +22,14 @@
   \makeatother
 }
 
+\newcommand\usePsMarksTitleOnly{%
+  \makeatletter
+  \makepsmarks{toprightnum}{\psMarksTitleOnly}
+  \aliaspagestyle{normalpage}{toprightnum}
+  \pagestyle{normalpage}
+  \makeatother
+}
+
 \newcommand\usePsMarksDefault{%
   \makeatletter
   \makepsmarks{toprightnum}{\psMarksDefault}
