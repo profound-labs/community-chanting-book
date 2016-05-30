@@ -1,6 +1,8 @@
 \documentclass[
   babelLanguage=english,
   final,
+  webversion,
+  %showtrims,
 ]{chantingbook}
 
 \usepackage{local}
@@ -9,13 +11,31 @@
 
 \newcommand{\verseref}[1]{\sidepar{#1}}
 
+\definecolor{titlecolor}{HTML}{1D296C}
+
 \makeatother
 
-\title{Sumedharama Chants}
+\title{Sumedharama Monastic Chants}
 
 \begin{document}
 
 \frontmatter
+
+\webcover{%
+\centering
+
+\includegraphics[width=130mm]{wave}
+  
+\vspace*{1cm} 
+
+\resizebox{70mm}{!}{\color{titlecolor}\Calluna\textls{CÂNTICOS}}%
+
+\vspace*{1cm} 
+
+\includegraphics[width=130mm, angle=180]{wave}
+
+\vspace*{1cm}
+}
 
 %\thispagestyle{empty}\mbox{}
 
@@ -23,8 +43,6 @@
 \tableofcontents*
 
 \mainmatter
-
-%\part{Cânticos de Monges}
 
 \usePsMarksTitleOnly
 
@@ -90,7 +108,7 @@ pa꜕ṭighātāya, uṇhassa pa꜕ṭighātāya, ḍaṃsa-maka꜕sa꜕-vātāt
   Reflectindo sabiamente, uso a comida da mendicância: Não por diversão, não por
   prazer, não para engordar, não para me embelezar, mas somente para suster e
   nutrir este corpo, para o manter saudável, para ajudar à Vida Santa. Pensando
-  desta forma: 'Permitir-me-ei ter fome sem comer demasiado, de forma a
+  desta forma: `Permitir-me-ei ter fome sem comer demasiado, de forma a
   continuar a viver sereno sem remorsos.'
 \end{english}
 
