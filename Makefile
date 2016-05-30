@@ -74,3 +74,6 @@ chanting-sample-it:
 
 anapanasati-sheet-pali:
 	$(LATEX) $(LATEX_OPTS) anapanasati-sheet-pali.tex;
+
+sumedharama-monastic-chants:
+	$(LATEX) $(LATEX_OPTS) sumedharama-monastic-chants.tex;

@@ -69,7 +69,7 @@
 \RequirePackage{nag}
 \RequirePackage{xparse}
 \RequirePackage{soul}
-\RequirePackage[cmyk]{xcolor}
+\RequirePackage{xcolor}
 \RequirePackage{xcoffins}
 \RequirePackage{graphicx}
 % Add your \graphicspath declaration to your local style.
