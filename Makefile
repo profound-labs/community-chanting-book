@@ -45,8 +45,8 @@ font-stress-test:
 part-pages-test:
 	$(LATEX) $(LATEX_OPTS) part-pages-test.tex;
 
-imina-punnya-pt:
-	$(LATEX) $(LATEX_OPTS) imina-punnya-pt.tex;
+pt-partilha-sheet:
+	$(LATEX) $(LATEX_OPTS) pt-partilha-sheet.tex;
 
 pt:
 	cat $(PT_VOL1).fir | \
