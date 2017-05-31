@@ -77,3 +77,6 @@ anapanasati-sheet-pali:
 
 sumedharama-monastic-chants:
 	$(LATEX) $(LATEX_OPTS) sumedharama-monastic-chants.tex;
+
+brazil-chants:
+	$(LATEX) $(LATEX_OPTS) brazil-chants.tex;
