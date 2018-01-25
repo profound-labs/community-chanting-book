@@ -80,3 +80,6 @@ sumedharama-monastic-chants:
 
 brazil-chants:
 	$(LATEX) $(LATEX_OPTS) brazil-chants.tex;
+
+satipatthana:
+	$(LATEX) $(LATEX_OPTS) satipatthana-en.tex;

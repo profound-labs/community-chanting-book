@@ -1,0 +1,64 @@
+\documentclass[
+  babelLanguage=british,
+  final,
+  %showtrims,
+  %showwirebinding,
+  %webversion,
+]{chantingbook}
+
+\usepackage{local}
+
+\maxtocdepth{section}
+\makechapterstyle{tocchaptersmallskip}{
+  \chapterstyle{tocchapter}
+  \setlength{\beforechapskip}{0pt}
+  \setlength{\afterchapskip}{20pt}
+}
+\renewcommand\frontmatterChapterStyle{\chapterstyle{tocchaptersmallskip}}
+
+\title{Mahāsatipaṭṭhāna Sutta}
+\subtitle{The Greater Discourse on the Foundations of Mindfulness}
+
+\begin{document}
+
+\frontmatter
+
+\thispagestyle{empty}\mbox{}
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/portuguese/webcover-vol1.tex}%
+\fi
+
+\addtocontents{toc}{\protect \enlargethispage {2\baselineskip}}
+
+\cleartorecto
+\tableofcontents*
+
+\mainmatter
+
+\showpartnumberfalse
+\cleartorecto
+\thispagestyle{empty}
+\markboth{\leftmark}{Mahāsatipaṭṭhāna Sutta}
+
+\printparttitle{%
+Mahāsatipaṭṭhāna Sutta
+
+\vspace*{2em}
+
+{\sectionFont\sectionSize\color{section}%
+  The Greater Discourse on the Foundations of Mindfulness
+
+  \bigskip
+
+  Dīgha Nikāya 22
+\par}
+
+}
+
+\artopttrue
+
+\input{./chapters/english/satipatthana.tex}
+
+\end{document}

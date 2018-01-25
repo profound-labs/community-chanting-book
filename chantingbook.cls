@@ -654,6 +654,35 @@ philo-sophical munindo amaravati thai-land}
 }%
 [\addvspace{5pt}]
 
+\titlecontents{section}[0pt]%
+{%
+  \addvspace{-2pt}%
+  \setlength{\tocPageWidth}{\tocThreeDigits}
+  \addtolength{\tocPageWidth}{10pt}
+  \contentsmargin{\tocPageWidth}%
+  \hspace*{2em}%
+  \filright%
+}%
+{%
+  \TOCchapterTitleFont\TOCchapterTitleSize
+  \hspace*{1em}%
+}%
+{}%
+{%
+  \hspace*{10pt}%
+  \small\color{black!60}%
+  \titlerule*[8pt]{.}%
+  \hspace*{10pt}%
+  \color{textbody}
+  \UbuntuMedium\small
+  \parbox{\tocPageWidth}{%
+    \raggedleft\UbuntuMedium\normalsize
+    \thecontentspage
+  }%
+  \hspace*{-\tocPageWidth}%
+}%
+[\addvspace{5pt}]
+
 % === List of First Lines ===
 
 \newcommand\listfirstlinesname{List of First Lines}
@@ -717,11 +746,15 @@ philo-sophical munindo amaravati thai-land}
     \parbox{\BOOK@headWidth}{\headerFmt hello}%
 }}
 
+\newif\ifshowpartnumber
+\showpartnumbertrue
+
 \renewcommand{\printparttitle}[1]{%
   \SetHorizontalCoffin\PartWrap{}%
   \SetHorizontalCoffin\PartBackground{%
     \color{headrule}\rule{\partBgWidth + \BOOK@bleed}{\paperheight+2\BOOK@bleed}%
   }%
+  \ifshowpartnumber
   \SetHorizontalCoffin\PartName{%
     \setlength{\fboxsep}{0pt}%
     \colorbox{white}{\parbox[t][\pageNumBoxHeight][c]{\partBgWidth + 4pt + \BOOK@bleed}{
@@ -731,6 +764,7 @@ philo-sophical munindo amaravati thai-land}
       \MakeLowercase{\partnamefont \partname \hspace*{0.3em} \partnumfont \arabic{part}}%
     }}%
   }%
+  \fi
   \SetHorizontalCoffin\PartTitle{%
     \parbox[t]{\paperwidth - \partBgWidth - \partTitleSep - \BOOK@bleed}{
       \raggedleft
