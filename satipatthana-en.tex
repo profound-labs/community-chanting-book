@@ -3,7 +3,7 @@
   final,
   %showtrims,
   %showwirebinding,
-  %webversion,
+  webversion,
 ]{chantingbook}
 
 \usepackage{local}
@@ -23,13 +23,12 @@
 
 \frontmatter
 
+\webcover{%
+\includegraphics[height=\paperheight]{satipatthana-webcover.jpg}%
+}
+
 \cleartoverso
 \thispagestyle{empty}\mbox{}
-
-% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
-\ifwebversion
-\input{./chapters/portuguese/webcover-vol1.tex}%
-\fi
 
 \addtocontents{toc}{\protect \enlargethispage {2\baselineskip}}
 
