@@ -28,6 +28,16 @@
 \newif\ifzeromargin
 \zeromarginfalse
 
+\newlength\BOOK@paperHeight
+\newlength\BOOK@paperWidth
+\setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
+\setlength{\BOOK@paperWidth}{181mm}
+
+\newlength\BOOK@typeBlockHeight
+\newlength\BOOK@typeBlockWidth
+\setlength{\BOOK@typeBlockHeight}{586pt}% 1.618, Golden section
+\setlength{\BOOK@typeBlockWidth}{362pt}
+
 % =======
 % Options
 % =======
@@ -45,6 +55,12 @@
   showwirebinding/.code={\showwirebindingtrue},
   zeromargin/.default=\zeromarginfalse,
   zeromargin/.code={\zeromargintrue},
+  paperWidth/.code = {\setlength{\BOOK@paperWidth}{#1}},
+  paperHeight/.code = {\setlength{\BOOK@paperHeight}{#1}},
+  typeBlockWidth/.code = {\setlength{\BOOK@typeBlockWidth}{#1}},
+  typeBlockHeight/.code = {\setlength{\BOOK@typeBlockHeight}{#1}},
+  a4Paper/.style = {paperWidth     = 210mm, paperHeight     = 297mm,
+                    typeBlockWidth = 150mm, typeBlockHeight = 245mm}
 }
 
 \newcommand\theLanguage\BOOK@babelLanguage
@@ -312,12 +328,6 @@ philo-sophical munindo amaravati thai-land}
 
 % === setup page layout ===
 
-\newlength\BOOK@paperHeight
-\newlength\BOOK@paperWidth
-%\setstocksize{250mm}{185mm}% 1.35, Nicholas
-\setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
-\setlength{\BOOK@paperWidth}{181mm}
-
 \ifshowtrims
   \stockaiv% use A4 paper size to show trims
   \setlength{\paperheight}{\BOOK@paperHeight}
@@ -350,7 +360,7 @@ philo-sophical munindo amaravati thai-land}
   \setlength{\footskip}{0pt}
   \setmarginnotes{0pt}{0pt}{0pt}
 \else
-  \settypeblocksize{586pt}{362pt}{1.618}% 1.618, Golden section
+  \settypeblocksize{\BOOK@typeBlockHeight}{\BOOK@typeBlockWidth}{*}
   \setlrmargins{*}{*}{1.618}
   \setulmargins{20mm}{*}{*}
   \setheaderspaces{*}{12mm}{*}
