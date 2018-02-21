@@ -28,6 +28,9 @@
 \newif\ifzeromargin
 \zeromarginfalse
 
+\newif\iftonemarksabove
+\tonemarksabovefalse
+
 \newlength\BOOK@paperHeight
 \newlength\BOOK@paperWidth
 \setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
@@ -55,6 +58,8 @@
   showwirebinding/.code={\showwirebindingtrue},
   zeromargin/.default=\zeromarginfalse,
   zeromargin/.code={\zeromargintrue},
+  toneMarksAbove/.default=\tonemarksabovefalse,
+  toneMarksAbove/.code={\tonemarksabovetrue},
   paperWidth/.code = {\setlength{\BOOK@paperWidth}{#1}},
   paperHeight/.code = {\setlength{\BOOK@paperHeight}{#1}},
   typeBlockWidth/.code = {\setlength{\BOOK@typeBlockWidth}{#1}},
@@ -120,12 +125,24 @@
 \RequirePackage{fontspec}
 \defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
 
+\iftonemarksabove
+% Also turns on Stylistic Set 08 which uses both high and low tone marks above
+% the characters
+\setmainfont[
+  ItalicFont=GentiumIncantation-Italic.ttf,
+  BoldFont=GenBkBasB.ttf,
+  BoldItalicFont=GenBkBasBI.ttf,
+  StylisticSet=2,
+  StylisticSet=8,
+]{GentiumIncantation-Regular.ttf}
+\else
 \setmainfont[
   ItalicFont=GentiumIncantation-Italic.ttf,
   BoldFont=GenBkBasB.ttf,
   BoldItalicFont=GenBkBasBI.ttf,
   StylisticSet=2,
 ]{GentiumIncantation-Regular.ttf}
+\fi
 
 \newfontfamily\SanghaIcons{SanghaIcons.ttf}
 
