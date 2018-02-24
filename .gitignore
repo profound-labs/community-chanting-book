@@ -5,8 +5,7 @@
 auto/
 fonts/Calluna-Regular.otf
 fonts/CallunaSansRegular.otf
-helpers/rising-test/ekam-output.txt
-helpers/rising-test/iriya-output.txt
+helpers/rising-test/*-output.txt
 main*.pdf
 cover*.pdf
 chanting-sample-it.pdf
