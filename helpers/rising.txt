@@ -1,0 +1,22 @@
+# only two sounds (so, kho)
+#s/\b\(s\|h\|ch\|th\|ṭh\|kh\|ph\)\([āīūeo]\)\b/&꜔꜒/g
+
+# must not start at word boundary, not two sound word
+# must not be preceded with the first letter of an aspirated sound which is not an allowed starting sound
+# gh jh ḍh dh bh
+# starts with: s, h, ch, th, ṭh, kh, ph
+# long vowel: āīūeo, can end here
+# not stopped, can end with: ṃṅñṇnmyrlḷvh
+# must not be followed by a vowel, which would make it another syllable
+s/\B\([^gjḍdb ]\)\(s\|h\|ch\|th\|ṭh\|kh\|ph\)\([āīūeo]\)\(\?:[ṃṅñṇnmyrlḷvh][^aāiīuūeo]\)\?/\1\2\3꜔꜒\4/g
+
+# or, short wovel, but must end with consonant and not stopped
+s/\B\([^gjḍdb ]\)\(s\|h\|ch\|th\|ṭh\|kh\|ph\)\([aiu]\)\([ṃṅñṇnmyrlḷvh][^aāiīuūeo]\)/\1\2\3꜔꜒\4/g
+
+# starts at the beginning of the word, not two sound word
+s/\b\(s\|h\|ch\|th\|ṭh\|kh\|ph\)\([āīūeo]\)\(\?:[ṃṅñṇnmyrlḷvh][^aāiīuūeo]\)\?/\1\2꜔꜒\3/g
+s/\b\(s\|h\|ch\|th\|ṭh\|kh\|ph\)\([aiu]\)\([ṃṅñṇnmyrlḷvh][^aāiīuūeo]\)/\1\2꜔꜒\3/g
+
+# -smim, -smā
+s/\([aāiīuūeo]\)smiṃ\b/\1smi꜔꜒ṃ/g
+s/\([aāiīuūeo]\)smā\b/\1smā꜔꜒/g
