@@ -1,48 +1,3 @@
-\newcommand\englishPage{%
-  \clearpage%
-  \englishText%
-  %\markboth{\englishTitle}{\rightmark}%
-}
-
-\newcommand\paliPage{%
-  \clearpage%
-  \paliText%
-  %\markboth{\paliTitle}{\rightmark}%
-}
-
-\renewcommand{\englishTitle}{The Foundations of Mindfulness}
-\renewcommand{\paliTitle}{Mahāsatipaṭṭhāna Sutta}
-
-\englishPage
-\chapter{Introduction}
-
-Thus have I heard.
-
-On one occasion the Blessed One was in the Kuru country where there was a town
-of the Kurus named Kammāsadhamma. There the Blessed One addressed the bhikkhus
-thus: “Bhikkhus.” “Bhante,” the bhikkhus replied to the Blessed One. The Blessed
-One said this:
-
-“Bhikkhus, this is the one-way path for the purification of beings, for the
-surmounting of sorrow and lamentation, for the passing away of pain and
-dejection, for the attainment of the true way, for the realisation of Nibbāna,
-namely, the four foundations of mindfulness. What are the four?
-
-Here, bhikkhus, a bhikkhu dwells contemplating the body in the body, ardent,
-clearly comprehending, and mindful, having subdued longing and dejection in
-regard to the world. He dwells contemplating feelings in feelings, ardent,
-clearly comprehending, and mindful, having subdued longing and dejection in
-regard to the world. He dwells contemplating mind in mind, ardent, clearly
-comprehending, and mindful, having subdued longing and dejection in regard to
-the world. He dwells contemplating phenomena in phenomena, ardent, clearly
-comprehending, and mindful, having subdued longing and dejection in regard to
-the world.
-
-\instr{The Introduction is finished.}
-
-\paliPage
-\chapter*{Uddeso}
-
 [Evaṃ me sutaṃ]
 
 Ekaṃ samayaṃ bhagavā kurūsu viharati kammāsadhammaṃ nāma kurūnaṃ nigamo. Tatra
@@ -59,48 +14,6 @@ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke abhijjhā-domanassa꜔�
 cittānupassī꜔꜒ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke abhijjhā-domanassa꜔꜒ṃ,
 dhammesu dhammānupassī꜔꜒ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke
 abhijjhā-domanassa꜔꜒ṃ.
-
-\instr{Uddeso niṭṭhito.}
-
-\englishPage
-\chapter{Contemplation of the Body}
-
-\section{Mindfulness of Breathing}
-
-And how, bhikkhus, does a bhikkhu dwell contemplating\\
-the body in the body?
-
-Here, bhikkhus, a bhikkhu, gone to the forest, to the foot of a tree, or to an
-empty hut, sits down; having folded his legs crosswise, straightened his body,
-and established mindfulness in front of him.
-
-Just mindful he breathes in, mindful he breathes out.\\
-Breathing in long, he understands: ‘I breathe in long’;\\
-or breathing out long, he understands: ‘I breathe out long.’\\
-Breathing in short, he understands: ‘I breathe in short’;\\
-or breathing out short, he understands: ‘I breathe out short.’\\
-He trains thus: ‘I will breathe in experiencing the whole body’;\\
-he trains thus:‘I will breathe out experiencing the whole body.’\\
-He trains thus: ‘I will breathe in tranquilising the bodily formation’;\\
-he trains thus: ‘I will breathe out tranquilising the bodily formation.’
-
-Just as, bhikkhus, a skilled lathe-worker or his apprentice,\\
-when making a long turn, understands: ‘I make a long turn’;\\
-or, when making a short turn, understands: ‘I make a short turn’;\\
-so too, bhikkhus, a bhikkhu\\
-breathing in long, he understands: ‘I breathe in long’;\\
-or breathing out long, he understands: ‘I breathe out long.’\\
-Breathing in short, he understands: ‘I breathe in short’;\\
-or breathing out short, he understands: ‘I breathe out short.’\\
-He trains thus: ‘I will breathe in experiencing the whole body’;\\
-he trains thus: ‘I will breathe out experiencing the whole body.’\\
-He trains thus: ‘I will breathe in tranquilising the bodily formation’;\\
-he trains thus: ‘I will breathe out tranquilising the bodily formation.’
-
-\paliPage
-\chapter*{Kāyānupassanā}
-
-\section*{Ānāpānapabbaṃ}
 
 Katha꜔꜒ñca pana, bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati?
 
@@ -130,45 +43,6 @@ rassa꜔꜒ṃ vā passasa꜔꜒nto ‘rassa꜔꜒ṃ passasā꜔꜒mī’ti paj
 ‘passa꜔꜒mbhayaṃ kāyasa꜔꜒ṅkhā꜔꜒raṃ assasissā꜔꜒mī’ti sikkhati,\\
 ‘passa꜔꜒mbhayaṃ kāyasa꜔꜒ṅkhā꜔꜒raṃ passasissā꜔꜒mī’ti sikkhati.
 
-\englishPage
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on Mindfulness of Breathing is finished.}
-
-\section{The Four Postures}
-
-Again, bhikkhus, a bhikkhu when walking, understands: ‘I am walking’; when
-standing, he understands: ‘I am standing’; when sitting, he understands: ‘I am
-sitting’; when lying down, he understands: ‘I am lying down’; or however his
-body is disposed, he understands it accordingly.
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on the Four Postures is finished.}
-
-\paliPage
-
 Iti ajjhattaṃ vā kāye kāyānupassī꜔꜒ viharati, bahiddhā vā kāye kāyānupassī꜔꜒
 viharati, ajjhatta-bahiddhā vā kāye kāyānupassī꜔꜒ viharati. samudaya-dhammānupassī꜔꜒
 vā kāyasmi꜔꜒ṃ viharati, vaya-dhammā-\\
@@ -176,10 +50,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 ‘atthi kāyo’ti vā panassa sati paccupaṭṭhitā ho꜔꜒ti yāvadeva ñāṇamattāya
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
-
-\instr{Ānāpānapabbaṃ niṭṭhitaṃ.}
-
-\section*{Iriyāpathapabba}
 
 Puna caparaṃ, bhikkhave, bhikkhu gaccha꜔꜒nto vā ‘gacchā꜔꜒mī’ti pajānāti, ṭhito vā
 ‘ṭhitomhī꜔꜒’ti pajānāti, nisi꜔꜒nno vā ‘nisi꜔꜒nnomhī꜔꜒’ti pajānāti, sayāno vā
@@ -193,50 +63,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 ‘atthi kāyo’ti vā panassa sati paccupaṭṭhitā ho꜔꜒ti yāvadeva ñāṇamattāya
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
-
-\instr{Iriyāpathapabbaṃ niṭṭhitaṃ.}
-
-\englishPage
-\section{Clear Comprehension}
-
-Again, bhikkhus, a bhikkhu is one who acts with clear comprehension when going
-forward and returning, who acts with clear comprehension when looking ahead and
-looking away; who acts with clear comprehension when bending and stretching his
-limbs; who acts with clear comprehension when wearing his robes and carrying his
-outer robe and bowl; who acts with clear comprehension when eating, drinking,
-chewing, and tasting; who acts with clear comprehension when defecating and
-urinating; who acts with clear comprehension when walking, standing, sitting,
-falling asleep, waking up, talking and keeping silent.
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on Clear Comprehension is finished.}
-
-\section{Unattractiveness of the Body}
-
-Again, bhikkhus, a bhikkhu reviews this same body up from the soles of the feet
-and down from the top of the hair, bounded by skin, as full of many kinds of
-impurity thus:
-
-\enlargethispage{2\baselineskip}
-
-‘In this body there are head-hairs, body hairs, nails, teeth, skin, flesh,
-sinews, bones, bone-marrow, kidneys, heart, liver, diaphragm, spleen, lungs,
-intestines, mesentery, stomach, feces, bile, phlegm, pus, blood, sweat, fat,
-tears, grease, spittle, snot, oil of the joints, and urine.’
-
-\paliPage
-\section*{Sampajānapabba}
 
 Puna caparaṃ, bhikkhave, bhikkhu abhikkante paṭikkante sa꜔꜒mpajānakārī ho꜔꜒ti,
 ālokite vilokite sa꜔꜒mpajānakārī ho꜔꜒ti, samiñjite pasā꜔꜒rite sa꜔꜒mpajānakārī ho꜔꜒ti,
@@ -252,10 +78,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
 
-\instr{Sampajānapabbaṃ niṭṭhitaṃ.}
-
-\section*{Paṭikūla-manasikārapabba}
-
 Puna caparaṃ, bhikkhave, bhikkhu imameva kāyaṃ uddhaṃ pādatalā adho kesamatthakā
 tacapariyantaṃ pūraṃ nānappakārassa asucino paccavekkhati:
 
@@ -263,38 +85,6 @@ tacapariyantaṃ pūraṃ nānappakārassa asucino paccavekkhati:
 vakkaṃ, hadayaṃ yakanaṃ kilomakaṃ pihakaṃ papphā꜔꜒sa꜔꜒ṃ, antaṃ antaguṇaṃ udariyaṃ
 karīsa꜔꜒ṃ, pittaṃ se꜔꜒mha꜔꜒ṃ pubbo lohitaṃ se꜔꜒do medo, assu vasā꜔꜒ khe꜔꜒ḷo si꜔꜒ṅghāṇikā
 lasikā muttan’ti.
-
-\englishPage
-
-Just as though, bhikkhus, there were a bag with an opening at both ends full of
-many sorts of grain, such as hill rice, red rice, beans, peas, millet, and white
-rice, and a man with good eyes were to open it and review it thus:
-
-‘This is hill rice, this is red rice, these are beans, these are peas, this is
-millet, this is white rice’; so too, bhikkhus, a bhikkhu reviews this same body
-up from the soles of the feet and down from the top of the hair, bounded by
-skin, as full of many kinds of impurity thus:
-
-'In this body there are head-hairs, body hairs, nails, teeth, skin, flesh,
-sinews, bones, bone-marrow, kidneys, heart, liver, diaphragm, spleen, lungs,
-intestines, mesentery, stomach, feces, bile, phlegm, pus, blood, sweat, fat,
-tears, grease, spittle, snot, oil of the joints, and urine.'
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on Unattractiveness of the Body is finished.}
-
-\paliPage
 
 Se꜔꜒yyathā꜔꜒pi, bhikkhave, ubhatomukhā꜔꜒ putoḷi pūrā nānāvihitassa dhaññassa,
 se꜔꜒yyathī꜔꜒daṃ, sā꜔꜒līnaṃ vīhī꜔꜒naṃ muggānaṃ māsā꜔꜒naṃ tilānaṃ taṇḍulānaṃ. Tamenaṃ
@@ -317,45 +107,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
 
-\instr{Paṭikūla-manasikārapabbaṃ niṭṭhitaṃ.}
-
-\englishPage
-\section{Elements}
-
-Again, bhikkhus, a bhikkhu reviews this same body, however it is placed, however
-disposed, as consisting of elements thus: `In this body there are the earth
-element, the water element, the fire element, and the air element.'
-
-Just as though, bhikkhus, a skilled butcher or his apprentice had killed a cow
-and were seated at the crossroads with it cut up into pieces; so too, bhikkhus,
-a bhikkhu reviews this same body, however it is placed, however disposed, as
-consisting of elements thus: `In this body there are the earth element, the
-water element, the fire element, and the air element.'
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on Elements is finished.}
-
-\section{Nine Charnel Ground Contemplations}
-
-[1] Again, bhikkhus, as though he were to see a corpse thrown aside in a charnel
-ground, one, two, or three days dead, bloated, livid, and oozing matter, a
-bhikkhu compares this same body with it thus: 'This body too is of the same
-nature, it will be like that, it is not exempt from that fate.'
-
-\paliPage
-\section*{Dhātu-manasikārapabba}
-
 Puna caparaṃ, bhikkhave, bhikkhu imameva kāyaṃ yathā꜔꜒ṭhitaṃ yathā꜔꜒paṇihitaṃ
 dhātuso꜔꜒ paccavekkhati: ‘atthi imasmi꜔꜒ṃ kāye pathavīdhātu āpodhātu tejodhātu
 vāyodhātū’ti.
@@ -373,49 +124,10 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
 
-\instr{Dhātu-manasikārapabbaṃ niṭṭhitaṃ.}
-
-\section*{Navasivathikapabba}
-
 [1] Puna caparaṃ, bhikkhave, bhikkhu se꜔꜒yyathā꜔꜒pi passe꜔꜒yya sarīraṃ sivathikāya
 chaḍḍitaṃ ekāhamataṃ vā dvīhamataṃ vā tīhamataṃ vā uddhumātakaṃ vinīlakaṃ
 vipubbakajātaṃ. So꜔꜒ imameva kāyaṃ upasa꜔꜒ṃharati: ‘ayampi kho꜔꜒ kāyo evaṃ-dhammo
 evaṃ-bhāvī evaṃ-anatīto’ti.
-
-\englishPage
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-[2] Again, bhikkhus, as though he were to see a corpse thrown aside in a charnel
-ground, being devoured by crows, being devoured by vultures, being devoured by
-hawks, being devoured by dogs, being devoured by jackals, or being devoured by
-various kinds of worms, a bhikkhu compares this same body with it thus: 'This
-body too is of the same nature, it will be like that, it is not exempt from that
-fate.'
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\paliPage
 
 Iti ajjhattaṃ vā kāye kāyānupassī꜔꜒ viharati, bahiddhā vā kāye kāyānupassī꜔꜒
 viharati, ajjhatta-bahiddhā vā kāye kāyānupassī꜔꜒ viharati. samudaya-dhammānupassī꜔꜒
@@ -439,42 +151,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 ‘atthi kāyo’ti vā panassa sati paccupaṭṭhitā ho꜔꜒ti yāvadeva ñāṇamattāya
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
-
-\englishPage
-
-[3]~Again, bhikkhus, as though he were to see a corpse thrown aside in a
-charnel ground, a skeleton with flesh and blood, held together with sinews~\ldots{}
-
-[4]~a fleshless skeleton smeared with blood, held together with sinews~\ldots{}
-
-[5]~a skeleton without flesh and blood, held together with sinews~\ldots{}
-
-[6]~disconnected bones not held together with sinews scattered in all directions
--- here a hand-bone, there a foot bone, here a shin-bone, there a thigh-bone,
-here a hip-bone, there a back-bone, here a rib-bone, there a chest-bone, here an
-arm-bone, there a shoulder-bone, here a neck-bone, there a jaw-bone, here a
-tooth-bone, there the skull -- a bhikkhu compares this same body with it thus:
-`This body too is of the same nature, it will be like that, it is not exempt
-from that fate.'
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-[7] Again, bhikkhus, as though he were to see a corpse thrown aside in a charnel
-ground, bones bleached white, the colour of shells~\ldots{}
-
-[8]~bones heaped up, more than a year old~\ldots{}
-
-\paliPage
 
 [3]~Puna caparaṃ, bhikkhave, bhikkhu se꜔꜒yyathā꜔꜒pi passe꜔꜒yya sarīraṃ sivathikāya
 chaḍḍitaṃ aṭṭhika-sa꜔꜒ṅkhalikaṃ samaṃsa-lohitaṃ nahā꜔꜒ru-sa꜔꜒mbandhaṃ~\ldots{}
@@ -503,30 +179,6 @@ chaḍḍitaṃ aṭṭhikāni se꜔꜒tāni sa꜔꜒ṅkha-vaṇṇa-paṭibhā
 
 [8]~Aṭṭhikāni puñjakitāni terovassikāni~\ldots{}
 
-\englishPage
-
-[9]~bones rotted and crumbled to dust, a bhikkhu compares this same
-body with it thus: ‘This body too is of the same nature, it will be like that,
-it is not exempt from that fate.’
-
-In this way he dwells contemplating the body in the body internally, or he
-dwells contemplating the body in the body externally, or he dwells contemplating
-the body in the body both internally and externally. Or else he dwells
-contemplating in the body its nature of arising, or he dwells contemplating in
-the body its nature of vanishing, or he dwells contemplating in the body its
-nature of both arising and vanishing. Or else mindfulness that ‘there is a body’
-is simply established in him to the extent necessary for bare knowledge and
-repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating the body in the body.
-
-\instr{The section on the Nine Charnel Ground Contemplations is finished.}
-
-\instr{Contemplation of the Body is finished.}
-
-\paliPage
-
 [9]~Aṭṭhikāni pūtīni cuṇṇakajātāni. so꜔꜒ imameva kāyaṃ upasa꜔꜒ṃharati: ‘ayampi kho꜔꜒
 kāyo evaṃ-dhammo evaṃ-bhāvī evaṃ-anatīto’ti.
 
@@ -537,38 +189,6 @@ nupassī꜔꜒ vā kāyasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 ‘atthi kāyo’ti vā panassa sati paccupaṭṭhitā ho꜔꜒ti yāvadeva ñāṇamattāya
 paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. evampi kho꜔꜒,
 bhikkhave, bhikkhu kāye kāyānupassī꜔꜒ viharati.
-
-\instr{Navasivathikapabbaṃ niṭṭhitaṃ.}
-
-\instr{Kāyānupassanā niṭṭhitā.}
-
-\englishPage
-\chapter{Contemplation of Feelings}
-
-And how, bhikkhus, does a bhikkhu dwell contemplating feelings in feelings?
-
-Here, bhikkhus, when feeling a pleasant feeling, a bhikkhu understands:
-`I~feel a pleasant feeling';
-when feeling a painful feeling, he understands:
-`I~feel a painful feeling';
-when feeling a neither-painful-nor-pleasant feeling, he understands:
-`I~feel a neither-painful-nor-pleasant feeling.'
-
-When feeling a carnal pleasant feeling, he understands:
-`I~feel a carnal pleasant feeling';
-when feeling a spiritual pleasant feeling, he understands:
-`I~feel a spiritual pleasant feeling';
-when feeling a carnal painful feeling, he understands:
-`I~feel a carnal painful feeling';
-when feeling a spiritual painful feeling, he understands:
-`I~feel a spiritual painful feeling';
-when feeling a carnal neither-painful-nor-pleasant feeling, he understands:
-`I~feel a carnal neither-painful-nor-pleasant feeling';
-when feeling a spiritual neither-painful-nor-pleasant feeling, he understands:
-`I~feel a spiritual neither-painful-nor-pleasant feeling.'
-
-\paliPage
-\chapter*{Vedanānupassanā}
 
 Katha꜔꜒ñca pana, bhikkhave, bhikkhu vedanāsu vedanānupassī꜔꜒ viharati?
 
@@ -595,40 +215,6 @@ Sā꜔꜒misa꜔꜒ṃ vā adukkhamasukha꜔꜒ṃ vedanaṃ vedayamāno\\
 nirāmisa꜔꜒ṃ vā adukkhamasukha꜔꜒ṃ vedanaṃ vedayamāno\\
 ‘nirāmisa꜔꜒ṃ adukkhamasukha꜔꜒ṃ vedanaṃ vedayāmī’ti pajānāti.
 
-\englishPage
-
-In this way he dwells contemplating feelings in feelings internally, or he
-dwells contemplating feelings in feelings externally, or he dwells contemplating
-feelings in feelings both internally and externally. Or else he dwells
-contemplating in feelings their nature of arising, or he dwells contemplating in
-feelings their nature of vanishing, or he dwells contemplating in feelings their
-nature of both arising and vanishing. Or else mindfulness that ‘there is
-feeling’ is simply established in him to the extent necessary for bare knowledge
-and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating feelings in feelings.
-
-\instr{The Contemplation of Feelings is finished.}
-
-\chapter{Contemplation of Mind}
-
-And how, bhikkhus, does a bhikkhu dwell contemplating mind in mind?
-
-Here, bhikkhus, a bhikkhu\\
-understands a mind with lust as a mind with lust,\\
-and a mind without lust as a mind without lust.\\
-He understands a mind with hatred as a mind with hatred,\\
-and a mind without hatred as a mind without hatred.\\
-He understands a mind with delusion as a mind with delusion,\\
-and a mind without delusion as a mind without delusion.\\
-He understands a contracted mind as contracted,\\
-and a distracted mind as distracted.\\
-He understands an exalted mind as exalted,\\
-and an unexalted mind as unexalted.
-
-\paliPage
-
 Iti ajjhattaṃ vā vedanāsu vedanānupassī꜔꜒ viharati, bahiddhā vā vedanāsu
 vedanānupassī꜔꜒ viharati, ajjhatta-bahiddhā vā vedanāsu vedanānupassī꜔꜒ viharati.
 samudaya-dhammānupassī꜔꜒ vā vedanāsu viharati, vaya-dhammānupassī꜔꜒ vā vedanāsu
@@ -637,10 +223,6 @@ dhammānupassī꜔꜒ vā vedanāsu viharati. ‘atthi vedanā’ti vā panassa 
 paccupaṭṭhitā ho꜔꜒ti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu vedanāsu
 vedanānupassī꜔꜒ viharati.
-
-\instr{Vedanānupassanā niṭṭhitā.}
-
-\chapter*{Cittānupassanā}
 
 Katha꜔꜒ñca pana, bhikkhave, bhikkhu citte cittānupassī꜔꜒ viharati?
 
@@ -656,30 +238,6 @@ vikkhittaṃ vā cittaṃ ‘vikkhittaṃ cittan’ti pajānāti.\\
 mahaggataṃ vā cittaṃ ‘mahaggataṃ cittan’ti pajānāti.\\
 amahaggataṃ vā cittaṃ ‘amahaggataṃ cittan’ti pajānāti.
 
-\englishPage
-
-He understands a surpassable mind as surpassable,\\
-and an unsurpassable mind as unsurpassable.\\
-He understands a concentrated mind as concentrated,\\
-and an unconcentrated mind as unconcentrated.\\
-He understands a liberated mind as liberated,\\
-and an unliberated mind as unliberated.
-
-In this way he dwells contemplating mind in mind internally, or he dwells
-contemplating mind in mind externally, or he dwells contemplating mind in mind
-both internally and externally. Or else he dwells contemplating in mind its
-nature of arising, or he dwells contemplating in mind its nature of vanishing,
-or he dwells contemplating in mind its nature of both arising and vanishing. Or
-else mindfulness that ‘there is mind’ is simply established in him to the extent
-necessary for bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating mind in mind.
-
-\instr{The Contemplation of Mind is finished.}
-
-\paliPage
-
 Sauttaraṃ vā cittaṃ ‘sauttaraṃ cittan’ti pajānāti.\\
 anuttaraṃ vā cittaṃ ‘anuttaraṃ cittan’ti pajānāti.\\
 samāhitaṃ vā cittaṃ ‘samāhitaṃ cittan’ti pajānāti.\\
@@ -694,55 +252,6 @@ nupassī꜔꜒ vā cittasmi꜔꜒ṃ viharati, samudaya-vaya-dhammānupassī꜔�
 viharati, ‘atthi cittan’ti vā panassa sati paccupaṭṭhitā ho꜔꜒ti yāvadeva
 ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati.
 evampi kho꜔꜒, bhikkhave, bhikkhu citte cittānupassī꜔꜒ viharati.
-
-\instr{Cittānupassanā niṭṭhitā.}
-
-\englishPage
-
-\paliPage
-
-\englishPage
-\chapter{Contemplation of Phenomena}
-
-\section{The Five Hindrances}
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena?
-
-Here, bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms
-of the five hindrances.
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena in
-terms of the five hindrances?
-
-Here, bhikkhus, a bhikkhu,
-when there is sensual desire in him, understands:
-`There is sensual desire in me';
-or when there is no sensual desire in him, he understands:
-`There is no sensual desire in me';
-and he also understands how unarisen sensual desire arises,
-and how arisen sensual desire is abandoned,
-and how abandoned sensual desire does not arise again in the future.
-
-When there is ill will in him, a bhikkhu understands:
-`There is ill will in me';
-or when there is no ill will in him, he understands:
-`There is no ill will in me';
-and he also understands how unarisen ill will arises,
-and how arisen ill will is abandoned,
-and how abandoned ill will does not arise again in the future.
-
-When there is dullness and drowsiness in him, a bhikkhu understands:
-`There is dullness and drowsiness in me';
-or when there is no dullness and drowsiness in him, he understands:
-`There is no dullness and drowsiness in me';
-and he also understands how unarisen dullness and drowsiness arises,
-and how arisen dullness and drowsiness is abandoned, and
-how abandoned dullness and drowsiness does not arise again in the future.'
-
-\paliPage
-\chapter*{Dhammānupassanā}
-
-\section*{Nīvaraṇapabba}
 
 Katha꜔꜒ñca pana, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati?
 
@@ -764,48 +273,11 @@ yathā꜔꜒ ca anuppannassa byāpādassa uppādo ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca uppannassa byāpādassa pahā꜔꜒naṃ ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca pahī꜔꜒nassa byāpādassa āyatiṃ anuppādo ho꜔꜒ti tañca pajānāti.
 
-\enlargethispage{\baselineskip}
-
 Sa꜔꜒ntaṃ vā ajjhattaṃ thī꜔꜒namiddhaṃ ‘atthi me ajjhattaṃ thī꜔꜒namiddhan’ti pajānāti,
 asa꜔꜒ntaṃ vā ajjhattaṃ thī꜔꜒namiddhaṃ ‘natthi me ajjhattaṃ thī꜔꜒namiddhan’ti pajānāti,
 yathā꜔꜒ ca anuppannassa thī꜔꜒namiddhassa uppādo ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca uppannassa thī꜔꜒namiddhassa pahā꜔꜒naṃ ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca pahī꜔꜒nassa thī꜔꜒namiddhassa āyatiṃ anuppādo ho꜔꜒ti tañca pajānāti.
-
-\englishPage
-
-When there is restlessness and remorse in him, a bhikkhu understands:
-`There is restlessness and remorse in me';
-or when there is no restlessness and remorse in him, he understands:
-`There is no restlessness and remorse in me';
-and he also understands how unarisen restlessness and remorse arises,
-and how arisen restlessness and remorse is abandoned,
-and how abandoned restlessness and remorse does not arise again in the future.
-
-When there is doubt in him, a bhikkhu understands:
-`There is doubt in me';
-or when there is no doubt in him, he understands:
-`There is no doubt in me';
-and he also understands how unarisen doubt arises,
-and how arisen doubt is abandoned,
-and how abandoned doubt does not arise again in the future.
-
-In this way he dwells contemplating phenomena in phenomena internally, or he
-dwells contemplating phenomena in phenomena externally, or he dwells
-contemplating phenomena in phenomena both internally and externally. Or else he
-dwells contemplating in phenomena its nature of arising, or he dwells
-contemplating in phenomena its nature of vanishing, or he dwells contemplating
-in phenomena its nature of both arising and vanishing. Or else mindfulness that
-‘there are phenomena’ is simply established in him to the extent necessary for
-bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms of five
-hindrances.
-
-\instr{The section on the Five Hindrances is finished.}
-
-\paliPage
 
 Sa꜔꜒ntaṃ vā ajjhattaṃ uddhacca-kukkuccaṃ ‘atthi me ajjhattaṃ uddhacca-kukkuccan’ti pajānāti,
 asa꜔꜒ntaṃ vā ajjhattaṃ uddhacca-kukkuccaṃ ‘natthi me ajjhattaṃ uddhacca-kukkuccan’ti pajānāti,
@@ -830,42 +302,6 @@ yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu
 dhammesu dhammānupassī꜔꜒ viharati pañcasu nīvaraṇesu.
 
-\instr{Nīvaraṇapabbaṃ niṭṭhitaṃ.}
-
-\englishPage
-\section{The Five Aggregates}
-
-Again, bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms
-of the five aggregates subject to clinging.
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena in
-terms of the five aggregates affected by clinging?
-
-Here, bhikkhus, a bhikkhu understands:
-`Such is form, such its origin, such its passing away;
-such is feeling, such its origin, such its passing away;
-such is perception, such its origin, such its passing away;
-such are the volitional formations, such their origin, such their passing away;
-such is consciousness, such its origin, such its passing away.'
-
-In this way he dwells contemplating phenomena in phenomena internally, or he
-dwells contemplating phenomena in phenomena externally, or he dwells
-contemplating phenomena in phenomena both internally and externally. Or else he
-dwells contemplating in phenomena its nature of arising, or he dwells
-contemplating in phenomena its nature of vanishing, or he dwells contemplating
-in phenomena its nature of both arising and vanishing. Or else mindfulness that
-‘there are phenomena’ is simply established in him to the extent necessary for
-bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms of the
-five aggregates subject to clinging.
-
-\instr{The section on the Five Aggregates is finished.}
-
-\paliPage
-\section*{Khandhapabba}
-
 Puna caparaṃ, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati pañcasu
 upādāna-kkha꜔꜒ndhesu.
 
@@ -889,40 +325,6 @@ samudaya-vaya-\\ dhammānupassī꜔꜒ vā dhammesu viharati.
 yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu
 dhammesu dhammānupassī꜔꜒ viharati pañcasu upādāna-kkha꜔꜒ndhesu.
-
-\instr{Khandhapabbaṃ niṭṭhitaṃ.}
-
-\englishPage
-\section{The Six Sense Bases}
-
-Again, bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms
-of the six internal and external sense bases.
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena in
-terms of the six internal and external sense bases?
-
-Here, bhikkhus, a bhikkhu understands the eye, he understands forms, and he
-understands the fetter that arises dependent on both; and he also understands
-how the unarisen fetter arises, and how the arisen fetter is abandoned, and how
-the abandoned fetter does not arise again in the future.
-
-He understands the ear, he understands sounds, and he understands the fetter
-that arises dependent on both; and he also understands how the unarisen fetter
-arises, and how the arisen fetter is abandoned, and how the abandoned fetter
-does not arise again in the future.
-
-He understands the nose, he understands odours, and he understands the fetter
-that arises dependent on both; and he also understands how the unarisen fetter
-arises, and how the arisen fetter is abandoned, and how the abandoned fetter
-does not arise again in the future.
-
-He understands the tongue, he understands flavours, and he understands the
-fetter that arises dependent on both; and he also understands how the unarisen
-fetter arises, and how the arisen fetter is abandoned, and how the abandoned
-fetter does not arise again in the future.
-
-\paliPage
-\section*{Āyatanapabba}
 
 Puna caparaṃ, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati chasu
 ajjhattika-bāhiresu āyatanesu.
@@ -959,43 +361,6 @@ yathā꜔꜒ ca anuppannassa sa꜔꜒ṃyojanassa uppādo ho꜔꜒ti tañca paj�
 yathā꜔꜒ ca uppannassa sa꜔꜒ṃyojanassa pahā꜔꜒naṃ ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca pahī꜔꜒nassa sa꜔꜒ṃyojanassa āyatiṃ anuppādo ho꜔꜒ti tañca pajānāti.
 
-\englishPage
-
-He understands the body, he understands tactile objects, and he understands the
-fetter that arises dependent on both; and he also understands how the unarisen
-fetter arises, and how the arisen fetter is abandoned, and how the abandoned
-fetter does not arise again in the future.
-
-He understands the mind, he understands phenomena, and he understands the fetter
-that arises dependent on both; and he also understands how the unarisen fetter
-arises, and how the arisen fetter is abandoned, and how the abandoned fetter
-does not arise again in the future.
-
-In this way he dwells contemplating phenomena in phenomena internally, or he
-dwells contemplating phenomena in phenomena externally, or he dwells
-contemplating phenomena in phenomena both internally and externally. Or else he
-dwells contemplating in phenomena its nature of arising, or he dwells
-contemplating in phenomena its nature of vanishing, or he dwells contemplating
-in phenomena its nature of both arising and vanishing. Or else mindfulness that
-‘there are phenomena’ is simply established in him to the extent necessary for
-bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms of the
-six internal and external sense bases.
-
-\instr{The section on the six sense bases is finished.}
-
-\section{The Seven Enlightenment Factors}
-
-Again, bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms
-of the seven enlightenment factors.
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena in
-terms of the seven enlightenment factors?
-
-\paliPage
-
 Kāyañca pajānāti,
 pho꜔꜒ṭṭhabbe ca pajānāti,
 yañca tadubhayaṃ paṭicca uppajjati sa꜔꜒ṃyojanaṃ tañca pajānāti,
@@ -1021,49 +386,11 @@ yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu
 dhammesu dhammānupassī꜔꜒ viharati chasu ajjhattika-bāhiresu āyatanesu.
 
-\instr{Āyatanapabbaṃ niṭṭhitaṃ.}
-
-\section*{Bojjhaṅgapabba}
-
 Puna caparaṃ, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati sattasu
 bojjhaṅgesu.
 
 Katha꜔꜒ñca pana, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati sattasu
 bojjhaṅgesu?
-
-\englishPage
-
-Here, bhikkhus, when there is the mindfulness enlightenment factor in him, a
-bhikkhu understands: `There is the mindfulness enlightenment factor in me'; or
-when there is no mindfulness enlightenment factor in him, he understands: `There
-is no mindfulness enlightenment factor in me'; and he also understands how the
-unarisen mindfulness enlightenment factor arises, and how the arisen mindfulness
-enlightenment factor comes to fulfillment by deveopment.
-
-When there is the discrimination of phenomena enlightenment factor in him, a
-bhikkhu understands: `There is the discrimination of phenomena enlightenment
-factor in me'; or when there is no discrimination of phenomena enlightenment
-factor in him, he understands: `There is no discrimination of phenomena
-enlightenment factor in me'; and he also understands how the unarisen
-discrimination of phenomena enlightenment factor arises, and how the arisen
-discrimination of phenomena enlightenment factor comes to fulfillment by
-deveopment.
-
-When there is the energy enlightenment factor in him, a bhikkhu understands:
-`There is the energy enlightenment factor in me'; or when there is no energy
-enlightenment factor in him, he understands: `There is no energy enlightenment
-factor in me'; and he also understands how the unarisen energy enlightenment
-factor arises, and how the arisen energy enlightenment factor comes to
-fulfillment by deveopment.
-
-When there is the rapture enlightenment factor in him, a bhikkhu understands:
-`There is the rapture enlightenment factor in me'; or when there is no rapture
-enlightenment factor in him, he understands: `There is no rapture enlightenment
-factor in me'; and he also understands how the unarisen rapture enlightenment
-factor arises, and how the arisen rapture enlightenment factor comes to
-fulfillment by deveopment.
-
-\paliPage
 
 Idha, bhikkhave, bhikkhu
 sa꜔꜒ntaṃ vā ajjhattaṃ sati-sa꜔꜒mbojjhaṅgaṃ ‘atthi me ajjhattaṃ sati-sa꜔꜒mbojjhaṅgo’ti pajānāti,
@@ -1085,43 +412,6 @@ Sa꜔꜒ntaṃ vā ajjhattaṃ pīti-sa꜔꜒mbojjhaṅgaṃ ‘atthi me ajjhatt
 asa꜔꜒ntaṃ vā ajjhattaṃ pīti-sa꜔꜒mbojjhaṅgaṃ ‘natthi me ajjhattaṃ pīti-sa꜔꜒mbojjhaṅgo’ti pajānāti,
 yathā꜔꜒ ca anuppannassa pīti-sa꜔꜒mbojjhaṅgassa uppādo ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca uppannassa pīti-sa꜔꜒mbojjhaṅgassa bhāvanāya pāripūrī ho꜔꜒ti tañca pajānāti.
-
-\englishPage
-
-When there is the tranquillity enlightenment factor in him, a bhikkhu
-understands: `There is the tranquillity enlightenment factor in me'; or when
-there is no tranquillity enlightenment factor in him, he understands: `There is
-no tranquillity enlightenment factor in me'; and he also understands how the
-unarisen tranquillity enlightenment factor arises, and how the arisen
-tranquillity enlightenment factor comes to fulfillment by deveopment.
-
-When there is the concentration enlightenment factor in him, a bhikkhu
-understands: `There is the concentration enlightenment factor in me'; or when
-there is no concentration enlightenment factor in him, he understands: `There is
-no concentration enlightenment factor in me'; and he also understands how the
-unarisen concentration enlightenment factor arises, and how the arisen
-concentration enlightenment factor comes to fulfillment by deveopment.
-
-When there is the equanimity enlightenment factor in him, a bhikkhu understands:
-`There is the equanimity enlightenment factor in me'; or when there is no
-equanimity enlightenment factor in him, he understands: `There is no equanimity
-enlightenment factor in me'; and he also understands how the unarisen equanimity
-enlightenment factor arises, and how the arisen equanimity enlightenment factor
-comes to fulfillment by deveopment.
-
-\enlargethispage{2\baselineskip}
-
-In this way he dwells contemplating phenomena in phenomena \ldots{} or else
-mindfulness that ‘there are phenomena’ is simply established in him to the
-extent necessary for bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms of the
-seven enlightenment factors.
-
-\instr{The section on the seven enlightenment factors is finished.}
-
-\paliPage
 
 Sa꜔꜒ntaṃ vā ajjhattaṃ passaddhi-sa꜔꜒mbojjhaṅgaṃ ‘atthi me ajjhattaṃ passaddhi-sa꜔꜒mbojjhaṅgo’ti pajānāti,
 asa꜔꜒ntaṃ vā ajjhattaṃ passaddhi-sa꜔꜒mbojjhaṅgaṃ ‘natthi me ajjhattaṃ passaddhi-\\ sa꜔꜒mbojjhaṅgo’ti pajānāti,
@@ -1149,44 +439,6 @@ yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu
 dhammesu dhammānupassī꜔꜒ viharati sattasu bojjhaṅgesu.
 
-\enlargethispage{\baselineskip}
-
-\instr{Bojjhaṅgapabbaṃ niṭṭhitaṃ.}
-
-\englishPage
-\section*{The Truths}% starred, to save an entry in the TOC
-
-Again, bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms
-of the Four Noble Truths.
-
-And how, bhikkhus, does a bhikkhu dwell contemplating phenomena in phenomena in
-terms of the Four Noble Truths?
-
-Here, bhikkhus, a bhikkhu understands as it really is: `This is suffering. The
-is the origin of suffering. This is the cessation of suffering. This is the way
-leading to the cessation of suffering.'
-
-\section{Suffering}
-
-And what, bhikkhus, is the noble truth of suffering? Birth is suffering; ageing
-is suffering; death is suffering; sorrow, lamentation, pain, grief, and despair
-are suffering; union with what is displeasing is suffering; separation from what
-is pleasing is suffering; not to get what one wants is suffering; in brief, the
-five aggregates subject to clinging are suffering.
-
-And what, bhikkhus, is birth? The birth of beings into the vaious orders of
-beings, their coming to birth, precipitation [in a womb], generation, the
-manifestation of the aggregates, obtaining the bases for contact -- this is
-called birth.
-
-And what, bhikkhus, is ageing? The ageing of beings in the various orders of
-beings, their old age, brokenness of teeth, greyness of hair, wrinkling of skin,
-deline of life, weakness of faculties -- this is called ageing.
-
-\paliPage
-
-\section*{Saccapabba}
-
 Puna caparaṃ, bhikkhave, bhikkhu dhammesu dhammānupassī꜔꜒ viharati catūsu
 ariyasaccesu.
 
@@ -1196,8 +448,6 @@ ariyasaccesu?
 Idha, bhikkhave, bhikkhu ‘idaṃ dukkha꜔꜒n’ti yathā꜔꜒bhūtaṃ pajānāti, ‘ayaṃ
 dukkha-samudayo’ti yathā꜔꜒bhūtaṃ pajānāti, ‘ayaṃ dukkha-nirodho’ti yathā꜔꜒bhūtaṃ
 pajānāti, ‘ayaṃ dukkha-nirodha-gāminī paṭipadā’ti yathā꜔꜒bhūtaṃ pajānāti.
-
-\section*{Dukkha-sacca}
 
 Katamañca, bhikkhave, dukkha꜔꜒ṃ ariyasaccaṃ? Jātipi dukkhā꜔꜒, jarāpi dukkhā꜔꜒,
 maraṇampi dukkha꜔꜒ṃ, so꜔꜒ka-parideva-dukkha-\\ domanass'upāyāsā꜔꜒pi dukkhā꜔꜒, appiyehi
@@ -1211,39 +461,6 @@ vuccati, bhikkhave, jāti.
 Katamā ca, bhikkhave, jarā? Yā tesa꜔꜒ṃ tesa꜔꜒ṃ sattānaṃ tamhi tamhi sattanikāye jarā
 jīraṇatā kha꜔꜒ṇḍiccaṃ pāliccaṃ valittacatā āyuno sa꜔꜒ṃhā꜔꜒ni indriyānaṃ paripāko, ayaṃ
 vuccati, bhikkhave, jarā.
-
-\englishPage
-
-And what, bhikkhus, is death? The passing of beings out of the various orders of
-beings, their passing away, dissolution, disappearance, dying, death, completion
-of time, dissolution of aggregates, laying down of the body, the cutting off of
-the life faculty -- this is called death.
-
-And what, bhikkhus, is sorrow? Bhikkhus, for one who has encountered some
-misfortune or is affected by some painful state, there is sorrow, sorrowing,
-sorrowfulness, inner sorrow, inner sorriness -- this is called sorrow.
-
-And what, bhikkhus, is lamentation? Bhikkhus, for one who has encountered some
-misfortune or is affected by some painful state, there is wail and lament,
-wailing and lamenting, bewailing and lamentation -- this is called lamentation.
-
-And what, bhikkhus, is pain? That, bhikkhus, which is bodily pain, bodily
-discomfort, painful, uncomfortable feeling born of bodily contact -- this is
-called pain.
-
-And what, bhikkhus, is grief? That, bhikkhus, which is mental pain, mental
-discomfort, painful, uncomfortable feeling born of mental contact -- this is
-called grief.
-
-And what, bhikkhus, is despair? Bhikkhus, for one who has encountered some
-misfortune or is affected by some painful state, there is the trouble and
-despair, the tribulation and desperation -- this is called despair.
-
-And what, bhikkhus, is `union with what is displeasing is suffering'? Here,
-bhikkhus, for one who has undesireable, unlovely, disagreeable forms, sounds,
-ordours, tastes, and tactile objects;
-
-\paliPage
 
 Katamañca, bhikkhave, maraṇaṃ? Yaṃ tesa꜔꜒ṃ tesa꜔꜒ṃ sattānaṃ tamhā꜔꜒ tamhā꜔꜒ sattanikāyā
 cuti cavanatā bhedo antaradhānaṃ maccu maraṇaṃ kālakiriyā kha꜔꜒ndhānaṃ bhedo
@@ -1273,40 +490,6 @@ samannāgatassa aññatar'aññatarena dukkha-dhammena phuṭṭhassa āyāso꜔
 Katamo ca, bhikkhave, appiyehi sa꜔꜒mpayogo dukkho꜔꜒? Idha yassa te ho꜔꜒nti aniṭṭhā꜔꜒
 akantā amanāpā rūpā saddā gandhā rasā꜔꜒ pho꜔꜒ṭṭhabbā dhammā,
 
-\englishPage
-
-or for one who has those who do not desire his welfare, his benefit, his
-comfort, and his security -- (and then) having meetings, assembly, connection,
-and mixing with them: this, bhikkhus, is called `union with what is displeasing
-is suffering'.
-
-And what, bhikkhus, is `separation from what is pleasing is suffering'? Here,
-bhikkhus, for one who has desirable, lovely, agreeable forms, sounds, ordours,
-tastes, and tactile objects; or, for one who has those who do desire his
-welfare, his benefit, his comfort and his security -- mothers, fathers,
-brothers, or sisters; friends, companions, or blood relatives -- (and then) not
-having meetings, assembly, connection, and mixing with them: this, bhikkhus, is
-called `separation from what is pleasing is suffering'?
-
-And what, bhikkhus, is `not to get what one wants is suffeing'? To beings
-subject to birth there comes the wish: `Oh, that we were not subject to birth!
-That birth would not come to us!' But this is not to be obtained by wishing;
-this is `not to get what one wants is suffering.'
-
-To beings subject to ageing there comes the wish: `Oh, that we were not subject
-to ageing! That ageing would not come to us!' But this is not to be obtained by
-wishing; this is `not to get what one wants is suffering.'
-
-To beings subject to sickness there comes the wish: `Oh, that we were not
-subject to sickness! That sickness would not come to us!' But this is not to be
-obtained by wishing; this is `not to get what one wants is suffering.'
-
-To beings subject to death there comes the wish: `Oh, that we were not subject
-to death! That death would not come to us!' But this is not to be obtained by
-wishing; this is `not to get what one wants is suffering.'
-
-\paliPage
-
 ye vā panassa te ho꜔꜒nti anatthakāmā ahitakāmā aphā꜔꜒sukakāmā ayogakkhe꜔꜒makāmā, yā
 tehi saddhiṃ sa꜔꜒ṅgati samāgamo samodhānaṃ missī꜔꜒bhāvo, ayaṃ vuccati, bhikkhave,
 appiyehi sa꜔꜒mpayogo dukkho꜔꜒.
@@ -1334,46 +517,6 @@ Maraṇadhammānaṃ, bhikkhave, sattānaṃ evaṃ icchā꜔꜒ uppajjati ‘ah
 maraṇadhammā assā꜔꜒ma, na ca vata no maraṇaṃ āgacche꜔꜒yyā’ti. Na kho꜔꜒ panetaṃ icchā꜔꜒ya
 pattabbaṃ, idampi yampiccha꜔꜒ṃ na labhati tampi dukkha꜔꜒ṃ.
 
-\englishPage
-
-To beings subject to sorrow, lamentation, pain, grief, and despair, there comes
-the wish: `Oh, that we were not subject to sorrow, lamentation, pain, grief, and
-despair! That sorrow, lamentation, pain, grief, and despair would not come to
-us!' But this is not to be obtained by wishing; this is `not to get what one
-wants is suffering.'
-
-And what, bhikkhus, are the five aggregates subject to clinging that, in brief,
-are suffering? They are: the material form aggregate subject to clinging, the
-feeling aggregate subject to clinging, the perception aggregate subject to
-clinging, the volitional formations aggregate subject to clinging, the
-consciousness aggregate subject to clinging. These are the five aggregates
-subject to clinging that, in brief, are suffering.
-
-This, bhikkhus, is called the noble truth of suffering.
-
-\section{Origin}
-
-And what, bhikkhus, is the noble truth of the origin of suffering? It is this
-craving, which leads to renewed existence, accompanied by delight and lust,
-seeking delight in this and that; that is, craving for sensual pleasures,
-craving for existence, and craving for non-existence.
-
-Now where, bhikkhus, does that craving when it is arising arise? When settling
-where does it settle? That in the world which is pleasant and agreeable -- here
-this craving when it is arising arises, here when settling it settles.
-
-In the world what is pleasant and agreeable? In the world the eye \ldots{} the
-ear \ldots{} the nose \ldots{} the tongue \ldots{} the body \ldots{} the mind is
-likeable and pleasing -- here this craving when it is arising arises, here when
-settling it settles.
-
-In the world the forms \ldots{} the sounds \ldots{} the ordours \ldots{} the
-tastes \ldots{} the tactile objects \ldots{} the mental phenomena is likeable
-and pleasing -- here this craving when it is arising arises, here when settling
-it settles.
-
-\paliPage
-
 So꜔꜒ka-parideva-dukkha-domanass'upāyāsa-dhammānaṃ, bhikkhave, sattānaṃ evaṃ icchā꜔꜒
 uppajjati ‘aho꜔꜒ vata mayaṃ na so꜔꜒ka-parideva-\\
 dukkha-domanass'upāyāsa-dhammā assā꜔꜒ma, na ca vata no so꜔꜒ka-\\
@@ -1387,8 +530,6 @@ sa꜔꜒ṅkhittena pañcupādāna-kkha꜔꜒ndhā dukkhā꜔꜒.
 
 Idaṃ vuccati, bhikkhave, dukkha꜔꜒ṃ ariyasaccaṃ.
 
-\section*{Samudaya-sacca}
-
 Katamañca, bhikkhave, dukkha-samudayaṃ ariyasaccaṃ? Yāyaṃ taṇhā꜔꜒ ponobbhavikā
 nandi-rāga-sahagatā tatra-tatrābhinandinī, se꜔꜒yyathī꜔꜒daṃ, kāmataṇhā꜔꜒ bhavataṇhā꜔꜒
 vibhavataṇhā꜔꜒.
@@ -1396,8 +537,6 @@ vibhavataṇhā꜔꜒.
 Sā꜔꜒ kho꜔꜒ panesā꜔꜒, bhikkhave, taṇhā꜔꜒ kattha uppajjamānā uppajjati, kattha nivīsamānā
 nivīsati? Yaṃ loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati,
 ettha nivīsamānā nivīsati.
-
-\enlargethispage{\baselineskip}
 
 Kiñca loke piyarūpaṃ sā꜔꜒tarūpaṃ? Cakkhu loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
 uppajjamānā uppajjati, ettha nivīsamānā nivīsati. So꜔꜒taṃ loke
@@ -1408,42 +547,6 @@ nivīsati.
 Rūpā loke \ldots{} saddā loke \ldots{} gandhā loke \ldots{} rasā꜔꜒ loke \ldots{}
 pho꜔꜒ṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
 uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
-
-\englishPage
-
-In the world the eye-consciousness \ldots{} ear-consciousness \ldots{} nose-consciousness
- \ldots{} tongue-consciousness \ldots{} body-consciousness \ldots{} mind-consciousness is likeable
-and pleasing -- here this craving when it is arising arises, here when settling
-it settles.
-
-In the world the eye-contact \ldots{} ear-contact \ldots{} nose-contact \ldots{}
-tongue-contact \ldots{} body-contact \ldots{} mind-contact is likeable and
-pleasing -- here this craving when it is arising arises, here when settling it
-settles.
-
-In the world feeling born of eye-contact \ldots{} feeling born of ear-contact
-\ldots{} feeling born of nose-contact \ldots{} feeling born of tongue-contact
-\ldots{} feeling born of body-contact \ldots{} feeling born of mind-contact is
-likeable and pleasing -- here this craving when it is arising arises, here when
-settling it settles.
-
-In the world perception of forms \ldots{} perception of sounds \ldots{}
-perception of odours \ldots{} perception of tastes \ldots{} perception of
-tactile objects \ldots{} perception of mental phenomena is likeable and pleasing
--- here this craving when it is arising arises, here when settling it settles.
-
-In the world volition regarding forms \ldots{} volition regarding sounds
-\ldots{} volition regarding odours \ldots{} volition regarding tastes \ldots{}
-volition regarding tactile objects \ldots{} volition regarding mental phenomena
-is likeable and pleasing -- here this craving when it is arising arises, here
-when settling it settles.
-
-In the world craving for forms \ldots{} craving for sounds \ldots{} craving for
-odours \ldots{} craving for tastes \ldots{} craving for tactile objects \ldots{}
-craving for mental phenomena is likeable and pleasing -- here this craving when
-it is arising arises, here when settling it settles.
-
-\paliPage
 
 Cakkhu-viññāṇaṃ loke \ldots{} so꜔꜒ta-viññāṇaṃ loke \ldots{} ghāna-viññāṇaṃ loke
 \ldots{} jivhā꜔꜒-viññāṇaṃ loke \ldots{} kāya-viññāṇaṃ loke \ldots{} mano-viññāṇaṃ
@@ -1473,44 +576,6 @@ Rūpa-taṇhā꜔꜒ loke \ldots{} sadda-taṇhā꜔꜒ loke \ldots{} gandha-ta�
 rasa-taṇhā꜔꜒ loke \ldots{} pho꜔꜒ṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
 
-\englishPage
-
-In the world thought about forms \ldots{} thought about sounds \ldots{} thought
-about odours \ldots{} thought about tastes \ldots{} thought about tactile
-objects \ldots{} thought about mental phenomena is likeable and pleasing -- here
-this craving when it is arising arises, here when settling it settles.
-
-In the world examination of forms \ldots{} examination of sounds \ldots{}
-examination of odours \ldots{} examination of tastes \ldots{} examination of
-tactile objects \ldots{} examination of mental phenomena is likeable and
-pleasing -- here this craving when it is arising arises, here when settling it
-settles.
-
-This, bhikkhus, is called the noble truth of the origin of suffering.
-
-\section{Cessation}
-
-And what, bhikkhus, is the noble truth of the cessation of suffering? It is the
-remainderless fading away and cessation of that same craving, the giving up and
-relinquishing of it, freedom from it, non-reliance on it.
-
-Now where, bhikkhus, is that craving when it is being abandoned, abandoned? When
-ceasing where does it cease? That in the world which is pleasant and agreeable
--- here this craving when it is being abandoned, abandoned, here when ceasing it
-ceases.
-
-In the world what is pleasant and agreeable? In the world the eye \ldots{} the
-ear \ldots{} the nose \ldots{} the tongue \ldots{} the body \ldots{} the mind is
-likeable and pleasing -- here this craving when it is being abandoned, abandoned,
-here when ceasing it ceases.
-
-In the world the forms \ldots{} the sounds \ldots{} the ordours \ldots{} the
-tastes \ldots{} the tactile objects \ldots{} the mental phenomena is likeable
-and pleasing -- here this craving when it is being abandoned, abandoned, here
-when ceasing it ceases.
-
-\paliPage
-
 Rūpa-vitakko loke \ldots{} sadda-vitakko loke \ldots{} gandha-vitakko loke \ldots{}
 rasa-vitakko loke \ldots{} pho꜔꜒ṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā
@@ -1522,8 +587,6 @@ piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamā
 nivīsati.
 
 Idaṃ vuccati, bhikkhave, dukkha-samudayaṃ ariyasaccaṃ.
-
-\section*{Nirodha-sacca}
 
 Katamañca, bhikkhave, dukkha-nirodhaṃ ariyasaccaṃ? Yo tassā꜔꜒yeva taṇhā꜔꜒ya
 ase꜔꜒sa-virāga-nirodho cāgo paṭinissaggo mutti anālayo.
@@ -1541,43 +604,6 @@ nirujjhati.
 Rūpā loke \ldots{} saddā loke \ldots{} gandhā loke \ldots{} rasā꜔꜒ loke \ldots{}
 pho꜔꜒ṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
 pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
-
-\englishPage
-
-In the world the eye-consciousness \ldots{} ear-consciousness \ldots{}
-nose-consciousness \ldots{} tongue-consciousness \ldots{} body-consciousness
-\ldots{} mind-consciousness is likeable and pleasing -- here this craving when
-it is being abandoned, abandoned, here when ceasing it ceases.
-
-In the world the eye-contact \ldots{} ear-contact \ldots{} nose-contact \ldots{}
-tongue-contact \ldots{} body-contact \ldots{} mind-contact is likeable and
-pleasing -- here this craving when it is being abandoned, abandoned, here when
-ceasing it ceases.
-
-In the world feeling born of eye-contact \ldots{} feeling born of ear-contact
-\ldots{} feeling born of nose-contact \ldots{} feeling born of tongue-contact
-\ldots{} feeling born of body-contact \ldots{} feeling born of mind-contact is
-likeable and pleasing -- here this craving when it is being abandoned, abandoned,
-here when ceasing it ceases.
-
-In the world perception of forms \ldots{} perception of sounds \ldots{}
-perception of odours \ldots{} perception of tastes \ldots{} perception of
-tactile objects \ldots{} perception of mental phenomena is likeable and pleasing
--- here this craving when it is being abandoned, abandoned, here when ceasing it
-ceases.
-
-In the world volition regarding forms \ldots{} volition regarding sounds
-\ldots{} volition regarding odours \ldots{} volition regarding tastes \ldots{}
-volition regarding tactile objects \ldots{} volition regarding mental phenomena
-is likeable and pleasing -- here this craving when it is being abandoned,
-abandoned, here when ceasing it ceases.
-
-In the world craving for forms \ldots{} craving for sounds \ldots{} craving for
-odours \ldots{} craving for tastes \ldots{} craving for tactile objects \ldots{}
-craving for mental phenomena is likeable and pleasing -- here this craving when
-it is being abandoned, abandoned, here when ceasing it ceases.
-
-\paliPage
 
 Cakkhu-viññāṇaṃ loke \ldots{} so꜔꜒ta-viññāṇaṃ loke \ldots{} ghāna-viññāṇaṃ loke
 \ldots{} jivhā꜔꜒-viññāṇaṃ loke \ldots{} kāya-viññāṇaṃ loke \ldots{} mano-viññāṇaṃ
@@ -1607,43 +633,6 @@ Rūpa-taṇhā꜔꜒ loke \ldots{} sadda-taṇhā꜔꜒ loke \ldots{} gandha-ta�
 rasa-taṇhā꜔꜒ loke \ldots{} pho꜔꜒ṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
 
-\englishPage
-
-In the world thought about forms \ldots{} thought about sounds \ldots{} thought
-about odours \ldots{} thought about tastes \ldots{} thought about tactile
-objects \ldots{} thought about mental phenomena is likeable and pleasing -- here
-this craving when it is being abandoned, abandoned, here when ceasing it ceases.
-
-In the world examination of forms \ldots{} examination of sounds \ldots{}
-examination of odours \ldots{} examination of tastes \ldots{} examination of
-tactile objects \ldots{} examination of mental phenomena is likeable and
-pleasing -- here this craving when it is being abandoned, abandoned, here when
-ceasing it ceases.
-
-This, bhikkhus, is called the noble truth of the cessation of suffering.
-
-\section{The Way}
-
-And what, bhikkhus, is the noble truth of the way leading to the cessation of
-suffering? It is this Noble Eightfold Path; that is right view, right intention,
-right speech, right action, right livelihood, right effort, right mindfulness,
-right concentration.
-
-And what, bhikkhus, is right view? Bhikkhus, the knowledge of suffering,
-knowledge of the origin of suffering, knowledge of the cessation of suffering,
-knowledge of the way leading to the cessation of suffering: this, bhikkhus, is
-called right view.
-
-And what, bhikkhus, is right intention? Intention of renunciation, intention of
-non-ill will, intention of harmlessness: this, bhikkhus, is called right
-intention.
-
-And what, bhikkhus, is right speech? Abstinence from false speech, abstinence
-from divisive sppech, abstinence from harsh speech, abstinence from idle
-chatter: this, bhikkhus, is called right speech.
-
-\paliPage
-
 Rūpa-vitakko loke \ldots{} sadda-vitakko loke \ldots{} gandha-vitakko loke \ldots{}
 rasa-vitakko loke \ldots{} pho꜔꜒ṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā
@@ -1655,8 +644,6 @@ piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔�
 nirujjhati.
 
 Idaṃ vuccati, bhikkhave, dukkhanirodhaṃ ariyasaccaṃ.
-
-\section*{Magga-sacca}
 
 Katamañca, bhikkhave, dukkha-nirodha-gāminī paṭipadā ariyasaccaṃ? ayameva ariyo
 aṭṭha꜔꜒ṅgiko maggo se꜔꜒yyathī꜔꜒daṃ, sa꜔꜒mmā-diṭṭhi sa꜔꜒mmā-sa꜔꜒ṅkappo sa꜔꜒mmā-vācā
@@ -1672,43 +659,6 @@ avihi꜔꜒ṃsā꜔꜒-sa꜔꜒ṅkappo. ayaṃ vuccati, bhikkhave, sa꜔꜒mm�
 Katamā ca, bhikkhave, sa꜔꜒mmā-vācā? musā꜔꜒vādā veramaṇī pisuṇāya vācāya veramaṇī
 pharusā꜔꜒ya vācāya veramaṇī sa꜔꜒mphappalāpā veramaṇī. ayaṃ vuccati, bhikkhave,
 sa꜔꜒mmā-vācā.
-
-\englishPage
-
-And what, bhikkhus, is right action? Abstinence from the destruction of life,
-abstinence from taking what is not given, abstinence from sexual misconduct:
-this, bhikkhus, is called right action.
-
-And what, bhikkhus, is right livelihood? Here, bhikkhus, a noble disciple,
-having abandoned a wrong mode of livelihood, earns his living by a right
-livelihood: this, bhikkhus, is called right livelihood.
-
-And what, bhikkhus, is right effort? Here, bhikkhus, a bhikkhu, for the
-nonarising of unarisen evil unwholesome states; he generates desire, makes an
-effort, arouses energy, applies his mind, and strives. For the abandoning of
-arisen evil unwholesome states; he generates desire, makes an effort, arouses
-energy, applies his mind, and strives. For the arising of unarisen wholesome
-states; he generates desire, makes an effort, arouses energy, applies his mind,
-and strives. For the maintenance of arisen wholesome states, for their nondecay,
-increase, expansion, and fulfilment by development; he generates desire, makes
-an effort, arouses energy, applies his mind, and strives. This, bhikkhus, is
-called right effort.
-
-And what, bhikkhus, is right mindfulness? Here, bhikkhus, a bhikkhu dwells
-contemplating the body in the body, ardent, clearly comprehending, and mindful,
-having subdued longing and dejection in regard to the world.
-
-He dwells contemplating feelings in feelings, ardent, clearly comprehending, and
-mindful, having subdued longing and dejection in regard to the world.
-
-He dwells contemplating mind in mind, ardent, clearly comprehending, and
-mindful, having subdued longing and dejection in regard to the world.
-
-He dwells contemplating phenomena in phenomena, ardent, clearly comprehending,
-and mindful, having subdued longing and dejection in regard to the world. This,
-bhikkhus, is called right mindfulness.
-
-\paliPage
 
 Katamo ca, bhikkhave, sa꜔꜒mmā-kammanto? pāṇātipātā veramaṇī adinnādānā veramaṇī
 kāmesu-micchā꜔꜒cārā veramaṇī. ayaṃ vuccati, bhikkhave, sa꜔꜒mmā-kammanto.
@@ -1737,51 +687,11 @@ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke abhijjhā-domanassa꜔�
 vedanāsu vedanānupassī꜔꜒ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke
 abhijjhā-domanassa꜔꜒ṃ;
 
-\enlargethispage{\baselineskip}
-
 citte cittānupassī꜔꜒ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke
 abhijjhā-domanassa꜔꜒ṃ;
 
 dhammesu dhammānupassī꜔꜒ viharati ātāpī sa꜔꜒mpajāno satimā vineyya loke
 abhijjhā-domanassa꜔꜒ṃ. ayaṃ vuccati, bhikkhave, sa꜔꜒mmā-sati.
-
-\englishPage
-
-And what, bhikkhus, is right concentration? Here, bhikkhus, secluded from
-sensual pleasures, secluded from unwholesome states, accompanied by thought and
-examination, with rapture and happiness born of seclusion, a bhikkhu enters and
-dwells in the first jhāna.
-
-With the subsiding of thought and examination, with internal confidence and
-unification of mind, being without thought and examination, having the rapture
-and happiness born of concentration, he enters and dwells in the second jhāna.
-
-With the fading away as well of rapture, he dwells equanimous and, mindful and
-clearly comprehending, he experiences happiness with the body; that which the
-noble ones declare: `He is equanimous, mindul, one who dwells happily', he
-enters and dwells in the third jhāna.
-
-With the abandoning of pleasure, with the abandoning of pain, with the previous
-passing away of joy and displeasure, which is neither painful nor pleasant and
-includes the purification of mindfulness by equanimity, he enters and dwells in
-the fourth jhāna. This, bhikkhus, is called right concentration.
-
-This, bhikkhus, is called the noble truth of the way leading to the cessation of
-suffering.
-
-In this way he dwells contemplating phenomena in phenomena \ldots{} or else
-mindfulness that ‘there are phenomena’ is simply established in him to the
-extent necessary for bare knowledge and repeated mindfulness.
-
-And he dwells independent, not clinging to anything in the world. That is how,
-bhikkhus, a bhikkhu dwells contemplating phenomena in phenomena in terms of the
-Four Noble Truths.
-
-\instr{The section on Truths is finished.}
-
-\instr{The Contemplation of Phenomena is finished.}
-
-\paliPage
 
 Katamo ca, bhikkhave, sa꜔꜒mmā-samādhi? Idha, bhikkhave, bhikkhu vivicceva kāmehi
 vivicca akusalehi dhammehi savitakkaṃ savicāraṃ vivekajaṃ pītisukha꜔꜒ṃ paṭhamaṃ
@@ -1811,54 +721,6 @@ yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati,
 na ca kiñci loke upādiyati. evampi kho꜔꜒, bhikkhave, bhikkhu
 dhammesu dhammānupassī꜔꜒ viharati catūsu ariyasaccesu.
 
-\instr{Saccapabbaṃ niṭṭhitaṃ.}
-
-\instr{Dhammānupassanā niṭṭhitā.}
-
-\englishPage
-\chapter{Conclusion}
-
-Bhikkhus, if anyone should develop these four foundations of mindfulness in
-such a way for seven years, one of two fruits could be expected for him: either
-final knowledge here and now, or if there is a trace of clinging left,
-nonreturning.
-
-Let alone seven years, bhikkhus. If anyone should develop these four
-foundations of mindfulness in such a way for six years \ldots{} five years
-\ldots{} four years \ldots{} three years \ldots{} two years \ldots{} one year,
-Let alone one year, bhikkhus. If anyone should develop these four foundations
-of mindfulness in such a way for seven months, one of two fruits could be
-expected for him: either final knowledge here and now, or if there is a trace of
-clinging left, nonreturning. Let alone seven months, bhikkhus. If anyone should
-develop these four foundations of mindfulness in such a way for six months
-\ldots{} five months \ldots{} four months \ldots{} three months \ldots{} two
-months \ldots{} one month \ldots{} half a month, Let alone half a month,
-bhikkhus.
-
-If anyone should develop these four foundations of mindfulness in such a way
-for seven days, one of two fruits could be expected for him: eitherfinal
-knowledge here and now, or if there is a trace of clinging left, nonreturning.
-
-`Bhikkhus, this is the direct path for the purification of beings, for the
-surmounting of sorrow and lamentation, for the passing away of pain and
-dejection, for the attainment of the true way, for the realisation of Nibbāna,
-namely, the four foundations of mindfulness.'
-
-It was with reference to this that it was said. This is what the Blessed One
-said. The bhikkhus were satisfied and delighted in the Blessed One's words.
-
-\bigskip
-
-{\centering\instructionFont\color{instruction}\upshape
-
-  The Greater Discourse on the\\
-  Foundations of Mindfulness is finished.
-
-}
-
-\paliPage
-\chapter*{Conclusion}
-
 Yo hi koci, bhikkhave, ime cattāro satipaṭṭhā꜔꜒ne evaṃ bhāveyya sattavassā꜔꜒ni,
 tassa dvinnaṃ phalānaṃ aññataraṃ phalaṃ pāṭikaṅkha꜔꜒ṃ diṭṭhe꜔꜒va dhamme aññā; sati
 vā upādise꜔꜒se꜔꜒ anāgāmitā.
@@ -1883,13 +745,3 @@ dukkha-domanassā꜔꜒naṃ attha꜔꜒ṅgamāya ñāyassa adhigamāya nibbān
 yadidaṃ cattāro satipaṭṭhā꜔꜒nāti. Iti yaṃ taṃ vuttaṃ, idametaṃ paṭicca vuttan'ti.
 
 Idamavoca bhagavā. Attamanā te bhikkhū꜔꜒ bhagavato bhāsitaṃ abhinandunti.
-
-\bigskip
-
-{\centering\instructionFont\color{instruction}\upshape
-
-  Mahāsatipaṭṭhānasuttaṃ niṭṭhitaṃ.
-
-}
-
-\resumeNormalText
