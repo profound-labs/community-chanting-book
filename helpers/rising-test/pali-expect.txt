@@ -362,7 +362,7 @@ yathā꜔꜒ ca uppannassa sa꜔꜒ṃyojanassa pahā꜔꜒naṃ ho꜔꜒ti tañ
 yathā꜔꜒ ca pahī꜔꜒nassa sa꜔꜒ṃyojanassa āyatiṃ anuppādo ho꜔꜒ti tañca pajānāti.
 
 Kāyañca pajānāti,
-pho꜔꜒ṭṭhabbe ca pajānāti,
+phoṭṭhabbe ca pajānāti,
 yañca tadubhayaṃ paṭicca uppajjati sa꜔꜒ṃyojanaṃ tañca pajānāti,
 yathā꜔꜒ ca anuppannassa sa꜔꜒ṃyojanassa uppādo ho꜔꜒ti tañca pajānāti,
 yathā꜔꜒ ca uppannassa sa꜔꜒ṃyojanassa pahā꜔꜒naṃ ho꜔꜒ti tañca pajānāti,
@@ -479,7 +479,7 @@ Katamañca, bhikkhave, dukkha꜔꜒ṃ? Yaṃ kho꜔꜒, bhikkhave, kāyikaṃ d
 asā꜔꜒taṃ kāya-sa꜔꜒mphassajaṃ dukkha꜔꜒ṃ asā꜔꜒taṃ vedayitaṃ, idaṃ vuccati, bhikkhave,
 dukkha꜔꜒ṃ.
 
-Katamañca, bhikkhave, domanassa꜔꜒ṃ? Yaṃ kho꜔꜒, bhikkhave, cetasikaṃ dukkhaṃ
+Katamañca, bhikkhave, domanassa꜔꜒ṃ? Yaṃ kho꜔꜒, bhikkhave, cetasikaṃ dukkha꜔꜒ṃ
 cetasikaṃ asā꜔꜒taṃ mano-sa꜔꜒mphassajaṃ dukkha꜔꜒ṃ asā꜔꜒taṃ vedayitaṃ, idaṃ vuccati,
 bhikkhave, domanassa꜔꜒ṃ.
 
@@ -488,14 +488,14 @@ samannāgatassa aññatar'aññatarena dukkha-dhammena phuṭṭhassa āyāso꜔
 āyāsitattaṃ upāyāsitattaṃ, ayaṃ vuccati, bhikkhave, upāyāso꜔꜒.
 
 Katamo ca, bhikkhave, appiyehi sa꜔꜒mpayogo dukkho꜔꜒? Idha yassa te ho꜔꜒nti aniṭṭhā꜔꜒
-akantā amanāpā rūpā saddā gandhā rasā꜔꜒ pho꜔꜒ṭṭhabbā dhammā,
+akantā amanāpā rūpā saddā gandhā rasā꜔꜒ phoṭṭhabbā dhammā,
 
 ye vā panassa te ho꜔꜒nti anatthakāmā ahitakāmā aphā꜔꜒sukakāmā ayogakkhe꜔꜒makāmā, yā
 tehi saddhiṃ sa꜔꜒ṅgati samāgamo samodhānaṃ missī꜔꜒bhāvo, ayaṃ vuccati, bhikkhave,
 appiyehi sa꜔꜒mpayogo dukkho꜔꜒.
 
 Katamo ca, bhikkhave, piyehi vippayogo dukkho꜔꜒? Idha yassa te ho꜔꜒nti iṭṭhā꜔꜒ kantā
-manāpā rūpā saddā gandhā rasā꜔꜒ pho꜔꜒ṭṭhabbā dhammā, ye vā panassa te ho꜔꜒nti
+manāpā rūpā saddā gandhā rasā꜔꜒ phoṭṭhabbā dhammā, ye vā panassa te ho꜔꜒nti
 atthakāmā hitakāmā phā꜔꜒sukakāmā yogakkhe꜔꜒makāmā mātā vā pitā vā bhātā vā bhaginī
 vā mittā vā amaccā vā ñātisā꜔꜒lohitā vā, yā tehi saddhiṃ asa꜔꜒ṅgati asamāgamo
 asamodhānaṃ amissī꜔꜒bhāvo, ayaṃ vuccati, bhikkhave, piyehi vippayogo dukkho꜔꜒.
@@ -545,7 +545,7 @@ piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamā
 nivīsati.
 
 Rūpā loke \ldots{} saddā loke \ldots{} gandhā loke \ldots{} rasā꜔꜒ loke \ldots{}
-pho꜔꜒ṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
+phoṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
 uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
 
 Cakkhu-viññāṇaṃ loke \ldots{} so꜔꜒ta-viññāṇaṃ loke \ldots{} ghāna-viññāṇaṃ loke
@@ -564,25 +564,25 @@ kāya-sa꜔꜒mphassajā vedanā loke \ldots{} mano-sa꜔꜒mphassajā vedanā l
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
 
 Rūpa-sa꜔꜒ññā loke \ldots{} sadda-sa꜔꜒ññā loke \ldots{} gandha-sa꜔꜒ññā loke \ldots{}
-rasa-sa꜔꜒ññā loke \ldots{} pho꜔꜒ṭṭhabba-sa꜔꜒ññā loke \ldots{} dhamma-sa꜔꜒ññā loke piyarūpaṃ
+rasa-sa꜔꜒ññā loke \ldots{} phoṭṭhabba-sa꜔꜒ññā loke \ldots{} dhamma-sa꜔꜒ññā loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
 
 Rūpa-sa꜔꜒ñcetanā loke \ldots{} sadda-sa꜔꜒ñcetanā loke \ldots{} gandha-sa꜔꜒ñcetanā loke
-\ldots{} rasa-sa꜔꜒ñcetanā loke \ldots{} pho꜔꜒ṭṭhabba-sa꜔꜒ñcetanā loke \ldots{}
+\ldots{} rasa-sa꜔꜒ñcetanā loke \ldots{} phoṭṭhabba-sa꜔꜒ñcetanā loke \ldots{}
 dhamma-sa꜔꜒ñcetanā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati,
 ettha nivīsamānā nivīsati.
 
 Rūpa-taṇhā꜔꜒ loke \ldots{} sadda-taṇhā꜔꜒ loke \ldots{} gandha-taṇhā꜔꜒ loke \ldots{}
-rasa-taṇhā꜔꜒ loke \ldots{} pho꜔꜒ṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
+rasa-taṇhā꜔꜒ loke \ldots{} phoṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā nivīsati.
 
 Rūpa-vitakko loke \ldots{} sadda-vitakko loke \ldots{} gandha-vitakko loke \ldots{}
-rasa-vitakko loke \ldots{} pho꜔꜒ṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
+rasa-vitakko loke \ldots{} phoṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā
 nivīsati.
 
 Rūpa-vicāro loke \ldots{} sadda-vicāro loke \ldots{} gandha-vicāro loke \ldots{}
-rasa-vicāro loke \ldots{} pho꜔꜒ṭṭhabba-vicāro loke \ldots{} dhamma-vicāro loke
+rasa-vicāro loke \ldots{} phoṭṭhabba-vicāro loke \ldots{} dhamma-vicāro loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ uppajjamānā uppajjati, ettha nivīsamānā
 nivīsati.
 
@@ -602,7 +602,7 @@ piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔�
 nirujjhati.
 
 Rūpā loke \ldots{} saddā loke \ldots{} gandhā loke \ldots{} rasā꜔꜒ loke \ldots{}
-pho꜔꜒ṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
+phoṭṭhabbā loke \ldots{} dhammā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒
 pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
 
 Cakkhu-viññāṇaṃ loke \ldots{} so꜔꜒ta-viññāṇaṃ loke \ldots{} ghāna-viññāṇaṃ loke
@@ -621,25 +621,25 @@ kāya-sa꜔꜒mphassajā vedanā loke \ldots{} mano-sa꜔꜒mphassajā vedanā l
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
 
 Rūpa-sa꜔꜒ññā loke \ldots{} sadda-sa꜔꜒ññā loke \ldots{} gandha-sa꜔꜒ññā loke \ldots{}
-rasa-sa꜔꜒ññā loke \ldots{} pho꜔꜒ṭṭhabba-sa꜔꜒ññā loke \ldots{} dhamma-sa꜔꜒ññā loke piyarūpaṃ
+rasa-sa꜔꜒ññā loke \ldots{} phoṭṭhabba-sa꜔꜒ññā loke \ldots{} dhamma-sa꜔꜒ññā loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
 
 Rūpa-sa꜔꜒ñcetanā loke \ldots{} sadda-sa꜔꜒ñcetanā loke \ldots{} gandha-sa꜔꜒ñcetanā loke
-\ldots{} rasa-sa꜔꜒ñcetanā loke \ldots{} pho꜔꜒ṭṭhabba-sa꜔꜒ñcetanā loke \ldots{}
+\ldots{} rasa-sa꜔꜒ñcetanā loke \ldots{} phoṭṭhabba-sa꜔꜒ñcetanā loke \ldots{}
 dhamma-sa꜔꜒ñcetanā loke piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati,
 ettha nirujjhamānā nirujjhati.
 
 Rūpa-taṇhā꜔꜒ loke \ldots{} sadda-taṇhā꜔꜒ loke \ldots{} gandha-taṇhā꜔꜒ loke \ldots{}
-rasa-taṇhā꜔꜒ loke \ldots{} pho꜔꜒ṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
+rasa-taṇhā꜔꜒ loke \ldots{} phoṭṭhabba-taṇhā꜔꜒ loke \ldots{} dhamma-taṇhā꜔꜒ loke piyarūpaṃ
 sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā nirujjhati.
 
 Rūpa-vitakko loke \ldots{} sadda-vitakko loke \ldots{} gandha-vitakko loke \ldots{}
-rasa-vitakko loke \ldots{} pho꜔꜒ṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
+rasa-vitakko loke \ldots{} phoṭṭhabba-vitakko loke \ldots{} dhamma-vitakko loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā
 nirujjhati.
 
 Rūpa-vicāro loke \ldots{} sadda-vicāro loke \ldots{} gandha-vicāro loke \ldots{}
-rasa-vicāro loke \ldots{} pho꜔꜒ṭṭhabba-vicāro loke \ldots{} dhamma-vicāro loke
+rasa-vicāro loke \ldots{} phoṭṭhabba-vicāro loke \ldots{} dhamma-vicāro loke
 piyarūpaṃ sā꜔꜒tarūpaṃ, etthe꜔꜒sā꜔꜒ taṇhā꜔꜒ pahī꜔꜒yamānā pahī꜔꜒yati, ettha nirujjhamānā
 nirujjhati.
 
