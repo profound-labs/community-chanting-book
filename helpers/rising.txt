@@ -32,6 +32,9 @@ s/\([aāiīuūeo]\)smā\b/\1smā꜔꜒/g
 # fix phoṭṭhabba, which is phoṭh-ṭhabba
 s/pho꜔꜒ṭṭh/phoṭṭh/g
 
+# fix sess (e.g. desessāmi - de-ses-sā-mi), s at the end of syllable equals t and stops the sound
+s/se꜔꜒ss\([aāiīuūeo]\)/sess\1/g
+
 # fix double matches
 s/꜔꜒꜔꜒/꜔꜒/g
 s/꜔꜒꜔꜒/꜔꜒/g
