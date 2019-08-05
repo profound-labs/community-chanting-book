@@ -979,6 +979,19 @@ philo-sophical munindo amaravati thai-land}
   \item[] \raggedright\itshape}%
   {\endlist}
 
+\newenvironment{tightenglish}%
+  {\list{}{%
+      \topsep 0pt
+      \partopsep 0pt
+      \listparindent 0em%
+      \itemindent    0em%
+      \leftmargin    \englishIndent%
+      \rightmargin   0em%
+      \parsep        \z@ \@plus\p@%
+    }%
+  \item[] \raggedright\itshape}%
+  {\endlist}
+
 \newcommand\tr[1]{\textit{#1}}
 
 \newcommand\trline[1]{%
