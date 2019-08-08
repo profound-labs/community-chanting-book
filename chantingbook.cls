@@ -946,6 +946,8 @@ philo-sophical munindo amaravati thai-land}
 
 % === Custom commands and environments ===
 
+\newcommand\pause{\raisebox{-1pt}{\symbol{"00B7}}}% mid-dot, center dot
+
 % Cantillation marks
 
 \newcommand*\cUL[1]{#1\symbol{"A712}}
