@@ -15,5 +15,6 @@
 \contentsline {firstline}{\chapternumberline {1} Khantī paramaṃ tapo tītikkhā}{59}{chapter.27}% 
 \contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{61}{chapter.28}% 
 \contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{62}{chapter.29}% 
-\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{63}{chapter.30}% 
+\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{63}{chapter.30}% 
+\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{65}{chapter.31}% 
 \contentsfinish 
