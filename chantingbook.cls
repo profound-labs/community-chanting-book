@@ -946,6 +946,42 @@ philo-sophical munindo amaravati thai-land}
 
 % === Custom commands and environments ===
 
+\newcommand\emptysheet{%
+  \cleardoublepage
+  \thispagestyle{empty}\mbox{}\newpage
+  \thispagestyle{empty}\mbox{}\newpage
+}
+
+\newcommand\emptydoublepage\emptysheet
+
+\newcommand\emptypage{%
+  \clearpage
+  \thispagestyle{empty}\mbox{}\newpage
+}
+
+\newcommand{\emptyUntilEven}{%
+  \ifodd\thepage%
+  \clearpage\thispagestyle{empty}\null%
+  \fi%
+}
+
+\newcounter{pageRem}
+\newcounter{origPage}
+
+% Add empty pages for a total page count divisible by 8 without remainder.
+\newcommand{\emptyUntilModEight}{%
+  \setcounter{origPage}{\theCurrentPage}%
+  \setcounter{pageRem}{1 + 8 - ( \theCurrentPage - ( ( \theCurrentPage / 8 ) * 8) )}%
+  % \typeout{hey: \theCurrentPage, \theorigPage, \thepageRem}% NOTE only for debugging
+  \loop%
+  \addtocounter{pageRem}{-1}%
+  \ifnum\thepageRem>0%
+  \clearpage%
+  \thispagestyle{empty}\mbox{}%
+  % hey \theorigPage \space \thepageRem% NOTE only for debugging
+  \repeat%
+}
+
 \newcommand\pause{\raisebox{-1pt}{\symbol{"00B7}}}% mid-dot, center dot
 
 % Cantillation marks
