@@ -1,0 +1,76 @@
+\documentclass[final, 11pt, oneside]{memoir}
+
+\makeatletter
+
+\RequirePackage{xcolor}
+\definecolor{textbody}{gray}{0}
+
+\RequirePackage{geometry}
+\geometry{
+  paperheight=10.5cm,
+  paperwidth=10.5cm,
+  hmargin=1cm,
+  vmargin=1cm,
+  nofoot,
+  nohead,
+}
+
+\RequirePackage{fontspec}
+\defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
+
+\setmainfont[
+  ItalicFont=GentiumIncantation-Italic.ttf,
+  BoldFont=GenBkBasB.ttf,
+  BoldItalicFont=GenBkBasBI.ttf,
+  StylisticSet=2,
+]{GentiumIncantation-Regular.ttf}
+
+\newcommand\pause{\raisebox{-1pt}{\symbol{"00B7}}}% mid-dot, center dot
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\def\BOOK@fontSizePt{9.5}
+\def\BOOK@lineHeightPt{17.0}
+
+\renewcommand{\normalsize}{%
+  \@setfontsize\normalsize\BOOK@fontSizePt\BOOK@lineHeightPt
+  \abovedisplayskip 12\p@ \@plus3\p@ \@minus7\p@
+  \abovedisplayshortskip \z@ \@plus3\p@
+  \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
+  \belowdisplayskip \abovedisplayskip
+  \color{textbody}
+  \let\@listi\@listI}
+\normalsize
+
+\RequirePackage[final]{microtype}
+
+\pagestyle{empty}
+
+\makeatother
+
+\begin{document}
+
+\raggedright
+
+[Paṭisaṅkhā] yoniso piṇḍa꜕pātaṃ pa꜕ṭise꜓vāmi, \pause\\
+neva da꜕vāya, na ma꜕dāya, na maṇḍa꜕nāya, na꜕ vi꜓bhūsa꜕nāya, \pause\\
+yāvadeva i꜓massa꜕ kāyassa꜕ ṭhi꜕tiyā, \pause\ yāpa꜕nāya, vihiṃsū꜕para꜓ti꜕yā, \pause\\
+brahmaca꜕ri꜓yānugga꜕hāya, \pause\ iti purāṇañca꜕ veda꜓naṃ pa꜕ṭiha꜓ṅkhāmi,
+navañca꜕ veda꜓naṃ na uppādessāmi, \pause\ yātrā ca꜕ me bhavissati a꜕navajjatā
+ca꜕ phāsuvihāro cā'ti
+
+{\centering
+  \rule{0.9\linewidth}{0.2pt}%
+\par}
+
+{\itshape
+Reflectindo sabiamente eu uso a comida da mendicância: \pause\ Não por
+diversão, \pause\ não por prazer, \pause\ não para engordar, \pause\ não para
+me embelezar, \pause\ mas somente para suster e nutrir este corpo, \pause\
+para o manter saudável, \pause\ para ajudar à Vida Santa. \pause\ Pensando
+desta forma: \pause\ `Permitir-me-ei ter fome sem comer demasiado, \pause\ de
+forma a continuar a viver sereno e sem remorsos.'
+}
+
+\end{document}
