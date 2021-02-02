@@ -1,11 +1,22 @@
 
 \thispagestyle{empty}
 
+\newlength\ackWidth
+\ifaivedition
+\setlength{\ackWidth}{0.77\linewidth}
+\else
+\setlength{\ackWidth}{0.8\linewidth}
+\fi
+
 {\centering
 
+\ifaivedition
+\vspace*{9\baselineskip}
+\else
 \vspace*{6\baselineskip}
+\fi
 
-\begin{minipage}{0.8\linewidth}
+\begin{minipage}{\ackWidth}
 \setlength{\parskip}{8pt}
 
 {\instructionFont\color{instruction} We Wish Gratefully To Acknowledge The Following:}

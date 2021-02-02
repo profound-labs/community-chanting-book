@@ -1,4 +1,4 @@
-% Chantingbook Class
+% Chantingbook Class A4 format
 %
 % A memoir-based documentclass for a chanting book.
 %
@@ -13,14 +13,14 @@
 % ==============
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{chantingbook}[2015/01/26 v0.1 A memoir-based documentclass for a chanting book.]
+\ProvidesClass{chantingbook-a4}[2020/11/20 v0.2 A memoir-based documentclass for a chanting book.]
 
 % ========================
 % Preliminary Declarations
 % ========================
 
 \newif\ifaivedition
-\aiveditionfalse
+\aiveditiontrue
 
 \newif\ifwebversion
 \webversionfalse
@@ -36,13 +36,13 @@
 
 \newlength\BOOK@paperHeight
 \newlength\BOOK@paperWidth
-\setlength{\BOOK@paperHeight}{250mm}% ~1.376, Short Pentagon
-\setlength{\BOOK@paperWidth}{181mm}
+\setlength{\BOOK@paperHeight}{297mm}% A4
+\setlength{\BOOK@paperWidth}{210mm}
 
 \newlength\BOOK@typeBlockHeight
 \newlength\BOOK@typeBlockWidth
-\setlength{\BOOK@typeBlockHeight}{586pt}% 1.618, Golden section
-\setlength{\BOOK@typeBlockWidth}{362pt}
+\setlength{\BOOK@typeBlockHeight}{705pt}% based on 1.618
+\setlength{\BOOK@typeBlockWidth}{445pt}
 
 % =======
 % Options
@@ -179,24 +179,24 @@
 % font sizes
 
 \newcommand{\headerSize}
-  {\@setfontsize\headerSize{12}{12}}
+  {\@setfontsize\headerSize{13}{13}}
 \newcommand{\pageNumSize}
-  {\@setfontsize\pageNumSize{18.5}{18.5}}
+  {\@setfontsize\pageNumSize{20.0}{20.0}}
 
 \newcommand{\chapterTitleSize}
-  {\@setfontsize\chapterTitleSize{17}{20}}
+  {\@setfontsize\chapterTitleSize{19}{22}}
 \newcommand{\sectionSize}
-  {\@setfontsize\sectionSize{13}{15}}
+  {\@setfontsize\sectionSize{15}{17}}
 \newcommand{\subSectionSize}
-  {\@setfontsize\subSectionSize{12}{14}}
+  {\@setfontsize\subSectionSize{13}{15}}
 
 \newcommand{\partNameSize}
-  {\@setfontsize\partNameSize{17}{17}}
+  {\@setfontsize\partNameSize{19}{19}}
 \newcommand{\partTitleSize}
-  {\@setfontsize\partTitleSize{25}{25}}
+  {\@setfontsize\partTitleSize{27}{27}}
 
 \newcommand{\TOCpartTitleSize}
-  {\@setfontsize\TOCpartTitleSize{17}{20}}
+  {\@setfontsize\TOCpartTitleSize{19}{22}}
 \newcommand{\TOCchapterTitleSize}
   {\@setfontsize\TOCchapterTitleSize{15}{20}}
 
@@ -269,8 +269,8 @@ philo-sophical munindo amaravati thai-land}
 
 % === normalsize ===
 
-\def\BOOK@fontSizePt{12.5}
-\def\BOOK@lineHeightPt{21}
+\def\BOOK@fontSizePt{15.5}% 1.68
+\def\BOOK@lineHeightPt{26.0}
 
 \renewcommand{\normalsize}{%
   \@setfontsize\normalsize\BOOK@fontSizePt\BOOK@lineHeightPt
@@ -282,8 +282,8 @@ philo-sophical munindo amaravati thai-land}
   \let\@listi\@listI}
 \normalsize
 
-\def\BOOK@appendixFontSizePt{11}
-\def\BOOK@appendixLineHeightPt{17}
+\def\BOOK@appendixFontSizePt{13}
+\def\BOOK@appendixLineHeightPt{21}
 
 \newcommand{\appendixsize}{%
   \@setfontsize\appendixsize\BOOK@appendixFontSizePt\BOOK@appendixLineHeightPt
@@ -316,7 +316,7 @@ philo-sophical munindo amaravati thai-land}
 % === indentations ===
 
 \newlength\leaderIndent
-\setlength{\leaderIndent}{1.8em}
+\setlength{\leaderIndent}{1.7em}
 
 \setlength{\vgap}{1.5em}
 \setlength{\vindent}{\leaderIndent}
