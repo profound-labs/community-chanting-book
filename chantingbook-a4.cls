@@ -349,7 +349,8 @@ philo-sophical munindo amaravati thai-land}
 % === setup page layout ===
 
 \ifshowtrims
-  \stockaiv% use A4 paper size to show trims
+  \stockheight=327mm% 297mm + 30mm
+  \stockwidth=240mm% 210mm + 30mm
   \setlength{\paperheight}{\BOOK@paperHeight}
   \setlength{\paperwidth}{\BOOK@paperWidth}
   \trimXmarks
