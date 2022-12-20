@@ -3,6 +3,7 @@
 *.log
 *.toc
 auto/
+.auctex-auto/
 fonts/Calluna-Regular.otf
 fonts/CallunaSansRegular.otf
 helpers/rising-test/*-output.txt
