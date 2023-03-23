@@ -69,9 +69,6 @@ pt-release:
 	@echo -n "PT Vol 1 x4...."
 	make pt && make pt && make pt && make pt
 
-pt-puja:
-	$(LATEX) $(LATEX_OPTS) main-pt-puja.tex;
-
 pt-cover-front:
 	$(LATEX) $(LATEX_OPTS) cover-front-pt-vol1.tex;
 
