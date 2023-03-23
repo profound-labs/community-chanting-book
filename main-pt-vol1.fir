@@ -11,10 +11,17 @@
 \contentsline {firstline}{\chapternumberline {1} Ayaṃ kho me kāyo}{51}{chapter.23}%
 \contentsline {firstline}{\chapternumberline {1} Jarā-dhammomhi jaraṃ anatīto}{53}{chapter.24}%
 \contentsline {firstline}{\chapternumberline {1} Dasa ime bhikkhave}{55}{chapter.25}%
-\contentsline {firstline}{\chapternumberline {1} Khantī paramaṃ tapo tītikkhā}{58}{chapter.26}%
-\contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{60}{chapter.27}%
-\contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{61}{chapter.28}%
-\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{62}{chapter.29}%
-\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{64}{chapter.30}%
-\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{65}{chapter.31}%
+\contentsline {firstline}{\chapternumberline {1} Bahuṃ ve saraṇaṃ yanti}{58}{chapter.26}%
+\contentsline {firstline}{\chapternumberline {1} Yassa saddhā tathāgate}{60}{chapter.27}%
+\contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā'ti}{61}{chapter.28}%
+\contentsline {firstline}{\chapternumberline {1} Bhārā have pañcakkhandhā}{63}{chapter.29}%
+\contentsline {firstline}{\chapternumberline {1} Atītaṃ nānvāgameyya}{64}{chapter.30}%
+\contentsline {firstline}{\chapternumberline {1} Ye ca atītā sambuddhā}{66}{chapter.31}%
+\contentsline {firstline}{\chapternumberline {1} Khantī paramaṃ tapo tītikkhā}{68}{chapter.32}%
+\contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{70}{chapter.33}%
+\contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{71}{chapter.34}%
+\contentsline {firstline}{\chapternumberline {1} Ye dhammā hetuppabhavā}{72}{chapter.35}%
+\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{73}{chapter.36}%
+\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{75}{chapter.37}%
+\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{76}{chapter.38}%
 \contentsfinish 
