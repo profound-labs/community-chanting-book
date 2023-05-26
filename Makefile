@@ -2,13 +2,25 @@ VOL1=main-en-vol1
 VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
+TH_VOL1=main-th-vol1
 
 LATEX=lualatex
-
 LATEX_OPTS=-interaction=nonstopmode -halt-on-error
+
+# TH_LATEX=xelatex
+# TH_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -output-driver='xdvipdfmx -z0'
+
+TH_LATEX=latexmk
+TH_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
+
+PT_LATEX=latexmk
+PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
 all:
 	@echo "vol1, vol2, release or font-stress-test. Just say the word."
+
+%.pdf: %.tex
+	$(LATEX) $(LATEX_OPTS) $<
 
 vol1:
 	cat $(VOL1).fir | \
@@ -63,7 +75,7 @@ pt:
 		sort > $(PT_VOL1).fir.tmp
 	echo '\\contentsfinish' >> $(PT_VOL1).fir.tmp
 	mv $(PT_VOL1).fir.tmp $(PT_VOL1).fir
-	$(LATEX) $(LATEX_OPTS) $(PT_VOL1).tex;
+	$(PT_LATEX) $(PT_LATEX_OPTS) $(PT_VOL1).tex;
 
 pt-release:
 	@echo -n "PT Vol 1 x4...."
@@ -74,6 +86,17 @@ pt-cover-front:
 
 pt-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-pt-vol1.tex;
+
+th:
+	cat $(TH_VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(TH_VOL1).fir.tmp
+	echo '\\contentsfinish' >> $(TH_VOL1).fir.tmp
+	mv $(TH_VOL1).fir.tmp $(TH_VOL1).fir
+	$(TH_LATEX) $(TH_LATEX_OPTS) $(TH_VOL1).tex;
+
+th-preview:
+	./helpers/th-preview.sh
 
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
