@@ -13,8 +13,11 @@ LATEX_OPTS=-interaction=nonstopmode -halt-on-error
 TH_LATEX=latexmk
 TH_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
-PT_LATEX=latexmk
-PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
+# PT_LATEX=latexmk
+# PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
+
+PT_LATEX=lualatex
+PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error
 
 all:
 	@echo "vol1, vol2, release or font-stress-test. Just say the word."
