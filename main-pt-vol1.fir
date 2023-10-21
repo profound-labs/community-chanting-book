@@ -21,7 +21,7 @@
 \contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{72}{chapter.34}%
 \contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{73}{chapter.35}%
 \contentsline {firstline}{\chapternumberline {1} Ye dhammā hetuppabhavā}{74}{chapter.36}%
-\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{75}{chapter.37}%
-\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{77}{chapter.38}%
-\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{78}{chapter.39}%
+\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{75}{chapter.37}%
+\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{78}{chapter.39}%
+\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{80}{chapter.40}%
 \contentsfinish 

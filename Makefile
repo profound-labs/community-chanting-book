@@ -16,8 +16,17 @@ TH_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 # PT_LATEX=latexmk
 # PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
-PT_LATEX=lualatex
-PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error
+PT_LATEX=xelatex
+PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
+
+# PT_LATEX=lualatex
+# PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error
+
+# lualatex --version
+# This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)
+
+# xelatex --version
+# XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)
 
 all:
 	@echo "vol1, vol2, release or font-stress-test. Just say the word."
@@ -76,7 +85,7 @@ pt:
 	cat $(PT_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(PT_VOL1).fir.tmp
-	echo '\\contentsfinish' >> $(PT_VOL1).fir.tmp
+	echo '\contentsfinish' >> $(PT_VOL1).fir.tmp
 	mv $(PT_VOL1).fir.tmp $(PT_VOL1).fir
 	$(PT_LATEX) $(PT_LATEX_OPTS) $(PT_VOL1).tex;
 
