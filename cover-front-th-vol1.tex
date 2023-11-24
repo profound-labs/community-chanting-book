@@ -1,0 +1,58 @@
+\documentclass[
+  babelLanguage=thai,
+  final,
+  zeromargin,
+  showtrims,
+]{chantingbook-thai}
+
+\makeatletter
+
+\graphicspath{{./images/}}
+
+\NewCoffin\PageOut
+\NewCoffin\CoverBg
+
+\SetHorizontalCoffin\PageOut{}
+
+\SetHorizontalCoffin\CoverBg{%
+\includegraphics{vol1-cover-front.pdf}%
+}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\makeatother
+
+\begin{document}
+
+\thispagestyle{empty}\mbox{}
+
+\JoinCoffins*\PageOut[hc,vc]\CoverBg[hc,vc](0.5\paperwidth, -0.5\paperheight +32pt)%
+\TypesetCoffin\PageOut
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{30mm},\LenToUnit{85mm}){%
+\begin{minipage}[b]{138mm}%
+\raggedleft
+\resizebox{100mm}{!}{\color[gray]{0}\THSarabunNewFont สวดมนต์}
+\end{minipage}%
+}}
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{30mm},\LenToUnit{77mm}){%
+\begin{minipage}[b]{138mm}%
+\raggedleft
+\fontsize{20}{20}\THSarabunNewFont
+\color[HTML]{DEB25D} VOLUME I 
+\hfill
+\color[gray]{1} สวดมนต์และไตร่ตรองในตอนเช้าและเย็น
+\end{minipage}%
+}}
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{30mm},\LenToUnit{18mm}){%
+\begin{minipage}[b]{138mm}%
+\raggedleft
+\fontsize{10.8}{10.8}\CallunaSans
+PĀLI\hspace*{8pt}|\hspace*{8pt}THAI
+\end{minipage}%
+}}
+
+\end{document}

@@ -1,5 +1,5 @@
 \documentclass[
-  babelLanguage=english,
+  babelLanguage=thai,
   final,
   %showtrims,
   %showwirebinding,
@@ -18,9 +18,10 @@
 
 \frontmatter
 
-\webcover{%
-\includegraphics[height=\paperheight]{vol1-webcover.jpg}%
-}
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/\theLanguage/webcover-vol1.tex}%
+\fi
 
 \cleartoverso
 \input{./chapters/\theLanguage/copyright.tex}
