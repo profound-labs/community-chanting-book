@@ -33,7 +33,7 @@ PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 # XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)
 
 all:
-	@echo "vol1, vol2, release or font-stress-test. Just say the word."
+	@echo "Make what?"
 
 %.pdf: %.tex
 	$(LATEX) $(LATEX_OPTS) $<
