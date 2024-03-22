@@ -8,20 +8,20 @@
 \contentsline {firstline}{\chapternumberline {1} Ahaṃ sukhito homi}{49}{chapter*.18}%
 \contentsline {firstline}{\chapternumberline {1} Que eu mantenha bem-estar}{50}{chapter.22}%
 \contentsline {firstline}{\chapternumberline {1} Paṭisaṅkhā yoniso}{51}{chapter.23}%
-\contentsline {firstline}{\chapternumberline {1} Puna caparaṃ, bhikkhave, bhikkhu imameva kāyaṃ}{53}{chapter.24}%
-\contentsline {firstline}{\chapternumberline {1} Jarā-dhammomhi jaraṃ anatīto}{56}{chapter.25}%
-\contentsline {firstline}{\chapternumberline {1} Dasa ime bhikkhave}{58}{chapter.26}%
-\contentsline {firstline}{\chapternumberline {1} Bahuṃ ve saraṇaṃ yanti}{61}{chapter.27}%
-\contentsline {firstline}{\chapternumberline {1} Yassa saddhā tathāgate}{63}{chapter.28}%
-\contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā'ti}{64}{chapter.29}%
-\contentsline {firstline}{\chapternumberline {1} Bhārā have pañcakkhandhā}{66}{chapter.30}%
-\contentsline {firstline}{\chapternumberline {1} Atītaṃ nānvāgameyya}{67}{chapter.31}%
-\contentsline {firstline}{\chapternumberline {1} Ye ca atītā sambuddhā}{69}{chapter.32}%
-\contentsline {firstline}{\chapternumberline {1} Khantī paramaṃ tapo tītikkhā}{71}{chapter.33}%
-\contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{73}{chapter.34}%
-\contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{74}{chapter.35}%
-\contentsline {firstline}{\chapternumberline {1} Ye dhammā hetuppabhavā}{75}{chapter.36}%
-\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{76}{chapter.37}%
-\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{79}{chapter.39}%
-\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{81}{chapter.40}%
+\contentsline {firstline}{\chapternumberline {1} Ayaṃ kho me kāyo}{53}{chapter.24}%
+\contentsline {firstline}{\chapternumberline {1} Jarā-dhammomhi jaraṃ anatīto}{57}{chapter.25}%
+\contentsline {firstline}{\chapternumberline {1} Dasa ime bhikkhave}{59}{chapter.26}%
+\contentsline {firstline}{\chapternumberline {1} Bahuṃ ve saraṇaṃ yanti}{62}{chapter.27}%
+\contentsline {firstline}{\chapternumberline {1} Yassa saddhā tathāgate}{64}{chapter.28}%
+\contentsline {firstline}{\chapternumberline {1} Sabbe saṅkhārā aniccā'ti}{65}{chapter.29}%
+\contentsline {firstline}{\chapternumberline {1} Bhārā have pañcakkhandhā}{67}{chapter.30}%
+\contentsline {firstline}{\chapternumberline {1} Atītaṃ nānvāgameyya}{68}{chapter.31}%
+\contentsline {firstline}{\chapternumberline {1} Ye ca atītā sambuddhā}{70}{chapter.32}%
+\contentsline {firstline}{\chapternumberline {1} Khantī paramaṃ tapo tītikkhā}{72}{chapter.33}%
+\contentsline {firstline}{\chapternumberline {1} Aneka-jāti-saṃsāraṃ}{74}{chapter.34}%
+\contentsline {firstline}{\chapternumberline {1} Handa dāni bhikkhave āmantayāmi vo}{75}{chapter.35}%
+\contentsline {firstline}{\chapternumberline {1} Ye dhammā hetuppabhavā}{76}{chapter.36}%
+\contentsline {firstline}{\chapternumberline {1} Atthi bhikkhave ajātaṃ abhūtaṃ akataṃ}{77}{chapter.37}%
+\contentsline {firstline}{\chapternumberline {1} Kiṃ-mūlakā āvuso sabbe dhammā}{80}{chapter.39}%
+\contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{82}{chapter.40}%
 \contentsfinish 
