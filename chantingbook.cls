@@ -156,24 +156,24 @@
 \newfontfamily\UbuntuLight{Ubuntu-L.ttf}
 \newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\headerFont{AlegreyaXSansSC-Bold.otf}
+\newfontfamily\headerFont{AlegreyaXSansSC-Bold.ttf}
 
 \newfontfamily\pageNumFont[
   LetterSpace=5.0,
   Numbers=Lining,
-]{AlegreyaXSansSC-Bold.otf}
+]{AlegreyaXSansSC-Bold.ttf}
 
 \newfontfamily\chapterTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\sectionFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\subSectionFont{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\partNameFont{AlegreyaXSansSC-Bold.otf}
+\newfontfamily\partNameFont{AlegreyaXSansSC-Bold.ttf}
 \newfontfamily\partTitleFont{Ubuntu-X-Medium.ttf}
 
 \newfontfamily\TOCpartTitleFont{Ubuntu-X-Medium.ttf}
 \newfontfamily\TOCchapterTitleFont{GentiumIncantation-Regular.ttf}
 
-\newfontfamily\instructionFont{AlegreyaXSansSC-Bold.otf}
+\newfontfamily\instructionFont{AlegreyaXSansSC-Bold.ttf}
 
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
