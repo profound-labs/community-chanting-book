@@ -1228,6 +1228,17 @@ philo-sophical munindo amaravati thai-land}
 \clearpage
 }
 
+% Doesn't leave an empty page when webversion is off.
+\newcommand\webcoverNoEmpty[1]{%
+\ifwebversion
+\thispagestyle{empty}\mbox{}
+\AddToShipoutPictureFG*{\put(0,0){%
+\begin{minipage}[b][\paperheight][c]{\paperwidth}%
+#1%
+\end{minipage}}}%
+\fi
+}
+
 % === Renewing package macros ===
 
 \renewcommand\footnoterule{%

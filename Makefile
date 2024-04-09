@@ -139,3 +139,9 @@ brazil-chants:
 
 satipatthana:
 	$(LATEX) $(LATEX_OPTS) satipatthana-en.tex;
+
+satipatthana-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-satipatthana.tex;
+
+satipatthana-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-satipatthana.tex;

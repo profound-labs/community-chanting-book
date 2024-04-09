@@ -1,0 +1,23 @@
+\documentclass[
+  babelLanguage=portuguese,
+  final,
+  zeromargin,
+  showtrims,
+]{chantingbook}
+
+\makeatletter
+\graphicspath{{./images/}}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\makeatother
+
+\begin{document}
+
+\thispagestyle{empty}\mbox{}
+
+\AddToShipoutPictureFG*{\put(-3mm,-3mm){%
+\begin{minipage}[b][\paperheight+6mm][c]{\paperwidth+6mm}%
+\includegraphics[height=\paperheight+6mm]{satipatthana-webcover.jpg}%
+\end{minipage}}}%
+
+\end{document}

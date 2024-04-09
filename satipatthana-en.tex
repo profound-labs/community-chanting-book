@@ -24,12 +24,14 @@
 
 \frontmatter
 
-\webcover{%
+\webcoverNoEmpty{%
 \includegraphics[height=\paperheight]{satipatthana-webcover.jpg}%
 }
 
+\ifwebversion
 \cleartoverso
 \thispagestyle{empty}\mbox{}
+\fi
 
 \addtocontents{toc}{\protect \enlargethispage {2\baselineskip}}
 
