@@ -244,6 +244,34 @@
 % memoir's more allowing penalties
 \midsloppy
 
+\ifthenelse{\equal{\BOOK@babelLanguage}{british}}{
+  \renewcommand\britishhyphenmins{{3}{3}}
+  % If using babel, captions names have to be renamed like this
+  \addto\captionsbritish{
+    \renewcommand{\contentsname}{Contents}
+    \renewcommand{\bibname}{References}
+  }
+}{}
+\ifthenelse{\equal{\BOOK@babelLanguage}{italian}}{
+  \renewcommand\italianhyphenmins{{3}{3}}
+}{}
+\ifthenelse{\equal{\BOOK@babelLanguage}{hungarian}}{
+  \renewcommand\hungarianhyphenmins{{3}{3}}
+}{}
+\ifthenelse{\equal{\BOOK@babelLanguage}{portuguese}}{
+  \renewcommand\portuguesehyphenmins{{3}{3}}
+  \addto\captionsportuguese{
+    \renewcommand{\contentsname}{Índice}
+    \renewcommand{\bibname}{Referências}
+    \renewcommand*{\pagerefname}{página}
+    \renewcommand*{\notesname}{Notas}
+  }
+  % Portuguese repeats hyphen
+  % http://tex.stackexchange.com/a/247298/831
+  % generates a hyphen that will repeat on a new line
+  \defineshorthand{"-}{\babelhyphen{repeat}}
+}{}
+
 \hyphenpenalty=700
 \exhyphenpenalty=50
 \doublehyphendemerits=900
