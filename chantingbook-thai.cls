@@ -175,13 +175,13 @@
 \newfontfamily\UbuntuLight{Ubuntu-L.ttf}
 \newfontfamily\UbuntuMedium{Ubuntu-X-Medium.ttf}
 
-\newfontfamily\headerFont{Kinnari-Bold.ttf}
+\newfontfamily\headerFont{Sarabun-MediumItalic.ttf}
 
 \newfontfamily\pageNumFont{Kinnari-Bold.ttf}
 
 \newfontfamily\tocFont{Kinnari-Bold.ttf}
 
-\newfontfamily\chapterTitleFont{Kinnari-Bold.ttf}
+\newfontfamily\chapterTitleFont{Sarabun-Bold.ttf} %change chapter font
 \newfontfamily\sectionFont{Kinnari-Bold.ttf}
 \newfontfamily\subSectionFont{Kinnari-Bold.ttf}
 
