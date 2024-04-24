@@ -135,10 +135,10 @@
 \defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
 
 \setmainfont[
-  ItalicFont=Kinnari-Italic.ttf,
-  BoldFont=Kinnari-Bold.ttf,
-  BoldItalicFont=Kinnari-BoldItalic.ttf,
-]{Kinnari-Medium.ttf}
+  ItalicFont=Sarabun-Italic.ttf,
+  BoldFont=Sarabun-Bold.ttf,
+  BoldItalicFont=Sarabun-BoldItalic.ttf,
+]{Sarabun-Regular.ttf}
 
 \newfontfamily\GentiumFont[
   ItalicFont=GentiumIncantation-Italic.ttf,
@@ -159,7 +159,14 @@
   BoldItalicFont=Kinnari-BoldItalic.ttf,
 ]{Kinnari-Medium.ttf}
 
-\newcommand\thaiFont{\KinnariFont}
+\newfontfamily\SarabunFont[
+  ItalicFont=Sarabun-Italic.ttf,
+  BoldFont=Sarabun-Bold.ttf,
+  BoldItalicFont=Sarabun-BoldItalic.ttf,
+]{Sarabun-Regular.ttf}
+
+\newcommand\thaiFont{\SarabunFont}
+
 
 \newfontfamily\SanghaIcons{SanghaIcons.ttf}
 
