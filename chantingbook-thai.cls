@@ -135,10 +135,10 @@
 \defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
 
 \setmainfont[
-  ItalicFont=Sarabun-Italic.ttf,
-  BoldFont=Sarabun-Bold.ttf,
-  BoldItalicFont=Sarabun-BoldItalic.ttf,
-]{Sarabun-Regular.ttf}
+  ItalicFont=Sarabun-BoldItalic.ttf,
+  BoldFont=Sarabun-ExtraBold.ttf,
+  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
+]{Sarabun-Bold.ttf}
 
 \newfontfamily\GentiumFont[
   ItalicFont=GentiumIncantation-Italic.ttf,
@@ -160,9 +160,15 @@
 ]{Kinnari-Medium.ttf}
 
 \newfontfamily\SarabunFont[
+  ItalicFont=Sarabun-BoldItalic.ttf,
+  BoldFont=Sarabun-ExtraBold.ttf,
+  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
+]{Sarabun-Bold.ttf}
+
+\newfontfamily\SarabunNormalFont[
   ItalicFont=Sarabun-Italic.ttf,
-  BoldFont=Sarabun-Bold.ttf,
-  BoldItalicFont=Sarabun-BoldItalic.ttf,
+  BoldFont=Sarabun-ExtraBold.ttf,
+  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
 ]{Sarabun-Regular.ttf}
 
 \newcommand\thaiFont{\SarabunFont}
@@ -177,21 +183,21 @@
 
 \newfontfamily\headerFont{Sarabun-MediumItalic.ttf}
 
-\newfontfamily\pageNumFont{Kinnari-Bold.ttf}
+\newfontfamily\pageNumFont{Sarabun-Bold.ttf}
 
-\newfontfamily\tocFont{Kinnari-Bold.ttf}
+\newfontfamily\tocFont{Sarabun-Bold.ttf}
 
 \newfontfamily\chapterTitleFont{Sarabun-Bold.ttf} %change chapter font
-\newfontfamily\sectionFont{Kinnari-Bold.ttf}
-\newfontfamily\subSectionFont{Kinnari-Bold.ttf}
+\newfontfamily\sectionFont{Sarabun-Bold.ttf}
+\newfontfamily\subSectionFont{Sarabun-Bold.ttf}
 
-\newfontfamily\partNameFont{Kinnari-Bold.ttf}
-\newfontfamily\partTitleFont{Kinnari-Bold.ttf}
+\newfontfamily\partNameFont{Sarabun-Bold.ttf}
+\newfontfamily\partTitleFont{Sarabun-Bold.ttf}
 
-\newfontfamily\TOCpartTitleFont{Kinnari-Bold.ttf}
-\newfontfamily\TOCchapterTitleFont{Kinnari-Bold.ttf}
+\newfontfamily\TOCpartTitleFont{Sarabun-Bold.ttf}
+\newfontfamily\TOCchapterTitleFont{Sarabun-Bold.ttf}
 
-\newfontfamily\instructionFont{Kinnari-Bold.ttf}
+\newfontfamily\instructionFont{Sarabun-Bold.ttf}
 
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
@@ -1057,7 +1063,7 @@ philo-sophical munindo amaravati thai-land}
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%
-  \item[] \raggedright\itshape}%
+  \item[] \SarabunNormalFont\selectfont\raggedright\itshape}%
   {\endlist}
 
 \newenvironment{tightenglish}%
