@@ -979,6 +979,9 @@ philo-sophical munindo amaravati thai-land}
 
 % === Custom commands and environments ===
 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
 \newcommand\emptysheet{%
   \cleardoublepage
   \thispagestyle{empty}\mbox{}\newpage
