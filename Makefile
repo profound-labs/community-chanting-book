@@ -3,6 +3,7 @@ VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
 TH_VOL1=main-th-vol1
+TH_VOL2=main-th-vol2
 
 LATEX=lualatex
 LATEX_OPTS=-interaction=nonstopmode -halt-on-error
@@ -84,7 +85,10 @@ pt-cover-front:
 pt-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-pt-vol1.tex;
 
-th:
+th-preview:
+	./helpers/th-preview.sh
+
+th-vol1:
 	cat $(TH_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(TH_VOL1).fir.tmp
@@ -92,14 +96,25 @@ th:
 	mv $(TH_VOL1).fir.tmp $(TH_VOL1).fir
 	$(TH_LATEX) $(TH_LATEX_OPTS) $(TH_VOL1).tex;
 
-th-preview:
-	./helpers/th-preview.sh
-
-th-cover-front:
+th-vol1-cover-front:
 	$(LATEX) $(LATEX_OPTS) cover-front-th-vol1.tex;
 
-th-cover-back:
+th-vol1-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-th-vol1.tex;
+
+th-vol2:
+	cat $(TH_VOL2).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(TH_VOL2).fir.tmp
+	echo '\contentsfinish' >> $(TH_VOL2).fir.tmp
+	mv $(TH_VOL2).fir.tmp $(TH_VOL2).fir
+	$(TH_LATEX) $(TH_LATEX_OPTS) $(TH_VOL2).tex;
+
+th-vol2-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-th-vol2.tex;
+
+th-vol2-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-th-vol2.tex;
 
 chanting-sample-it:
 	$(LATEX) $(LATEX_OPTS) chanting-sample-it.tex;
