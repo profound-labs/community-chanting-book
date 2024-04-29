@@ -667,12 +667,12 @@ philo-sophical munindo amaravati thai-land}
 [\addvspace{5pt}]
 
 \newcommand\resumeNormalText{%
-  \GentiumFont\normalsize\selectfont%
+  \SarabunNormalFont\normalsize\selectfont%
   \setlength{\parskip}{5pt}%
 }
 
 \newcommand\englishText{%
-  \englishtextsize%
+  \SarabunNormalFont\englishtextsize%
   \setlength{\parskip}{\englishTextParskip}%
 }
 \newcommand\paliText{\resumeNormalText}
@@ -1048,7 +1048,7 @@ philo-sophical munindo amaravati thai-land}
   \leftmargin    \leaderIndent
   \rightmargin   \leaderIndent
   \parsep        \z@ \@plus\p@}
-  \item[] \raggedright}%
+  \item[] \SarabunNormalFont\selectfont\raggedright}%
   {\endlist}
 
 \newlength\englishIndent
@@ -1064,6 +1064,18 @@ philo-sophical munindo amaravati thai-land}
     \parsep        \z@ \@plus\p@%
   }%
   \item[] \SarabunNormalFont\selectfont\raggedright\itshape}%
+  {\endlist}
+
+\newenvironment{thaitrans}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    \englishIndent%
+    \rightmargin   0em%
+    \parsep        \z@ \@plus\p@%
+  }%
+  \item[] \SarabunNormalFont\selectfont\raggedright}%
   {\endlist}
 
 \newenvironment{tightenglish}%
