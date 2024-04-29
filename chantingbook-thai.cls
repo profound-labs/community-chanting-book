@@ -898,6 +898,12 @@ philo-sophical munindo amaravati thai-land}
 \NewCoffin\ChapterTitle
 \NewCoffin\TitleRule
 
+\newcommand\@thai@dummy{ชั่รี่ปุ}
+\newlength{\@thai@dummy@width}
+\setlength{\@thai@dummy@width}{\widthof{\chapterTitleFont\chapterTitleSize\@thai@dummy}}%
+\newlength{\@thai@dummy@height}
+\setlength{\@thai@dummy@height}{\totalheightof{\chapterTitleFont\chapterTitleSize\@thai@dummy}}%
+
 \makechapterstyle{innerpenstroke}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{3.5ex \@plus 1ex \@minus .2ex}
@@ -911,15 +917,16 @@ philo-sophical munindo amaravati thai-land}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
     \SetHorizontalCoffin\ChapterTitle{%
-      \parbox{\linewidth}{%
-        \raggedright\chaptitlefont\color{chaptertitle} ##1%
+      \parbox{\linewidth+\@thai@dummy@width}{%
+        \raggedright\chaptitlefont\color{chaptertitle} ##1\hfill{\color{white}\@thai@dummy}%
       }%
     }%
     \SetHorizontalCoffin\TitleRule{%
       \color{headrule}\rule{\linewidth}{0.5pt}%
     }
-    \JoinCoffins*\ChapterTitle[l,b]\TitleRule[l,t](0pt,-3pt)%
-    \TypesetCoffin\ChapterTitle
+    \JoinCoffins*\ChapterTitle[l,t]\TitleRule[l,t](0pt,-\@thai@dummy@height-3pt)%
+    \vspace*{-16.9pt}%
+    \TypesetCoffin\ChapterTitle%
   }
 }
 
@@ -1071,7 +1078,7 @@ philo-sophical munindo amaravati thai-land}
     \topsep 0pt
     \listparindent 0em%
     \itemindent    0em%
-    \leftmargin    \englishIndent%
+    \leftmargin    0em%
     \rightmargin   0em%
     \parsep        \z@ \@plus\p@%
   }%
