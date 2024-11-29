@@ -81,9 +81,6 @@ font-stress-test:
 part-pages-test:
 	$(LATEX) $(LATEX_OPTS) part-pages-test.tex;
 
-pt-partilha-sheet:
-	$(LATEX) $(LATEX_OPTS) pt-partilha-sheet.tex;
-
 pt:
 	cat $(PT_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \
@@ -112,9 +109,6 @@ th:
 
 th-preview:
 	./helpers/th-preview.sh
-
-sumedharama-monastic-chants:
-	$(LATEX) $(LATEX_OPTS) sumedharama-monastic-chants.tex;
 
 satipatthana:
 	$(LATEX) $(LATEX_OPTS) satipatthana-en.tex;
