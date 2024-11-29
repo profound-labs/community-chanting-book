@@ -3,7 +3,6 @@ VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
 TH_VOL1=main-th-vol1
-IT_VOL1=main-it-vol1
 
 # LATEX=lualatex
 # LATEX_OPTS=-interaction=nonstopmode -halt-on-error
@@ -113,20 +112,6 @@ th:
 
 th-preview:
 	./helpers/th-preview.sh
-
-it:
-	cat $(IT_VOL1).fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(IT_VOL1).fir.tmp
-	echo '\contentsfinish' >> $(IT_VOL1).fir.tmp
-	mv $(IT_VOL1).fir.tmp $(IT_VOL1).fir
-	$(LATEX) $(LATEX_OPTS) $(IT_VOL1).tex;
-
-it-cover-front:
-	$(LATEX) $(LATEX_OPTS) cover-front-it-vol1.tex;
-
-it-cover-back:
-	$(LATEX) $(LATEX_OPTS) cover-back-it-vol1.tex;
 
 sumedharama-monastic-chants:
 	$(LATEX) $(LATEX_OPTS) sumedharama-monastic-chants.tex;
