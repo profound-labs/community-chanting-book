@@ -26,7 +26,6 @@ vol1:
 		sort > $(VOL1).fir.tmp
 	echo '\\contentsfinish' >> $(VOL1).fir.tmp
 	mv $(VOL1).fir.tmp $(VOL1).fir
-	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
 vol1-a4:
 	cat $(VOL1_A4).fir | \
@@ -88,12 +87,13 @@ pt-cover-back:
 th-preview:
 	./helpers/th-preview.sh
 
+
+#	cat $(TH_VOL1).fir | \
+#		sed '/\\contentsfinish/d' | \
+#		sort > $(TH_VOL1).fir.tmp
+#	echo '\contentsfinish' >> $(TH_VOL1).fir.tmp
+#	mv $(TH_VOL1).fir.tmp $(TH_VOL1).fir
 th-vol1:
-	cat $(TH_VOL1).fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(TH_VOL1).fir.tmp
-	echo '\contentsfinish' >> $(TH_VOL1).fir.tmp
-	mv $(TH_VOL1).fir.tmp $(TH_VOL1).fir
 	$(TH_LATEX) $(TH_LATEX_OPTS) $(TH_VOL1).tex;
 
 th-vol1-cover-front:

@@ -135,10 +135,10 @@
 \defaultfontfeatures{ Ligatures={TeX}, Path = {./fonts/}, }
 
 \setmainfont[
-  ItalicFont=Sarabun-BoldItalic.ttf,
-  BoldFont=Sarabun-ExtraBold.ttf,
-  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
-]{Sarabun-Bold.ttf}
+  ItalicFont=Sarabun-Italic.ttf,
+  BoldFont=Sarabun-Bold.ttf,
+  BoldItalicFont=Sarabun-BoldItalic.ttf,
+]{Sarabun-Regular.ttf}
 
 \newfontfamily\GentiumFont[
   ItalicFont=GentiumIncantation-Italic.ttf,
