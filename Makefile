@@ -128,14 +128,8 @@ it-cover-front:
 it-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-it-vol1.tex;
 
-anapanasati-sheet-pali:
-	$(LATEX) $(LATEX_OPTS) anapanasati-sheet-pali.tex;
-
 sumedharama-monastic-chants:
 	$(LATEX) $(LATEX_OPTS) sumedharama-monastic-chants.tex;
-
-brazil-chants:
-	$(LATEX) $(LATEX_OPTS) brazil-chants.tex;
 
 satipatthana:
 	$(LATEX) $(LATEX_OPTS) satipatthana-en.tex;
