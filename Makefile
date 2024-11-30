@@ -26,6 +26,7 @@ vol1:
 		sort > $(VOL1).fir.tmp
 	echo '\\contentsfinish' >> $(VOL1).fir.tmp
 	mv $(VOL1).fir.tmp $(VOL1).fir
+	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
 vol1-a4:
 	cat $(VOL1_A4).fir | \

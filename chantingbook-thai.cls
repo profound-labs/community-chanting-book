@@ -171,8 +171,7 @@
   BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
 ]{Sarabun-Regular.ttf}
 
-\newcommand\thaiFont{\SarabunFont}
-
+\newcommand\thaiFont{\SarabunNormalFont}
 
 \newfontfamily\SanghaIcons{SanghaIcons.ttf}
 
