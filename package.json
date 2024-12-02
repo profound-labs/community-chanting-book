@@ -1,0 +1,15 @@
+{
+  "name": "community-chanting-book",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --quiet-deps --no-source-map assets/sass/output-epub.scss:assets/css/output-epub.css",
+    "sass-watch": "sass --watch --quiet-deps --no-source-map assets/sass/output-epub.scss:assets/css/output-epub.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}

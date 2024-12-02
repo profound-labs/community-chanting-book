@@ -1,0 +1,33 @@
+# First Lines Index
+
+- <a href="reflections-and-recollections.html#reflection-on-universal-well-being">Ahaṁ sukhito homi</a>
+- <a href="reflections-and-recollections.html#verses-on-the-buddha-s-first-exclamation">Aneka-jāti-saṁsāraṁ</a>
+- <a href="reflections-and-recollections.html#reflection-on-the-unconditioned">Atthi bhikkhave ajātaṁ abhūtaṁ akataṁ</a>
+- <a href="reflections-and-recollections.html#verses-on-a-shining-night-of-prosperity">Atītaṁ nānvāgameyya</a>
+- <a href="reflections-and-recollections.html#the-teaching-on-the-noble-eightfold-path">Ayam-eva ariyo aṭṭhaṅgiko maggo</a>
+- <a href="reflections-and-recollections.html#reflection-on-the-thirty-two-parts">Ayaṁ kho me kāyo</a>
+- <a href="reflections-and-recollections.html#true-and-false-refuges">Bahuṁ ve saraṇaṁ yanti</a>
+- <a href="reflections-and-recollections.html#verses-on-the-burden">Bhārā have pañcakkhandhā</a>
+- <a href="reflections-and-recollections.html#the-verses-of-tayana">Chinda sotaṁ parakkamma</a>
+- <a href="reflections-and-recollections.html#ten-subjects-for-frequent-recollection-by-one-who-has-gone-forth">Dasa ime bhikkhave</a>
+- <a href="reflections-and-recollections.html#teachings-from-the-discourse-on-setting-in-motion-the-wheel-of-dhamma">Dve me bhikkhave antā</a>
+- <a href="reflections-and-recollections.html#the-teaching-on-striving-according-to-dhamma">Evaṁ svākkhāto bhikkhave mayā dhammo</a>
+- <a href="reflections-and-recollections.html#verses-on-the-last-instructions">Handa dāni bhikkhave āmantayāmi vo</a>
+- <a href="reflections-and-recollections.html#suffusion-with-the-divine-abidings">I will abide</a>
+- <a href="reflections-and-recollections.html#verses-of-sharing-and-aspiration">Iminā puññakammena upajjhāyā guṇuttarā</a>
+- <a href="reflections-and-recollections.html#five-subjects-for-frequent-recollection">Jarā-dhammomhi jaraṁ anatīto</a>
+- <a href="reflections-and-recollections.html#the-buddha-s-words-on-loving-kindness">Karaṇīyam-attha-kusalena</a>
+- <a href="reflections-and-recollections.html#reflection-on-universal-well-being">May I abide in well-being</a>
+- <a href="reflections-and-recollections.html#suffusion-with-the-divine-abidings">Mettā-sahagatena</a>
+- <a href="reflections-and-recollections.html#reflection-on-the-four-requisites">Paṭisaṅkhā yoniso</a>
+- <a href="reflections-and-recollections.html#verses-on-the-sharing-of-merit">Puññass'idāni katassa yān'aññāni katāni me</a>
+- <a href="reflections-and-recollections.html#verses-on-the-training-code">Sabba-pāpassa akaraṇaṁ</a>
+- <a href="reflections-and-recollections.html#reflection-on-impermanence">Sabbe saṅkhārā aniccā</a>
+- <a href="reflections-and-recollections.html#verses-on-the-three-characteristics">Sabbe saṅkhārā aniccā'ti</a>
+- <a href="reflections-and-recollections.html#the-buddha-s-words-on-loving-kindness">This is what should be done</a>
+- <a href="reflections-and-recollections.html#the-highest-blessings">Thus have I heard that the Blessed One</a>
+- <a href="reflections-and-recollections.html#verses-on-the-riches-of-a-noble-one">Yassa saddhā tathāgate</a>
+- <a href="reflections-and-recollections.html#reflection-on-the-off-putting-qualities-of-the-requisites">Yathā paccayaṁ pavattamānaṁ</a>
+- <a href="reflections-and-recollections.html#just-as-rivers">Yathā vāri-vahā pūrā paripūrenti sāgaraṁ</a>
+- <a href="reflections-and-recollections.html#verses-on-respect-for-the-dhamma">Ye ca atītā sambuddhā</a>
+- <a href="reflections-and-recollections.html#the-teaching-on-mindfulness-of-breathing">Ānāpānassati bhikkhave bhāvitā bahulī-katā</a>

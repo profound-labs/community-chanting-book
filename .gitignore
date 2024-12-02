@@ -1,6 +1,9 @@
 *.swp
 auto/
 .auctex-auto/
+node_modules/
+
+book/
 
 # Project output
 helpers/rising-test/*-output.txt

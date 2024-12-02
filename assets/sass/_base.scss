@@ -1,0 +1,187 @@
+/* Common style shared between HTML and EPUB output. */
+
+@use "typefaces";
+
+body {
+  font-family: 'Gentium Incantation', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Ubuntu X', sans-serif;
+  text-align: left;
+  font-weight: 700;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  word-spacing: 2pt;
+}
+
+blockquote {
+  background: none;
+  border: none;
+}
+
+.english > blockquote p {
+  font-style: italic;
+}
+
+.instr > blockquote p {
+  font-weight: bold;
+}
+
+table.middle-aligned {
+  td:first-child {
+    text-align: right;
+  }
+
+  td:last-child {
+    text-align: left;
+  }
+}
+
+span.vin {
+  display: inline-block;
+  width: 2em;
+}
+
+span.prul {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.titlepage-cover {
+  margin-top: 2em;
+  h1 {
+    text-align: center;
+    margin-top: 1em;
+  }
+  h2 {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+  }
+}
+
+.download-item {
+  margin-top: 1em;
+  .item-description {
+    h3 {
+      margin-top: 0.5em;
+    }
+  }
+  .item-cover img {
+    width: 100%;
+  }
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.opening-illustration {
+  float: right;
+  margin: 10px 0px 10px 10px;
+  width: 50%;
+}
+
+.opening-page {
+  text-align: center;
+  img {
+    margin: 0 auto;
+  }
+}
+
+.illustration {
+  margin: 10px auto;
+  width: 60%;
+}
+
+.sutta > blockquote {
+  border-left: 2px solid #8c8c8c;
+  padding-left: 1em;
+}
+
+.note {
+  clear: both;
+  padding: 10px;
+  border-top: 2px solid #8c8c8c;
+  span.caption {
+    padding: 0px 20px;
+    font-style: normal;
+  }
+}
+
+.list-none {
+  ul,
+  ol {
+    list-style-type: none;
+    li > p > strong:first-child {
+      font-weight: normal;
+      margin-left: -1.3em;
+    }
+    li > strong:first-child {
+      font-weight: normal;
+      margin-left: -1.3em;
+    }
+  }
+}
+
+.list-upper-alpha ol {
+  list-style-type: upper-alpha;
+}
+
+.list-decimal ol {
+  list-style-type: decimal;
+}
+
+ol {
+  list-style-type: decimal;
+  ol {
+    list-style-type: upper-alpha;
+    ol {
+      list-style-type: lower-alpha;
+    }
+  }
+}
+
+.figure {
+  margin: 1em 2em;
+  img {
+    display: block;
+    object-fit: scale-down;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+html.light .note {
+  background-color: #eee;
+}
+
+html.rust .note {
+  background-color: #c8c8c8;
+}
+
+html.coal .note,
+html.navy .note,
+html.ayu .note {
+  background-color: #000;
+}
+
+.footnote-section-separator {
+  font-size: 1.8em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.noteref {
+  font-size: 0.75em;
+  vertical-align: super;
+}

@@ -37,12 +37,16 @@ all:
 %.pdf: %.tex
 	$(LATEX) $(LATEX_OPTS) $<
 
+ebooks:
+	./helpers/ebooks.sh
+
+# cat $(VOL1).fir | \
+# 	sed '/\\contentsfinish/d' | \
+# 	sort > $(VOL1).fir.tmp
+# echo '\\contentsfinish' >> $(VOL1).fir.tmp
+# mv $(VOL1).fir.tmp $(VOL1).fir
+
 vol1:
-	cat $(VOL1).fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(VOL1).fir.tmp
-	echo '\\contentsfinish' >> $(VOL1).fir.tmp
-	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
 vol1-a4:
@@ -61,12 +65,13 @@ vol1-retreat:
 	mv $(VOL1)-retreat.fir.tmp $(VOL1)-retreat.fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1)-retreat.tex;
 
+# cat $(VOL2).fir | \
+# 	sed '/\\contentsfinish/d' | \
+# 	sort > $(VOL2).fir.tmp
+# echo '\\contentsfinish' >> $(VOL2).fir.tmp
+# mv $(VOL2).fir.tmp $(VOL2).fir
+
 vol2:
-	cat $(VOL2).fir | \
-		sed '/\\contentsfinish/d' | \
-		sort > $(VOL2).fir.tmp
-	echo '\\contentsfinish' >> $(VOL2).fir.tmp
-	mv $(VOL2).fir.tmp $(VOL2).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL2).tex;
 
 release:
