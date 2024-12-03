@@ -40,20 +40,19 @@ all:
 ebooks:
 	./helpers/ebooks.sh
 
-# cat $(VOL1).fir | \
-# 	sed '/\\contentsfinish/d' | \
-# 	sort > $(VOL1).fir.tmp
-# echo '\\contentsfinish' >> $(VOL1).fir.tmp
-# mv $(VOL1).fir.tmp $(VOL1).fir
-
 vol1:
+	cat $(VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(VOL1).fir.tmp
+	echo '\contentsfinish' >> $(VOL1).fir.tmp
+	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
 
 vol1-a4:
 	cat $(VOL1_A4).fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(VOL1_A4).fir.tmp
-	echo '\\contentsfinish' >> $(VOL1_A4).fir.tmp
+	echo '\contentsfinish' >> $(VOL1_A4).fir.tmp
 	mv $(VOL1_A4).fir.tmp $(VOL1_A4).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1_A4).tex;
 
@@ -61,17 +60,16 @@ vol1-retreat:
 	cat $(VOL1)-retreat.fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(VOL1)-retreat.fir.tmp
-	echo '\\contentsfinish' >> $(VOL1)-retreat.fir.tmp
+	echo '\contentsfinish' >> $(VOL1)-retreat.fir.tmp
 	mv $(VOL1)-retreat.fir.tmp $(VOL1)-retreat.fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1)-retreat.tex;
 
-# cat $(VOL2).fir | \
-# 	sed '/\\contentsfinish/d' | \
-# 	sort > $(VOL2).fir.tmp
-# echo '\\contentsfinish' >> $(VOL2).fir.tmp
-# mv $(VOL2).fir.tmp $(VOL2).fir
-
 vol2:
+	cat $(VOL2).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(VOL2).fir.tmp
+	echo '\contentsfinish' >> $(VOL2).fir.tmp
+	mv $(VOL2).fir.tmp $(VOL2).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL2).tex;
 
 release:
@@ -108,7 +106,7 @@ th:
 	cat $(TH_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(TH_VOL1).fir.tmp
-	echo '\\contentsfinish' >> $(TH_VOL1).fir.tmp
+	echo '\contentsfinish' >> $(TH_VOL1).fir.tmp
 	mv $(TH_VOL1).fir.tmp $(TH_VOL1).fir
 	$(TH_LATEX) $(TH_LATEX_OPTS) $(TH_VOL1).tex;
 
