@@ -39,6 +39,20 @@ h1 {
   word-spacing: 2pt;
 }
 
+p,
+blockquote,
+table td {
+  text-align: left;
+  text-indent: 0;
+}
+
+img {
+  display: block;
+  object-fit: scale-down;
+  width: auto;
+  max-width: 100%;
+}
+
 blockquote {
   background: none;
   border: none;
@@ -211,7 +225,8 @@ h2 {
   list-style-type: none;
 }
 
-body {
+body,
+p {
   line-height: 1.7;
 }
 
