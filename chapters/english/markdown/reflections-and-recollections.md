@@ -33,7 +33,7 @@
 - [The Teaching on Striving According to Dhamma](#the-teaching-on-striving-according-to-dhamma)
 - [The Verses of Tāyana](#the-verses-of-tayana)
 
-## Verses of Sharing and Aspiration<a id="verses-of-sharing-and-aspiration"></a>
+## Verses of Sharing and Aspiration<a id="verses-of-sharing-and-aspiration"></a> {p32}<a id="p32"></a>
 
 <div class="leader">
 
@@ -58,7 +58,7 @@ Buddhādhipa꜕va꜕ro nātho dhammo nātho va꜕rutta꜕mo\
 Nātho pacceka꜕buddho ca꜕ saṅgho nāthotta꜕ro ma꜕maṁ\
 Tesottamānubhāvena mārokāsaṁ la꜕bhantu꜕ mā
 
-## Verses of Sharing and Aspiration (English)<a id="verses-of-sharing-and-aspiration-1"></a>
+## Verses of Sharing and Aspiration (English)<a id="verses-of-sharing-and-aspiration-1"></a> {p33}<a id="p33"></a>
 
 <div class="leader">
 
@@ -90,7 +90,7 @@ The꜕ Saṅgha is my supre꜓me su꜕pport.\
 Through the꜕ supreme po꜓we꜓r of a꜕ll these,\
 Ma꜕y darkness and delu꜓sion be di꜕spelled.
 
-## Verses on the Sharing of Merit<a id="verses-on-the-sharing-of-merit"></a>
+## Verses on the Sharing of Merit<a id="verses-on-the-sharing-of-merit"></a> {p34}<a id="p34"></a>
 
 <div class="leader">
 
@@ -160,7 +160,7 @@ Kh꜓ema꜓ppa꜕dañca꜕ pa꜕ppontu꜕ tesā꜓sā꜓ si꜕jjha꜕taṁ su꜕
 
 </div>
 
-## The Buddha's Words on Loving-Kindness<a id="the-buddha-s-words-on-loving-kindness"></a>
+## The Buddha's Words on Loving-Kindness<a id="the-buddha-s-words-on-loving-kindness"></a> {p36}<a id="p36"></a>
 
 <div class="leader">
 
@@ -218,7 +218,7 @@ Sīlavā dassanena sampanno\
 Kāmesu vineyya gedhaṁ\
 Na hi jātu gabbha-seyyaṁ punaretī'ti
 
-## The Buddha's Words on Loving-Kindness (English)<a id="the-buddha-s-words-on-loving-kindness-1"></a>
+## The Buddha's Words on Loving-Kindness (English)<a id="the-buddha-s-words-on-loving-kindness-1"></a> {p37}<a id="p37"></a>
 
 <div class="leader">
 
@@ -277,7 +277,7 @@ The꜕ pure-he꜓arte꜕d one, having clarity of vi꜕sion,\
 Being freed fro꜕m all se꜓nse-desires,\
 Is not bo꜓rn a꜓gain into꜕ this world.
 
-## Reflection on Universal Well-Being<a id="reflection-on-universal-well-being"></a>
+## Reflection on Universal Well-Being<a id="reflection-on-universal-well-being"></a> {p40}<a id="p40"></a>
 
 <div class="leader">
 
@@ -307,7 +307,7 @@ Yaṁ kammaṁ ka꜕rissa꜓nti\
 Kalyāṇaṁ vā pāpa꜕kaṁ vā\
 Tassa꜕ dāyādā bha꜕vissa꜓nti
 
-## Reflection on Universal Well-Being (English)<a id="reflection-on-universal-well-being-1"></a>
+## Reflection on Universal Well-Being (English)<a id="reflection-on-universal-well-being-1"></a> {p41}<a id="p41"></a>
 
 <div class="leader">
 
@@ -341,7 +341,7 @@ And its <span class="prul">results</span> will be꜖ the꜓ir home.
 Be the꜓y <span class="prul">skilful</span> or ha꜓rmful —\
 Of su꜕ch <span class="prul">acts</span> they will be꜕ the꜓ heirs.
 
-## Suffusion With the Divine Abidings<a id="suffusion-with-the-divine-abidings"></a>
+## Suffusion With the Divine Abidings<a id="suffusion-with-the-divine-abidings"></a> {p42}<a id="p42"></a>
 
 <div class="leader">
 
@@ -373,7 +373,7 @@ Iti uddhamadho tiriyaṁ sabba꜕dhi꜕ sabbatta꜕tāya\
 Sabbāvantaṁ lokaṁ u꜕pe꜕kkhā-sa꜕ha꜕ga꜕tena cetasā\
 Vipulena mahagga꜕tena appa꜕māṇena a꜕verena a꜕byāpajjhena pha꜕ri꜕tv꜕ā viha꜕ra꜕tī'ti
 
-## Suffusion With the Divine Abidings (English)<a id="suffusion-with-the-divine-abidings-1"></a>
+## Suffusion With the Divine Abidings (English)<a id="suffusion-with-the-divine-abidings-1"></a> {p43}<a id="p43"></a>
 
 <div class="leader">
 
@@ -401,7 +401,7 @@ Likewi꜓se the second, likewi꜓se the third, likewise th꜕e fourth;\
 So above and be꜕low, around and ev꜓ery꜕where; and to <span class="prul">a꜓ll</span> a꜓s to m꜕yself.\
 <span class="prul">I</span> wi꜓ll abide pervading the all-encompa꜓ssing world with a heart  imbued with equani꜕mity; abu꜓ndant, exa꜓lted, imme꜕asurable, without ho꜕stility, and withou꜕t ill-will.
 
-## The Highest Blessings<a id="the-highest-blessings"></a>
+## The Highest Blessings<a id="the-highest-blessings"></a> {p46}<a id="p46"></a>
 
 <div class="leader">
 
@@ -479,7 +479,7 @@ Know vi꜕ctory whe꜓rever the꜕y go,\
 And every <span class="prul">place</span> for them i꜕s safe.\
 <span class="prul">These</span> are the hi꜓ghest ble꜕ssings.'
 
-## Reflection on the Unconditioned<a id="reflection-on-the-unconditioned"></a>
+## Reflection on the Unconditioned<a id="reflection-on-the-unconditioned"></a> {p49}<a id="p49"></a>
 
 <div class="leader">
 
@@ -527,7 +527,7 @@ Ta꜕smā jātass꜕a bhūtassa ka꜕tassa sa꜓ṅkha꜕tassa nissaraṇaṁ pa
 
 </div>
 
-## Just as Rivers<a id="just-as-rivers"></a>
+## Just as Rivers<a id="just-as-rivers"></a> {p50}<a id="p50"></a>
 
 Yathā vāri-vahā꜓ pūrā pa꜕ripūrenti sāgaraṁ
 
@@ -727,7 +727,7 @@ Sa꜕dā so꜕tthī꜓ bhavantu꜕ te
 
 </div>
 
-## Reflection on the Four Requisites<a id="reflection-on-the-four-requisites"></a>
+## Reflection on the Four Requisites<a id="reflection-on-the-four-requisites"></a> {p53}<a id="p53"></a>
 
 <div class="leader">
 
@@ -771,7 +771,7 @@ pa꜕ṭighātāya, uṇhassa pa꜕ṭighātāya, ḍaṁsa-maka꜕sa꜕-vātāt
 
 </div>
 
-## Five Subjects for Frequent Recollection<a id="five-subjects-for-frequent-recollection"></a>
+## Five Subjects for Frequent Recollection<a id="five-subjects-for-frequent-recollection"></a> {p55}<a id="p55"></a>
 
 <div class="leader">
 
@@ -848,7 +848,7 @@ Evaṁ amhehi꜕ a꜕bhiṇhaṁ pacca꜕vekkhi꜓tabbaṁ
 
 </div>
 
-## Ten Subjects for Frequent Recollection by One Who Has Gone Forth<a id="ten-subjects-for-frequent-recollection-by-one-who-has-gone-forth"></a>
+## Ten Subjects for Frequent Recollection by One Who Has Gone Forth<a id="ten-subjects-for-frequent-recollection-by-one-who-has-gone-forth"></a> {p57}<a id="p57"></a>
 
 <div class="leader">
 
@@ -973,7 +973,7 @@ Ime kho bhikkha꜓ve da꜕sa꜕ dhammā pabba꜕jitena a꜕bhiṇhaṁ pacca꜕v
 
 </div>
 
-## Reflection on the Thirty-Two Parts<a id="reflection-on-the-thirty-two-parts"></a>
+## Reflection on the Thirty-Two Parts<a id="reflection-on-the-thirty-two-parts"></a> {p60}<a id="p60"></a>
 
 <div class="leader">
 
@@ -1042,7 +1042,7 @@ ta꜕ca꜕pa꜕ri꜕yanto pūro nānappa꜕kārassa꜕ a꜕su꜕ci꜕no
 
 </div>
 
-## Reflection on the Off-Putting Qualities of the Requisites<a id="reflection-on-the-off-putting-qualities-of-the-requisites"></a>
+## Reflection on the Off-Putting Qualities of the Requisites<a id="reflection-on-the-off-putting-qualities-of-the-requisites"></a> {p62}<a id="p62"></a>
 
 <div class="leader">
 
@@ -1338,7 +1338,7 @@ A꜕tiviya jigu꜓ccha꜕nīyo jāyati
 
 </div>
 
-## Reflection on Impermanence<a id="reflection-on-impermanence"></a>
+## Reflection on Impermanence<a id="reflection-on-impermanence"></a> {p66}<a id="p66"></a>
 
 <div class="leader">
 
@@ -1522,7 +1522,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## True and False Refuges<a id="true-and-false-refuges"></a>
+## True and False Refuges<a id="true-and-false-refuges"></a> {p69}<a id="p69"></a>
 
 <div class="leader">
 
@@ -1601,7 +1601,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## Verses on the Riches of a Noble One<a id="verses-on-the-riches-of-a-noble-one"></a>
+## Verses on the Riches of a Noble One<a id="verses-on-the-riches-of-a-noble-one"></a> {p71}<a id="p71"></a>
 
 <div class="leader">
 
@@ -1651,7 +1651,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## Verses on the Three Characteristics<a id="verses-on-the-three-characteristics"></a>
+## Verses on the Three Characteristics<a id="verses-on-the-three-characteristics"></a> {p72}<a id="p72"></a>
 
 <div class="leader">
 
@@ -1747,7 +1747,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## Verses on the Burden<a id="verses-on-the-burden"></a>
+## Verses on the Burden<a id="verses-on-the-burden"></a> {p74}<a id="p74"></a>
 
 <div class="leader">
 
@@ -1783,7 +1783,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## Verses on a Shining Night of Prosperity<a id="verses-on-a-shining-night-of-prosperity"></a>
+## Verses on a Shining Night of Prosperity<a id="verses-on-a-shining-night-of-prosperity"></a> {p75}<a id="p75"></a>
 
 <div class="leader">
 
@@ -1847,7 +1847,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-## Verses on Respect for the Dhamma<a id="verses-on-respect-for-the-dhamma"></a>
+## Verses on Respect for the Dhamma<a id="verses-on-respect-for-the-dhamma"></a> {p77}<a id="p77"></a>
 
 <div class="leader">
 
@@ -1923,7 +1923,7 @@ Esā꜓ni꜕saṁso dhamme su꜕ciṇṇe
 
 </div>
 
-## Verses on the Training Code<a id="verses-on-the-training-code"></a>
+## Verses on the Training Code<a id="verses-on-the-training-code"></a> {p79}<a id="p79"></a>
 
 <div class="leader">
 
@@ -1931,7 +1931,7 @@ Esā꜓ni꜕saṁso dhamme su꜕ciṇṇe
 
 </div>
 
-> **[ Version One ]**
+**[ Version One ]**
 
 Sa꜕bb꜕a-pāpa꜕ss꜕a a꜕ka꜕ra꜓ṇaṁ
 
@@ -2159,7 +2159,7 @@ Etaṁ buddhāna sā꜓sa꜕naṁ
 
 </div>
 
-## Verses on the Buddha's First Exclamation<a id="verses-on-the-buddha-s-first-exclamation"></a>
+## Verses on the Buddha's First Exclamation<a id="verses-on-the-buddha-s-first-exclamation"></a> {p83}<a id="p83"></a>
 
 <div class="leader">
 
@@ -2198,7 +2198,7 @@ Etaṁ buddhāna sā꜓sa꜕naṁ
 
 </div>
 
-## Verses on the Last Instructions<a id="verses-on-the-last-instructions"></a>
+## Verses on the Last Instructions<a id="verses-on-the-last-instructions"></a> {p84}<a id="p84"></a>
 
 <div class="leader">
 
@@ -2238,7 +2238,7 @@ Ayaṁ tathā꜓ga꜕tassa pa꜕cchi꜓mā vācā
 
 </div>
 
-## The Teaching on Mindfulness of Breathing<a id="the-teaching-on-mindfulness-of-breathing"></a>
+## The Teaching on Mindfulness of Breathing<a id="the-teaching-on-mindfulness-of-breathing"></a> {p85}<a id="p85"></a>
 
 <div class="leader">
 
@@ -2654,7 +2654,7 @@ Mahappha꜕lā ho꜓ti mahā꜓nisa꜓ṁsā'ti
 
 </div>
 
-## The Teaching on the Noble Eightfold Path<a id="the-teaching-on-the-noble-eightfold-path"></a>
+## The Teaching on the Noble Eightfold Path<a id="the-teaching-on-the-noble-eightfold-path"></a> {p91}<a id="p91"></a>
 
 <div class="leader">
 
@@ -3288,7 +3288,7 @@ Ayam-eva a꜕riyo aṭṭha꜓ṅgi꜕ko maggo
 
 </div>
 
-## Teachings from the Discourse on Setting in Motion the Wheel of Dhamma<a id="teachings-from-the-discourse-on-setting-in-motion-the-wheel-of-dhamma"></a>
+## Teachings from the Discourse on Setting in Motion the Wheel of Dhamma<a id="teachings-from-the-discourse-on-setting-in-motion-the-wheel-of-dhamma"></a> {p101}<a id="p101"></a>
 
 <div class="leader">
 
@@ -4097,7 +4097,7 @@ A꜕kuppā me vi꜓mutti a꜕yam-ant꜕imā jāti natthi꜓ dāni pu꜕nabbh꜕a
 
 </div>
 
-## The Teaching on Striving According to Dhamma<a id="the-teaching-on-striving-according-to-dhamma"></a>
+## The Teaching on Striving According to Dhamma<a id="the-teaching-on-striving-according-to-dhamma"></a> {p115}<a id="p115"></a>
 
 <div class="leader">
 
@@ -4420,7 +4420,7 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-## The Verses of Tāyana<a id="the-verses-of-tayana"></a>
+## The Verses of Tāyana<a id="the-verses-of-tayana"></a> {p120}<a id="p120"></a>
 
 <div class="leader">
 

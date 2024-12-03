@@ -24,7 +24,7 @@ English
 - [Supreme Praise of the Saṅgha](#supreme-praise-of-the-sangha-1)
 - [Closing Homage](#closing-homage-1)
 
-## Dedication of Offerings<a id="dedication-of-offerings"></a>
+## Dedication of Offerings<a id="dedication-of-offerings"></a> {p18}<a id="p18"></a>
 
 [Yo so] bha꜕gavā a꜕rahaṁ sammāsambuddho\
 Svākkhā꜓to yena bha꜕gava꜓tā dhammo\
@@ -44,7 +44,7 @@ Dhammaṁ namassāmi **[ Bow ]**
 [Supaṭi꜕panno] bha꜕gava꜕to sāvaka꜕saṅgho\
 Sa꜓ṅghaṁ na꜕māmi **[ Bow ]**
 
-## Preliminary Homage<a id="preliminary-homage"></a>
+## Preliminary Homage<a id="preliminary-homage"></a> {p20}<a id="p20"></a>
 
 <div class="leader">
 
@@ -69,7 +69,7 @@ Itipi so bha꜕gavā a꜕rahaṁ sammāsambuddho\
 Vijjāca꜕raṇa꜓-sampanno su꜕ga꜕to loka꜕vi꜓dū\
 Anu꜓tta꜕ro purisa꜕damma-sārathi satthā deva-ma꜕nussānaṁ buddho bha꜕gavā'ti
 
-## Supreme Praise of the Buddha<a id="supreme-praise-of-the-buddha"></a>
+## Supreme Praise of the Buddha<a id="supreme-praise-of-the-buddha"></a> {p22}<a id="p22"></a>
 
 <div class="leader">
 
@@ -103,7 +103,7 @@ Bu꜓ddhe ku꜕kammaṁ pa꜕kataṁ ma꜕yā yaṁ\
 Bu꜓ddho pa꜕ṭiggaṇhā꜕tu acca꜕yantaṁ\
 Kālantare sa꜓ṁvarituṁ va꜕ bu꜓ddhe
 
-## Recollection of the Dhamma<a id="recollection-of-the-dhamma"></a>
+## Recollection of the Dhamma<a id="recollection-of-the-dhamma"></a> {p24}<a id="p24"></a>
 
 <div class="leader">
 
@@ -149,7 +149,7 @@ Dha꜓mme ku꜕kammaṁ pa꜕kataṁ ma꜕yā yaṁ\
 Dha꜓mmo pa꜕ṭiggaṇhā꜕tu acca꜕yantaṁ\
 Kālantare sa꜓ṁvarituṁ va꜕ dha꜓mme
 
-## Recollection of the Saṅgha<a id="recollection-of-the-sangha"></a>
+## Recollection of the Saṅgha<a id="recollection-of-the-sangha"></a> {p26}<a id="p26"></a>
 
 <div class="leader">
 
@@ -206,7 +206,7 @@ Kālantare sa꜓ṁvarituṁ va꜕ sa꜓ṅghe
 
 </div>
 
-## Closing Homage<a id="closing-homage"></a>
+## Closing Homage<a id="closing-homage"></a> {p28}<a id="p28"></a>
 
 [Arahaṁ] sammāsambuddho bha꜕gavā\
 Buddhaṁ bha꜕gavantaṁ a꜕bhi꜓vādemi **[ Bow ]**
@@ -218,7 +218,7 @@ Dhammaṁ namassāmi **[ Bow ]**
 Sa꜓ṅghaṁ na꜕māmi **[ Bow ]**
 
 
-## Dedication of Offerings<a id="dedication-of-offerings-1"></a>
+## Dedication of Offerings<a id="dedication-of-offerings-1"></a> {p19}<a id="p19"></a>
 
 [To the Ble꜕ssed One,] the꜕ Lord, who fu꜓lly a꜕ttained perfect enli꜕ghtenment,\
 To the꜕ Teaching, which he expo꜕unde꜕d so well,\
@@ -238,7 +238,7 @@ I bo꜖w to꜕ the꜕ Dha꜕mma. **[ Bow ]**
 [The꜕ Blessed One's disci꜓ples,] who have pra꜕ctised well —\
 I bo꜖w to꜕ the꜕ Sa꜕ṅgha. **[ Bow ]**
 
-## Preliminary Homage<a id="preliminary-homage-1"></a>
+## Preliminary Homage<a id="preliminary-homage-1"></a> {p21}<a id="p21"></a>
 
 <div class="leader">
 
@@ -263,7 +263,7 @@ He, the꜕ Ble꜕ssed One, is indeed the Pu꜓re One, the꜕ Perfectly Enli꜓gh
 He is i꜕mpeccable i꜕n conduct and u꜕ndersta꜓nding, the A꜕cco꜓mplished One, the꜕ Knower o꜓f the꜕ Worlds;\
 He trains perfectly tho꜕se who wi꜓sh to꜓ be꜕ trained; he is Teacher of go꜓ds and hu꜕mans; he is Awake and Ho꜕ly.
 
-## Supreme Praise of the Buddha<a id="supreme-praise-of-the-buddha-1"></a>
+## Supreme Praise of the Buddha<a id="supreme-praise-of-the-buddha-1"></a> {p23}<a id="p23"></a>
 
 <div class="leader">
 
@@ -297,7 +297,7 @@ For whatever wro꜕ng action I have co꜕mmitted towards the Bu꜕ddha,\
 May my a꜕cknowledgement of fault be acce꜓pted,\
 That i꜕n future there may be re꜕straint regarding the Bu꜕ddha.
 
-## Recollection of the Dhamma<a id="recollection-of-the-dhamma-1"></a>
+## Recollection of the Dhamma<a id="recollection-of-the-dhamma-1"></a> {p25}<a id="p25"></a>
 
 <div class="leader">
 
@@ -343,7 +343,7 @@ For whatever wro꜕ng action I have co꜕mmitted towards the Dha꜕mma,\
 May my a꜕cknowledgement of fault be acce꜓pted,\
 That i꜕n future there may be re꜕straint regarding the Dha꜕mma.
 
-## Recollection of the Saṅgha<a id="recollection-of-the-sangha-1"></a>
+## Recollection of the Saṅgha<a id="recollection-of-the-sangha-1"></a> {p27}<a id="p27"></a>
 
 <div class="leader">
 
@@ -400,7 +400,7 @@ That i꜕n future there may be re꜕straint regarding the Sa꜕ṅgha.
 
 </div>
 
-## Closing Homage<a id="closing-homage-1"></a>
+## Closing Homage<a id="closing-homage-1"></a> {p29}<a id="p29"></a>
 
 [The꜕ Lord,] the꜕ Perfectly Enli꜓ghtened and Ble꜕ssed One —\
 I꜕ render homage to꜕ the Bu꜓ddha, the Ble꜕ssed One. **[ Bow ]**

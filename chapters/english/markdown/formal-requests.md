@@ -18,7 +18,7 @@ This is a gesture of respect, made by placing the palms together
 directly in front of the chest, with the fingers aligned and pointing
 upwards.
 
-## Requesting a Dhamma Talk<a id="requesting-a-dhamma-talk"></a>
+## Requesting a Dhamma Talk<a id="requesting-a-dhamma-talk"></a> {p124}<a id="p124"></a>
 
 <div class="instruction">
 
@@ -70,7 +70,7 @@ Sādhu, sādhu, sādhu, anu꜓modāmi
 
 </div>
 
-## Requesting Paritta Chanting<a id="requesting-paritta-chanting"></a>
+## Requesting Paritta Chanting<a id="requesting-paritta-chanting"></a> {p125}<a id="p125"></a>
 
 <div class="instruction">
 
@@ -112,7 +112,7 @@ Parittaṁ brūtha꜕ maṅga꜕laṁ
 
 </div>
 
-## Requesting the Three Refuges &amp; the Five Precepts<a id="requesting-the-three-refuges--amp--the-five-precepts"></a>
+## Requesting the Three Refuges &amp; the Five Precepts<a id="requesting-the-three-refuges--amp--the-five-precepts"></a> {p126}<a id="p126"></a>
 
 <div class="instruction">
 
@@ -185,7 +185,7 @@ Parittaṁ brūtha꜕ maṅga꜕laṁ
 
 </div>
 
-## Taking the Three Refuges<a id="taking-the-three-refuges"></a>
+## Taking the Three Refuges<a id="taking-the-three-refuges"></a> {p128}<a id="p128"></a>
 
 <div class="instruction">
 
@@ -269,7 +269,7 @@ Tatiyampi saṅghaṁ saraṇaṁ gacchāmi
 
 </div>
 
-## The Five Precepts<a id="the-five-precepts"></a>
+## The Five Precepts<a id="the-five-precepts"></a> {p129}<a id="p129"></a>
 
 <div class="instruction">
 
@@ -353,7 +353,7 @@ Sādhu, sādhu, sādhu
 
 </div>
 
-## Requesting the Three Refuges &amp; the Eight Precepts<a id="requesting-the-three-refuges--amp--the-eight-precepts"></a>
+## Requesting the Three Refuges &amp; the Eight Precepts<a id="requesting-the-three-refuges--amp--the-eight-precepts"></a> {p131}<a id="p131"></a>
 
 <div class="instruction">
 
@@ -426,7 +426,7 @@ Sādhu, sādhu, sādhu
 
 </div>
 
-## Taking the Three Refuges<a id="taking-the-three-refuges-1"></a>
+## Taking the Three Refuges<a id="taking-the-three-refuges-1"></a> {p133}<a id="p133"></a>
 
 <div class="instruction">
 
@@ -510,7 +510,7 @@ Tatiyampi saṅghaṁ saraṇaṁ gacchāmi
 
 </div>
 
-## The Eight Precepts<a id="the-eight-precepts"></a>
+## The Eight Precepts<a id="the-eight-precepts"></a> {p134}<a id="p134"></a>
 
 <div class="instruction">
 

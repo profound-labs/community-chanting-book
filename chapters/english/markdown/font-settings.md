@@ -2,9 +2,9 @@
 
 This ebook uses custom fonts to indicate high- and low tones for chanting.
 
-On some ebook readers, the custom fonts setting have to be enabled manually.
+In some ebook readers the custom fonts setting have to be enabled manually.
 
-On the Kindle, open the Settings → Font tab → Font family: select "Publisher Font".
+On a Kindle, open Settings → Font tab → Font family: select "Publisher Font".
 
 *Example:*
 
