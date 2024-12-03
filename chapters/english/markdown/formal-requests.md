@@ -122,51 +122,51 @@ Parittaṁ brūtha꜕ maṅga꜕laṁ
 
 ### For a group from a monk
 
-<table>
-<tr><td>Mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
 
 ### For oneself from a monk
 
-<table>
-<tr><td>Ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ bhante tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
 
 ### For a group from a nun
 
-<table>
-<tr><td>Mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
 
 ### For oneself from a nun
 
-<table>
-<tr><td>Ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ ayye tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
 
 ### For a group from a layperson
 
-<table>
-<tr><td>Mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāma
 
 ### For oneself from a layperson
 
-<table>
-<tr><td>Ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>pañca sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ mitta tisaraṇena sa꜕ha pañca sī꜓lāni yā꜕cāmi
 
 ### Translation
 
@@ -363,51 +363,51 @@ Sādhu, sādhu, sādhu
 
 ### For a group from a monk
 
-<table>
-<tr><td>Mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
 
 ### For oneself from a monk
 
-<table>
-<tr><td>Ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ bhante tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ bhante tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
 
 ### For a group from a nun
 
-<table>
-<tr><td>Mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
 
 ### For oneself from a nun
 
-<table>
-<tr><td>Ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ ayye tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ ayye tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
 
 ### For a group from a layperson
 
-<table>
-<tr><td>Mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Dutiyampi mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-<tr><td>Tatiyampi mayaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāma</td></tr>
-</table>
+Mayaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Dutiyampi mayaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
+
+Tatiyampi mayaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāma
 
 ### For oneself from a layperson
 
-<table>
-<tr><td>Ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Dutiyampi ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-<tr><td>Tatiyampi ahaṁ mitta tisaraṇena sa꜕ha</td><td>&#x2003;</td><td>aṭṭha sī꜓lāni yā꜕cāmi</td></tr>
-</table>
+Ahaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Dutiyampi ahaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
+
+Tatiyampi ahaṁ mitta tisaraṇena sa꜕ha aṭṭha sī꜓lāni yā꜕cāmi
 
 ### Translation
 

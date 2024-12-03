@@ -1531,10 +1531,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Bahuṁ ve sa꜕ra꜓ṇaṁ yanti꜕</td><td>&#x2003;</td><td>pa꜕bba꜕tāni va꜕nāni꜓ ca</td></tr>
-<tr><td>Ārāma-rukkha꜕-cetyāni</td><td>&#x2003;</td><td>manussā꜓ bha꜕ya꜕-tajji꜕tā</td></tr>
-</table>
+Bahuṁ ve sa꜕ra꜓ṇaṁ yanti꜕ pa꜕bba꜕tāni va꜕nāni꜓ ca
+
+Ārāma-rukkha꜕-cetyāni manussā꜓ bha꜕ya꜕-tajji꜕tā
 
 <div class="english">
 
@@ -1545,10 +1544,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>N'etaṁ kho sa꜕ra꜓ṇaṁ khemaṁ</td><td>&#x2003;</td><td>n'etaṁ sa꜕raṇam-u꜓tt꜕amaṁ</td></tr>
-<tr><td>N'etaṁ sa꜕raṇam-āgamma</td><td>&#x2003;</td><td>sa꜕bba-dukkhā꜓ pa꜕mucca꜕ti</td></tr>
-</table>
+N'etaṁ kho sa꜕ra꜓ṇaṁ khemaṁ n'etaṁ sa꜕raṇam-u꜓tt꜕amaṁ
+
+N'etaṁ sa꜕raṇam-āgamma sa꜕bba-dukkhā꜓ pa꜕mucca꜕ti
 
 <div class="english">
 
@@ -1559,10 +1557,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Yo ca꜕ Buddhañca꜕ Dhammañca꜕</td><td>&#x2003;</td><td>sa꜓ṅghañca꜕ sa꜓ra꜕ṇaṁ ga꜕to</td></tr>
-<tr><td>Ca꜕ttāri a꜕riya-saccāni</td><td>&#x2003;</td><td>sa꜕mmappaññāya꜓ pa꜕ss꜕ati</td></tr>
-</table>
+Yo ca꜕ Buddhañca꜕ Dhammañca꜕ sa꜓ṅghañca꜕ sa꜓ra꜕ṇaṁ ga꜕to
+
+Ca꜕ttāri a꜕riya-saccāni sa꜕mmappaññāya꜓ pa꜕ss꜕ati
 
 <div class="english">
 
@@ -1573,10 +1570,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Dukkhaṁ dukkha-sa꜕muppādaṁ</td><td>&#x2003;</td><td>dukkhassa ca꜕ a꜕ti꜕kka꜕maṁ</td></tr>
-<tr><td>A꜕riyañ-c'a꜕ṭṭh'a꜓ṅgi꜕kaṁ maggaṁ</td><td>&#x2003;</td><td>dukkhūpasa꜕ma꜕-gāmi꜓naṁ</td></tr>
-</table>
+Dukkhaṁ dukkha-sa꜕muppādaṁ dukkhassa ca꜕ a꜕ti꜕kka꜕maṁ
+
+A꜕riyañ-c'a꜕ṭṭh'a꜓ṅgi꜕kaṁ maggaṁ dukkhūpasa꜕ma꜕-gāmi꜓naṁ
 
 <div class="english">
 
@@ -1587,10 +1583,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Etaṁ kho sa꜕ra꜓ṇaṁ khemaṁ</td><td>&#x2003;</td><td>etaṁ sa꜕raṇam-u꜓tta꜕maṁ</td></tr>
-<tr><td>Etaṁ sa꜕raṇam-āgamma</td><td>&#x2003;</td><td>sa꜕bba-dukkhā꜓ pa꜕mucca꜕ti</td></tr>
-</table>
+Etaṁ kho sa꜕ra꜓ṇaṁ khemaṁ etaṁ sa꜕raṇam-u꜓tta꜕maṁ
+
+Etaṁ sa꜕raṇam-āgamma sa꜕bba-dukkhā꜓ pa꜕mucca꜕ti
 
 <div class="english">
 
@@ -1609,10 +1604,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Yassa꜕ sa꜕ddhā tathā꜓ga꜕te</td><td>&#x2003;</td><td>a꜕ca꜕lā su꜕pa꜕tiṭṭhi꜓tā</td></tr>
-<tr><td>Sī꜓lañca꜕ yassa꜕ kalyāṇaṁ</td><td>&#x2003;</td><td>a꜕riya-kantaṁ pasa꜓ṁsi꜕taṁ</td></tr>
-</table>
+Yassa꜕ sa꜕ddhā tathā꜓ga꜕te a꜕ca꜕lā su꜕pa꜕tiṭṭhi꜓tā
+
+Sī꜓lañca꜕ yassa꜕ kalyāṇaṁ a꜕riya-kantaṁ pasa꜓ṁsi꜕taṁ
 
 <div class="english">
 
@@ -1623,10 +1617,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Sa꜓ṅghe pa꜕sā꜕do yass'atthi</td><td>&#x2003;</td><td>uju-bhūtañca da꜓ss꜕anaṁ</td></tr>
-<tr><td>A꜕daliddo't꜕i taṁ āhu꜕</td><td>&#x2003;</td><td>a꜕moghaṁ ta꜕ssa꜕ jīvi꜓taṁ</td></tr>
-</table>
+Sa꜓ṅghe pa꜕sā꜕do yass'atthi uju-bhūtañca da꜓ss꜕anaṁ
+
+A꜕daliddo't꜕i taṁ āhu꜕ a꜕moghaṁ ta꜕ssa꜕ jīvi꜓taṁ
 
 <div class="english">
 
@@ -1637,10 +1630,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Tasmā sa꜕ddhañca꜕ sī꜓lañca꜕</td><td>&#x2003;</td><td>pasādaṁ dhamma-da꜓ssa꜕naṁ</td></tr>
-<tr><td>A꜕nuyuñjetha medhāvī</td><td>&#x2003;</td><td>sa꜕raṁ buddhāna sā꜓sa꜕naṁ</td></tr>
-</table>
+Tasmā sa꜕ddhañca꜕ sī꜓lañca꜕ pasādaṁ dhamma-da꜓ssa꜕naṁ
+
+A꜕nuyuñjetha medhāvī sa꜕raṁ buddhāna sā꜓sa꜕naṁ
 
 <div class="english">
 
@@ -1659,10 +1651,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Sa꜕bbe sa꜓ṅkhā꜓rā a꜕ni꜓ccā't꜕i</td><td>&#x2003;</td><td>yadā paññāya꜓ pa꜕ssa꜕ti</td></tr>
-<tr><td>Atha nibbinda꜕ti dukkhe</td><td>&#x2003;</td><td>esa꜕ maggo vi꜓su꜕ddh꜓iyā</td></tr>
-</table>
+Sa꜕bbe sa꜓ṅkhā꜓rā a꜕ni꜓ccā't꜕i yadā paññāya꜓ pa꜕ssa꜕ti
+
+Atha nibbinda꜕ti dukkhe esa꜕ maggo vi꜓su꜕ddh꜓iyā
 
 <div class="english">
 
@@ -1673,10 +1664,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Sa꜕bbe sa꜓ṅkhā꜓rā du꜕kkhā't꜕i</td><td>&#x2003;</td><td>yadā paññāya꜓ pa꜕ssa꜕ti</td></tr>
-<tr><td>Atha nibbinda꜕ti dukkhe</td><td>&#x2003;</td><td>esa꜕ maggo vi꜓su꜕ddh꜓iyā</td></tr>
-</table>
+Sa꜕bbe sa꜓ṅkhā꜓rā du꜕kkhā't꜕i yadā paññāya꜓ pa꜕ssa꜕ti
+
+Atha nibbinda꜕ti dukkhe esa꜕ maggo vi꜓su꜕ddh꜓iyā
 
 <div class="english">
 
@@ -1687,10 +1677,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Sa꜕bbe dhammā ana꜓ttā'ti꜕</td><td>&#x2003;</td><td>yadā paññāya꜓ pa꜕ssa꜕ti</td></tr>
-<tr><td>Atha nibbinda꜕ti dukkhe</td><td>&#x2003;</td><td>esa꜕ maggo vi꜓su꜕ddh꜓iyā</td></tr>
-</table>
+Sa꜕bbe dhammā ana꜓ttā'ti꜕ yadā paññāya꜓ pa꜕ssa꜕ti
+
+Atha nibbinda꜕ti dukkhe esa꜕ maggo vi꜓su꜕ddh꜓iyā
 
 <div class="english">
 
@@ -1701,10 +1690,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>A꜕ppa꜕kā te manusse꜓su꜕</td><td>&#x2003;</td><td>ye janā pāra-gāmi꜓no</td></tr>
-<tr><td>A꜕thāyaṁ i꜕ta꜕rā pajā</td><td>&#x2003;</td><td>tīram-evānudhā꜓va꜕ti</td></tr>
-</table>
+A꜕ppa꜕kā te manusse꜓su꜕ ye janā pāra-gāmi꜓no
+
+A꜕thāyaṁ i꜕ta꜕rā pajā tīram-evānudhā꜓va꜕ti
 
 <div class="english">
 
@@ -1715,10 +1703,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Ye ca꜕ kho sammad-akkhāte</td><td>&#x2003;</td><td>dhamme dhammānuva꜓tt꜕ino</td></tr>
-<tr><td>Te ja꜕nā pā꜕ram-essanti</td><td>&#x2003;</td><td>ma꜕ccu-dheyyaṁ sudu꜓tta꜕raṁ</td></tr>
-</table>
+Ye ca꜕ kho sammad-akkhāte dhamme dhammānuva꜓tt꜕ino
+
+Te ja꜕nā pā꜕ram-essanti ma꜕ccu-dheyyaṁ sudu꜓tta꜕raṁ
 
 <div class="english">
 
@@ -1729,11 +1716,11 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Kaṇhaṁ dhammaṁ vi꜕ppahā꜓ya</td><td>&#x2003;</td><td>su꜕kkaṁ bhāvetha꜕ paṇḍi꜓to</td></tr>
-<tr><td>Okā a꜕noka꜕m-āgamma</td><td>&#x2003;</td><td>viveke ya꜕tth꜕a dūramaṁ</td></tr>
-<tr><td>Ta꜕trābh꜕irat꜕im-iccheyya</td><td>&#x2003;</td><td>hi꜕tvā kāme a꜕kiñc꜓ano</td></tr>
-</table>
+Kaṇhaṁ dhammaṁ vi꜕ppahā꜓ya su꜕kkaṁ bhāvetha꜕ paṇḍi꜓to
+
+Okā a꜕noka꜕m-āgamma viveke ya꜕tth꜕a dūramaṁ
+
+Ta꜕trābh꜕irat꜕im-iccheyya hi꜕tvā kāme a꜕kiñc꜓ano
 
 <div class="english">
 
@@ -1755,10 +1742,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Bhārā ha꜕ve pañcakkha꜓ndhā</td><td>&#x2003;</td><td>bhāra-hāro ca pu꜓gga꜕lo</td></tr>
-<tr><td>Bhā꜕r'ādānaṁ du꜕kkhaṁ loke꜓</td><td>&#x2003;</td><td>bhāra-nikkhe꜓pa꜕naṁ su꜕khaṁ</td></tr>
-</table>
+Bhārā ha꜕ve pañcakkha꜓ndhā bhāra-hāro ca pu꜓gga꜕lo
+
+Bhā꜕r'ādānaṁ du꜕kkhaṁ loke꜓ bhāra-nikkhe꜓pa꜕naṁ su꜕khaṁ
 
 <div class="english">
 
@@ -1769,10 +1755,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Nikkhipi꜕tvā ga꜕ruṁ bhā꜓raṁ</td><td>&#x2003;</td><td>aññaṁ bhāraṁ anā꜓di꜕ya</td></tr>
-<tr><td>Sa꜕mūlaṁ taṇhaṁ a꜕bbuyha</td><td>&#x2003;</td><td>nicchāto pa꜕ri꜕nibbu꜕to</td></tr>
-</table>
+Nikkhipi꜕tvā ga꜕ruṁ bhā꜓raṁ aññaṁ bhāraṁ anā꜓di꜕ya
+
+Sa꜕mūlaṁ taṇhaṁ a꜕bbuyha nicchāto pa꜕ri꜕nibbu꜕to
 
 <div class="english">
 
@@ -1791,10 +1776,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>A꜕tītaṁ nānvāga꜕meyya</td><td>&#x2003;</td><td>nappa꜕ṭikaṅkhe꜓ a꜕nāga꜓taṁ</td></tr>
-<tr><td>Ya꜕d'a꜕tītaṁ pa꜕hīnan-taṁ</td><td>&#x2003;</td><td>a꜕ppattañc꜕a a꜕nāga꜕taṁ</td></tr>
-</table>
+A꜕tītaṁ nānvāga꜕meyya nappa꜕ṭikaṅkhe꜓ a꜕nāga꜓taṁ
+
+Ya꜕d'a꜕tītaṁ pa꜕hīnan-taṁ a꜕ppattañc꜕a a꜕nāga꜕taṁ
 
 <div class="english">
 
@@ -1805,10 +1789,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Paccu꜕ppannañca꜕ yo dhammaṁ</td><td>&#x2003;</td><td>tattha tattha vi꜓pa꜕ss꜕ati</td></tr>
-<tr><td>Asa꜓ṁhi꜕raṁ asa꜓ṅku꜕ppaṁ</td><td>&#x2003;</td><td>taṁ viddhām-a꜕nu꜕brūhaye</td></tr>
-</table>
+Paccu꜕ppannañca꜕ yo dhammaṁ tattha tattha vi꜓pa꜕ss꜕ati
+
+Asa꜓ṁhi꜕raṁ asa꜓ṅku꜕ppaṁ taṁ viddhām-a꜕nu꜕brūhaye
 
 <div class="english">
 
@@ -1819,10 +1802,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>A꜕jj'eva ki꜕cca꜕m-ātappaṁ</td><td>&#x2003;</td><td>ko jaññā ma꜓ra꜕ṇaṁ su꜕ve</td></tr>
-<tr><td>Na hi no sa꜓ṅga꜕ran-tena</td><td>&#x2003;</td><td>mahā-senena ma꜓cc꜕unā</td></tr>
-</table>
+A꜕jj'eva ki꜕cca꜕m-ātappaṁ ko jaññā ma꜓ra꜕ṇaṁ su꜕ve
+
+Na hi no sa꜓ṅga꜕ran-tena mahā-senena ma꜓cc꜕unā
 
 <div class="english">
 
@@ -1833,10 +1815,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Evaṁ vihārim-ātāpiṁ</td><td>&#x2003;</td><td>a꜕ho-rattam-a꜕tandi꜓taṁ</td></tr>
-<tr><td>Taṁ ve bha꜕dd'eka꜕-ratto'ti</td><td>&#x2003;</td><td>santo ā꜕ci꜕kkha꜕te muni</td></tr>
-</table>
+Evaṁ vihārim-ātāpiṁ a꜕ho-rattam-a꜕tandi꜓taṁ
+
+Taṁ ve bha꜕dd'eka꜕-ratto'ti santo ā꜕ci꜕kkha꜕te muni
 
 <div class="english">
 
@@ -1855,10 +1836,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Ye ca꜕ atītā sa꜓mbuddhā</td><td>&#x2003;</td><td>ye ca꜕ buddhā a꜕nāga꜓tā</td></tr>
-<tr><td>Yo c'eta꜕rahi sambuddho</td><td>&#x2003;</td><td>ba꜕hunnaṁ so꜕ka꜕-nāsa꜕no</td></tr>
-</table>
+Ye ca꜕ atītā sa꜓mbuddhā ye ca꜕ buddhā a꜕nāga꜓tā
+
+Yo c'eta꜕rahi sambuddho ba꜕hunnaṁ so꜕ka꜕-nāsa꜕no
 
 <div class="english">
 
@@ -1869,10 +1849,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Sa꜕bbe sa꜕ddhamma-gar꜓uno</td><td>&#x2003;</td><td>vi꜕ha꜕riṁsu vi꜕ha꜕ranti ca</td></tr>
-<tr><td>A꜕tho pi viha꜕riss꜓anti</td><td>&#x2003;</td><td>esā buddhāna꜓ dha꜕mma꜕tā</td></tr>
-</table>
+Sa꜕bbe sa꜕ddhamma-gar꜓uno vi꜕ha꜕riṁsu vi꜕ha꜕ranti ca
+
+A꜕tho pi viha꜕riss꜓anti esā buddhāna꜓ dha꜕mma꜕tā
 
 <div class="english">
 
@@ -1883,10 +1862,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Tasmā h꜕i atta-kāmena</td><td>&#x2003;</td><td>mahattam-abhika꜓ṅkh꜕atā</td></tr>
-<tr><td>Sa꜕ddhammo ga꜕ru꜓-kāta꜕bbo</td><td>&#x2003;</td><td>s꜕araṁ buddhāna sā꜓sa꜕naṁ</td></tr>
-</table>
+Tasmā h꜕i atta-kāmena mahattam-abhika꜓ṅkh꜕atā
+
+Sa꜕ddhammo ga꜕ru꜓-kāta꜕bbo s꜕araṁ buddhāna sā꜓sa꜕naṁ
 
 <div class="english">
 
@@ -1897,10 +1875,9 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 </div>
 
-<table>
-<tr><td>Na h꜕i dhammo a꜕dhammo ca</td><td>&#x2003;</td><td>ubho s꜕ama-vipāki꜓no</td></tr>
-<tr><td>A꜕dhammo nirayaṁ neti</td><td>&#x2003;</td><td>dh꜕ammo pāpeti꜕ su꜕gga꜕tiṁ</td></tr>
-</table>
+Na h꜕i dhammo a꜕dhammo ca ubho s꜕ama-vipāki꜓no
+
+A꜕dhammo nirayaṁ neti dh꜕ammo pāpeti꜕ su꜕gga꜕tiṁ
 
 <div class="english">
 
@@ -2167,10 +2144,9 @@ Etaṁ buddhāna sā꜓sa꜕naṁ
 
 </div>
 
-<table>
-<tr><td>A꜕neka꜕-jāti꜕-sa꜓ṁsā꜓raṁ</td><td>&#x2003;</td><td>sa꜕ndhāviss꜓aṁ a꜕nibbi꜕saṁ</td></tr>
-<tr><td>Ga꜕ha-kā꜕raṁ ga꜕vesa꜓nto</td><td>&#x2003;</td><td>dukkhā jāt꜕i pu꜕nappu꜕naṁ</td></tr>
-</table>
+A꜕neka꜕-jāti꜕-sa꜓ṁsā꜓raṁ sa꜕ndhāviss꜓aṁ a꜕nibbi꜕saṁ
+
+Ga꜕ha-kā꜕raṁ ga꜕vesa꜓nto dukkhā jāt꜕i pu꜕nappu꜕naṁ
 
 <div class="english">
 
@@ -2181,11 +2157,11 @@ Etaṁ buddhāna sā꜓sa꜕naṁ
 
 </div>
 
-<table>
-<tr><td>Ga꜕ha-kā꜕raka꜕ diṭṭho꜓'si</td><td>&#x2003;</td><td>pu꜕na gehaṁ na kā꜓hasi</td></tr>
-<tr><td>Sa꜕bbā te phāsu꜕kā bhaggā</td><td>&#x2003;</td><td>gaha-kūṭa꜓ṁ vi꜕saṅkh꜕ataṁ</td></tr>
-<tr><td>Visa꜓ṅkhā꜕ra-ga꜕taṁ ci꜕ttaṁ</td><td>&#x2003;</td><td>taṇhānaṁ kh꜕aya꜕m-ajjh꜕agā</td></tr>
-</table>
+Ga꜕ha-kā꜕raka꜕ diṭṭho꜓'si pu꜕na gehaṁ na kā꜓hasi
+
+Sa꜕bbā te phāsu꜕kā bhaggā gaha-kūṭa꜓ṁ vi꜕saṅkh꜕ataṁ
+
+Visa꜓ṅkhā꜕ra-ga꜕taṁ ci꜕ttaṁ taṇhānaṁ kh꜕aya꜕m-ajjh꜕agā
 
 <div class="english">
 
@@ -4428,10 +4404,9 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-<table>
-<tr><td>Chi꜓nda so꜕taṁ pa꜕rakkamma</td><td>&#x2003;</td><td>kā꜕me panūda brā꜓hm꜕aṇa</td></tr>
-<tr><td>Nappahā꜓ya mu꜕ni kāme</td><td>&#x2003;</td><td>n'ekattam-upa꜕pajja꜕ti</td></tr>
-</table>
+Chi꜓nda so꜕taṁ pa꜕rakkamma kā꜕me panūda brā꜓hm꜕aṇa
+
+Nappahā꜓ya mu꜕ni kāme n'ekattam-upa꜕pajja꜕ti
 
 <div class="english">
 
@@ -4442,10 +4417,9 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-<table>
-<tr><td>Kayirā ce ka꜕yirāthe꜓naṁ</td><td>&#x2003;</td><td>da꜕ḷham-enaṁ pa꜕rakka꜕me</td></tr>
-<tr><td>Sithilo hi pa꜕ribbājo</td><td>&#x2003;</td><td>bh꜕iyyo ākira꜕te ra꜕jaṁ</td></tr>
-</table>
+Kayirā ce ka꜕yirāthe꜓naṁ da꜕ḷham-enaṁ pa꜕rakka꜕me
+
+Sithilo hi pa꜕ribbājo bh꜕iyyo ākira꜕te ra꜕jaṁ
 
 <div class="english">
 
@@ -4456,10 +4430,9 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-<table>
-<tr><td>A꜕kataṁ dukkaṭaṁ se꜓yyo</td><td>&#x2003;</td><td>pacchā tappati du꜓kk꜕aṭaṁ</td></tr>
-<tr><td>Katañca su꜕ka꜓taṁ seyyo</td><td>&#x2003;</td><td>yaṁ ka꜕tvā nānuta꜕ppa꜕ti</td></tr>
-</table>
+A꜕kataṁ dukkaṭaṁ se꜓yyo pacchā tappati du꜓kk꜕aṭaṁ
+
+Katañca su꜕ka꜓taṁ seyyo yaṁ ka꜕tvā nānuta꜕ppa꜕ti
 
 <div class="english">
 
@@ -4470,10 +4443,9 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-<table>
-<tr><td>Kuso꜓ ya꜕thā du꜕ggahi꜕to</td><td>&#x2003;</td><td>hattham-evā꜓nu꜕kant꜕ati</td></tr>
-<tr><td>Sā꜓maññaṁ du꜕pparāma꜕ṭṭhaṁ</td><td>&#x2003;</td><td>nirayāyūpa꜕kaḍḍh꜕ati</td></tr>
-</table>
+Kuso꜓ ya꜕thā du꜕ggahi꜕to hattham-evā꜓nu꜕kant꜕ati
+
+Sā꜓maññaṁ du꜕pparāma꜕ṭṭhaṁ nirayāyūpa꜕kaḍḍh꜕ati
 
 <div class="english">
 
@@ -4484,10 +4456,9 @@ Alam-eva a꜕ppamādena sa꜓mpāde꜕tun'ti
 
 </div>
 
-<table>
-<tr><td>Yaṁ kiñci si꜕thi꜓laṁ kammaṁ</td><td>&#x2003;</td><td>sa꜓ṅki꜕liṭṭha꜓ñca꜕ yaṁ va꜓taṁ</td></tr>
-<tr><td>Sa꜓ṅka꜕ssaraṁ brahma-ca꜕ri꜓yaṁ</td><td>&#x2003;</td><td>na taṁ ho꜓ti ma꜕happh꜕alan'ti</td></tr>
-</table>
+Yaṁ kiñci si꜕thi꜓laṁ kammaṁ sa꜓ṅki꜕liṭṭha꜓ñca꜕ yaṁ va꜓taṁ
+
+Sa꜓ṅka꜕ssaraṁ brahma-ca꜕ri꜓yaṁ na taṁ ho꜓ti ma꜕happh꜕alan'ti
 
 <div class="english">
 
