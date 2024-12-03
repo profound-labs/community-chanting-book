@@ -162,9 +162,7 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
             content = m.group(1)
 
             # the line break \\ has already been converted to \
-            content = re.sub(r'^ *(.*?) *& *(.*?) *(\\?)$', r'<tr><td>\1</td><td>&#x2003;</td><td>\2</td></tr>', content, flags=re.MULTILINE)
-
-            content = "<table>\n" + content + "\n</table>"
+            content = re.sub(r'^ *(.*?) *& *(.*?) *(\\?)$', r'\n\n\1 \2\n\n', content, flags=re.MULTILINE)
 
             s = s[:m.start(0)] + "\n\n" + content + "\n\n" + s[m.end(0):]
         else:
