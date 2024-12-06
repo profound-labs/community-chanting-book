@@ -25,6 +25,9 @@
 \newif\ifwebversion
 \webversionfalse
 
+\newif\ifmixamversion
+\mixamversionfalse
+
 \newif\ifshowwirebinding
 \showwirebindingfalse
 
@@ -57,6 +60,8 @@
   babelLanguage/.store in=\BOOK@babelLanguage,
   webversion/.default=\webversionfalse,
   webversion/.code={\webversiontrue},
+  mixamversion/.default=\mixamversionfalse,
+  mixamversion/.code={\mixamversiontrue},
   showwirebinding/.default=\showwirebindingfalse,
   showwirebinding/.code={\showwirebindingtrue},
   zeromargin/.default=\zeromarginfalse,
@@ -391,6 +396,16 @@ philo-sophical munindo amaravati thai-land}
   \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
   \settrimmedsize{\stockheight}{\stockwidth}{*}
   \settrims{0pt}{0pt}
+\fi
+
+\ifmixamversion
+  % 3mm bleed, no cropmarks
+  \stockheight=256mm
+  \stockwidth=187mm
+  \setlength{\paperheight}{\BOOK@paperHeight}
+  \setlength{\paperwidth}{\BOOK@paperWidth}
+  \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+  \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
 \fi
 
 %\newlength\BOOK@longestLine
@@ -1002,19 +1017,14 @@ philo-sophical munindo amaravati thai-land}
 }
 
 \newcounter{pageRem}
-\newcounter{origPage}
 
-% Add empty pages for a total page count divisible by 8 without remainder.
-\newcommand{\emptyUntilModEight}{%
-  \setcounter{origPage}{\theCurrentPage}%
-  \setcounter{pageRem}{1 + 8 - ( \theCurrentPage - ( ( \theCurrentPage / 8 ) * 8) )}%
-  % \typeout{hey: \theCurrentPage, \theorigPage, \thepageRem}% NOTE only for debugging
+% Add empty pages for a total page count divisible by N without remainder.
+\newcommand{\emptyUntilDivisibleBy}[1]{%
+  \setcounter{pageRem}{1 + #1 - ( \thepage - ( ( \thepage / #1 ) * #1) )}%
   \loop%
   \addtocounter{pageRem}{-1}%
   \ifnum\thepageRem>0%
-  \clearpage%
-  \thispagestyle{empty}\mbox{}%
-  % hey \theorigPage \space \thepageRem% NOTE only for debugging
+  \clearpage\thispagestyle{empty}\null%
   \repeat%
 }
 
