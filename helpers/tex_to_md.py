@@ -76,21 +76,37 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
     s = re.sub(r'\n *\\ifaivedition\n *\\clearpage\n *\\fi\n+', r'\n', s)
     s = re.sub(r'\n *\\ifaivedition\\relax\\else\n *\\clearpage\n *\\fi\n+', r'\n', s)
 
+    s = re.sub(r'\\relax\n', r'\n', s)
     s = re.sub(r'\n+\\vfill\n+', r'\n\n', s)
     s = re.sub(r'\n+\\clearpage\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\cleartoverso\n+', r'\n\n', s)
     s = re.sub(r'\\centering *', '', s)
     s = re.sub(r'\n+\\artopttrue\n+', r'\n\n', s)
     s = re.sub(r'\n+\\artoptfalse\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\savenotes\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\spewnotes\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\paliText\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\englishText\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\resumeNormalText\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\chapterTocSubIndentTrue\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\chapterTocDelegatePageNumber\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\setTocDelegatedPageNumber\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\setEnglishTextSize\{[0-9]+\}\{[0-9]+\}\{[^}]+\}\n+', r'\n\n', s)
 
     s = re.sub(r'\n+\\nextChapterUseDelegatedPageNumber\n+', r'\n\n', s)
     s = re.sub(r'\n+\\delegateSetUseNext\n+', r'\n\n', s)
     s = re.sub(r'\n+\\setArrayStrech{[^}]+}\n+', r'\n\n', s)
     s = re.sub(r'\n+\\restoreArrayStretch\n+', r'\n\n', s)
 
+    s = re.sub(r' *\\protect *', r'', s)
+
     s = re.sub(r'\\vspace\**{[^}]+}', r'', s)
     s = re.sub(r'\\hspace\**{[^}]+}', r'', s)
     s = re.sub(r'\n+\\enlargethispage\**{[^}]+}\n+', r'\n\n', s)
+    s = re.sub(r'\n+\\firstline{[^}]+}\n+\\firstline{[^}]+}\n+', r'\n\n', s)
     s = re.sub(r'\n+\\firstline{[^}]+}\n+', r'\n\n', s)
+
+    s = re.sub(r'\\addtocontents\{toc\}\{\n+\}\n', r'\n', s)
 
     s = re.sub(r'\n+\\setlength{[^}]+}{[^}]+}\n+', r'\n\n', s)
 
@@ -116,9 +132,12 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
 
     # inline formatting
     s = re.sub(r'\\instr{([^}]+)}', r'**[ \1 ]**', s)
+    s = re.sub(r'\\soloinstr{([^}]+)}', r'**[ \1 ]**', s)
     s = re.sub(r'\\prul{([^}]+)}', r'<span class="prul">\1</span>', s)
+    s = re.sub(r'\\(emph|textit){([^}]+)}', r'*\2*', s)
     s = re.sub(r'\\tr{([^}]+)}', r'<em>\1</em>', s)
     s = re.sub(r'\\sidepar{([^}]+)}', r'**(\1)** ', s)
+    s = re.sub(r'\\ldots{}', '...', s)
     s = re.sub(r'\\hyp{}', '-', s)
     s = re.sub(r'\\&', r'&amp;', s)
     s = re.sub('~', ' ', s)
@@ -131,9 +150,29 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
     # remove line breaks and indentation, allow text to re-flow
     s = re.sub(r'\\\n*\\vin +', r' ', s)
 
+    # Paritta and onechants: regular paragraphs
+    s = s.replace(r'\begin{paritta}', '')
+    s = s.replace(r'\end{paritta}', '')
+    s = s.replace(r'\begin{onechants}', '')
+    s = s.replace(r'\end{onechants}', '')
+
     # text environments to div classes
     while True:
-        m = re.search(r'\n+\\begin{(english|leader|instruction)}\n+(.*?)\n+\\end{(english|leader|instruction)}\n+',
+        m = re.search(r'\n+\\begin{(twochants|solotwochants)}\n+(.*?)\n+\\end{(twochants|solotwochants)}\n+',
+                      s,
+                      flags=re.MULTILINE|re.DOTALL)
+        if m:
+            content = m.group(2)
+
+            # the line break \\ has already been converted to \
+            content = re.sub(r'^ *(.*?) *& *(.*?) *(\\?)$', r'\n\n\1 \2\n\n', content, flags=re.MULTILINE)
+
+            s = s[:m.start(0)] + "\n\n" + content + "\n\n" + s[m.end(0):]
+        else:
+            break
+
+    while True:
+        m = re.search(r'\n+\\begin{(english|leader|instruction|soloonechants)}\n+(.*?)\n+\\end{(english|leader|instruction|soloonechants)}\n+',
                       s,
                       flags=re.MULTILINE|re.DOTALL)
         if m:
@@ -151,20 +190,6 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
             html_block = f"""\n\n<div class="{name}">\n\n{content}\n\n</div>\n\n"""
 
             s = s[:m.start(0)] + html_block + s[m.end(0):]
-        else:
-            break
-
-    while True:
-        m = re.search(r'\n+\\begin{twochants}\n+(.*?)\n+\\end{twochants}\n+',
-                      s,
-                      flags=re.MULTILINE|re.DOTALL)
-        if m:
-            content = m.group(1)
-
-            # the line break \\ has already been converted to \
-            content = re.sub(r'^ *(.*?) *& *(.*?) *(\\?)$', r'\n\n\1 \2\n\n', content, flags=re.MULTILINE)
-
-            s = s[:m.start(0)] + "\n\n" + content + "\n\n" + s[m.end(0):]
         else:
             break
 

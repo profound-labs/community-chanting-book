@@ -1,0 +1,34 @@
+# First Lines Index
+
+- <a href="funeral.html#pamsu-kula-for-the-living">Aciraṁ vat'ayaṁ kāyo</a>
+- <a href="funeral.html#pamsu-kula-for-the-dead">Aniccā vata saṅkhārā</a>
+- <a href="parittas.html#mangala-sutta">Asevanā ca bālānaṁ</a>
+- <a href="parittas.html#vattaka-parittam">Atthi loke sīla-guṇo</a>
+- <a href="parittas.html#bhavatu-sabba-mangalam">Bhavatu sabba-maṅgalaṁ</a>
+- <a href="parittas.html#bojjh-anga-parittam">Bojjh'aṅgo sati-saṅkhāto</a>
+- <a href="parittas.html#sarana-gamana-patho">Buddhaṁ saraṇaṁ gacchāmi</a>
+- <a href="parittas.html#jaya-mangala-attha-gatha">Bāhuṁ sahassam-abhinimmita sāvudhan-taṁ</a>
+- <a href="parittas.html#devata-uyyojana-gatha">Dukkhappattā ca niddukkhā</a>
+- <a href="funeral.html#patthana-matika-patho">Hetu-paccayo</a>
+- <a href="parittas.html#buddha-dhamma-sangha-guna">Iti pi so bhagavā</a>
+- <a href="parittas.html#karaniya-metta-sutta">Karaṇīyam-attha-kusalena</a>
+- <a href="funeral.html#dhamma-sangani-matika">Kusalā dhammā</a>
+- <a href="parittas.html#jaya-parittam">Mahā-kāruṇiko nātho</a>
+- <a href="parittas.html#n-atthi-me-saranam-annam">N'atthi me saraṇaṁ aññaṁ</a>
+- <a href="parittas.html#namo-kara-atthaka">Namo arahato sammā</a>
+- <a href="parittas.html#atanatiya-paritta--long-version-">Namo me sabbabuddhānaṁ</a>
+- <a href="parittas.html#pubba-bhaga-nama-kara-patho">Namo tassa Bhagavato</a>
+- <a href="funeral.html#vipassana-bhumi-patho">Pañcakkhandhā rūpakkhandho</a>
+- <a href="parittas.html#invitation-to-the-devas">Pharitvāna mettaṁ samettā bhadantā</a>
+- <a href="parittas.html#culla-mangala-cakka-vala">Sabba-buddh'ānubhāvena</a>
+- <a href="parittas.html#sakkatva">Sakkatvā buddha-ratanaṁ</a>
+- <a href="parittas.html#invitation-to-the-devas">Samantā cakka-vāḷesu</a>
+- <a href="parittas.html#sambuddhe">Sambuddhe aṭṭhavīsañca</a>
+- <a href="parittas.html#mora-parittam">Udet'ayañ-cakkhumā eka-rājā</a>
+- <a href="parittas.html#atanatiya-parittam">Vipassissa nam'atthu</a>
+- <a href="parittas.html#khandha-parittam">Virūpakkhehi me mettaṁ</a>
+- <a href="parittas.html#abhaya-parittam">Yan-dunnimittaṁ avamaṅgalañ-ca</a>
+- <a href="parittas.html#anguli-mala-parittam">Yato'haṁ bhagini ariyāya jātiyā jāto</a>
+- <a href="parittas.html#yankinci-ratanam-loke">Yaṅkiñci ratanaṁ loke</a>
+- <a href="parittas.html#ratana-sutta">Yaṅkiñci vittaṁ idha vā huraṁ vā</a>
+- <a href="parittas.html#nama-kara-siddhi-gatha">Yo cakkhumā moha-malāpakaṭṭho</a>

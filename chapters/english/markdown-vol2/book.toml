@@ -1,0 +1,20 @@
+[book]
+title = "Chanting Book - Volume Two"
+authors = ["Forest Sangha"]
+language = "en"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "../../../book-vol2"
+create-missing = true
+
+[output.epub]
+additional-css = ["../../../assets/css/output-epub.css"]
+epub-version = 3
+use-default-css = false
+no-section-label = true
+footnote-backrefs = true
+curly-quotes = true
+cover-image = "images/vol2-webcover.jpg"
+additional-resources = ["fonts/GentiumIncantation-Regular.ttf", "fonts/GentiumIncantation-Italic.ttf", "fonts/Ubuntu-X-Medium.ttf", "images/chanting-buddho.png", "images/chanting-anicca.png", "images/yo-so-bhagava.png"]

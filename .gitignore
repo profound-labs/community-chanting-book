@@ -4,6 +4,8 @@ auto/
 node_modules/
 
 book/
+book-vol1/
+book-vol2/
 
 # Project output
 helpers/rising-test/*-output.txt
