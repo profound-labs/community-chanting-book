@@ -6,7 +6,7 @@ multilingual = false
 src = "."
 
 [build]
-build-dir = "../../../book-vol1"
+build-dir = "../../../dist/en-vol1"
 create-missing = true
 
 [output.epub]

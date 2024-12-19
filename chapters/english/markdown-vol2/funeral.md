@@ -170,7 +170,7 @@ Mariṁsu ca marissare\
 Tath'evāhaṁ marissāmi\
 N'atthi me ettha saṁsayo
 
-## Paṁsu-kūla for the living<a id="pamsu-kula-for-the-living"></a> {p69}
+## Paṁsu-kūla for the living<a id="pamsu-kula-for-the-living"></a>
 
 Aciraṁ vat'ayaṁ kāyo\
 Paṭhaviṁ adhisessati\

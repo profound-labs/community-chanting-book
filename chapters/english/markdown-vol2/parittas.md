@@ -65,7 +65,7 @@ Namo tassa bhagavato arahato sammā-sambuddhassa\
 Namo tassa bhagavato arahato sammā-sambuddhassa\
 Namo tassa bhagavato arahato sammā-sambuddhassa
 
-## Saraṇa-gamana-pāṭho<a id="sarana-gamana-patho"></a> {p33}
+## Saraṇa-gamana-pāṭho<a id="sarana-gamana-patho"></a>
 
 Buddhaṁ saraṇaṁ gacchāmi\
 Dhammaṁ saraṇaṁ gacchāmi\
@@ -418,7 +418,7 @@ Vajjesi soḷasa karīsāni udakaṁ patvā yathā sikhī
 
 Saccena me samo n'atthi esā me sacca-pāramī'ti
 
-## Abhaya-parittaṁ<a id="abhaya-parittam"></a> {p46}
+## Abhaya-parittaṁ<a id="abhaya-parittam"></a>
 
 Yan-dunnimittaṁ avamaṅgalañ-ca\
 Yo cāmanāpo sakuṇassa saddo\
@@ -463,7 +463,7 @@ Vijjā-caraṇa-sampannaṁ mahantaṁ vīta-sāradaṁ
 
 Vijjā-caraṇa-sampannaṁ buddhaṁ vandāma gotaman'ti
 
-## Aṅguli-māla-parittaṁ<a id="anguli-mala-parittam"></a> {p47}
+## Aṅguli-māla-parittaṁ<a id="anguli-mala-parittam"></a>
 
 Yato'haṁ bhagini ariyāya jātiyā jāto\
 Nābhijānāmi sañcicca pāṇaṁ jīvitā voropetā\
@@ -486,7 +486,7 @@ Saṅgho me saraṇaṁ varaṁ\
 Etena sacca-vajjena\
 Hotu te jaya-maṅgalaṁ
 
-## Sakkatvā<a id="sakkatva"></a> {p48}
+## Sakkatvā<a id="sakkatva"></a>
 
 Sakkatvā buddha-ratanaṁ osathaṁ uttamaṁ varaṁ
 
@@ -662,7 +662,7 @@ Sata-vassā ca āyū ca jīva-siddhī bhavantu te
 
 Bhavatu sabba-maṅgalaṁ...
 
-## Bhavatu sabba-maṅgalaṁ<a id="bhavatu-sabba-mangalam"></a> {p53}
+## Bhavatu sabba-maṅgalaṁ<a id="bhavatu-sabba-mangalam"></a>
 
 Bhavatu sabba-maṅgalaṁ rakkhantu sabba-devatā
 
@@ -682,9 +682,9 @@ Sabba-saṅghānubhāvena sadā sotthī bhavantu te/me
 
 <div class="soloonechants">
 
-> We will now recite the discourse given by the Great Hero\
-> (the Buddha), as a protection for virtue-loving human beings,\
-> Against harm from all evil-doing, malevolent non-humans who are\
+> We will now recite the discourse given by the Great Hero
+> (the Buddha), as a protection for virtue-loving human beings,
+> Against harm from all evil-doing, malevolent non-humans who are
 > displeased with the Buddha's Teachings.
 
 </div>

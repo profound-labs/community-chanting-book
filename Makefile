@@ -37,8 +37,19 @@ all:
 %.pdf: %.tex
 	$(LATEX) $(LATEX_OPTS) $<
 
-ebooks:
-	./helpers/ebooks.sh
+vol1-ebooks:
+	./helpers/ebooks.sh "chapters/english/markdown-vol1/book.toml"
+
+vol2-ebooks:
+	./helpers/ebooks.sh  "chapters/english/markdown-vol2/book.toml"
+
+pt-ebooks:
+	./helpers/ebooks.sh "chapters/portuguese/markdown/book.toml"
+
+satipatthana-ebooks:
+	./helpers/ebooks.sh "chapters/english/markdown-satipatthana/book.toml"
+
+ebooks: vol1-ebooks vol2-ebooks pt-ebooks satipatthana-ebooks
 
 vol1:
 	cat $(VOL1).fir | \

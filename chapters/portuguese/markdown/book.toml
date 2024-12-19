@@ -1,12 +1,12 @@
 [book]
-title = "Chanting Book - Volume Two"
+title = "Livro de Cânticos"
 authors = ["Forest Sangha"]
-language = "en"
+language = "pt"
 multilingual = false
 src = "."
 
 [build]
-build-dir = "../../../dist/en-vol2"
+build-dir = "../../../dist/pt"
 create-missing = true
 
 [output.epub]
@@ -16,5 +16,5 @@ use-default-css = false
 no-section-label = true
 footnote-backrefs = true
 curly-quotes = true
-cover-image = "images/vol2-webcover.jpg"
+cover-image = "images/pt-webcover.jpg"
 additional-resources = ["fonts/GentiumIncantation-Regular.ttf", "fonts/GentiumIncantation-Italic.ttf", "fonts/Ubuntu-X-Medium.ttf", "images/chanting-buddho.png", "images/chanting-anicca.png", "images/yo-so-bhagava.png"]

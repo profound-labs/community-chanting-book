@@ -3,9 +3,7 @@ auto/
 .auctex-auto/
 node_modules/
 
-book/
-book-vol1/
-book-vol2/
+dist/
 
 # Project output
 helpers/rising-test/*-output.txt

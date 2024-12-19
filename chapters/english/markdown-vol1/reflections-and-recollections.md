@@ -819,8 +819,7 @@ Sa꜕bbehi me pi꜕yehi ma꜕nāpehi꜕ nānābhāvo vi꜕nābhāvo
 
 <div class="english">
 
-> All that i꜕s mine, be꜕loved and ple꜓asing,\
-> will become o꜕therwise, will become se꜓parated fro꜕m me.
+> All that i꜕s mine, be꜕loved and ple꜓asing, will become o꜕therwise, will become se꜓parated fro꜕m me.
 
 </div>
 
@@ -834,9 +833,7 @@ Yaṁ kammaṁ ka꜕rissāmi, kalyāṇaṁ vā pāpa꜕kaṁ vā, tassa꜕ dāy
 
 <div class="english">
 
-> I am the꜕ owner of my ka꜕mma, heir to my ka꜕mma, born of my ka꜕mma,\
-> related to my ka꜕mma, abide suppo꜓rted by my ka꜕mma.\
-> Whatever kamma I sha꜕ll do, for good or fo꜕r ill, of <span class="prul">that</span> I will be꜕ the꜓ heir.
+> I am the꜕ owner of my ka꜕mma, heir to my ka꜕mma, born of my ka꜕mma, related to my ka꜕mma, abide suppo꜓rted by my ka꜕mma. Whatever kamma I sha꜕ll do, for good or fo꜕r ill, of <span class="prul">that</span> I will be꜕ the꜓ heir.
 
 </div>
 
@@ -1526,8 +1523,7 @@ Tesa꜓ṁ vūpa꜕sa꜕mo sukho
 
 <div class="leader">
 
-> [Ha꜓nda mayaṁ khemākhema-sa꜕raṇa-gamana-\
-> -pa꜕ridīpikā-gāthā꜓yo bha꜕ṇāmase]
+> [Ha꜓nda mayaṁ khemākhema-sa꜕raṇa-gamana-pa꜕ridīpikā-gāthā꜓yo bha꜕ṇāmase]
 
 </div>
 

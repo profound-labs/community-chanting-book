@@ -138,6 +138,7 @@ def convert_tex_to_md(tex_path: str, md_path: str, title: str):
     s = re.sub(r'\\tr{([^}]+)}', r'<em>\1</em>', s)
     s = re.sub(r'\\sidepar{([^}]+)}', r'**(\1)** ', s)
     s = re.sub(r'\\ldots{}', '...', s)
+    s = re.sub(r'\\pause\\', '·', s)
     s = re.sub(r'\\hyp{}', '-', s)
     s = re.sub(r'\\&', r'&amp;', s)
     s = re.sub('~', ' ', s)

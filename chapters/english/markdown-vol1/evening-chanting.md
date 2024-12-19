@@ -24,6 +24,8 @@ English
 - [Supreme Praise of the Saṅgha](#supreme-praise-of-the-sangha-1)
 - [Closing Homage](#closing-homage-1)
 
+## Pāli
+
 ## Dedication of Offerings<a id="dedication-of-offerings"></a> {p18}<a id="p18"></a>
 
 [Yo so] bha꜕gavā a꜕rahaṁ sammāsambuddho\
@@ -217,6 +219,7 @@ Dhammaṁ namassāmi **[ Bow ]**
 [Supaṭi꜕panno] bha꜕gava꜕to sāvaka꜕saṅgho\
 Sa꜓ṅghaṁ na꜕māmi **[ Bow ]**
 
+## English
 
 ## Dedication of Offerings<a id="dedication-of-offerings-1"></a> {p19}<a id="p19"></a>
 

@@ -2,49 +2,29 @@
 
 set -e
 
+TOML_PATH="$1"
+TOML_DIR=$(dirname "$1")
+
+EBOOK_NAME=$(./helpers/get_toml_key.py "$TOML_PATH" "book.title")
+MARKDOWN_DIR="$TOML_DIR/$(./helpers/get_toml_key.py "$TOML_PATH" "book.src")/"
+BUILD_DIR="$TOML_DIR/$(./helpers/get_toml_key.py "$TOML_PATH" "build.build-dir")/"
+
 # without a specific path, it will use the binary installed by cargo
 MDBOOK_EPUB_BIN=~/lib/mdbook-gambhiro/mdbook-epub-gambhiro-0.4.41
 
-#############
-### Vol 1 ###
-#############
-
-EBOOK_NAME="Chanting Book - Volume One"
 EPUB_FILE="$EBOOK_NAME.epub"
 MOBI_FILE="$EBOOK_NAME.mobi"
 
-cd chapters/english/markdown-vol1/
+cd "$MARKDOWN_DIR"
 
 $MDBOOK_EPUB_BIN --standalone
 
 cd -
 
-cd book-vol1/
+cd "$BUILD_DIR"
 ~/bin/epubcheck "./$EPUB_FILE"
 
-~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
+# ~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
 
 echo "OK"
 
-cd -
-
-#############
-### Vol 2 ###
-#############
-
-EBOOK_NAME="Chanting Book - Volume Two"
-EPUB_FILE="$EBOOK_NAME.epub"
-MOBI_FILE="$EBOOK_NAME.mobi"
-
-cd chapters/english/markdown-vol2/
-
-$MDBOOK_EPUB_BIN --standalone
-
-cd -
-
-cd book-vol2/
-~/bin/epubcheck "./$EPUB_FILE"
-
-~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
-
-echo "OK"
