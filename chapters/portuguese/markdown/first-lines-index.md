@@ -1,4 +1,4 @@
-# Lista das Primeiras Linhas
+# Índice das Primeiras Linhas
 
 - <a href="reflections-and-recollections.html#versos-sobre-a-primeira-exortacao-do-buddha">Aneka-jāti-saṁsāraṁ</a>
 - <a href="reflections-and-recollections.html#as-bencaos-maiores">Assim eu ouvi que o Excelso</a>

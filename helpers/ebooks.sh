@@ -24,7 +24,7 @@ cd -
 cd "$BUILD_DIR"
 ~/bin/epubcheck "./$EPUB_FILE"
 
-# ~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
+~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
 
 echo "OK"
 

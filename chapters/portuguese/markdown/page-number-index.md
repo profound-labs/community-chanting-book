@@ -1,8 +1,6 @@
 # Índice de Números de Páginas
 
-**FIXME:** Translate
-
-The numbers in braces (e.g. {p34}) indicate page numbers in the printed chanting book.
+Os números entre chavetas (ex: {p34}) indicam os números das páginas no Livro de Cânticos impresso.
 
 Cânticos Matinais
 
