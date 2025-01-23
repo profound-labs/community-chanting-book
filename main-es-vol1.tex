@@ -1,0 +1,66 @@
+\documentclass[
+  babelLanguage=spanish,
+  final,
+  %showwirebinding,
+  webversion,
+  %showtrims,
+]{chantingbook}
+
+\usepackage{local}
+
+\title{Livro de Cânticos}
+\subtitle{Cânticos Matinais e Vespertinos (Pūjā) e Reflexões}
+
+% NOTE: This edition is subject to further editing. No ISBN for now.
+%\ISBN{978-1-78432-031-7}
+
+\editionInfo{\textit{Segunda edição}, 2024}
+
+\renewcommand\listfirstlinesname{Lista das Primeiras Linhas}
+
+\begin{document}
+
+\frontmatter
+
+\thispagestyle{empty}\mbox{}
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/spanish/webcover-vol1.tex}%
+\fi
+
+\clearpage
+
+\cleartoverso
+\input{./chapters/spanish/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+\input{./chapters/spanish/a-pronuncia-pali.tex}
+
+\mainmatter
+
+\input{./chapters/spanish/chapters-vol1.tex}
+
+%\part{Appendix}
+%
+%\appendixsize
+%
+%\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
+%
+%\input{./chapters/\theLanguage/glossary.tex}
+%
+%\cleartorecto
+%\input{./chapters/\theLanguage/acknowledgments.tex}
+
+\clearpage
+\input{./chapters/spanish/copyright-details.tex}
+
+\emptyUntilEven
+
+\end{document}
