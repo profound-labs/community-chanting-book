@@ -849,7 +849,7 @@ philo-sophical munindo amaravati thai-land}
       \hspace*{2pt}%
       \raggedright
       \color{header}%
-      \MakeLowercase{\partnamefont \partname \hspace*{0.3em} \partnumfont \arabic{part}}%
+      {\partnamefont \MakeLowercase{\partname} \hspace*{0.3em} \partnumfont \arabic{part}}%
     }}%
   }%
   \fi
