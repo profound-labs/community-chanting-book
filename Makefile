@@ -2,6 +2,7 @@ VOL1=main-en-vol1
 VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
+ES_VOL1=main-es-vol1
 TH_VOL1=main-th-vol1
 
 # LATEX=lualatex
@@ -21,6 +22,9 @@ TH_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
 PT_LATEX=xelatex
 PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
+
+ES_LATEX=xelatex
+ES_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
 # PT_LATEX=lualatex
 # PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error
@@ -112,6 +116,14 @@ pt-cover-front:
 
 pt-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-pt-vol1.tex;
+
+es:
+	cat $(ES_VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(ES_VOL1).fir.tmp
+	echo '\contentsfinish' >> $(ES_VOL1).fir.tmp
+	mv $(ES_VOL1).fir.tmp $(ES_VOL1).fir
+	$(ES_LATEX) $(ES_LATEX_OPTS) $(ES_VOL1).tex;
 
 th:
 	cat $(TH_VOL1).fir | \

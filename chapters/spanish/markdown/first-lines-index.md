@@ -1,0 +1,24 @@
+# Índice das Primeiras Linhas
+
+- <a href="reflections-and-recollections.html#versos-sobre-a-primeira-exortacao-do-buddha">Aneka-jāti-saṁsāraṁ</a>
+- <a href="reflections-and-recollections.html#as-bencaos-maiores">Assim eu ouvi que o Excelso</a>
+- <a href="reflections-and-recollections.html#reflexoes-sobre-a-partilha-de-bencaos-1">Através do bem que resulta da minha prática</a>
+- <a href="reflections-and-recollections.html#reflexao-sobre-o-incondicionado">Atthi bhikkhave ajātaṁ abhūtaṁ akataṁ</a>
+- <a href="reflections-and-recollections.html#versos-sobre-uma-noite-auspiciosa">Atītaṁ nānvāgameyya</a>
+- <a href="reflections-and-recollections.html#reflexao-sobre-as-trinta-e-duas-partes">Ayaṁ kho me kāyo</a>
+- <a href="reflections-and-recollections.html#verdadeiros-e-falsos-refugios">Bahuṁ ve saraṇaṁ yanti</a>
+- <a href="reflections-and-recollections.html#versos-sobre-o-fardo">Bhārā have pañcakkhandhā</a>
+- <a href="reflections-and-recollections.html#dez-temas-para-recordar-frequentemente-por-aqueles-que-seguem-o-caminho">Dasa ime bhikkhave</a>
+- <a href="reflections-and-recollections.html#metta-sutta">Eis o que se deve fazer</a>
+- <a href="reflections-and-recollections.html#radiancia-das-estancias-divinas-1">Eu permanecerei</a>
+- <a href="reflections-and-recollections.html#versos-sobre-as-ultimas-instrucoes">Handa dāni bhikkhave āmantayāmi vo</a>
+- <a href="reflections-and-recollections.html#reflexoes-sobre-a-partilha-de-bencaos">Iminā puññakammena upajjhāyā guṇuttarā</a>
+- <a href="reflections-and-recollections.html#cinco-temas-para-recordar-frequentemente">Jarā-dhammomhi jaraṁ anatīto</a>
+- <a href="reflections-and-recollections.html#ovada-patimokkha">Khantī paramaṁ tapo tītikkhā</a>
+- <a href="reflections-and-recollections.html#reflexao-sobre-os-quatro-requisitos">Paṭisaṅkhā yoniso</a>
+- <a href="reflections-and-recollections.html#reflexao-sobre-o-bem-estar-universal">Que eu mantenha bem-estar</a>
+- <a href="reflections-and-recollections.html#versos-sobre-as-tres-caracteristicas">Sabbe saṅkhārā aniccā'ti</a>
+- <a href="reflections-and-recollections.html#versos-sobre-a-riqueza-daquele-que-e-nobre">Yassa saddhā tathāgate</a>
+- <a href="reflections-and-recollections.html#versos-de-respeito-pelo-dhamma">Ye ca atītā sambuddhā</a>
+- <a href="reflections-and-recollections.html#surgir-a-partir-de-uma-causa">Ye dhammā hetuppabhavā</a>
+- <a href="reflections-and-recollections.html#anapanassati-sutta">Ānāpānassati bhikkhave bhāvitā bahulī-katā</a>

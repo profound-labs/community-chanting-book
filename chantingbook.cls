@@ -276,6 +276,19 @@
   % generates a hyphen that will repeat on a new line
   \defineshorthand{"-}{\babelhyphen{repeat}}
 }{}
+\ifthenelse{\equal{\BOOK@babelLanguage}{spanish}}{
+  \renewcommand\spanishhyphenmins{{3}{3}}
+  \addto\captionsspanish{
+    \renewcommand{\contentsname}{Índice}
+    \renewcommand{\bibname}{Referências}
+    \renewcommand*{\pagerefname}{página}
+    \renewcommand*{\notesname}{Notas}
+  }
+  % Portuguese repeats hyphen
+  % http://tex.stackexchange.com/a/247298/831
+  % generates a hyphen that will repeat on a new line
+  \defineshorthand{"-}{\babelhyphen{repeat}}
+}{}
 
 \hyphenpenalty=700
 \exhyphenpenalty=50
