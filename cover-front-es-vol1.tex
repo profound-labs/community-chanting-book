@@ -1,8 +1,34 @@
-\mbox{}
+\documentclass[
+  babelLanguage=portuguese,
+  final,
+  zeromargin,
+  showtrims,
+]{chantingbook}
 
-\AddToShipoutPictureBG*{\put(0,0){%
-\includegraphics[height=\paperheight]{vol1-webcover-bg.jpg}%
-}}
+\makeatletter
+
+\graphicspath{{./images/}}
+
+\NewCoffin\PageOut
+\NewCoffin\CoverBg
+
+\SetHorizontalCoffin\PageOut{}
+
+\SetHorizontalCoffin\CoverBg{%
+\includegraphics{vol1-cover-front.pdf}%
+}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\makeatother
+
+\begin{document}
+
+\thispagestyle{empty}\mbox{}
+
+\JoinCoffins*\PageOut[hc,vc]\CoverBg[hc,vc](0.5\paperwidth, -0.5\paperheight +32pt)%
+\TypesetCoffin\PageOut
 
 \AddToShipoutPictureFG*{\put(\LenToUnit{30mm},\LenToUnit{85mm}){%
 \begin{minipage}[b]{138mm}%
@@ -29,18 +55,4 @@ PĀLI\hspace*{8pt}|\hspace*{8pt}ESPAÑOL
 \end{minipage}%
 }}
 
-%{\centering
-%\mbox{}
-%\vfill
-%
-%\parttitlefont\color{chaptertitle}
-%%\addfontfeature{LetterSpace=2.0}
-%
-%Livro de Cânticos
-%
-%\vspace*{4\baselineskip}
-%
-%\vfill
-%
-%\mbox{}
-%}
+\end{document}
