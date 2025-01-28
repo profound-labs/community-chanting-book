@@ -1,12 +1,12 @@
 \contentsline {firstline}{\chapternumberline {1} Iminā puññakammena upajjhāyā guṇuttarā}{34}{chapter*.18}%
-\contentsline {firstline}{\chapternumberline {1} Através do bem que resulta da minha prática}{35}{chapter.17}%
+\contentsline {firstline}{\chapternumberline {1} A través del bien que resulta de mi práctica}{35}{chapter.17}%
 \contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{36}{chapter*.19}%
-\contentsline {firstline}{\chapternumberline {1} Eis o que se deve fazer}{37}{chapter.18}%
+\contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{37}{chapter.18}%
 \contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{42}{chapter*.20}%
-\contentsline {firstline}{\chapternumberline {1} Eu permanecerei}{43}{chapter.20}%
-\contentsline {firstline}{\chapternumberline {1} Assim eu ouvi que o Excelso}{46}{chapter.21}%
+\contentsline {firstline}{\chapternumberline {1} Yo permaneceré}{43}{chapter.20}%
+\contentsline {firstline}{\chapternumberline {1} Así yo oí, que el Señor}{46}{chapter.21}%
 \contentsline {firstline}{\chapternumberline {1} Ahaṁ sukhito homi}{49}{chapter*.21}%
-\contentsline {firstline}{\chapternumberline {1} Que eu mantenha bem-estar}{50}{chapter.22}%
+\contentsline {firstline}{\chapternumberline {1} Que yo mantenga bienestar}{50}{chapter.22}%
 \contentsline {firstline}{\chapternumberline {1} Paṭisaṅkhā yoniso}{51}{chapter.23}%
 \contentsline {firstline}{\chapternumberline {1} Ayaṁ kho me kāyo}{53}{chapter.24}%
 \contentsline {firstline}{\chapternumberline {1} Jarā-dhammomhi jaraṁ anatīto}{57}{chapter.25}%
