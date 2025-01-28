@@ -125,6 +125,12 @@ es:
 	mv $(ES_VOL1).fir.tmp $(ES_VOL1).fir
 	$(ES_LATEX) $(ES_LATEX_OPTS) $(ES_VOL1).tex;
 
+es-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-es-vol1.tex;
+
+es-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-es-vol1.tex;
+
 th:
 	cat $(TH_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \

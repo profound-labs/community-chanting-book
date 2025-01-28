@@ -1,0 +1,53 @@
+\documentclass[
+  babelLanguage=portuguese,
+  final,
+  zeromargin,
+  showtrims,
+]{chantingbook}
+
+\makeatletter
+
+\graphicspath{{./images/}}
+
+\NewCoffin\PageOut
+\NewCoffin\CoverBg
+
+\SetHorizontalCoffin\PageOut{}
+
+\SetHorizontalCoffin\CoverBg{%
+\includegraphics{vol1-cover-back.pdf}%
+}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\makeatother
+
+\begin{document}
+
+\thispagestyle{empty}\mbox{}
+
+\JoinCoffins*\PageOut[hc,vc]\CoverBg[hc,vc](0.5\paperwidth, -0.5\paperheight +32pt)%
+\TypesetCoffin\PageOut
+
+\AddToShipoutPictureFG*{\put(0,\LenToUnit{77mm}){%
+\begin{minipage}[b]{\linewidth - 30mm}%
+\raggedleft
+\fontsize{10.8}{10.8}\CallunaSans
+\color[HTML]{DEB25D} PARA DISTRIBUIÇÃO GRATUITA
+\end{minipage}%
+}}
+
+% \AddToShipoutPictureFG*{\put(0,\LenToUnit{18mm - 17.5pt}){%
+% \begin{minipage}[b]{\linewidth - 30mm}%
+% \raggedleft
+% \parbox[b][35pt][c]{30mm}{\raggedleft
+% \fontsize{10.8}{10.8}\CallunaSans
+% \resizebox{22mm}{!}{AMARAVATI}\\
+% \resizebox{22mm}{!}{PUBLICATIONS}}
+% \parbox[b][35pt][c]{12mm}{\raggedleft
+% \resizebox{!}{33pt}{\SanghaIcons a}}
+% \end{minipage}%
+% }}
+
+\end{document}
