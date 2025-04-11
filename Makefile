@@ -134,11 +134,17 @@ es-vol2:
 	mv $(ES_VOL2).fir.tmp $(ES_VOL2).fir
 	$(ES_LATEX) $(ES_LATEX_OPTS) $(ES_VOL2).tex;
 
-es-cover-front:
+es-vol1-cover-front:
 	$(LATEX) $(LATEX_OPTS) cover-front-es-vol1.tex;
 
-es-cover-back:
+es-vol1-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-es-vol1.tex;
+
+es-vol2-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-es-vol2.tex;
+
+es-vol2-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-es-vol2.tex;
 
 th:
 	cat $(TH_VOL1).fir | \
