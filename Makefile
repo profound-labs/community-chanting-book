@@ -3,6 +3,7 @@ VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
 ES_VOL1=main-es-vol1
+ES_VOL2=main-es-vol2
 TH_VOL1=main-th-vol1
 
 # LATEX=lualatex
@@ -124,6 +125,14 @@ es:
 	echo '\contentsfinish' >> $(ES_VOL1).fir.tmp
 	mv $(ES_VOL1).fir.tmp $(ES_VOL1).fir
 	$(ES_LATEX) $(ES_LATEX_OPTS) $(ES_VOL1).tex;
+
+es-vol2:
+	cat $(ES_VOL2).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(ES_VOL2).fir.tmp
+	echo '\contentsfinish' >> $(ES_VOL2).fir.tmp
+	mv $(ES_VOL2).fir.tmp $(ES_VOL2).fir
+	$(ES_LATEX) $(ES_LATEX_OPTS) $(ES_VOL2).tex;
 
 es-cover-front:
 	$(LATEX) $(LATEX_OPTS) cover-front-es-vol1.tex;
