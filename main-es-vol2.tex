@@ -20,9 +20,15 @@
 
 \frontmatter
 
-\webcover{%
-\includegraphics[height=\paperheight]{es-webcover-vol2.jpg}%
-}
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/spanish/webcover-vol2.tex}%
+\fi
+
+%\webcover{%
+%\includegraphics[height=\paperheight]{es-webcover-vol2.jpg}%
+%}
 
 \cleartoverso
 \input{./chapters/spanish/copyright.tex}

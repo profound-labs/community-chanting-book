@@ -223,6 +223,8 @@
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
 
+\newfontfamily\Ehmcke{ehmcke-federfraktur.ttf}
+
 
 \newlength\thaiTextParskip
 \setlength{\thaiTextParskip}{9pt}
