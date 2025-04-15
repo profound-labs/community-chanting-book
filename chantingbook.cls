@@ -146,6 +146,13 @@
   StylisticSet=8,
 ]{GentiumIncantation-Regular.ttf}
 \else
+
+%\setmainfont[
+%  ItalicFont=Sarabun-Italic.ttf,
+%  BoldFont=Sarabun-Bold.ttf,
+%  BoldItalicFont=Sarabun-BoldItalic.ttf,
+%]{Sarabun-Regular.ttf}
+
 \setmainfont[
   ItalicFont=GentiumIncantation-Italic.ttf,
   BoldFont=GenBkBasB.ttf,
@@ -154,6 +161,39 @@
 ]{GentiumIncantation-Regular.ttf}
 \fi
 
+\newfontfamily\THSarabunNewFont[
+  ItalicFont=TH-Sarabun-New-Italic.ttf,
+  BoldFont=TH-Sarabun-New-Bold.ttf,
+  BoldItalicFont=TH-Sarabun-New-Bold-Italic.ttf,
+]{TH-Sarabun-New-Regular.ttf}
+
+\newfontfamily\KinnariFont[
+  ItalicFont=Kinnari-Italic.ttf,
+  BoldFont=Kinnari-Bold.ttf,
+  BoldItalicFont=Kinnari-BoldItalic.ttf,
+]{Kinnari-Medium.ttf}
+
+\newfontfamily\SarabunFont[
+  ItalicFont=Sarabun-BoldItalic.ttf,
+  BoldFont=Sarabun-ExtraBold.ttf,
+  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
+]{Sarabun-Bold.ttf}
+
+\newfontfamily\SarabunNormalFont[
+  ItalicFont=Sarabun-Italic.ttf,
+  BoldFont=Sarabun-ExtraBold.ttf,
+  BoldItalicFont=Sarabun-ExtraBoldItalic.ttf,
+]{Sarabun-Regular.ttf}
+
+\newcommand\thaiFont{\SarabunNormalFont}
+\newcommand\restoreFont{\setmainfont[
+  ItalicFont=GentiumIncantation-Italic.ttf,
+  BoldFont=GenBkBasB.ttf,
+  BoldItalicFont=GenBkBasBI.ttf,
+  StylisticSet=2,
+  StylisticSet=8,
+]{GentiumIncantation-Regular.ttf}
+}
 \newfontfamily\SanghaIcons{SanghaIcons.ttf}
 
 \newfontfamily\AlegreyaSans{AlegreyaSans-Regular.otf}
@@ -183,6 +223,24 @@
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
 
+
+\newlength\thaiTextParskip
+\setlength{\thaiTextParskip}{9pt}
+
+\newcommand{\thaitextsize}{%
+  \@setfontsize\thaitextsize{12}{18}%
+  \abovedisplayskip 12\p@ \@plus3\p@ \@minus7\p@
+  \abovedisplayshortskip \z@ \@plus3\p@
+  \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
+  \belowdisplayskip \abovedisplayskip
+  \color{textbody}
+  \let\@listi\@listI}
+
+\newcommand\thaiText{%
+  \thaiFont%
+  \thaitextsize%
+  \setlength{\parskip}{\thaiTextParskip}%
+}
 % font sizes
 
 \newcommand{\headerSize}
@@ -1074,6 +1132,18 @@ philo-sophical munindo amaravati thai-land}
     \parsep        \z@ \@plus\p@%
   }%
   \item[] \raggedright\itshape}%
+  {\endlist}
+
+\newenvironment{thaitrans}%
+  {\list{}{%
+    \topsep 0pt
+    \listparindent 0em%
+    \itemindent    0em%
+    \leftmargin    0em%
+    \rightmargin   0em%
+    \parsep        \z@ \@plus\p@%
+  }%
+  \item[] \SarabunNormalFont\selectfont\raggedright}%
   {\endlist}
 
 \newenvironment{tightenglish}%
