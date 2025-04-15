@@ -1,11 +1,11 @@
-\contentsline {firstline}{\chapternumberline {1} Iminā puññakammena upajjhāyā guṇuttarā}{34}{chapter*.18}%
+\contentsline {firstline}{\chapternumberline {1} Iminā puññakammena upajjhāyā guṇuttarā}{34}{chapter*.15}%
 \contentsline {firstline}{\chapternumberline {1} A través del bien que resulta de mi práctica}{35}{chapter.17}%
-\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{36}{chapter*.19}%
+\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{36}{chapter*.16}%
 \contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{37}{chapter.18}%
-\contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{42}{chapter*.20}%
+\contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{42}{chapter*.17}%
 \contentsline {firstline}{\chapternumberline {1} Yo permaneceré}{43}{chapter.20}%
 \contentsline {firstline}{\chapternumberline {1} Así yo oí, que el Señor}{46}{chapter.21}%
-\contentsline {firstline}{\chapternumberline {1} Ahaṁ sukhito homi}{49}{chapter*.21}%
+\contentsline {firstline}{\chapternumberline {1} Ahaṁ sukhito homi}{49}{chapter*.18}%
 \contentsline {firstline}{\chapternumberline {1} Que yo mantenga bienestar}{50}{chapter.22}%
 \contentsline {firstline}{\chapternumberline {1} Paṭisaṅkhā yoniso}{51}{chapter.23}%
 \contentsline {firstline}{\chapternumberline {1} Ayaṁ kho me kāyo}{53}{chapter.24}%
