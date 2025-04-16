@@ -224,6 +224,8 @@
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
 
 \newfontfamily\Ehmcke{ehmcke-federfraktur.ttf}
+\newfontfamily\SketchGothicSchool{Sketch Gothic School.ttf}
+
 
 
 \newlength\thaiTextParskip
