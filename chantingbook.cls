@@ -161,17 +161,17 @@
 ]{GentiumIncantation-Regular.ttf}
 \fi
 
-\newfontfamily\THSarabunNewFont[
-  ItalicFont=TH-Sarabun-New-Italic.ttf,
-  BoldFont=TH-Sarabun-New-Bold.ttf,
-  BoldItalicFont=TH-Sarabun-New-Bold-Italic.ttf,
-]{TH-Sarabun-New-Regular.ttf}
+%\newfontfamily\THSarabunNewFont[
+%  ItalicFont=TH-Sarabun-New-Italic.ttf,
+%  BoldFont=TH-Sarabun-New-Bold.ttf,
+%  BoldItalicFont=TH-Sarabun-New-Bold-Italic.ttf,
+%]{TH-Sarabun-New-Regular.ttf}
 
-\newfontfamily\KinnariFont[
-  ItalicFont=Kinnari-Italic.ttf,
-  BoldFont=Kinnari-Bold.ttf,
-  BoldItalicFont=Kinnari-BoldItalic.ttf,
-]{Kinnari-Medium.ttf}
+%\newfontfamily\KinnariFont[
+%  ItalicFont=Kinnari-Italic.ttf,
+%  BoldFont=Kinnari-Bold.ttf,
+%  BoldItalicFont=Kinnari-BoldItalic.ttf,
+%]{Kinnari-Medium.ttf}
 
 \newfontfamily\SarabunFont[
   ItalicFont=Sarabun-BoldItalic.ttf,
@@ -223,7 +223,7 @@
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
 
-\newfontfamily\Ehmcke{ehmcke-federfraktur.ttf}
+%\newfontfamily\Ehmcke{ehmcke-federfraktur.ttf}
 \newfontfamily\SketchGothicSchool{Sketch Gothic School.ttf}
 
 
