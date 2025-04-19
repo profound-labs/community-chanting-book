@@ -26,4 +26,6 @@
 \contentsline {firstline}{\chapternumberline {1} Kiṁ-mūlakā āvuso sabbe dhammā}{83}{chapter.40}%
 \contentsline {firstline}{\chapternumberline {1} Ānāpānassati bhikkhave bhāvitā bahulī-katā}{85}{chapter.41}%
 \contentsline {firstline}{\chapternumberline {1} Ayam-eva ariyo aṭṭhaṅgiko maggo}{91}{chapter.42}%
+\contentsline {firstline}{\chapternumberline {1} Evaṁ svākkhāto bhikkhave mayā dhammo}{101}{chapter.43}%
+\contentsline {firstline}{\chapternumberline {1} Chinda sotaṁ parakkamma}{106}{chapter.44}%
 \contentsfinish 
