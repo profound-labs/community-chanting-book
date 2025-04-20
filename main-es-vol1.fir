@@ -1,8 +1,8 @@
 \contentsline {firstline}{\chapternumberline {1} Iminā puññakammena upajjhāyā guṇuttarā}{34}{chapter*.15}%
 \contentsline {firstline}{\chapternumberline {1} A través del bien que resulta de mi práctica}{35}{chapter.17}%
 \contentsline {firstline}{\chapternumberline {1} Puññass'idāni katassa yān'aññāni katāni me}{36}{chapter.18}%
-\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{38}{chapter*.16}%
-\contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{39}{chapter.19}%
+\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{38}{chapter.19}%
+\contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{39}{chapter*.16}%
 \contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{44}{chapter*.17}%
 \contentsline {firstline}{\chapternumberline {1} Yo permaneceré}{45}{chapter.21}%
 \contentsline {firstline}{\chapternumberline {1} Así yo oí, que el Señor}{48}{chapter.22}%
