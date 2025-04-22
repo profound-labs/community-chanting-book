@@ -5,7 +5,7 @@
 \contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{39}{chapter*.16}%
 \contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{44}{chapter.21}%
 \contentsline {firstline}{\chapternumberline {1} Llenaré un cuarto}{45}{chapter*.17}%
-\contentsline {firstline}{\chapternumberline {1} Así yo oí, que el Señor}{46}{chapter.22}%
+\contentsline {firstline}{\chapternumberline {1} Así he oído, que el Excelso}{46}{chapter.22}%
 \contentsline {firstline}{\chapternumberline {1} Ahaṁ sukhito homi}{49}{chapter*.18}%
 \contentsline {firstline}{\chapternumberline {1} Que yo mantenga bienestar}{50}{chapter.23}%
 \contentsline {firstline}{\chapternumberline {1} Paṭisaṅkhā yoniso}{51}{chapter.24}%
