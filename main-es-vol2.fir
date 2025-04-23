@@ -24,10 +24,10 @@
 \contentsline {firstline}{\chapternumberline {1} Mahā-kāruṇiko nātho}{58}{chapter.29}%
 \contentsline {firstline}{\chapternumberline {1} Sabba-buddh'ānubhāvena}{59}{chapter.30}%
 \contentsline {firstline}{\chapternumberline {1} Bhavatu sabba-maṅgalaṁ}{60}{chapter.31}%
-\contentsline {firstline}{\chapternumberline {1} Namo me sabbabuddhānaṁ}{63}{chapter.33}%
-\contentsline {firstline}{\chapternumberline {1} Kusalā dhammā}{72}{chapter.34}%
-\contentsline {firstline}{\chapternumberline {1} Hetu-paccayo}{75}{chapter.35}%
-\contentsline {firstline}{\chapternumberline {1} Pañcakkhandhā rūpakkhandho}{76}{chapter.36}%
-\contentsline {firstline}{\chapternumberline {1} Aniccā vata saṅkhārā}{78}{chapter.37}%
-\contentsline {firstline}{\chapternumberline {1} Aciraṁ vat'ayaṁ kāyo}{79}{chapter.38}%
+\contentsline {firstline}{\chapternumberline {1} Namo me sabbabuddhānaṁ}{62}{chapter.33}%
+\contentsline {firstline}{\chapternumberline {1} Kusalā dhammā}{70}{chapter.34}%
+\contentsline {firstline}{\chapternumberline {1} Hetu-paccayo}{73}{chapter.35}%
+\contentsline {firstline}{\chapternumberline {1} Pañcakkhandhā rūpakkhandho}{74}{chapter.36}%
+\contentsline {firstline}{\chapternumberline {1} Aniccā vata saṅkhārā}{76}{chapter.37}%
+\contentsline {firstline}{\chapternumberline {1} Aciraṁ vat'ayaṁ kāyo}{77}{chapter.38}%
 \contentsfinish 
