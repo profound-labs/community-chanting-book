@@ -19,7 +19,7 @@ anapanasati-sheet-pali.pdf
 sumedharama-monastic-chants.pdf
 brazil-chants.pdf
 satipatthana-en.pdf
-aparihaniya-dhamma-en.pdf
+aparihaniya-en.pdf
 retreat-chanting-pt.pdf
 pt-patisankha-sheet.pdf
 
@@ -35,6 +35,7 @@ pt-patisankha-sheet.pdf
 *.ind
 *.ilg
 *.synctex*
+*.fir
 
 # Emacs temp files
 auto/

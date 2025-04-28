@@ -165,3 +165,6 @@ satipatthana-cover-front:
 
 satipatthana-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-satipatthana.tex;
+
+aparihaniya:
+	$(LATEX) $(LATEX_OPTS) aparihaniya-en.tex;
