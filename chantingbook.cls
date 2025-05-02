@@ -223,16 +223,7 @@
 \newfontfamily\Calluna{Calluna-Regular.otf}
 \newfontfamily\CallunaSans{CallunaSansRegular.otf}
 
-\newfontfamily\Ehmcke{ehmcke-federfraktur.ttf}
-\newfontfamily\ClaimusSances{ClaimusSances.otf}
-\newfontfamily\EnglishGothic{EnglishGothic.ttf}
-\newfontfamily\AngelicWar{AngelicWar.ttf}
-\newfontfamily\monarchi{monarchi.ttf}
 \newfontfamily\CartaMagna{CartaMagna.ttf}
-
-\newfontfamily\OrnamentalVersals{OrnamentalVersals.ttf}
-\newfontfamily\SketchGothicSchool{Sketch Gothic School.ttf}
-
 
 
 \newlength\thaiTextParskip
