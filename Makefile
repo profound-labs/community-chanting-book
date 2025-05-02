@@ -118,7 +118,7 @@ pt-cover-front:
 pt-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-pt-vol1.tex;
 
-es:
+es-vol1:
 	cat $(ES_VOL1).fir | \
 		sed '/\\contentsfinish/d' | \
 		sort > $(ES_VOL1).fir.tmp
