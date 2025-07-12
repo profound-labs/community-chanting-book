@@ -1,0 +1,74 @@
+\documentclass[
+  babelLanguage=spanish,
+  final,
+  %showwirebinding,
+  webversion,
+  %showtrims,
+]{portfolio}
+
+\usepackage{local}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\title{Libro de Cánticos}
+\subtitle{Cánticos Matinales y Vespertinos (Pūjā) y Reflexiones}
+
+% NOTE: This edition is subject to further editing. No ISBN for now.
+%\ISBN{978-1-78432-031-7}
+
+\editionInfo{\textit{Primera edición}, 2025}
+
+\renewcommand\listfirstlinesname{Lista de Primeras Lineas}
+
+\begin{document}
+
+\frontmatter
+
+\thispagestyle{empty}\mbox{}
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/spanish/webcover-vol1.tex}%
+\fi
+
+\clearpage
+
+\cleartoverso
+\input{./chapters/spanish/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+%\input{./chapters/spanish/a-pronuncia-pali.tex}
+
+\mainmatter
+
+\input{./chapters/spanish/chapters-vol1.tex}
+
+\part{Apéndice}
+%
+\appendixsize
+%
+%\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
+%
+\input{./chapters/spanish/a-pronuncia-pali.tex}
+
+
+\input{./chapters/spanish/etiqueta.tex}
+
+
+\input{./chapters/spanish/glossary.tex}
+%
+\cleartorecto
+\input{./chapters/spanish/care_dhamma.tex}
+
+\clearpage
+\input{./chapters/spanish/copyright-details.tex}
+
+\emptyUntilEven
+
+\end{document}
