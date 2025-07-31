@@ -1,10 +1,10 @@
 \contentsline {firstline}{\chapternumberline {1} Iminā puññakammena upajjhāyā guṇuttarā}{34}{chapter*.15}%
 \contentsline {firstline}{\chapternumberline {1} A través del bien que resulta de mi práctica}{35}{chapter.17}%
 \contentsline {firstline}{\chapternumberline {1} Puññass'idāni katassa yān'aññāni katāni me}{36}{chapter.18}%
-\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{38}{chapter.19}%
-\contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{39}{chapter*.16}%
-\contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{44}{chapter.21}%
-\contentsline {firstline}{\chapternumberline {1} Llenaré un cuarto}{45}{chapter*.17}%
+\contentsline {firstline}{\chapternumberline {1} Karaṇīyam-attha-kusalena}{38}{chapter*.16}%
+\contentsline {firstline}{\chapternumberline {1} Esto es lo que se debe hacer }{39}{chapter.19}%
+\contentsline {firstline}{\chapternumberline {1} Mettā-sahagatena}{44}{chapter*.17}%
+\contentsline {firstline}{\chapternumberline {1} Llenaré un cuarto}{45}{chapter.21}%
 \contentsline {firstline}{\chapternumberline {1} Así he oído, que el Excelso}{46}{chapter.22}%
 \contentsline {firstline}{\chapternumberline {1} Ahaṁ sukhito homi}{49}{chapter*.18}%
 \contentsline {firstline}{\chapternumberline {1} Que yo mantenga bienestar}{50}{chapter.23}%
