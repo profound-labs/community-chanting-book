@@ -5,6 +5,7 @@ PT_VOL1=main-pt-vol1
 ES_VOL1=main-es-vol1
 ES_VOL2=main-es-vol2
 TH_VOL1=main-th-vol1
+IT_VOL1=main-it-vol1
 
 # LATEX=lualatex
 # LATEX_OPTS=-interaction=nonstopmode -halt-on-error
@@ -27,8 +28,8 @@ PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 ES_LATEX=xelatex
 ES_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
-# PT_LATEX=lualatex
-# PT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error
+IT_LATEX=xelatex
+IT_LATEX_OPTS=-interaction=nonstopmode -halt-on-error -xelatex
 
 # lualatex --version
 # This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)
@@ -145,6 +146,20 @@ es-vol2-cover-front:
 
 es-vol2-cover-back:
 	$(LATEX) $(LATEX_OPTS) cover-back-es-vol2.tex;
+
+it-vol1:
+	cat $(IT_VOL1).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(IT_VOL1).fir.tmp
+	echo '\contentsfinish' >> $(IT_VOL1).fir.tmp
+	mv $(IT_VOL1).fir.tmp $(IT_VOL1).fir
+	$(IT_LATEX) $(IT_LATEX_OPTS) $(IT_VOL1).tex;
+
+it-vol1-cover-front:
+	$(LATEX) $(LATEX_OPTS) cover-front-it-vol1.tex;
+
+it-vol1-cover-back:
+	$(LATEX) $(LATEX_OPTS) cover-back-it-vol1.tex;
 
 th:
 	cat $(TH_VOL1).fir | \
