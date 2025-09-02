@@ -168,3 +168,6 @@ satipatthana-cover-back:
 
 aparihaniya:
 	$(LATEX) $(LATEX_OPTS) aparihaniya-en.tex;
+
+prosody:
+	$(LATEX) $(LATEX_OPTS) prosody.tex;
