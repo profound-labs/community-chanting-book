@@ -220,7 +220,7 @@ function processTokens(tokens, heavyEnd = false, useXBelow = false) {
         }
       } else {
         const [n1, n2] = findNextTokens(tokens, i);
-        if (n1 === ' ' || n1 === null || (consonants.includes(n1) && vowels.includes(n2)) || (n1 === 'b' && n2 === 'r')) {
+        if (n1 === ' ' || n1 === null || (consonants.includes(n1) && vowels.includes(n2)) || (n1 === 'b' && n2 === 'r') || (n1 === 'b' && n2 === 'y') || (n1 === 'v' && n2 === 'y')) {
           processedTokens.push(token + '\u032E'); // Breve below
         } else {
           processedTokens.push(token + '\u0331'); // Macron below
