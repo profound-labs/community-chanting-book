@@ -2,17 +2,29 @@ const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 
-const digraphs = ["k", "c", "ṭ", "t", "p", "g", "j", "ḍ", "d", "b"];
-const vowels = ["a", "i", "u", "e", "ā", "ī", "ū", "o"];
-const long = ["e", "ā", "ī", "ū", "o"];
-const short = ["a", "i", "u"];
-const consonants = [
+let digraphs = ["k", "c", "ṭ", "t", "p", "g", "j", "ḍ", "d", "b"];
+digraphs = digraphs.concat(digraphs.map(d => d.toUpperCase()));
+
+let vowels = ["a", "i", "u", "e", "ā", "ī", "ū", "o"];
+vowels = vowels.concat(vowels.map(v => v.toUpperCase()));
+
+let long = ["e", "ā", "ī", "ū", "o"];
+long = long.concat(long.map(l => l.toUpperCase()));
+
+let short = ["a", "i", "u"];
+short = short.concat(short.map(s => s.toUpperCase()));
+
+let consonants = [
   "k", "c", "ṭ", "t", "p", "kh", "ch", "ṭh", "th", "ph", "gh", "jh", "ḍh", "dh", "bh",
   "g", "j", "ḍ", "d", "b", "ṅ", "ñ", "ṇ", "n", "m", "h", "y", "r", "l", "v", "ś", "ṣ", "s", "ṁ", "ṃ"
 ];
+consonants = consonants
+  .concat(consonants.map(c => c.toUpperCase()))
+  .concat(["Kh", "Ch", "Ṭh", "Th", "Ph", "Gh", "Jh", "Ḍh", "Dh", "Bh"]);
 
 // Pali-specific characters for detection
-const paliIndicators = ["ṭ", "ḍ", "ṅ", "ñ", "ṇ", "ṁ", "ṃ", "ā", "ī", "ū", "ś", "ṣ"];
+let paliIndicators = ["ṭ", "ḍ", "ṅ", "ñ", "ṇ", "ṁ", "ṃ", "ā", "ī", "ū", "ś", "ṣ"];
+paliIndicators = paliIndicators.concat(paliIndicators.map(c => c.toUpperCase()));
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -110,6 +122,11 @@ async function processFile(filePath, createBackup, heavyEnd, useXBelow) {
   let hasPaliContent = false;
 
   const processedLines = lines.map(line => {
+    // Skip lines that start with "\" or "{" (LaTeX commands)
+    if (line.trim().startsWith('\\') || line.trim().startsWith('{')) {
+      return line;
+    }
+    
     if (containsPaliText(line)) {
       hasPaliContent = true;
       const originalLine = line;

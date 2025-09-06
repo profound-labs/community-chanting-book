@@ -44,6 +44,4 @@ The original `parser.js` was created via gemini-cli (in termux on my ereader...)
 
 `parserGlobal.js` was created using claude web.
 
-Note: End heavy option was added later to the parser. The original parsers are kept with the `noEndheavyOption` tag for the moment. 
-
 Note: A similar result could be achived in python, but I started the project in JS so I continued. 
