@@ -12,7 +12,7 @@ Github: https://github.com/profound-labs/community-chanting-book
 
 Run `node parser.js` to parse the rythmic marks a text file.
 
-Run `mode parserGlobal.js` to parse entire folder recusivly by detecting pali line using diacritics, typiccaly in `/chapters/english`. Carefull as some line are not parsed if the don't contain any of the diacritics. Also some random line will be proccessed.
+Run `mode parserGlobal.js` to parse entire folder recusivly by detecting pali line using diacritics, typiccaly in `/chapters/english`. Carefull, as some lines are not parsed if the don't contain any of the diacritics. Also some random lines will be proccessed if a diactric is present somewhere in the line.
 
 The original `parser.js` was created via gemini-cli (in termux on my ereader...) using the following prompt:
 
