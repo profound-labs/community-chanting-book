@@ -7,6 +7,7 @@ const {
 } = require('./parserUtils');
 const skipFiles = require('./skipFiles.json');
 const paliWords = require('./paliWords.json');
+const replaceCommands = require('./replaceCommands.json');
 
 
 // Pali-specific characters for detection
@@ -116,6 +117,14 @@ function isTextFile(filename) {
   return textExtensions.includes(ext) || !path.extname(filename); // Include files without extension
 }
 
+function fixLatexCommands(line) {
+  let fixedLine = line;
+  for (const [wrong, correct] of Object.entries(replaceCommands)) {
+    fixedLine = fixedLine.replaceAll(wrong, correct);
+  }
+  return fixedLine;
+}
+
 async function processFile(filePath, createBackup, heavyEnd, useXBelow) {
   const data = await fs.promises.readFile(filePath, 'utf8');
   const lines = data.split('\n');
@@ -123,6 +132,9 @@ async function processFile(filePath, createBackup, heavyEnd, useXBelow) {
   let hasPaliContent = false;
 
   const processedLines = lines.map(line => {
+    // Always fix LaTeX commands first
+    line = fixLatexCommands(line);
+
     // Skip lines that start with "\" or "{" (LaTeX commands)
     if (line.trim().startsWith('\\') || line.trim().startsWith('{')) {
       return line;
