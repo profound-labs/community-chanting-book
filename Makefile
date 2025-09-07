@@ -1,4 +1,5 @@
 VOL1=main-en-vol1
+VOL1M=main-en-vol1-marked
 VOL1_A4=main-en-vol1-a4
 VOL2=main-en-vol2
 PT_VOL1=main-pt-vol1
@@ -63,6 +64,14 @@ vol1:
 	echo '\contentsfinish' >> $(VOL1).fir.tmp
 	mv $(VOL1).fir.tmp $(VOL1).fir
 	$(LATEX) $(LATEX_OPTS) $(VOL1).tex;
+
+vol1m:
+	cat $(VOL1M).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(VOL1M).fir.tmp
+	echo '\contentsfinish' >> $(VOL1M).fir.tmp
+	mv $(VOL1M).fir.tmp $(VOL1M).fir
+	$(LATEX) $(LATEX_OPTS) $(VOL1M).tex;
 
 vol1-a4:
 	cat $(VOL1_A4).fir | \
@@ -171,3 +180,9 @@ aparihaniya:
 
 prosody:
 	$(LATEX) $(LATEX_OPTS) prosody.tex;
+
+parser:
+	node ./helpers/parser/parser.js
+
+parser-global:
+	node ./helpers/parser/parserGlobal.js

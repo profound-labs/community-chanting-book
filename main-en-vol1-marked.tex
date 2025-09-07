@@ -1,0 +1,61 @@
+\documentclass[
+  babelLanguage=english,
+  final,
+  % showtrims,
+  % showwirebinding,
+  webversion,
+  % mixamversion,
+]{chantingbook}
+
+\renewcommand{\theLanguage}{english-marked}
+
+\usepackage{local}
+
+\title{Chanting Book · Volume One}
+\subtitle{Morning and Evening Chanting (Pūjā) and Reflections}
+
+\ISBN{978-1-78432-031-7}
+\editionInfo{\textit{First edition}, 2015}
+
+\begin{document}
+
+\frontmatter
+
+\webcover{%
+\includegraphics[height=\paperheight]{vol1-webcover.jpg}%
+}
+
+\cleartoverso
+\input{./chapters/\theLanguage/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+\mainmatter
+
+\input{./chapters/\theLanguage/chapters-vol1.tex}
+
+\part{Appendix}
+
+\appendixsize
+
+\input{./chapters/english/pali-phonetics-and-pronunciation.tex}
+
+\input{./chapters/\theLanguage/glossary.tex}
+
+\cleartorecto
+\input{./chapters/\theLanguage/acknowledgments.tex}
+\clearpage
+\input{./chapters/\theLanguage/copyright-details.tex}
+
+\ifmixamversion
+\emptyUntilDivisibleBy{4}
+\fi
+
+\end{document}
+
+% End of main.tex

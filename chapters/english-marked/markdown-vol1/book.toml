@@ -1,0 +1,20 @@
+[book]
+title = "Chanting Book - Volume One"
+authors = ["Forest Sangha"]
+language = "en"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "../../../dist/en-vol1"
+create-missing = true
+
+[output.epub]
+additional-css = ["../../../assets/css/output-epub.css"]
+epub-version = 3
+use-default-css = false
+no-section-label = true
+footnote-backrefs = true
+curly-quotes = true
+cover-image = "images/vol1-webcover.jpg"
+additional-resources = ["fonts/GentiumIncantation-Regular.ttf", "fonts/GentiumIncantation-Italic.ttf", "fonts/Ubuntu-X-Medium.ttf", "images/chanting-buddho.png", "images/chanting-anicca.png", "images/yo-so-bhagava.png"]
