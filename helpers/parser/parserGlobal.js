@@ -132,8 +132,7 @@ async function processFile(filePath, createBackup, heavyEnd, useXBelow) {
   let hasPaliContent = false;
 
   const processedLines = lines.map(line => {
-    // Always fix LaTeX commands first
-    line = fixLatexCommands(line);
+
 
     // Skip lines that start with "\" or "{" (LaTeX commands)
     if (line.trim().startsWith('\\') || line.trim().startsWith('{')) {
@@ -145,12 +144,14 @@ async function processFile(filePath, createBackup, heavyEnd, useXBelow) {
       const originalLine = line;
       const tokens = tokenize(line);
       const processedTokens = processTokens(tokens, heavyEnd, useXBelow);
-      const processedLine = processedTokens.join('');
+      let processedLine = processedTokens.join('');
+      // Always fix LaTeX commands first
+      processedLine = fixLatexCommands(processedLine);
       
       if (originalLine !== processedLine) {
         hasChanges = true;
       }
-      
+
       return processedLine;
     }
     return line; // Return original line if no Pali content

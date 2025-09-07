@@ -182,7 +182,8 @@ prosody:
 	$(LATEX) $(LATEX_OPTS) prosody.tex;
 
 parser:
-	node ./helpers/parser/parser.js
-
-parser-global:
 	node ./helpers/parser/parserGlobal.js
+
+fresh:
+	rm -rf chapters/english-marked/*
+	cp -a chapters/english/. chapters/english-marked/
