@@ -10,3 +10,11 @@ Github: https://github.com/profound-labs/community-chanting-book
 
 test from santacittarama
 
+## Tone Symbols
+
+Put these symbols after the letter you want the tone to appear.
+
+- ꜕: low tone
+- ꜓: high tone
+- ꜖: Long Low
+- \prul{your text}: this will underline the text (long mid)
