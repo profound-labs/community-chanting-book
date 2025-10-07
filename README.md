@@ -32,3 +32,7 @@ First use "wsl" on window terminal (https://learn.microsoft.com/en-us/windows/ws
 # WIKI 
 
 Please refer to [Wiki Page](https://github.com/profound-labs/community-chanting-book/wiki/Community-Chanting-Book)
+
+## 
+
+The PDF output are ignore in the repo. Because they are in the .gitignore.
