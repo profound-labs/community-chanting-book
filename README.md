@@ -28,3 +28,7 @@ to create the PDF use "make it-vol1" for the web pdf.
 ### Using Window
 
 First use "wsl" on window terminal (https://learn.microsoft.com/en-us/windows/wsl/install) Tha password on the wsl Ubunutu VM in santacittarama is "sangha" and user is "sangha"
+
+# WIKI 
+
+Please refer to [Wiki Page](https://github.com/profound-labs/community-chanting-book/wiki/Community-Chanting-Book)
