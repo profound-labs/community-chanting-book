@@ -33,6 +33,7 @@ pt-patisankha-sheet.pdf
 *.ind
 *.ilg
 *.synctex*
+*.fir
 
 # Emacs temp files
 auto/
