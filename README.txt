@@ -18,3 +18,13 @@ Put these symbols after the letter you want the tone to appear.
 - ꜓: high tone
 - ꜖: Long Low
 - \prul{your text}: this will underline the text (long mid)
+
+## Compiling PDF
+
+First intsall a recent TeXLive installation. You can check https://www.tug.org/texlive/
+
+to create the PDF use "make it-vol1" for the web pdf.
+
+### Using Window
+
+First use "wsl" on window terminal (https://learn.microsoft.com/en-us/windows/wsl/install) Tha password on the wsl Ubunutu VM in santacittarama is "sangha" and user is "sangha"
