@@ -1,6 +1,7 @@
 *.swp
 auto/
 .auctex-auto/
+.vscode/
 
 # Project output
 helpers/rising-test/*-output.txt
@@ -32,6 +33,7 @@ pt-patisankha-sheet.pdf
 *.ind
 *.ilg
 *.synctex*
+*.fir
 
 # Emacs temp files
 auto/
