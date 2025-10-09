@@ -1,0 +1,2 @@
+- review the homage to the buddha page 4 CECK ORDER HERE
+- morning chanting done until line 223
