@@ -372,9 +372,9 @@ Offriamo i nostri onori e i nostri omaggi.
 
 E' bene per noi che il Beato
 
-Pur avendo ottenuto la liberazione
+Pur avendo ottenuto la liberazione,
 
-Abbia avuto compassione delle generazioni future.
+abbia avuto compassione delle generazioni future.
 
 Questi umili onori e doni siano accolti
 
@@ -579,7 +579,7 @@ Possa il bene generato da questa lode del Sangha
 Aiutarmi a superare ogni difficoltà.
 #bow()
 
-Se con il corpo, la parola o la mente
+Se con il corpo la parola o la mente
 
 Ho agito male nei confronti del Sangha
 
