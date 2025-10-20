@@ -852,7 +852,7 @@ Dimorerò pervadendo l'intero mondo con un cuore imbevuto di equanimità, abbond
 
 Poi nel buio della notte, una divinità radiante illuminò tutta la foresta di Jeta.
 
-Si inchinò al cospetto del Beato, essendosi alzata si mise da un lato, e così gli disse:
+Si inchinò al cospetto del Beato, poi stando da un lato gli disse:
 
 Molti déi e uomini riflettono sulle massime benedizioni, desiderando felicità e sicurezza, quali sono dunque le più alte benedizioni?
 
