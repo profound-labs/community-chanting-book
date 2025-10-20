@@ -40,5 +40,3 @@ The PDF output are ignore in the repo. Because they are in the .gitignore.
 # produce final PDF
 
 Make sure to run the make twice so that the TOC is updated with the last structure and page number.
-
-testing
