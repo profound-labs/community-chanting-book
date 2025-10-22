@@ -1,4 +1,5 @@
 - review the homage to the buddha page 4 CECK ORDER HERE
 - morning chanting done 
 - evening chanting don until 281
+- chek pali and phonetics
 - 

@@ -1,0 +1,58 @@
+\documentclass[
+  babelLanguage=italian,
+  final,
+  %showtrims,
+  %showwirebinding,
+  webversion,
+  % mixamversion,
+]{chantingbook}
+
+\usepackage{local}
+
+\title{Chanting Book · Volume Two}
+\subtitle{Suttas, Parittas and Funeral Chanting}
+
+\ISBN{978-1-78432-032-4}
+\editionInfo{\textit{First edition}, 2015}
+
+\begin{document}
+
+\frontmatter
+
+\ifwebversion
+\input{./chapters/italian/webcover-vol2.tex}%
+\fi
+
+\cleartoverso
+\input{./chapters/\theLanguage/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+% NOTE: References are commented out, but keep them in the source for information.
+%\input{./chapters/abbreviations.tex}
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+\mainmatter
+
+\input{./chapters/\theLanguage/chapters-vol2.tex}
+
+\part{Appendix}
+
+\appendixsize
+
+\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
+
+\input{./chapters/\theLanguage/glossary.tex}
+
+\cleartorecto
+\input{./chapters/\theLanguage/acknowledgments.tex}
+\clearpage
+\input{./chapters/\theLanguage/copyright-details.tex}
+
+\end{document}
+
+% End of main.tex

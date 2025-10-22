@@ -6,6 +6,7 @@ ES_VOL1=main-es-vol1
 ES_VOL2=main-es-vol2
 TH_VOL1=main-th-vol1
 IT_VOL1=main-it-vol1
+IT_VOL2=main-it-vol2
 
 # LATEX=lualatex
 # LATEX_OPTS=-interaction=nonstopmode -halt-on-error
@@ -154,6 +155,15 @@ it-vol1:
 	echo '\contentsfinish' >> $(IT_VOL1).fir.tmp
 	mv $(IT_VOL1).fir.tmp $(IT_VOL1).fir
 	$(IT_LATEX) $(IT_LATEX_OPTS) $(IT_VOL1).tex;
+
+it-vol2:
+	cat $(IT_VOL2).fir | \
+		sed '/\\contentsfinish/d' | \
+		sort > $(IT_VOL2).fir.tmp
+	echo '\contentsfinish' >> $(IT_VOL2).fir.tmp
+	mv $(IT_VOL2).fir.tmp $(IT_VOL2).fir
+	$(IT_LATEX) $(IT_LATEX_OPTS) $(IT_VOL2).tex;
+
 
 it-vol1-cover-front:
 	$(LATEX) $(LATEX_OPTS) cover-front-it-vol1.tex;
