@@ -9,6 +9,8 @@
 
 \usepackage{local}
 \usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{subcaption}
 
 \newfontfamily\elegantfont{Papyrus}
 
@@ -45,9 +47,11 @@
 
 \appendixsize
 
-\input{./chapters/english/pali-phonetics-and-pronunciation.tex}
+\input{./chapters/\theLanguage/pali-phonetics-and-pronunciation.tex}
 
-% \input{./chapters/\theLanguage/glossary.tex}
+\input{./chapters/\theLanguage/etiqueta.tex}
+
+\input{./chapters/\theLanguage/glossary.tex}
 
 \cleartorecto
 \input{./chapters/\theLanguage/acknowledgments.tex}
